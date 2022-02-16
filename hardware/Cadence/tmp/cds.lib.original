@@ -1,2 +1,0 @@
-DEFINE ttc_fmc_lib    worklib
-INCLUDE $CONCEPT_INST_DIR/share/local/cdssetup/cds.lib
