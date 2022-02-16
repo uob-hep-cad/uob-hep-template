@@ -1,0 +1,137 @@
+\t (00:00:04) allegro 16.3 S012 (v16-3-85AR) i86
+\t (00:00:04) 
+
+   (00:00:05) Reading master S:/circuit/SKILL_BIB
+   (00:00:05) Reading S:/circuit/SKILL_BIB/logoMaker
+   (00:00:05) Reading S:/circuit/SKILL_BIB/killdrc
+   (00:00:05) Reading S:/circuit/SKILL_BIB/replace_update_via
+   (00:00:05) Reading S:/circuit/SKILL_BIB/replace_update_pin
+   (00:00:05) Reading S:/circuit/SKILL_BIB/drc_walk
+   (00:00:05) Reading S:/circuit/SKILL_BIB/conv
+   (00:00:05) Reading S:/circuit/SKILL_BIB/cut_clines_by_window
+   (00:00:05) function _saveSelSet redefined
+   (00:00:05) function _restoreSelSet redefined
+   (00:00:05) Reading S:/circuit/SKILL_BIB/cwidth
+   (00:00:05) function _saveSelSet redefined
+   (00:00:05) function _restoreSelSet redefined
+   (00:00:05) function findAllOfType redefined
+   (00:00:05) function ashFindAllClines redefined
+   (00:00:05) function ashFindAllClinesegs redefined
+   (00:00:05) Reading S:/circuit/SKILL_BIB/hilite_pads
+   (00:00:05) Reading S:/circuit/SKILL_BIB/semi-auto
+   (00:00:05) Reading S:/circuit/SKILL_BIB/grids
+   (00:00:05) Reading S:/circuit/SKILL_BIB/clwidth
+   (00:00:05) Reading S:/circuit/SKILL_BIB/spnchk
+   (00:00:05) Reading S:/circuit/SKILL_BIB/pinuse
+   (00:00:05) Reading S:/circuit/SKILL_BIB/auto_assign_shape
+   (00:00:05) Reading S:/circuit/SKILL_BIB/film_reorder
+   (00:00:05) Reading S:/circuit/SKILL_BIB/film_control
+   (00:00:05) Reading S:/circuit/SKILL_BIB/autosize
+   (00:00:05) Reading S:/circuit/SKILL_BIB/dbunits
+   (00:00:05) Reading S:/circuit/SKILL_BIB/dangling_lines
+   (00:00:05) Reading S:/circuit/SKILL_BIB/swapnet
+   (00:00:05) Reading S:/circuit/SKILL_BIB/libutil
+   (00:00:05) Reading S:/circuit/SKILL_BIB/eda
+   (00:00:05) function stopvn redefined
+   (00:00:05) function ashFindAllDrcs redefined
+   (00:00:05) Loading axlcore.cxt 
+   (00:00:05) Reading S:/circuit/SKILL_BIB/DefineClass
+   (00:00:05) "S:/vulliez/EDA-02319-V2-0/worklib/ttc_fmc/physical/symbols"
+   (00:00:05) Pas de classe definie actuellement.Pas de classe definie actuellement.
+\t (00:00:05) Opening existing drawing...
+\d (00:00:06) Database opened: S:/vulliez/EDA-02319-V2-0/worklib/ttc_fmc/physical/symbols/molex_74737004.dra
+\t (00:00:06) Grids are drawn 0.256, 0.256 apart for enhanced viewability.
+\i (00:00:06) trapsize 226
+\i (00:00:06) trapsize 221
+\i (00:00:06) trapsize 218
+\i (00:00:06) trapsize 186
+\i (00:00:06) trapsize 186
+\i (00:00:08) trapsize 188
+\i (00:00:10) trapsize 186
+\i (00:00:14) padeditdb 
+\i (00:00:15) pick grid -30.969 7.025
+\t (00:00:15) last pick:  -30.969  7.025
+\i (00:00:16) prepopup -30.969 7.025
+\i (00:00:17) padeditcur 
+\i (00:00:27) setwindow form.padedit
+\i (00:00:27) pse_save_as 
+\i (00:00:54) fillin "C175H105_PF.pad"
+\i (00:00:58) pse_exit
+\i (00:01:01) setwindow pcb
+\i (00:01:01) replace padstack 
+\i (00:01:03) pick grid -31.229 7.360
+\t (00:01:03) last pick:  -31.229  7.360
+\i (00:01:03) pick grid -31.192 7.397
+\t (00:01:03) last pick:  -31.192  7.397
+\w (00:01:04) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:11) setwindow form.mini
+\i (00:01:11) FORM mini newname C175H105_pf 
+\i (00:01:13) FORM mini replace  
+\i (00:01:19) setwindow pcb
+\i (00:01:19) prepopup 0.646 8.697
+\i (00:01:19) done 
+\t (00:01:19) Performing DRC...
+\t (00:01:19) No DRC errors detected.
+\i (00:01:25) padeditdb 
+\i (00:01:27) pick grid 6.181 0.041
+\t (00:01:27) last pick:  6.181  0.041
+\i (00:01:33) prepopup 6.330 0.190
+\i (00:01:36) padeditcur 
+\i (00:01:46) setwindow form.padedit
+\i (00:01:46) pse_save_as 
+\i (00:01:52) fillin "P95_pf.pad"
+\i (00:01:56) pse_exit
+\i (00:01:59) setwindow pcb
+\i (00:01:59) padeditdb 
+\i (00:02:05) replace padstack 
+\i (00:02:06) pick grid 5.847 0.301
+\t (00:02:06) last pick:  5.847  0.301
+\i (00:02:07) pick grid 5.810 0.301
+\t (00:02:07) last pick:  5.810  0.301
+\w (00:02:07) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:12) setwindow form.mini
+\i (00:02:12) FORM mini newname P95_pf 
+\i (00:02:14) FORM mini replace  
+\i (00:02:15) setwindow pcb
+\i (00:02:15) prepopup -4.109 11.000
+\i (00:02:16) done 
+\t (00:02:16) Performing DRC...
+\t (00:02:16) No DRC errors detected.
+\i (00:02:26) padeditdb 
+\i (00:02:27) pick grid -30.932 7.174
+\t (00:02:27) last pick:  -30.932  7.174
+\i (00:02:28) prepopup -30.932 7.174
+\i (00:02:29) padeditcur 
+\i (00:02:37) setwindow form.padedit
+\i (00:02:37) FORM padedit hole_pos_tolerance 0.05 
+\i (00:02:42) FORM padedit hole_neg_tolerance 0.05 
+\i (00:02:53) pse_update 
+\i (00:02:56) pse_exit
+\i (00:02:57) setwindow pcb
+\i (00:02:57) pick grid -21.161 7.248
+\t (00:02:57) last pick:  -21.161  7.248
+\i (00:02:57) prepopup -21.161 7.248
+\i (00:02:58) padeditcur 
+\i (00:03:02) setwindow form.padedit
+\i (00:03:02) pse_exit
+\i (00:03:03) setwindow pcb
+\i (00:03:04) pick grid 6.219 4.610
+\t (00:03:04) last pick:  6.219  4.610
+\i (00:03:04) prepopup 6.219 4.648
+\i (00:03:05) padeditcur 
+\i (00:03:13) setwindow form.padedit
+\i (00:03:13) FORM padedit hole_pos_tolerance 0.05 
+\i (00:03:18) FORM padedit hole_neg_tolerance 0.05 
+\i (00:03:21) pse_update 
+\i (00:03:23) pse_exit
+\i (00:03:29) setwindow pcb
+\i (00:03:29) create symbol 
+\t (00:03:29) DRC Required please wait...
+\t (00:03:29) Performing DRC...
+\t (00:03:29) No DRC errors detected.
+\i (00:03:31) fillin "molex_74737004.psm"
+\t (00:03:31) Creating package symbol 'S:/vulliez/EDA-02319-V2-0/worklib/ttc_fmc/physical/symbols/molex_74737004.psm'.
+\t (00:03:31) Starting Create symbol...
+\i (00:03:33) exit 
+\f (00:03:33) Do you want to save the changes you made to molex_74737004.dra?
+\i (00:03:34) fillin yes 

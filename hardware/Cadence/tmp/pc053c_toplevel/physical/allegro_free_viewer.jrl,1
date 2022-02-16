@@ -1,0 +1,13 @@
+\t (00:00:05) allegro_free_viewer 17.4 S001 Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Mon Feb 22 12:12:25 2021
+\t (00:00:05)         Host=IT074217 User=phdgc Pid=9640 CPUs=12
+\t (00:00:05) CmdLine= C:\Cadence\PCBViewers_2019\tools\bin\allegro_free_viewer.exe
+\t (00:00:05) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/pc053c_toplevel_61.brd
+\i (00:00:07) trapsize 1122
+\i (00:00:07) trapsize 1239
+\i (00:00:16) opencd C:/Users/phdgc/Documents/mib_rev1_v2v.brd 
+\t (00:00:51) Opening existing design...
+\i (00:00:51) trapsize 55359
+\t (00:00:51)     Journal end - Mon Feb 22 12:13:11 2021

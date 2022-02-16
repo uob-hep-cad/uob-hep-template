@@ -1,0 +1,114 @@
+
+
+pc051
+
+Version = C
+Subversion = 209
+
+This file describes PCB fabrication details of a board with eight 8-channel
+14-bit 40MSample/s ADC + FPGA for SoLiD readout.
+ 
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+
+Files produced by Cadence Allegro PE16.6
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+Six Layers as follows:
+
+pc051c_L1.art
+pc051c_L2.art
+pc051c_L3.art
+pc051c_L4.art
+pc051c_L5.art
+pc051c_L6.art
+
+
+Solder Masks
+------------
+
+pc051c_SM1.art
+pc051c_SM6.art
+
+Solderpaste mask
+-----------------
+
+pc051c_SP1.art
+pc051c_SP6.art
+
+Silk screen
+-----------
+
+pc051c_SS1.art
+pc051c_SS6.art
+
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+pc051c_OUTLINE.art
+
+Drill figure: ( illustration of hole sizes and position )
+-------------
+
+pc051c_DD.art
+
+Drill information ( Excellon format, described in nc_param.txt )
+----------------------------------------------------------------
+
+pc051c_toplevel_209-1-6.drl
+
+Router information ( Excellon format )
+--------------------------------------
+
+pc051c_toplevel_209.rou
+
+Bill of Materials
+-----------------
+
+pc051c_toplevel.xlsx
+
+Component placement
+-------------------
+
+placement_pin1.txt
+
+( Position of pin-1 in mm and rotation in degrees of each component.
+  Origin = lower left of board )
+
+
+Fiducial Marks
+--------------
+
+1mm round copper marks at x=30mm , y = 10mm from lower left of board. Top and bottom
+
+1mm round copper marks at x=30mm , y = 440mm from lower left of board. Top and bottom
+
+1mm square copper marks at x=120mm , y = 10mm from lower left of board. Top and bottom
+
+ODB++ Information
+-----------------
+
+PCB fabrication and assembly data are contained in the ODB++ file:
+
+pc051c_209.tgz
+
+IPC-2581
+--------
+
+PCB fabrication and assembly data are contained in the IPC-2581 file:
+
+pc051c_toplevel_ipc2581_209.xml
+
+

@@ -1,0 +1,204 @@
+(Cell	jt3_1125hl
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.12)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/03/16,14:01:55)
+
+			(User	phpgb)
+
+			(Path	uob_hep_pc053a_lib.jt3_1125hl)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/03/16,14:29:21)
+
+			(User	phpgb)
+
+			(Path	uob_hep_pc053a_lib.jt3_1125hl)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.11)
+
+				(ModificationStatus	NULL)
+
+				(Status	Modified)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000005937958f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.11)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/03/16,14:22:43)
+
+							(User	phpgb)
+
+							(Path	uob_hep_pc053a_lib.jt3_1125hl)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001aa50365)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000b8bc0378)
+
+			(Primitives	1
+
+				(Primitive	JT3_1125HL
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/03/16,14:02:14)
+
+							(User	phpgb)
+
+							(Path	uob_hep_pc053a_lib.jt3_1125hl)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	JT3_1125HL
+
+							(PackType	JT3_1125HL)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	rj45_jt3_1125)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c1c03ad)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S051 (v16-6-112ED))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ca103d1)
+
+)
+

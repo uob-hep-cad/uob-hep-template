@@ -1,0 +1,64 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    STEP Export                                                      )
+(                                                                     )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Mon Oct 24 15:19:45 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (10.9000 66.0000)
+  End (10.9000 -3.0000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (10.9000 -3.0000)
+  End (-43.4000 -3.0000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (-43.4000 -3.0000)
+  End (-43.4000 -1.4000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (-43.4000 -1.4000)
+  End (-44.4000 -0.4000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (-44.4000 -0.4000)
+  End (-54.1000 -0.4000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (-54.1000 -0.4000)
+  End (-54.1000 0.7000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start (-54.1000 0.7000)
+  End (-55.1000 1.7000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (-55.1000 1.7000)
+  End (-65.6000 1.7000)
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start (-65.6000 1.7000)
+  End (-65.6000 9.0600)
+
+
+STEP file: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33nocopper.stp
+Design file: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33.brd
+Export units: Millimeter
+STEP protocol: AP-214
+Source identification: allegro_16.6-2015S058
+Export selected and highlighted parts?: NO
+Export secondary parts?: NO
+Export parts with mapped STEP Models?: YES
+Export parts without mapped STEP Models?: YES
+Export assemblies and enclosures parts?: NO
+Export mechanical drills?: YES
+Export electrical through pin drills?: YES
+Export electrical through via drills?: NO
+Export bare board only?: NO
+Export external copper?: NO
+step_out complete.

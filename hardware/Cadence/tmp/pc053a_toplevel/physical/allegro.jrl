@@ -1,0 +1,287 @@
+\t (00:01:07) allegro 17.4 S019 Linux SPB 64-bit Edition
+\t (00:01:07)     Journal start - Wed Jan 26 15:01:54 2022
+\t (00:01:07)         Host=dilbert.phy.bris.ac.uk User=phdgc Pid=22045 CPUs=20
+\t (00:01:07) CmdLine= /software/CAD/Cadence/SPB17.40.19/tools/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -product Allegro_Venture_SDA -mpssession phdgc_ProjectMgr7512 -mpshost dilbert.phy.bris.ac.uk
+\t (00:01:07) 
+   (00:01:08) Loading axlcore.cxt 
+   (00:01:09) Searching for nsWare programs v2.62
+   (00:01:09) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
+   (00:01:09) 	NsWare programs must reside in this directory!
+\t (00:01:09) Opening existing design...
+\i (00:01:14) fillin yes 
+\i (00:01:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc053c_toplevel_01"
+\d (00:01:18) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053c_toplevel_01.brd
+\i (00:01:18) trapsize 7475
+\i (00:01:18) trapsize 7713
+\i (00:01:18) trapsize 7475
+\i (00:01:20) trapsize 7997
+\i (00:01:20) trapsize 9270
+\i (00:01:25) zoom in 
+\i (00:01:25) setwindow pcb
+\i (00:01:25) zoom in -58.0497 37.7164
+\i (00:01:25) trapsize 4635
+\i (00:01:26) zoom in 
+\i (00:01:26) setwindow pcb
+\i (00:01:26) zoom in -58.0497 37.7165
+\i (00:01:26) trapsize 2318
+\i (00:01:27) roam start
+\i (00:01:27) roam x -16
+\i (00:01:27) roam x -176
+\i (00:01:27) roam y -64
+\i (00:01:27) roam x -528
+\i (00:01:27) roam y -176
+\i (00:01:27) roam x -800
+\i (00:01:27) roam y -272
+\i (00:01:27) roam x -1056
+\i (00:01:27) roam y -368
+\i (00:01:27) roam x -1216
+\i (00:01:27) roam y -416
+\i (00:01:27) roam x -1216
+\i (00:01:27) roam y -448
+\i (00:01:27) roam y -448
+\i (00:01:27) roam y -448
+\i (00:01:27) roam y -464
+\i (00:01:27) roam y -464
+\i (00:01:27) roam y -464
+\i (00:01:27) roam y -464
+\i (00:01:27) roam y -464
+\i (00:01:27) roam y -464
+\i (00:01:28) roam y -448
+\i (00:01:28) roam y -448
+\i (00:01:28) roam y -448
+\i (00:01:28) roam y -448
+\i (00:01:28) roam y -32
+\i (00:01:28) roam end
+\i (00:01:30) zoom selection 
+\i (00:01:32) zoom fit 
+\i (00:01:32) trapsize 7514
+\i (00:01:36) trapsize 5172
+\i (00:01:51) QtSignal CVPLayerGrid CVPBoxAllL3gnd clicked false
+\i (00:01:52) QtSignal CVPLayerGrid CVPBoxAllInner4 clicked false
+\i (00:01:53) QtSignal CVPLayerGrid CVPBoxAllL3pwr clicked false
+\i (00:01:59) zoom in 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in -27.3497 41.3027
+\i (00:01:59) trapsize 2586
+\i (00:02:01) roam y 96 
+\i (00:02:01) roam y 96
+\i (00:02:02) roam y 96 
+\i (00:02:02) roam y 96
+\i (00:02:03) roam y 96 
+\i (00:02:03) roam y 96
+\i (00:02:12) show element 
+\i (00:02:17) setwindow form.find
+\i (00:02:17) FORM find all_off  
+\i (00:02:18) FORM find nets YES 
+\i (00:02:49) setwindow pcb
+\i (00:02:49) zoom in 
+\i (00:02:49) setwindow pcb
+\i (00:02:49) zoom in -27.3497 26.3882
+\i (00:02:49) trapsize 1293
+\i (00:02:51) roam y 96 
+\i (00:02:51) roam y 96
+\i (00:02:51) roam y 96 
+\i (00:02:51) roam y 96
+\i (00:02:52) roam y 96 
+\i (00:02:52) roam y 96
+\i (00:02:52) roam y 96 
+\i (00:02:52) roam y 96
+\i (00:03:24) cns show 
+\i (00:03:31) color192 
+\i (00:03:34) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Pin 0
+\i (00:03:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:03:35) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:36) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Via 0
+\i (00:03:36) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 1
+\i (00:03:36) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Etch 0
+\i (00:03:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 2
+\i (00:03:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:38) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Bottom Drc 0
+\i (00:03:38) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 3
+\i (00:03:38) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Through All" Drc 0
+\i (00:03:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 3
+\i (00:03:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:03:44) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:03:47) QtSignal CVDLayerTable VertHeader clickedCheckBox "Assembly_Bottom" 0
+\i (00:03:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:03:53) QtSignal CVDLayerTable VertHeader clickedCheckBox "Ctext_Bottom" 0
+\i (00:03:53) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 10 0
+\i (00:03:56) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:03:59) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:00) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" RefDes 0
+\i (00:04:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 4
+\i (00:04:00) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:01) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:04:01) QtSignal 0
+\i (00:04:01) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:04:01) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:02) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" RefDes 1
+\i (00:04:02) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 4
+\i (00:04:02) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:09) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" RefDes 0
+\i (00:04:09) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 4
+\i (00:04:09) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:10) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:04:10) QtSignal 1
+\i (00:04:10) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:04:10) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:11) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:04:11) QtSignal 0
+\i (00:04:11) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:04:11) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:12) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" RefDes 1
+\i (00:04:12) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 4
+\i (00:04:12) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:16) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up"
+\i (00:04:21) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox Top Plan 0
+\i (00:04:21) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 7
+\i (00:04:21) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:24) QtSignal CVDLayerTable VertHeader clickedCheckBox Top 1
+\i (00:04:24) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:04:25) QtSignal CVDLayerTable VertHeader clickedCheckBox Top 0
+\i (00:04:25) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:04:29) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Through All" Plan 0
+\i (00:04:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 12 7
+\i (00:04:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:30) QtSignal CVDLayerTable VertHeader clickedCheckBox Bottom 1
+\i (00:04:30) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:04:39) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:04:42) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Top" RefDes 0
+\i (00:04:42) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 4
+\i (00:04:42) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:43) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:04:43) QtSignal 1
+\i (00:04:43) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:04:43) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:04:49) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:04:58) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Stack-Up"
+\i (00:05:01) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:05:04) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:05:09) QtSignal CVDLayerTable VertHeader clickedCheckBox "Cart_Top" 0
+\i (00:05:09) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 9 0
+\i (00:05:10) QtSignal CVDLayerTable VertHeader clickedCheckBox "Cart_Bottom" 0
+\i (00:05:10) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 8 0
+\i (00:05:16) QtSignal CVDLayerTable VertHeader clickedCheckBox "Assembly_Top" 0
+\i (00:05:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 3 0
+\i (00:05:20) QtSignal CVDLayerTable VertHeader clickedCheckBox "Assembly_Bottom" 1
+\i (00:05:20) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:05:31) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:05:34) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:05:37) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:05:37) QtSignal 0
+\i (00:05:37) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:05:37) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:05:40) QtSignal 1
+\i (00:05:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:05:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:05:40) QtSignal 0
+\i (00:05:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:05:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:42) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:05:42) QtSignal 1
+\i (00:05:42) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:05:42) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:05:48) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:05:50) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:05:53) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:05:56) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:06:11) QtSignal CVDLayerTable VertHeader clickedCheckBox "Silkscreen_Top" 0
+\i (00:06:11) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 41 0
+\i (00:06:24) pdf out 
+\i (00:06:31) setwindow form.pdf_out
+\i (00:06:31) FORM pdf_out cancel  
+\i (00:06:35) setwindow pcb
+\i (00:06:35) plot 
+   (00:06:35) Loading plot.cxt 
+   (00:06:35) Loading fputil.cxt 
+\i (00:06:38) setwindow form.fpfileplot
+\i (00:06:38) FORM fpfileplot printtofile YES 
+\i (00:06:50) FORM fpfileplot fileprintfilename ~/plot.ps 
+\i (00:06:50) FORM fpfileplot done  
+\i (00:06:50) create plotunix /tmp/#Taaaaak22045.tmp 
+\w (00:06:50) WARNING(SPMHMF-233): Plotting is being performed with non-vectorized text.
+\w (00:06:50) WARNING(SPMHSK-57): No 'allegro_plot_param.stipples' file found for color plotting.
+\i (00:09:52) setwindow pcb
+\i (00:09:52) trapsize 1879
+\i (00:09:58) trapsize 1879
+\i (00:09:58) trapsize 1879
+\i (00:10:20) zoom in 
+\i (00:10:20) setwindow pcb
+\i (00:10:20) zoom in -27.3497 16.4047
+\i (00:10:20) trapsize 939
+\i (00:10:23) show element 
+\i (00:10:25) setwindow form.find
+\i (00:10:25) FORM find vias YES 
+\i (00:10:28) setwindow pcb
+\i (00:10:28) pick grid -30.2990 18.1330
+\t (00:10:28) last pick:  -30.3530 18.1610
+\i (00:18:23) setwindow text
+\i (00:18:23) close
+\i (00:18:27) setwindow pcb
+\i (00:18:27) color192 
+\i (00:18:34) QtSignal CVDLayerTable VertHeader clickedCheckBox Bottom 1
+\i (00:18:34) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:18:35) QtSignal CVDLayerTable VertHeader clickedCheckBox Bottom 0
+\i (00:18:35) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 5 0
+\i (00:18:43) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:18:47) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox "Silkscreen_Bottom" RefDes +
+\i (00:18:47) QtSignal 0
+\i (00:18:47) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 4 4
+\i (00:18:47) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:18:50) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:18:53) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:18:57) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:19:00) QtSignal CVDLayerTable VertHeader clickedCheckBox "Assembly_Bottom" 0
+\i (00:19:00) QtSignal CVDLayerSplitter CVDLayerTable dataChanged 0 0
+\i (00:19:16) pick grid -30.2427 18.0767
+\t (00:19:16) last pick:  -30.2260 18.0340
+\i (00:19:27) plot 
+\i (00:19:27) pick grid dbl -34.8639 19.1287
+\t (00:19:27) last pick:  -34.9250 19.1770
+\i (00:19:29) setwindow form.fpfileplot
+\i (00:19:29) FORM fpfileplot cancel  
+\i (00:19:32) setwindow pcb
+\i (00:19:32) plot setup 
+\i (00:19:36) setwindow form.fpfileplotsetup
+\i (00:19:36) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:19:40) FORM fpfileplotsetup done  
+\i (00:19:44) setwindow pcb
+\i (00:19:44) plot 
+\i (00:19:49) setwindow form.fpfileplot
+\i (00:19:49) FORM fpfileplot fileprintprnname 'Generic 300 dpi Adobe PostScript Level 2 Plotter' 
+\i (00:19:52) FORM fpfileplot printtofile YES 
+\i (00:19:56) FORM fpfileplot done  
+\i (00:19:56) create plotunix /tmp/#Taaaaaq22045.tmp 
+\w (00:19:56) WARNING(SPMHMF-233): Plotting is being performed with non-vectorized text.
+\w (00:19:56) WARNING(SPMHSK-57): No 'allegro_plot_param.stipples' file found for color plotting.
+\i (00:20:02) setwindow pcb
+\i (00:20:02) plot 
+\i (00:20:04) setwindow form.fpfileplot
+\i (00:20:04) FORM fpfileplot printtofile YES 
+\i (00:20:12) FORM fpfileplot fileprintfilename plot1.ps 
+\i (00:20:12) FORM fpfileplot done  
+\i (00:20:12) create plotunix /tmp/#Taaaaas22045.tmp 
+\w (00:20:12) WARNING(SPMHMF-233): Plotting is being performed with non-vectorized text.
+\w (00:20:12) WARNING(SPMHSK-57): No 'allegro_plot_param.stipples' file found for color plotting.
+\i (00:20:35) setwindow pcb
+\i (00:20:35) plot 
+\i (00:20:39) setwindow form.fpfileplot
+\i (00:20:39) FORM fpfileplot printtofile YES 
+\i (00:20:46) FORM fpfileplot fileprintfilename ~/plot1.ps 
+\i (00:20:46) FORM fpfileplot done  
+\i (00:20:46) create plotunix /tmp/#Taaaaau22045.tmp 
+\w (00:20:46) WARNING(SPMHMF-233): Plotting is being performed with non-vectorized text.
+\w (00:20:47) WARNING(SPMHSK-57): No 'allegro_plot_param.stipples' file found for color plotting.
+\i (504:35:17) setwindow pcb
+\i (504:35:17) about 
+\i (504:38:44) QtSignal ColorVisibilityDialog CVDCancelButton clicked
+\i (504:38:44) trapsize 939
+\i (504:38:44) trapsize 939
+\i (504:39:15) exit 
+\e (504:39:15) Do you want to save the changes you made to pc053c_toplevel_01.brd?
+\i (504:39:19) fillin no 
+\t (504:39:19)     Journal end - Wed Feb 16 15:40:06 2022

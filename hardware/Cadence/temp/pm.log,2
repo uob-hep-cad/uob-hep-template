@@ -1,0 +1,14 @@
+Log File Report from Page Management Commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Current Design             :   PC053A_TOPLEVEL
+Current Page List          :   1-3
+Current Total Pages        :   3
+Current Active Page        :   3
+
+Command:   Page Insert
+
+   # Pages to Insert       :   1
+   Insert Location         :   3
+   Save Pages              :   Yes
+

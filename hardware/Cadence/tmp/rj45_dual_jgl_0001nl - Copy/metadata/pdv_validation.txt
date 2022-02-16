@@ -1,0 +1,2 @@
+SPLBPD-310,Symbol 'sym_1':No package is associated with symbol sym_1 due to logical pin mismatches in the chips and the symbol. Use the Interface Comparison tool to correct the problem.,Error
+SPLBPD-309,Package 'RJ45_DUAL_JGL_0001NL':Functional group(s) 1 of package RJ45_DUAL_JGL_0001NL is (are) not associated with any symbol due to logical pin mismatches in the chips and the symbol. Use the Interface Comparison tool to correct the problem using Library XL license or manually check and correct the mismatch.,Error

@@ -1,0 +1,50 @@
+DONE 1) Remove IC13 , OPT1 and associated components - we don't need this extra optical receiver.
+
+2) Connect up the following lines on the SFP connector ( J4 ):
+a) Tx disable - most of the time the transmitter will be disabled, but we need to enable when transmitting upstream.
+b) Tx fault 
+c) SCL , SDA - some SFPs have "Digital Optical Monitoring" which will allow us to monitor received power, SFP temperature, etc. You will need level converters to connect the SDA,SCL lines to FPGA pins ( see IC15 )
+
+Page-2: 
+
+DONE 3) Remove lemo connectors and associated components LM1 , LM2 , J2 , J3 , IC7 , IC8 , etc.
+
+Page-3:
+
+4) Change QZ1 to a 50MHz LVDS output part ( see the TLU or SoLiD schematics for a suitable family of oscillators )
+
+5) Connect up S41 to an FPGA line through a level shifter. Remove IC5 , IC6 and associated components. These act to switch the clock direct to the oscillator if the CDR chip looses lock. We don't want to produce any clock if we loose the link from the master timing unit.
+
+6) Remove IC10, IC11 clock fan-out units. 
+
+7) Connect 1Y,1Z to U/FL micro-coax connectors. Put the connectors on the opposite side of the board from the FMC connector.
+
+8) Add a D-type differential in , differential out flip-flop to synchronize the data to the low jitter clock before the data goes into the SFP Tx pins. I suggest the NBSG53A
+
+8a) Connect the output of the D-type into the SFP connector J4 , Tx+/-
+
+9) Add two RJ45 connectors. 
+
+I suggest a pin-out compatible with the TLU. Something like
+
+1. CLOCK- 
+2. CLOCK+ 
+3. BUSY-        Tx enable
+4. RESET-      Data from slave to master
+5. RESET+     Data from slave to master
+6. BUSY+       Tx enable 
+7. TRIGGER-  Data from master to slave
+8. TRIGGER+ Data from master to slave
+
+
+I have drawn some diagrams:
+   
+Data flow in a board as stand alone timing/sync unit: https://drive.google.com/a/bristol.ac.uk/file/d/0B40smPHl2HkrU0JmRnZkY3pfZ0U/view?usp=sharing
+
+Data flow in a board taking data from copper RJ45 and transmitting on SFP.
+https://drive.google.com/a/bristol.ac.uk/file/d/0B40smPHl2HkrX1o1UDlldW1NTUk/view?usp=sharing
+
+Data flow in a board taking data from SFP and transmitting on copper RJ45
+https://drive.google.com/a/bristol.ac.uk/file/d/0B40smPHl2HkrRUI4THluMXlxRlU/view?usp=sharing
+
+( master-->slave data path shown in red. slave-->master return path shown in blue )

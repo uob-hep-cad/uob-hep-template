@@ -1,0 +1,106 @@
+Starting to read Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat (00:00:00.43)
+Starting to read Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat (00:00:00.01)
+Starting to read Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat (00:00:00.04)
+
+#1   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CTRLVCC
+         Pin name: D<32> 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I126@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2:PAGEPC053A_TOPLEVEL(SCH_1):PAGE2 
+
+#2   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FMC_DI_N
+         Pin name: H<23> 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I129@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2:PAGEPC053A_TOPLEVEL(SCH_1):PAGE2 
+
+#3   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FMC_DI_P
+         Pin name: H<22> 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I129@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2:PAGEPC053A_TOPLEVEL(SCH_1):PAGE2 
+
+#4   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):F_CDR_D_N
+         Pin name: B<0> 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I240@CNPASSIVE.RSMD0603(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11:PAGEPC053A_TOPLEVEL(SCH_1):PAGE11 
+
+#5   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):F_CDR_D_P
+         Pin name: B<0> 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I239@CNPASSIVE.RSMD0603(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11:PAGEPC053A_TOPLEVEL(SCH_1):PAGE11 
+
+#6   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):T_FMC_N
+         Pin name: Q0* 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I290@CNINTERFACE.SY58608U(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11:PAGEPC053A_TOPLEVEL(SCH_1):PAGE11 
+
+#7   WARNING(203) Single node net
+         Logical net name: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):T_FMC_P
+         Pin name: Q0 
+         Instance: @UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I290@CNINTERFACE.SY58608U(CHIPS) 
+         Drawing:  UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11:PAGEPC053A_TOPLEVEL(SCH_1):PAGE11 
+     
+
+ERC Summary:
+
+     Single Node Violations:            7
+     IO Check Violations:               0
+     Loading Check Violations:          0
+     
+
+Extended Error Descriptions:
+
+     Warning(203) Single node net
+          This warning is given for any net in the design that only has one
+          connection. This warning can be fixed by making sure each
+          node has two or more connections. This warning can be
+          suppressed by adding the NO_SINGLE_CHECK property to the net or
+          by turning off the check.
+     
+
+ERC-DX run on Dec 16 15:22:36 2016
+   DESIGN NAME : 'PC053A_TOPLEVEL'
+   PACKAGING ON 24-Oct-2016 AT 13:25:40
+
+   DIRECTORIES  <none>
+   LIBRARIES  'uob_hep_pc053a_lib' 'cnstandard' 'cnpower' 'cnconnector'
+              'cndiscrete' 'cninterface' 'cnlinear' 'cnmemory' 'cnspecial'
+              'cnmech' 'cncmos' 'standard' 'bris_cds_standard' 'bris_cds_logic'
+              'cnpassive' 'bris_cds_analogue' 'bris_cds_discrete'
+              'bris_cds_connectors'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   ASSERT_CHECK OFF
+   PIN_DIRECTION_CHECK OFF
+   CONNECT_CHECK OFF
+   SINGLE_NODE_CHECK ON
+   IO_CHECK OFF
+   IO_CHECK_HIGH ON
+   IO_CHECK_LOW ON
+   LOAD_CHECK OFF
+   LOAD_CHECK_HIGH ON
+   LOAD_CHECK_LOW ON
+   ENABLE_TIMES OFF
+   VERBOSE_LOADING ON
+   VPUNKNOWNLOADING ON
+   EXTENDEDDESCRIPTIONS ON
+   OVERSIGHTS ON
+   SINGLE_NODE_NETS ON
+   SUPPRESS   20
+   WARNINGS ON
+   GLOBALS_SYNONYM_CHECK OFF
+
+ No error detected
+ No oversight detected
+  7 warnings detected
+
+cpu time      0:00:52
+elapsed time  0:00:01
+

@@ -1,0 +1,18 @@
+Log File Report from Page Management Commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Current Design             :   PC053A_TOPLEVEL
+Current Page List          :   1-4
+Current Total Pages        :   4
+Current Active Page        :   5
+
+Command:   Page Delete
+
+   Pages to Delete       :   5
+   Retain Page Gaps        :   No
+ERROR(SPCOCN-2155): Page numbers to delete must be within existing page range: 1-4
+ERROR(SPCOCN-2151): Page Delete cannot continue until the following modified pages are saved: 5
+
+
+Page Delete Processing Terminated. 
+

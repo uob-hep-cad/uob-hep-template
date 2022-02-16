@@ -1,0 +1,113 @@
+\t (00:00:36) allegro_free_viewer 17.4 S001 Windows SPB 64-bit Edition
+\t (00:00:36)     Journal start - Wed Jan 19 15:12:22 2022
+\t (00:00:36)         Host=IT074217 User=phdgc Pid=4860 CPUs=12
+\t (00:00:36) CmdLine= C:\Cadence\PCBViewers_2019\tools\bin\allegro_free_viewer.exe
+\t (00:00:36) 
+\d (00:00:36) Design opened: Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/pc053e_toplevel_66.brd
+\i (00:00:41) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:00:42) zoom in 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom in -14.5088 43.7731
+\i (00:00:42) trapsize 6114
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in -14.5088 43.7732
+\i (00:00:43) trapsize 3057
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 13.9202 39.6770
+\i (00:00:46) trapsize 6114
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 13.9201 39.7993
+\i (00:00:48) trapsize 3057
+\i (00:00:52) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:00:53) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:01:04) QtSignal CVPLayerGrid CVPButtonViaBottom clicked
+\i (00:01:05) QtSignal CVPLayerGrid CVPButtonViaBottom clicked
+\i (00:01:06) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:01:11) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:01:16) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:01:19) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:01:19) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:01:27) show element 
+\i (00:01:29) setwindow form.find
+\i (00:01:29) FORM find all_off  
+\i (00:01:30) FORM find nets YES 
+\i (00:01:34) setwindow pcb
+\i (00:01:34) pick grid -17.3823 42.8562
+\t (00:01:34) last pick:  -17.4000 42.9000
+\i (00:01:37) zoom in 1 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom in -14.6311 35.4586
+\i (00:01:37) trapsize 1528
+\i (00:01:44) zoom in 1 
+\i (00:01:44) setwindow pcb
+\i (00:01:44) zoom in -17.4435 37.9041
+\i (00:01:44) trapsize 764
+\i (00:01:45) zoom out 1 
+\i (00:01:45) setwindow pcb
+\i (00:01:45) zoom out -17.4435 37.9041
+\i (00:01:45) trapsize 1528
+\i (00:01:48) roam y -96 
+\i (00:01:48) roam y -96
+\i (00:01:48) roam y -96 
+\i (00:01:48) roam y -96
+\i (00:02:01) zoom out 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom out -14.7229 38.2271
+\i (00:02:01) trapsize 3057
+\i (00:04:04) zoom in 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom in -25.6054 42.0787
+\i (00:04:04) trapsize 1528
+\i (00:04:07) pick grid -24.5966 47.3060
+\t (00:04:07) last pick:  -24.6000 47.3000
+\i (00:04:13) QtSignal CVPLayerGrid CVPBoxAllTop clicked false
+\i (00:04:14) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:04:16) QtSignal CVPLayerGrid CVPBoxAllL3_Sign clicked true
+\i (00:04:17) QtSignal CVPLayerGrid CVPBoxAllL3_Sign clicked false
+\i (00:04:20) QtSignal CVPLayerGrid CVPBoxAllL4_Sign clicked true
+\i (00:04:22) roam y 96 
+\i (00:04:22) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:23) roam y 96 
+\i (00:04:23) roam y 96
+\i (00:04:59) setwindow form.find
+\i (00:04:59) FORM find components YES 
+\i (00:05:02) setwindow pcb
+\i (00:05:02) pick grid -25.6970 25.9689
+\t (00:05:02) last pick:  -25.7000 26.0000
+\i (00:05:13) pick grid -28.0203 22.4841
+\t (00:05:13) last pick:  -28.0000 22.5000
+\i (00:05:14) roam x -96 
+\i (00:05:14) roam x -96
+\i (00:05:14) roam x -96 
+\i (00:05:14) roam x -96
+\i (00:05:14) roam x -96 
+\i (00:05:14) roam x -96
+\i (00:05:15) roam x -96 
+\i (00:05:15) roam x -96
+\i (00:05:15) roam x -96 
+\i (00:05:15) roam x -96
+\i (00:05:15) roam x -96 
+\i (00:05:15) roam x -96
+\i (00:05:15) roam x -96 
+\i (00:05:15) roam x -96
+\i (00:05:16) roam x 96 
+\i (00:05:16) roam x 96
+\i (00:05:16) roam x 96 
+\i (00:05:16) roam x 96
+\i (00:05:17) roam x 96 
+\i (00:05:17) roam x 96
+\i (00:05:17) roam x 96 
+\i (00:05:17) roam x 96
+\i (00:05:32) pick grid -20.1290 24.3794
+\t (00:05:32) last pick:  -20.

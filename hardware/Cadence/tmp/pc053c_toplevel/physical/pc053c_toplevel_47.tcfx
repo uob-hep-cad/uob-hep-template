@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cft:root-Cadence-Allegro-Technology-File xmlns:cft="http://www.cadence.com/xsd/wholeFile">
+
+  <cft:txt-FileType Name="FileType">Technology</cft:txt-FileType>
+
+  <cft:txt-FormatVersion Name="FormatVersion">17.220</cft:txt-FormatVersion>
+
+  <cft:xml-Header Name="Header">
+    <root xmlns="http://www.cadence.com/xsd/header" Key="physical" Name="pc053c_toplevel_47">
+      <Contents>
+        <v>Stackup</v>
+        <v>Drawing</v>
+        <v>Funcs</v>
+      </Contents>
+      <revisionNumber logical="972" other="0" physical="84"/>
+      <precision numberOfDecimalPlaces="4" units="mm"/>
+    </root>
+  </cft:xml-Header>
+
+  <cft:dir-advancedConstraints Name="advancedConstraints">
+    <cft:xml-functions Name="functions">
+      <root xmlns="http://www.cadence.com/xsd/functions"/>
+    </cft:xml-functions>
+    <cft:dir Name="skill"/>
+  </cft:dir-advancedConstraints>
+
+  <cft:dir-objects Name="objects">
+    <cft:xml-objects Name="Design">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="pc053c_toplevel_47">
+          <attribute Name="DRAWING_LOWER_LEFT">
+            <value Value="-315.1182:-288.1258"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <attribute Name="DRAWING_EXTENTS">
+            <value Value="741.3200:673.0560"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <config>
+            <v>DmlAuditRequired</v>
+            <v>XNetsDMLOn</v>
+          </config>
+          <x-section>
+            <generic>
+              <t>Conductor</t>
+              <t>Plane</t>
+            </generic>
+            <children BottomIndex="5" PrimaryStackup="PRIMARY" StackupOrder="0 " TopIndex="0">
+              <object Type="Surface">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="AIR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="SURFACE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="TOP"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.018"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.2540"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1600"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.24"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Plane">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="L2_GND"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_IS_SHIELD">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="PLANE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.36"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="L3_SIGN"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.24"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="L4_SIGN"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.2000"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.2540"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.36"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Plane">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="L5_PWR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_IS_SHIELD">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1270"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="None"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="PLANE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Dielectric">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="FR-4"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0.035"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.24"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="DIELECTRIC"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Conductor">
+                <attribute Name="CDS_LAYER_NAME">
+                  <value Value="BOTTOM"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="COPPER"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="595900"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="4.5"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0.018"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_EMBEDDED_STATUS">
+                  <value Value="Not embedded"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ETCH_FACTOR">
+                  <value Value="90"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LINE_WIDTH">
+                  <value Value="0.2540"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_SPACING">
+                  <value Value="0.1600"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIFF_COUPLING">
+                  <value Value="Edge"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="CONDUCTOR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+              <object Type="Surface">
+                <attribute Name="CDS_LAYER_MATERIAL">
+                  <value Value="AIR"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_PLUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_THICKNESS_MINUS">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_DIELECTRIC_CONSTANT">
+                  <value Value="1"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_LOSS_TANGENT">
+                  <value Value="0"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+                <attribute Name="CDS_LAYER_FUNCTION">
+                  <value Value="SURFACE"/>
+                  <origin>
+                    <v>BE</v>
+                  </origin>
+                </attribute>
+              </object>
+            </children>
+          </x-section>
+        </object>
+      </root>
+    </cft:xml-objects>
+    <cft:xml-objects Name="Stackup">
+      <root xmlns="http://www.cadence.com/xsd/objects">
+        <object Name="PRIMARY">
+          <attribute Name="CDS_STACKUP_TYPE">
+            <value Value="Rigid"/>
+            <origin>
+              <v>BE</v>
+            </origin>
+          </attribute>
+          <member Kind="Layer" Name="0"/>
+          <member Kind="Layer" Name="1"/>
+          <member Kind="Layer" Name="2"/>
+          <member Kind="Layer" Name="3"/>
+          <member Kind="Layer" Name="4"/>
+          <member Kind="Layer" Name="5"/>
+          <member Kind="Layer" Name="6"/>
+          <member Kind="Layer" Name="7"/>
+          <member Kind="Layer" Name="8"/>
+          <member Kind="Layer" Name="9"/>
+          <member Kind="Layer" Name="10"/>
+          <member Kind="Layer" Name="11"/>
+          <member Kind="Layer" Name="12"/>
+        </object>
+      </root>
+    </cft:xml-objects>
+  </cft:dir-objects>
+
+</cft:root-Cadence-Allegro-Technology-File>

@@ -1,0 +1,29 @@
+INFO: Loaded existing interconnect file 'P:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053a_toplevel\physical\interconn.iml'
+INFO: Loaded existing interconnect file 'C:\Cadence\SPB_16.6\share\pcb\signal\cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_1S_1R_312
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaah09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_313
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaai09516.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_314
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaaj09516.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_315
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaak09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_316
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaal09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_317
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaam09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_318
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaan09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_319
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaao09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_320
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaap09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_321
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaaq09516.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_322
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaar09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_323
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaas09516.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_324
+INFO: Executing command: bem2d 0 "C:/Users/phpgb/AppData/Local/Temp/#Taaaaat09516.in" 0.00127

@@ -1,0 +1,1657 @@
+( ConstraintFile "ttc_fmc"
+    ( constraintHeader
+        ( objectKey
+            ( logical )
+        )
+        ( version
+            ( 16.3 )
+        )
+        ( revisionNumber
+            ( logicalViewRevNum 403 )
+            ( physicalViewRevNum 25 )
+            ( otherViewRevNum 0 )
+        )
+        ( contents
+            ( drawing )
+            ( dictionaryExtensions )
+            ( worksheetCustomizations )
+            ( crossSection )
+            ( electricalConstraints )
+            ( physicalConstraints )
+            ( spacingConstraints )
+            ( sameNetSpacingConstraints )
+            ( netClasses )
+            ( properties )
+        )
+        ( precision
+            ( units mm )
+            ( numberOfDecimalPlaces 4 )
+        )
+    )
+    ( drawing
+        ( attribute "DRAWING_EXTENTS" "741.3200,673.0560"
+        )
+        ( attribute "DRAWING_LOWER_LEFT" "-315.1182,-288.1258"
+        )
+    )
+    ( DictionaryExtensions
+    )
+    ( crossSection
+        ( layer "SURFACE_INDEX_0"
+            ( attribute "CDS_LAYER_TYPE" "SURFACE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "AIR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0002700"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "TOP"
+            ( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "3.980"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "DIELECTRIC_BELOW_TOP"
+            ( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "FR-4"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.1000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "L2PWR"
+            ( attribute "CDS_LAYER_TYPE" "PLANE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "DIELECTRIC_BELOW_L2PWR"
+            ( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "FR-4"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "1.3000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "L3GND"
+            ( attribute "CDS_LAYER_TYPE" "PLANE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "DIELECTRIC_BELOW_L3GND"
+            ( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "FR-4"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.1000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "BOTTOM"
+            ( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "3.980"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "SURFACE_BELOW_BOTTOM"
+            ( attribute "CDS_LAYER_TYPE" "SURFACE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "AIR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0002700"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+    )
+    ( designConstraints
+        ( ruleChanges
+            ( allRules )
+            ( design "ttc_fmc"
+                ( physicalCSetRef "@glib_lib.glib(sch_1):\DEFAULT\" )
+                ( spacingCSetRef "@glib_lib.glib(sch_1):\DEFAULT\" )
+                ( sameNetSpacingCSetRef "@glib_lib.glib(sch_1):\DEFAULT\" )
+                ( objectStatus "EDA-02319-V3-0" )
+            )
+            ( electricalCSet "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\"
+                ( attribute "DIFFP_PRIMARY_GAP" "0.1200"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_MIN_SPACE" "0.1200"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.1200"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "PDIFF" )
+            )
+            ( physicalCSet "@glib_lib.glib(sch_1):\DEFAULT\"
+                ( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.1500,0.1500,0.1500,0.1500"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_NECK_WIDTH" "0.2000,0.2000,0.2000,0.2000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAXIMUM_NECK_LENGTH" "5.0000,5.0000,5.0000,5.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "VIA_LIST" "VIA80-40-110,VIA60-30-85"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "DEFAULT" )
+            )
+            ( physicalCSet "@ttc_fmc_lib.ttc_fmc(sch_1):\PCS1\"
+                ( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_MIN_SPACE" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_NECK_WIDTH" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAXIMUM_NECK_LENGTH" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "VIA_LIST" "VIA80-40-110,VIA60-30-85"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "PCS1" )
+            )
+            ( spacingCSet "@glib_lib.glib(sch_1):\DEFAULT\"
+                ( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_SMDPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_TESTPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUVIA_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_TESTVIA_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_SHAPE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_BVIA_GAP" "0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "DEFAULT" )
+            )
+            ( sameNetSpacingCSet "@glib_lib.glib(sch_1):\DEFAULT\"
+                ( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "DEFAULT" )
+            )
+            ( signal "@ttc_fmc_lib.glbl(sch_1):p2v5"
+                ( objectStatus "P2V5" )
+            )
+            ( signal "@ttc_fmc_lib.glbl(sch_1):p3v3"
+                ( attribute "DIFFP_MIN_SPACE" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.3000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "P3V3" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk2_bidir_p"
+                ( objectStatus "FMC_CLK2_BIDIR_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk2_bidir_n"
+                ( objectStatus "FMC_CLK2_BIDIR_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la07_p"
+                ( objectStatus "FMC_LA07_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la07_n"
+                ( objectStatus "FMC_LA07_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la08_p"
+                ( objectStatus "FMC_LA08_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la08_n"
+                ( objectStatus "FMC_LA08_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la10_n"
+                ( objectStatus "FMC_LA10_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la10_p"
+                ( objectStatus "FMC_LA10_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la06_p"
+                ( objectStatus "FMC_LA06_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la06_n"
+                ( objectStatus "FMC_LA06_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_m2c_n"
+                ( objectStatus "FMC_CLK1_M2C_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_m2c_p"
+                ( objectStatus "FMC_CLK1_M2C_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):xtal_n"
+                ( objectStatus "XTAL_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):xtal_p"
+                ( objectStatus "XTAL_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):front_panel_clk_n"
+                ( objectStatus "FRONT_PANEL_CLK_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):front_panel_clk_p"
+                ( objectStatus "FRONT_PANEL_CLK_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q0_n"
+                ( objectStatus "CDR_CLK_FANOUT_Q0_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q0_p"
+                ( objectStatus "CDR_CLK_FANOUT_Q0_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_divided_qb0_p"
+                ( objectStatus "CDR_CLK_DIVIDED_QB0_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_divided_qb0_n"
+                ( objectStatus "CDR_CLK_DIVIDED_QB0_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q2_p"
+                ( objectStatus "CDR_CLK_FANOUT_Q2_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q2_n"
+                ( objectStatus "CDR_CLK_FANOUT_Q2_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_m2c_p"
+                ( objectStatus "FMC_CLK0_M2C_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_m2c_n"
+                ( objectStatus "FMC_CLK0_M2C_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):ttcsfp_n"
+                ( objectStatus "TTCSFP_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):ttcsfp_p"
+                ( objectStatus "TTCSFP_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):in_n"
+                ( objectStatus "IN_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):in_p"
+                ( objectStatus "IN_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):ficer_n"
+                ( objectStatus "FICER_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):ficer_p"
+                ( objectStatus "FICER_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):dataout_n"
+                ( objectStatus "DATAOUT_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):dataout_p"
+                ( objectStatus "DATAOUT_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):clkout_n"
+                ( objectStatus "CLKOUT_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):clkout_p"
+                ( objectStatus "CLKOUT_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_in_n"
+                ( objectStatus "CDR_IN_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_in_p"
+                ( objectStatus "CDR_IN_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_dataout_n"
+                ( objectStatus "CDR_DATAOUT_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_dataout_p"
+                ( objectStatus "CDR_DATAOUT_P" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clkout_n"
+                ( objectStatus "CDR_CLKOUT_N" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clkout_p"
+                ( objectStatus "CDR_CLKOUT_P" )
+            )
+            ( signal "@ttc_fmc_lib.glbl(sch_1):cvcc"
+                ( attribute "MIN_LINE_WIDTH" "0.3000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "CVCC" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):lemo2"
+                ( attribute "MIN_LINE_WIDTH" "0.1700"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "LEMO2" )
+            )
+            ( signal "@ttc_fmc_lib.ttc_fmc(sch_1):lemo1"
+                ( attribute "MIN_LINE_WIDTH" "0.1700"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "LEMO1" )
+            )
+            ( signal "@ttc_fmc_lib.glbl(sch_1):gnd"
+                ( attribute "MIN_LINE_WIDTH" "0.3000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "GND" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i69@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F34" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i71@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F33" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i70@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F32" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i118@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F31" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i117@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F30" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i116@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F29" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i115@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F28" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i41@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F27" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i182@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F26" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i40@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F25" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i180@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F24" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i155@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F22" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i147@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F21" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i254(3)@cninterface.sy89833l(chips)"
+                ( objectStatus "F7" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i254(2)@cninterface.sy89833l(chips)"
+                ( objectStatus "F6" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i254(1)@cninterface.sy89833l(chips)"
+                ( objectStatus "F5" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i254(0)@cninterface.sy89833l(chips)"
+                ( objectStatus "F4" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i187(3)@cninterface.sn65lvdt125(chips)"
+                ( objectStatus "F16" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i187(2)@cninterface.sn65lvdt125(chips)"
+                ( objectStatus "F15" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i187(1)@cninterface.sn65lvdt125(chips)"
+                ( objectStatus "F14" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i187(0)@cninterface.sn65lvdt125(chips)"
+                ( objectStatus "F13" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i3@cnmemory.\24c01b\(chips)"
+                ( objectStatus "F132" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i224@cnpassive.capcersmdcl1(chips)"
+                ( objectStatus "F131" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i222@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F89" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i170@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F87" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i154@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F86" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i185@cninterface.ftpda_r155_st(chips)"
+                ( objectStatus "F76" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i189@cndiscrete.qz_fxo_hc73(chips)"
+                ( objectStatus "F75" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i207@cncmos.\74ahc1g02\(chips)"
+                ( objectStatus "F12" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i208@cncmos.\74aup1t157\(chips)"
+                ( objectStatus "F11" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i142@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F91" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i141@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F90" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i139@cnconnector.con400p_40abcdefghjk(chips)"
+                ( objectStatus "F137" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i126@cnconnector.con400p_40abcdefghjk(chips)"
+                ( objectStatus "F136" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i136@cnconnector.con400p_40abcdefghjk(chips)"
+                ( objectStatus "F135" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i129@cnconnector.con400p_40abcdefghjk(chips)"
+                ( objectStatus "F134" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i128@cnconnector.con400p_40abcdefghjk(chips)"
+                ( objectStatus "F133" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i56@cninterface.sy89873l(chips)"
+                ( objectStatus "F3" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(7)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F151" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(6)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F150" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(5)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F149" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(4)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F148" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(3)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F147" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(2)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F146" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(1)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F145" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i140(0)@cninterface.\74avc8t245\(chips)"
+                ( objectStatus "F144" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i155@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F130" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i147@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F129" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i152@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F127" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i149@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F128" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i140@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F88" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i64@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F85" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i175@cnconnector.con20p_sfp(chips)"
+                ( objectStatus "F82" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i184(1)@cndiscrete.led2(chips)"
+                ( objectStatus "F70" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i184(0)@cndiscrete.led2(chips)"
+                ( objectStatus "F69" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i177(1)@cndiscrete.led2(chips)"
+                ( objectStatus "F72" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i177(0)@cndiscrete.led2(chips)"
+                ( objectStatus "F71" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i112@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F36" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i113@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F35" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i176@cnmech.sfp_cage(chips)"
+                ( objectStatus "TF-1966" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i219@cnpassive.tp(chips)"
+                ( objectStatus "F0" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i68@cnpassive.tp(chips)"
+                ( objectStatus "F1" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i174@cnpassive.rsmd2512(chips)"
+                ( objectStatus "F20" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i104@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F41" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i98@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F40" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i222@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F61" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i223@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F60" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i224@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F59" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i225@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F58" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i226@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F57" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i227@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F56" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i194@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F55" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i195@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F54" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i196@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F53" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i209@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F52" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i198@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F51" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i210@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F50" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i200@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F49" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i217@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F48" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i218@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F47" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i230@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F46" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i231@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F45" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i216@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F44" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i214@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F43" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i186@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F42" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i109@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F63" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i103@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F62" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i102@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F67" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i95@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F66" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i97@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F65" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i96@cnpassive.rsmd0402(chips)"
+                ( objectStatus "F64" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i9@cninterface.\74lcx04\(chips)"
+                ( objectStatus "F143" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i179@cninterface.\74lcx04\(chips)"
+                ( objectStatus "F142" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i8@cninterface.\74lcx04\(chips)"
+                ( objectStatus "F141" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i167@cnconnector.con6p(chips)"
+                ( objectStatus "F140" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i23@cninterface.adn2814(chips)"
+                ( objectStatus "F139" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i160@cnlinear.adp3367(chips)"
+                ( objectStatus "F138" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i244@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F126" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i246@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F124" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i242@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F123" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i236@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F96" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i233@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F95" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i225@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F94" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i248@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F93" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i251@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F92" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i183@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F109" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i180@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F110" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i247@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F125" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i170@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F120" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i168@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F121" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i77@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F111" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i81@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F122" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i127@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F101" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i133@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F99" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i125@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F107" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i124@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F108" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i123@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F105" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i122@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F106" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i207@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F113" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i204@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F112" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i66@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F98" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i68@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F97" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i199@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F115" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i210@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F119" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i212@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F118" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i193@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F116" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i183@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F114" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i157@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F117" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i146@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F103" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i148@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F102" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i151@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F100" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i156@cnpassive.capcersmdcl2(chips)"
+                ( objectStatus "F104" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i142@cnconnector.coax(chips)"
+                ( objectStatus "F83" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i158@cnconnector.coax(chips)"
+                ( objectStatus "F84" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i173@cnconnector.con2p(chips)"
+                ( objectStatus "F80" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i172@cnconnector.con2p(chips)"
+                ( objectStatus "F81" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i170@cnconnector.con3p(chips)"
+                ( objectStatus "F79" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i171@cnconnector.con3p(chips)"
+                ( objectStatus "F78" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i174@cnconnector.con3p(chips)"
+                ( objectStatus "F77" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i105@cndiscrete.inductance(chips)"
+                ( objectStatus "F73" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i99@cndiscrete.inductance(chips)"
+                ( objectStatus "F74" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i162@cninterface.pca9517(chips)"
+                ( objectStatus "F68" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i191@cninterface.sn65lvds1(chips)"
+                ( objectStatus "F17" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i144@cninterface.sn65lvds1(chips)"
+                ( objectStatus "F18" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i161@cninterface.sn65lvds1(chips)"
+                ( objectStatus "F19" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i239@cninterface.\74avc2t45\(chips)"
+                ( objectStatus "F8" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page3_i74@cninterface.\74avc2t45\(chips)"
+                ( objectStatus "F10" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i10@cninterface.\74avc2t45\(chips)"
+                ( objectStatus "F9" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page2_i214@cnlinear.tps799xx(chips)"
+                ( objectStatus "F2" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i143@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F39" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i144@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F38" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i137@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F37" )
+            )
+            ( gate "@ttc_fmc_lib.ttc_fmc(sch_1):page11_i134@cnpassive.rsmd0603(chips)"
+                ( objectStatus "F23" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_CLK2_BIDIR\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk2_bidir_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk2_bidir_p") )
+                ( objectStatus "FMC_CLK2_BIDIR" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA07\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la07_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la07_p") )
+                ( objectStatus "FMC_LA07" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA08\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la08_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la08_p") )
+                ( objectStatus "FMC_LA08" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA10\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la10_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la10_p") )
+                ( objectStatus "FMC_LA10" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA06\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la06_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la06_p") )
+                ( objectStatus "FMC_LA06" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_CLK1_M2C\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_m2c_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_m2c_p") )
+                ( objectStatus "FMC_CLK1_M2C" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\XTAL\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):xtal_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):xtal_p") )
+                ( objectStatus "XTAL" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FRONT_PANEL_CLK\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):front_panel_clk_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):front_panel_clk_p") )
+                ( objectStatus "FRONT_PANEL_CLK" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLK_FANOUT_Q0\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q0_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q0_p") )
+                ( objectStatus "CDR_CLK_FANOUT_Q0" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLK_DIVIDED_QB0\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_divided_qb0_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_divided_qb0_p") )
+                ( objectStatus "CDR_CLK_DIVIDED_QB0" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLK_FANOUT_Q2\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q2_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q2_p") )
+                ( objectStatus "CDR_CLK_FANOUT_Q2" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_CLK0_M2C\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_m2c_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_m2c_p") )
+                ( objectStatus "FMC_CLK0_M2C" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\TTCSFP\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):ttcsfp_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):ttcsfp_p") )
+                ( objectStatus "TTCSFP" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\IN\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):in_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):in_p") )
+                ( objectStatus "IN" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\FICER\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):ficer_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):ficer_p") )
+                ( objectStatus "FICER" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\DATAOUT\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):dataout_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):dataout_p") )
+                ( objectStatus "DATAOUT" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CLKOUT\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):clkout_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):clkout_p") )
+                ( objectStatus "CLKOUT" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_IN\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_in_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_in_p") )
+                ( objectStatus "CDR_IN" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_DATAOUT\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_dataout_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_dataout_p") )
+                ( objectStatus "CDR_DATAOUT" )
+            )
+            ( differentialPair "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLKOUT\"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clkout_n") )
+                ( member ( signalRef "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clkout_p") )
+                ( objectStatus "CDR_CLKOUT" )
+            )
+            ( bus "@psb_ddc_v1_lib.digital_receiver(sch_1):page3_i48@psb_ddc_v1_lib.fmc_port(sch_1):vadj"
+                ( memberType ( signal ) )
+                ( member ( signalRef "@ttc_fmc_lib.glbl(sch_1):p2v5") )
+                ( objectStatus "VADJ" )
+            )
+            ( bus "@psb_ddc_v1_lib.digital_receiver(sch_1):page3_i48@psb_ddc_v1_lib.fmc_port(sch_1):\3p3v\"
+                ( memberType ( signal ) )
+                ( member ( signalRef "@ttc_fmc_lib.glbl(sch_1):p3v3") )
+                ( objectStatus "3P3V" )
+            )
+            ( region "@glib_lib.glib(sch_1):\BGA\"
+                ( attribute "MIN_LINE_WIDTH" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_LINE_WIDTH" "0.2500"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "VIA_LIST" "VIA50-25-70"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUPIN_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_SMDPIN_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUVIA_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "BGA" )
+            )
+        )
+    )
+)

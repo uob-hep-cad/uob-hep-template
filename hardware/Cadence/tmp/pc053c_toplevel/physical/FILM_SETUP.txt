@@ -1,0 +1,6 @@
+axlFilmCreate( "copy_of_l2pwr" ?negative nil ?undefineLineWidth 0.2540 ?sequence 16 
+	?rotation 0 ?xOffset -315.1182 ?yOffset -288.1259 ?shapeBoundingBox 1.0000 ?mirrored nil ?fullContact nil 
+	?suppressUnconnectPads nil ?drawMissingPadApertures nil ?useApertureRotation nil 
+	?suppressShapeFill t ?vectorBasedPad t ?drawHolesOnly nil 
+	?domains '(ipc2581 pdf artwork visibility ) ?ipc2581 '() 
+	?layers '("VIA CLASS/L2_GND" "PIN/L2_GND" "ETCH/L2_GND" "BOARD GEOMETRY/ASSEMBLY_NOTES" "BOARD GEOMETRY/TEXT_L2PWR" "BOARD GEOMETRY/CART_BOTTOM" "BOARD GEOMETRY/OUTLINE50" ))

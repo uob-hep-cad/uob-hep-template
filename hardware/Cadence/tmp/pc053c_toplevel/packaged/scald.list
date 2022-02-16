@@ -1,0 +1,45 @@
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/pstchip.dat (00:00:00.07)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/pstxnet.dat (00:00:00.02)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialcnet.dat 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialcnet.dat (00:00:00.02)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialbonl.dat 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialbonl.dat (00:00:00.00)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialcprt.dat 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialcprt.dat (00:00:00.00)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialstf.dat 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialstf.dat (00:00:00.00)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialpgnd.dat 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialpgnd.dat (00:00:00.00)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialpgnd_new.dat 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/dialpgnd_new.dat (00:00:00.00)
+Starting to generate /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/scald.xref 
+   Finished generating /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/packaged/scald.xref (00:00:00.00)
+
+SCALD Lists Interface run on Jan 5 17:45:53 2021
+   DESIGN NAME : 'PC053C_TOPLEVEL'
+   PACKAGING ON 16-Jan-2020 AT 16:35:55
+
+   DIRECTORIES  <none>
+   LIBRARIES  'uob_hep_pc053a_lib' 'cnstandard' 'cnpower' 'cnconnector'
+              'cndiscrete' 'cninterface' 'cnlinear' 'cnmemory' 'cnspecial'
+              'cnmech' 'cncmos' 'standard' 'bris_cds_standard' 'bris_cds_logic'
+              'cnpassive' 'bris_cds_analogue' 'bris_cds_discrete'
+              'bris_cds_connectors'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   OVERSIGHTS ON
+   SINGLE_NODE_NETS OFF
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:00
+elapsed time  0:00:00
+

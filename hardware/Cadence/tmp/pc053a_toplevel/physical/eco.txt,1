@@ -1,0 +1,103 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  P:.../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_32.brd  |
+|                                                    Mon Oct 24 13:25:57 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_11_RSMD0603_I241_B net RENAMED (to net name listed on right)           SY5860_IN_P  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_RSMD0603_I242_B net RENAMED (to net name listed on right)           SY5860_IN_N  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_CAPACITOR_I303_B pins MOVED FROM this net (to net name listed on right)
+                                 C2.2                           
+                                                                        T_SFP_N
+                                 IC3.11          -18.659 15.6430
+                                                  UNNAMED_3_CAPCERSMDCL2_I316_A
+                                 R6.2            -16.060 11.6840
+                                                  UNNAMED_3_CAPCERSMDCL2_I316_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_CAPACITOR_I304_B pins MOVED FROM this net (to net name listed on right)
+                                 C1.2                           
+                                                                        T_SFP_P
+                                 IC3.10          -18.659 16.1430
+                                                  UNNAMED_3_CAPCERSMDCL2_I315_A
+                                 R5.2            -16.833 16.1290
+                                                  UNNAMED_3_CAPCERSMDCL2_I315_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_CAPCERSMDCL2_I315_A pins ADDED TO this new net
+                                 C1.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_CAPCERSMDCL2_I316_A pins ADDED TO this new net
+                                 C2.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I113_B net RENAMED (to net name listed on right)           CLK_IN0_P    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I114_B net RENAMED (to net name listed on right)           CLK_IN0_N    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I115_B net RENAMED (to net name listed on right)           CLK_IN1_P    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I116_B net RENAMED (to net name listed on right)           CLK_IN1_N    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I117_B net RENAMED (to net name listed on right)           CLK_IN2_P    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I118_B net RENAMED (to net name listed on right)           CLK_IN2_N    
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  P:.../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_32.brd  |
+|                                                    Mon Oct 24 13:25:57 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAPCERSMDCL2_0402-100NF,16V_GEN -13.589 18.4150 CAPACITOR_POLY2.54-10NF,50V
+ C2                  CAPCERSMDCL2_0402-100NF,16V_GEN -13.559 13.8470 CAPACITOR_POLY2.54-10NF,50V
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  P:.../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_32.brd  |
+|                                                    Mon Oct 24 13:25:57 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PHYS_PAGE      3
+ C1.2                           PRIM_FILE      P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C1.2                           P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i315@cnpassive.capcersmdcl2(chips)
+ C1.2                           SIZE           1
+ C2.2                           PHYS_PAGE      3
+ C2.2                           PRIM_FILE      P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C2.2                           P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i316@cnpassive.capcersmdcl2(chips)
+ C2.2                           SIZE           1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  P:.../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_32.brd  |
+|                                                    Mon Oct 24 13:25:57 2016  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.1                           CDS_PINID      A(0)
+ C1.2                           CDS_PINID      B(0)
+ C2.1                           CDS_PINID      A(0)
+ C2.2                           CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      16                                        |
+|       Components changed    :       2                                        |
+|       Pin property added    :       4                                        |
+|       Slot property added   :       8                                        |
+|                                                                              |
+|   Total ECO changes reported:      30                                        |
+|------------------------------------------------------------------------------|

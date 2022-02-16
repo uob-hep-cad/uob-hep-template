@@ -1,0 +1,32 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : pc053a_toplevel_14.brd                        )
+(    Software Version : 16.6-2015S055                                 )
+(    Date/Time        : Tue Aug 30 17:45:36 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer BOTTOM
+
+         Placed symbol:  QZ1 / DSC1123CI5-40.0000 / OSCSC105P250X320X180-6N at (-63.9468 -4.8032)
+         Placed symbol:  REG2 / TPS799185DDCTG4 / SOT95P280X110-5N at (-60.2186 -4.9532)
+         Placed symbol:  C48 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-56.4321 -3.7032)
+         Placed symbol:  C49 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-53.7706 -3.7032)
+         Placed symbol:  C54 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-51.1091 -3.7032)
+         Placed symbol:  C55 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-48.4476 -3.7032)
+         Placed symbol:  C56 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-45.7861 -3.7032)
+         Placed symbol:  C57 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-43.1246 -3.7032)
+         Placed symbol:  C58 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-40.4631 -3.7032)
+         Placed symbol:  C59 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-37.8016 -3.7032)
+         Placed symbol:  C60 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-35.1401 -3.7032)
+         Placed symbol:  C19 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-32.4786 -3.7032)
+         Placed symbol:  C28 / CAPCERSMDCL2_0402-100NF,16V_GEN / C0402 at (-29.8171 -3.7032)
+
+
+Placed 13 of 13 applicable (13 total) symbols.
+
+-----------------------------------------------------------------------
+

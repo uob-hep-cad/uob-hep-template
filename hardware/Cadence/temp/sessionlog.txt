@@ -1,0 +1,22 @@
+10/31/19  14:58:37		Opening project P:/cad/designs/uob-hep-pc053a/trunk/design_files/pc053c_toplevel.cpm
+10/31/19  14:58:37		cdslib P:/cad/designs/uob-hep-pc053a/trunk/design_files/cds.lib opened
+10/31/19  14:58:37		Project P:/cad/designs/uob-hep-pc053a/trunk/design_files/pc053c_toplevel.cpm opened
+10/31/19  14:59:15		Loading cell si5344 from library cninterface
+10/31/19  14:59:15		Loading view sym_1 of cell si5344
+10/31/19  14:59:15		Loading view chips of cell si5344
+10/31/19  14:59:15		Loading view part_table of cell si5344
+10/31/19  14:59:15		Loading file si5344.ptf of PTF view part_table of cell si5344
+10/31/19  14:59:15		Loading cell si5344 from library cninterface
+10/31/19  14:59:15		Analyzing view relationships of cell si5344 in library cninterface
+10/31/19  14:59:15		Completed loading cell si5344 from library cninterface
+10/31/19  14:59:15		Starting validations on cell si5344 of library cninterface
+10/31/19  14:59:15		Completed validations on cell si5344 of library cninterface
+10/31/19  14:59:30		Starting validations on cell si5344 of library cninterface
+10/31/19  14:59:30		Completed validations on cell si5344 of library cninterface
+10/31/19  15:00:02		Completed saving cell si5394 in library bris_cds_discrete 
+10/31/19  15:00:02		Starting validations on cell si5394 of library bris_cds_discrete
+10/31/19  15:00:02		Completed validations on cell si5394 of library bris_cds_discrete
+10/31/19  15:02:26		Starting validations on cell si5394 of library bris_cds_discrete
+10/31/19  15:02:26		Completed validations on cell si5394 of library bris_cds_discrete
+10/31/19  15:02:26		Completed saving cell si5394 in library bris_cds_discrete 
+10/31/19  15:03:18		Project P:/cad/designs/uob-hep-pc053a/trunk/design_files/pc053c_toplevel.cpm is closed.

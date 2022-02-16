@@ -1,0 +1,770 @@
+FILE_TYPE=FORM_DEFN VERSION=2
+FORM toolwindow
+FIXED
+PORT 106 50
+HEADER "PDF generator - (c) Nordcad Systems A/S - Release 4.42"
+
+POPUP <ADR>"5""0","7""1","8""2","9""3".
+TILE
+#========== using STRFILLIN
+TEXT "PDF File name"
+FLOC 4 1
+ENDTEXT
+
+FIELD film_name
+FLOC 20 1
+STRFILLIN 30 256
+ENDFIELD
+
+TABSET "tab"
+OPTIONS tabsetDispatch
+FLOC 2 4
+FSIZE 104 48
+TAB "PDF settings"
+
+GROUP "PDF Quality"
+GLOC 3 1
+GSIZE 23 14
+ENDGROUP
+
+FIELD 300_dpi
+FLOC 5 3
+CHECKLIST "300 dpi" "dpi"
+ENDFIELD
+
+FIELD 600_dpi
+FLOC 5 5
+CHECKLIST "600 dpi" "dpi"
+ENDFIELD
+
+FIELD 1200_dpi
+FLOC 5 7
+CHECKLIST "1200 dpi" "dpi"
+ENDFIELD
+
+FIELD 2400_dpi
+FLOC 5 9
+CHECKLIST "2400 dpi" "dpi"
+ENDFIELD
+
+FIELD 3600_dpi
+FLOC 5 11
+CHECKLIST "3600 dpi" "dpi"
+ENDFIELD
+
+FIELD 4000_dpi
+FLOC 5 13
+CHECKLIST "4000 dpi" "dpi"
+ENDFIELD
+
+GROUP "Plot Method"
+GLOC 3 16
+GSIZE 23 6
+ENDGROUP
+
+FIELD pdf_color
+FLOC 5 18
+CHECKLIST "Color" "pdf_color"
+ENDFIELD
+
+FIELD pdf_blackwhite
+FLOC 5 20
+CHECKLIST "Black and white" "pdf_color"
+ENDFIELD
+
+GROUP "Plot Orientation"
+GLOC 3 23
+GSIZE 23 6
+ENDGROUP
+
+FIELD pdf_center
+FLOC 5 25
+CHECKLIST "Auto Center"
+ENDFIELD
+
+FIELD pdf_mirror
+FLOC 5 27
+CHECKLIST "Mirror (film setup decides)"
+ENDFIELD
+
+GROUP "PDF Font"
+GLOC 27 1
+GSIZE 40 30
+ENDGROUP
+
+FIELD pdf_font
+FLOC 29 3
+LIST "" 36 12
+OPTIONS sort
+ENDFIELD
+
+TEXT "Current Font:"
+FLOC 29 29
+OPTIONS bold
+ENDTEXT
+
+TEXT "pdf_fontinfo" pdf_fontinfo
+TLOC 40 29
+FSIZE 25 2
+OPTIONS bold
+ENDFIELD
+
+FIELD nofont
+FLOC 29 27
+CHECKLIST "Don't use fonts"
+ENDFIELD
+
+FIELD font_refresh
+FLOC 56 27
+MENUBUTTON "Refresh" 7 3
+ENDFIELD
+
+GROUP "Paper size"
+GLOC 69 1
+GSIZE 34 15
+ENDGROUP
+
+FIELD A4
+FLOC 71 3
+CHECKLIST "A4" "size"
+ENDFIELD
+
+TEXT "A4_info" A4_info
+TLOC 77 3
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD A3
+FLOC 71 5
+CHECKLIST "A3" "size"
+ENDFIELD
+
+TEXT "A3_info" A3_info
+TLOC 77 5
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD A2
+FLOC 71 7
+CHECKLIST "A2" "size"
+ENDFIELD
+
+TEXT "A2_info" A2_info
+TLOC 77 7
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD A1
+FLOC 71 9
+CHECKLIST "A1" "size"
+ENDFIELD
+
+TEXT "A1_info" A1_info
+TLOC 77 9
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD A
+FLOC 88 3
+CHECKLIST "A" "size"
+ENDFIELD
+
+TEXT "A_info" A_info
+TLOC 93 3
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD B
+FLOC 88 5
+CHECKLIST "B" "size"
+ENDFIELD
+
+TEXT "B_info" B_info
+TLOC 93 5
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD C
+FLOC 88 7
+CHECKLIST "C" "size"
+ENDFIELD
+
+TEXT "C_info" C_info
+TLOC 93 7
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD D
+FLOC 88 9
+CHECKLIST "D" "size"
+ENDFIELD
+
+TEXT "D_info" D_info
+TLOC 93 9
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD portrait
+FLOC 89 12
+CHECKLIST "Portrait" "pdf_dir"
+ENDFIELD
+
+FIELD landscape
+FLOC 89  14
+CHECKLIST "Landscape" "pdf_dir"
+ENDFIELD
+
+GROUP "Plot Scaling"
+GLOC 69 17
+GSIZE 34 9
+ENDGROUP
+
+FIELD pdf_fit
+FLOC 71 19
+CHECKLIST "Fit to page" "pdf_fit"
+ENDFIELD
+
+FIELD pdf_scale
+FLOC 71 21
+CHECKLIST "Scaling factor" "pdf_fit"
+ENDFIELD
+
+FIELD pdf_scale_factor
+FLOC 87 21
+REALFILLIN 5 5
+MIN 0
+MAX 100
+DECIMAL 2
+ENDFIELD
+
+TEXT "Default line weight:"
+FLOC 71 23
+ENDTEXT
+
+FIELD pdf_line_weight
+FLOC 87 23
+INTFILLIN 5 5
+MIN 0
+MAX 100
+ENDFIELD
+
+GROUP "Windows"
+GLOC 69 26
+GSIZE 34 5
+ENDGROUP
+
+TEXT "Margin Width"
+FLOC 71 28
+ENDTEXT
+
+FIELD pdf_margin
+FLOC 87 28
+REALFILLIN 5 5
+MIN 0
+MAX 100
+ENDFIELD
+
+GROUP "Additional setup"
+GLOC 3 31
+GSIZE 100 14
+ENDGROUP
+
+FIELD pdf_outline
+FLOC 5 33
+CHECKLIST "Plot outline on all films"
+ENDFIELD
+
+FIELD open_pdf
+FLOC 26 33
+CHECKLIST "Open PDF document"
+ENDFIELD
+
+FIELD solid_color
+FLOC 5 36
+CHECKLIST "Plot solid colors"
+ENDFIELD
+
+FIELD no_rat
+FLOC 5 38
+CHECKLIST "No rats"
+ENDFIELD
+
+FIELD vialabels
+FLOC 5 40
+CHECKLIST "Plot via labels"
+ENDFIELD
+
+FIELD no_filledpads
+FLOC 25 36
+CHECKLIST "Plot unfilled pads"
+ENDFIELD
+
+FIELD open_drill
+FLOC 25 38
+CHECKLIST "Plot open plated drillholes"
+ENDFIELD
+
+FIELD open_npdrill
+FLOC 25 40
+CHECKLIST "Plot open non-plated drillholes"
+ENDFIELD
+
+FIELD padlessdrill
+FLOC 25 42
+CHECKLIST "Plot padless drillholes"
+ENDFIELD
+
+FIELD addfilmname
+FLOC 56 36
+CHECKLIST "Add filmname"
+ENDFIELD
+
+FIELD placelocally
+FLOC 56 38
+CHECKLIST "PDF in BRD dir"
+ENDFIELD
+
+TEXT "Custom:"
+TLOC 60 33
+ENDTEXT
+
+FIELD customfile
+FLOC 67 33
+FGROUP "Additional setup"
+STRFILLIN 25 25
+ENDFIELD
+
+FIELD clearcustom
+FLOC 95 33
+MENUBUTTON "Clear" 5 3
+ENDFIELD
+
+ENDTAB
+
+TAB "Printer setup"
+
+GROUP "Adobe Distiller usage"
+GLOC 3 1
+GSIZE 100 5
+ENDGROUP
+
+TEXT "acrodist.exe:"
+TLOC 5 3
+ENDTEXT
+
+FIELD distillerfile
+FLOC 15 3
+FGROUP "Specify file information"
+STRFILLIN 50 256
+ENDFIELD
+
+FIELD distillerbrowse
+FLOC 68 3
+MENUBUTTON "..." 5 3
+ENDFIELD
+
+TEXT "Adobe Distiller Release:"
+TLOC 76 3
+ENDTEXT
+
+FIELD distillerversion
+FLOC 93 3
+ENUMSET 5
+POP "ADR"
+ENDFIELD
+
+GROUP "Ghostview usage"
+GLOC 3 6
+GSIZE 100 8
+ENDGROUP
+
+FIELD use_ghostview
+FLOC 5 8
+CHECKLIST "Use Ghostview"
+ENDFIELD
+
+TEXT "PS Printer Driver:"
+TLOC 25 8
+ENDTEXT
+
+FIELD psprinterdriver
+FLOC 40 8
+STRFILLIN 25 256
+ENDFIELD
+
+FIELD download_ghostview
+FLOC 75 8
+CHECKLIST "Download and install CutePDF"
+ENDFIELD
+
+TEXT "gswin32c.exe:"
+TLOC 5 11
+ENDTEXT
+
+FIELD ghostviewfile
+FLOC 15 11
+FGROUP "Specify file information"
+STRFILLIN 50 256
+ENDFIELD
+
+FIELD ghostviewbrowse
+FLOC 68 11
+MENUBUTTON "..." 5 3
+ENDFIELD
+
+TEXT "" gviewinfo
+TLOC 75 11
+FSIZE 25 2
+OPTIONS bold
+ENDFIELD
+
+FIELD printerrestore
+FLOC 70 15
+MENUBUTTON "Restore default printer settings" 25 3
+ENDFIELD
+
+ENDTAB
+
+TAB "Film plot settings"
+
+GRID filmgrid
+FLOC 1 2
+FSIZE 85 35
+#ifdef MSEL
+OPTIONS HLINES VLINES
+#else
+OPTIONS HLINES VLINES 
+#endif
+GHEAD TOP
+HEADSIZE 2
+OPTIONS 3D MULTI
+ENDGHEAD
+
+GHEAD SIDE
+OPTIONS 3D NUMBER 
+HEADSIZE 5
+ENDGHEAD
+
+ENDGRID
+
+FIELD gup
+FLOC 92 4
+MENUBUTTON "Up" 6 3
+ENDFIELD
+
+FIELD gdown
+FLOC 92 8
+MENUBUTTON "Down" 6 3
+ENDFIELD
+
+FIELD gview_film
+FLOC 90 12
+MENUBUTTON "View film" 10 3
+ENDFIELD
+
+FIELD selall
+FLOC 90 30
+MENUBUTTON "Select all" 10 3
+ENDFIELD
+
+FIELD deselall
+FLOC 90 34
+MENUBUTTON "Deselect all" 10 3
+ENDFIELD
+
+FIELD grefresh_filmlist
+FLOC 10 38
+MENUBUTTON "Update film list" 10 3
+ENDFIELD
+
+FIELD reset_filmlist
+FLOC 10 41
+MENUBUTTON "Reset film list" 10 3
+ENDFIELD
+
+FIELD greload_view
+FLOC 30 38
+MENUBUTTON "Reload visibility" 10 3
+ENDFIELD
+
+ENDTAB
+
+TAB "Variant plot"
+
+GROUP "Variant list"
+GLOC 3 3
+GSIZE 99 10
+ENDGROUP
+
+TEXT "Variant list is generated from Capture CIS Part Manager. Use Tools->Export->Variant list."
+FLOC 4 5
+OPTIONS bold
+ENDTEXT
+
+FIELD usecis
+FLOC 4 7
+CHECKLIST "Use Capture CIS Variant list"
+ENDFIELD
+
+TEXT "variant.lst:"
+TLOC 5 10
+ENDTEXT
+
+FIELD variantfile
+FLOC 15 10
+STRFILLIN 50 256
+ENDFIELD
+
+FIELD variantbrowse
+FLOC 68 10
+MENUBUTTON "..." 5 3
+ENDFIELD
+
+TEXT "" variantinfo
+TLOC 75 10
+FSIZE 25 2
+OPTIONS bold
+ENDFIELD
+
+FIELD colordoc
+FLOC 3 1
+CHECKLIST "Enable variant plot"
+ENDFIELD
+
+FIELD color_legend
+FLOC 60 1
+CHECKLIST "Plot legend"
+ENDFIELD
+
+FIELD color_details
+FLOC 42 1
+CHECKLIST "Detailed document"
+ENDFIELD
+
+GROUP "Layers"
+GLOC 3 28
+GSIZE 14 9
+ENDGROUP
+
+FIELD color_toplay
+FLOC 5 30
+CHECKLIST "Top" "colorlayers"
+ENDFIELD
+
+FIELD color_botlay
+FLOC 5 32
+CHECKLIST "Bottom" "colorlayers"
+ENDFIELD
+
+FIELD color_bothlay
+FLOC 5 34
+CHECKLIST "Both layers" "colorlayers"
+ENDFIELD
+
+GROUP "Footprint types"
+GLOC 19 28
+GSIZE 27 9
+ENDGROUP
+
+FIELD color_smd
+FLOC 21 30
+CHECKLIST "SMD" "colortypes"
+ENDFIELD
+
+TEXT "" smdcount
+TLOC 34 30
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD color_thr
+FLOC 21 32
+CHECKLIST "Through hole" "colortypes"
+ENDFIELD
+
+TEXT "" thrcount
+TLOC 34 32
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+FIELD color_all
+FLOC 21 34
+CHECKLIST "Both" "colortypes"
+ENDFIELD
+
+TEXT "" allcount
+TLOC 34 34
+FSIZE 10 2
+OPTIONS bold
+ENDFIELD
+
+GROUP "Color coding"
+GLOC 3 14
+GSIZE 43 13
+ENDGROUP
+
+TEXT "Mounted RGB"
+FLOC 5 16
+ENDTEXT
+
+FIELD pdf_red
+FLOC 20 16
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD pdf_green
+FLOC 25 16
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD pdf_blue
+FLOC 30 16
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD rgbbrowse
+FLOC 35 16
+MENUBUTTON "..." 5 3
+ENDFIELD
+
+TEXT "Not mounted RGB"
+FLOC 5 19
+ENDTEXT
+
+FIELD pdf_nmred
+FLOC 20 19
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD pdf_nmgreen
+FLOC 25 19
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD pdf_nmblue
+FLOC 30 19
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD rgbnmbrowse
+FLOC 35 19
+MENUBUTTON "..." 5 3
+ENDFIELD
+
+TEXT "Variant part RGB"
+FLOC 5 22
+ENDTEXT
+
+FIELD pdf_vred
+FLOC 20 22
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD pdf_vgreen
+FLOC 25 22
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD pdf_vblue
+FLOC 30 22
+INTFILLIN 3 3
+MIN 0
+MAX 255
+ENDFIELD
+
+FIELD rgbvbrowse
+FLOC 35 22
+MENUBUTTON "..." 5 3
+ENDFIELD
+
+FIELD color_variants
+FLOC 6 25
+CHECKLIST "Keep variant color on parts in detail pages"
+ENDFIELD
+
+GROUP "Variant list"
+GLOC 48 14
+GSIZE 54 30
+ENDGROUP
+
+FIELD variant
+FLOC 50 16
+LIST "" 50 13
+ENDFIELD
+
+TEXT "If empty list:  Either no Variants.LST or only core design!"
+FLOC 50 41
+OPTIONS bold
+ENDTEXT
+
+ENDTAB
+
+ENDTABSET
+
+TEXT "Settings read from file:"
+FLOC 5 53
+OPTIONS bold
+ENDTEXT
+
+TEXT "setting_fileinfo" setting_fileinfo
+TLOC 30 53
+FSIZE 66 2
+OPTIONS bold
+ENDFIELD
+
+FIELD Run_button
+FLOC 55 1
+MENUBUTTON "Run" 7 3
+ENDFIELD
+
+FIELD Close_button
+FLOC 65 1
+MENUBUTTON "Close" 7 3
+ENDFIELD
+
+FIELD filmsetup
+FLOC 75 1
+MENUBUTTON "Film setup" 8 3
+ENDFIELD
+
+FIELD Save_button
+FLOC 90 1
+MENUBUTTON "Save settings" 7 3
+ENDFIELD
+
+FIELD Help_button
+FLOC 90 53
+MENUBUTTON "Help" 7 3
+ENDFIELD
+
+#======================
+ENDTILE
+
+
+ENDFORM
+

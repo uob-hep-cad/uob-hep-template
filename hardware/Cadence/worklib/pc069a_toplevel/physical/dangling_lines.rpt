@@ -1,0 +1,63 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line and Via Report                                     )
+(                                                                     )
+(    Drawing          : pc053e_toplevel_66.brd                        )
+(    Software Version : 17.4S012                                      )
+(    Date/Time        : Tue Apr 20 16:30:38 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  AGND                 VIA60-30-85          (-64.1500 32.5500) TOP/BOTTOM 
+  AGND                 VIA60-30-85          (-64.1500 12.4500) TOP/BOTTOM 
+  CVCC                 VIA60-30-85          (-15.8000 35.6000) TOP/BOTTOM 
+  CVCC                 VIA60-30-85          (-20.5000 22.3000) TOP/BOTTOM 
+  CTRLVCC              VIA60-30-85          (3.2550 16.2950) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-50.5141 14.0127) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-50.5141 16.1873) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-13.4141 22.3197) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-13.4141 24.4943) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-55.0803 29.8353) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-52.9057 29.8353) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-25.1859 11.1872) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-25.1859 9.0668) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-23.4058 32.4002) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-23.4058 30.2256) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-46.4000 29.9000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-46.3986 31.6004) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-37.6943 55.7141) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-35.5197 55.7141) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-3.2197 1.0859) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-5.3943 1.0859) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-43.2859 22.4803) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-43.2859 20.3057) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-49.3859 11.8803) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-49.3859 9.7057) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-18.6820 35.5094) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-18.8000 34.6000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-5.2000 57.1000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-5.2000 55.0000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-5.6000 60.7000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-5.6234 63.1255) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-16.3000 59.0000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-16.3000 57.4000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-16.3000 61.6000) TOP/BOTTOM 
+  GND                  VIA60-30-85          (-16.3000 60.0000) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:       35

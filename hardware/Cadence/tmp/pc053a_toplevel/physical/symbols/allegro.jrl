@@ -1,0 +1,81 @@
+\t (00:00:05) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (00:00:05)     Journal start - Thu Sep  1 13:08:14 2016
+\t (00:00:05)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=26624 CPUs=8
+\t (00:00:05) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055//tools/pcb/bin/allegro.exe ./worklib/pc053a_toplevel/physical/symbols/rj45_dual_JGL.dra
+\t (00:00:05) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/rj45_dual_JGL.dra
+\i (00:00:07) trapsize 1745
+\i (00:00:08) trapsize 1701
+\i (00:00:08) trapsize 1753
+\i (00:00:08) trapsize 1476
+\i (00:00:08) trapsize 1476
+\i (00:00:12) show element 
+\i (00:00:29) show element 
+\i (00:00:30) pick grid 712.96 3.08
+\t (00:00:30) last pick:  700.00 0.00
+\i (00:01:20) show measure 
+\i (00:01:21) pick grid 683.44 -5.77
+\t (00:01:21) last pick:  675.00 0.00
+\i (00:01:23) pick grid -695.18 -259.65
+\t (00:01:23) last pick:  -700.00 -250.00
+\i (00:01:59) define grid 
+\t (00:01:59) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:02:11) setwindow form.grid
+\i (00:02:11) FORM grid non_etch non_etch_x_grids 1364 
+\i (00:02:17) FORM grid non_etch non_etch_y_grids 266 
+\i (00:02:28) FORM grid non_etch non_etch_x_offset 682.00 
+\i (00:02:35) FORM grid all_etch all_etch_x_grids 1364 
+\i (00:02:38) FORM grid all_etch all_etch_y_grids 266 
+\i (00:02:41) FORM grid all_etch all_etch_x_offset 682.00 
+\i (00:02:45) FORM grid done  
+\i (00:03:03) setwindow pcb
+\i (00:03:03) move 
+\t (00:03:03) Select element(s) to move.
+\i (00:03:08) setwindow form.find
+\i (00:03:08) FORM find all_off  
+\i (00:03:10) FORM find pins YES 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) pick grid -677.47 -271.46
+\t (00:03:19) last pick:  -682.00 -266.00
+\t (00:03:19) last pick:  -682.00 -266.00
+\t (00:03:19) Pick new location for the element(s).
+\i (00:03:20) pick grid -701.09 419.33
+\t (00:03:20) last pick:  -682.00 532.00
+\i (00:03:22) pick grid -677.47 29.65
+\t (00:03:22) last pick:  -682.00 0.00
+\t (00:03:22) last pick:  -682.00 0.00
+\t (00:03:22) Pick new location for the element(s).
+\i (00:03:23) pick grid -686.33 -138.62
+\t (00:03:23) last pick:  -682.00 -266.00
+\i (00:03:24) pick grid -709.94 531.50
+\t (00:03:24) last pick:  -682.00 532.00
+\t (00:03:24) last pick:  -682.00 532.00
+\t (00:03:24) Pick new location for the element(s).
+\i (00:03:25) pick grid -706.99 132.97
+\t (00:03:25) last pick:  -682.00 0.00
+\i (00:03:27) pick grid 698.20 -247.84
+\t (00:03:27) last pick:  682.00 -266.00
+\t (00:03:27) last pick:  682.00 -266.00
+\t (00:03:27) Pick new location for the element(s).
+\i (00:03:28) pick grid 665.72 410.47
+\t (00:03:28) last pick:  682.00 532.00
+\i (00:03:29) pick grid 671.63 8.99
+\t (00:03:29) last pick:  682.00 0.00
+\t (00:03:29) last pick:  682.00 0.00
+\t (00:03:29) Pick new location for the element(s).
+\i (00:03:29) pick grid 648.01 -141.57
+\t (00:03:29) last pick:  682.00 -266.00
+\i (00:03:31) pick grid 686.39 528.55
+\t (00:03:31) last pick:  682.00 532.00
+\t (00:03:31) last pick:  682.00 532.00
+\t (00:03:31) Pick new location for the element(s).
+\i (00:03:32) pick grid 689.34 130.02
+\t (00:03:32) last pick:  682.00 0.00
+\i (00:03:32) prepopup 1084.92 91.65
+\i (00:03:33) done 
+\i (00:03:35) save 
+\i (00:03:37) fillin yes 
+\t (00:03:39) Symbol 'rj45_dual_jgl.psm' created.
+\i (00:03:57) exit 
+\t (00:03:57)     Journal end - Thu Sep  1 13:12:06 2016

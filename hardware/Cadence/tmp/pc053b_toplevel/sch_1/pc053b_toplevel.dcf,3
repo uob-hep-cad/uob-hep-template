@@ -1,0 +1,2848 @@
+( ConstraintFile "pc053b_toplevel"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 8 )
+			( physicalViewRevNum 0 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( electricalConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mil )
+			( numberOfDecimalPlaces 2 )
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "SEC_TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TYPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "CDS_LMAN_SYM_OUTLINE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "DIST" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MAX_TEMP" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NEGTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POSTOL" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "POWER" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "SLOPE" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC1" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TC2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOL_ON_OFF" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "MOUNTED" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "PIN_TEXT2" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "BOTTOM_COLOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "TOP_COLOR" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oGate  oGateDefn  oBlock  oPart  oDesign  oSystem  oPartDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "pc053b_toplevel"
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):\2de\"
+				( objectStatus "2de" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):\3de\"
+				( objectStatus "3de" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):cvcc"
+				( alias ( signalRef "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_cvcc") )
+				( objectStatus "cvcc" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_cvcc"
+				( objectFlag fObjectAlias )
+				( objectStatus "page3_cvcc" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):cdr_dataout_p"
+				( objectStatus "cdr_dataout_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):cdr_dataout_n"
+				( objectStatus "cdr_dataout_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):to_fmc_n"
+				( objectStatus "TO_FMC_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):to_fmc_p"
+				( objectStatus "TO_FMC_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_3de"
+				( objectStatus "FMC_3DE" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la00_p"
+				( objectStatus "fmc_la00_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_4de"
+				( objectStatus "FMC_4DE" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la02_n"
+				( objectStatus "fmc_la02_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la02_p"
+				( objectStatus "fmc_la02_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la03_n"
+				( objectStatus "fmc_la03_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la03_p"
+				( objectStatus "fmc_la03_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la04_n"
+				( objectStatus "fmc_la04_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la04_p"
+				( objectStatus "fmc_la04_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):fmc_la05_p"
+				( objectStatus "fmc_la05_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):\4de\"
+				( objectStatus "4de" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):\1de\"
+				( objectStatus "1de" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):gnd"
+				( alias ( signalRef "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_gnd") )
+				( objectStatus "gnd" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_gnd"
+				( objectFlag fObjectAlias )
+				( objectStatus "page3_gnd" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):p3v3"
+				( alias ( signalRef "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_p3v3") )
+				( objectStatus "p3v3" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_p3v3"
+				( objectFlag fObjectAlias )
+				( objectStatus "page3_p3v3" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s10"
+				( objectStatus "s10" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s11"
+				( objectStatus "s11" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s20"
+				( objectStatus "s20" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s21"
+				( objectStatus "s21" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s30"
+				( objectStatus "s30" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s31"
+				( objectStatus "s31" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s40"
+				( objectStatus "s40" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):s41"
+				( objectStatus "s41" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):sfp_rx_n"
+				( objectStatus "sfp_rx_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):sfp_rx_p"
+				( objectStatus "sfp_rx_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):ffd_tx_n"
+				( objectStatus "ffd_tx_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):ffd_tx_p"
+				( objectStatus "ffd_tx_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):from_fmc_n"
+				( objectStatus "from_fmc_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):from_fmc_p"
+				( objectStatus "from_fmc_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):cdr_in_n"
+				( objectStatus "cdr_in_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):cdr_in_p"
+				( objectStatus "cdr_in_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):from_master_n"
+				( objectStatus "from_master_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):from_master_p"
+				( objectStatus "from_master_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):to_coax_n"
+				( objectStatus "to_coax_n" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):to_coax_p"
+				( objectStatus "to_coax_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):unnamed_3_74avc2t45_i265_b1"
+				( objectStatus "unnamed_3_74avc2t45_i265_b1" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):unnamed_3_74avc2t45_i265_b2"
+				( objectStatus "unnamed_3_74avc2t45_i265_b2" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i260"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-690,840)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I260" )
+				( pin "a(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140"
+				( attribute "CDS_LIB" "cninterface"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "IC9"
+					( Origin gPackager )
+				)
+				( attribute "HAS_FIXED_SIZE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "IC9"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "8"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "SN74AVC8T245PW"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3000,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "74AVC8T245"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SN74AVC8T245PW-VCCA=P3V3;VCCB=A"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I140" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i168"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C23"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3070,3480)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I168" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i170"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C11"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3070,3670)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I170" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i180"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C25"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-120,3890)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I180" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i183"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C26"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-450,3890)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I183" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187"
+				( attribute "CDS_LIB" "cninterface"
+					( Origin gPackager )
+				)
+				( attribute "HAS_FIXED_SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "IC4"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NUMBER" "SN65LVDT250DBT"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC_TYPE" "TSSOP"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "4"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "SN65LVDT125DBT"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(2120,3330)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "SN65LVDT125"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SN65LVDT125DBT-VCC=P3V3"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I187" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i194"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R15"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2800)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I194" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i195"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R16"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2750)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I195" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i196"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R17"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2700)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I196" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i198"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R19"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2600)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I198" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i200"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R21"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I200" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i209"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R18"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2650)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I209" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i210"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R20"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2550)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I210" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i230"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R14"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2030,510)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I230" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i231"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "LOCATION" "R13"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2030,410)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I231" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i233"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C8"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2630,790)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I233" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i236"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C7"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-3070,790)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I236" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i239"
+				( attribute "CDS_LIB" "cninterface"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "IC2"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "DCU"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "74AVC2T45"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "TYPE" "SN74AVC2T45DCU"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2840,460)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "74AVC2T45"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SN74AVC2T45DCU"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I239" )
+				( pin "a1"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+				( pin "a2"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+				)
+				( pin "b1"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+				)
+				( pin "b2"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+				)
+				( pin "dir"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+				)
+				( pin "gnd"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+				)
+				( pin "vcca"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "vccb"
+					( attribute "PN" "8"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i242"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C6"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3490,2500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I242" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i244"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C3"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3300,2500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I244" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i246"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C5"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3110,2500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I246" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i247"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C4"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(3690,2500)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I247" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i248"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-750,3850)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I248" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i251"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C1"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1050,3840)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I251" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i254"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-2160,2450)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I254" )
+				( pin "a(0)"
+				)
+				( pin "b(0)"
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i262"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-90,460)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I262" )
+				( pin "a(0)"
+				)
+				( pin "b(0)"
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i263"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "DIST" "FLAT"
+					( Origin gFrontEnd )
+				)
+				( attribute "MAX_TEMP" "RTMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "NEGTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "1/16W"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "POSTOL" "RTOL%"
+					( Origin gFrontEnd )
+				)
+				( attribute "POWER" "RMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "SLOPE" "RSMAX"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC1" "RTMPL"
+					( Origin gFrontEnd )
+				)
+				( attribute "TC2" "RTMPQ"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL" "1%"
+					( Origin gFrontEnd )
+				)
+				( attribute "TOL_ON_OFF" "ON"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "4.7K"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "RVMAX"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-90,560)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "RSMD0402"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "RSMD0402_1/16W"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I263" )
+				( pin "a(0)"
+				)
+				( pin "b(0)"
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i265"
+				( attribute "CDS_LIB" "cninterface"
+					( Origin gPackager )
+				)
+				( attribute "NEEDS_NO_SIZE" "TRUE"
+					( Origin gFrontEnd )
+				)
+				( attribute "PACK_TYPE" "DCU"
+					( Origin gFrontEnd )
+				)
+				( attribute "PART_NAME" "74AVC2T45"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "0"
+					( Origin gFrontEnd )
+				)
+				( attribute "TYPE" "SN74AVC2T45DCU"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-900,510)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "74AVC2T45"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "SN74AVC2T45DCU"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I265" )
+				( pin "a1"
+				)
+				( pin "a2"
+				)
+				( pin "b1"
+				)
+				( pin "b2"
+				)
+				( pin "dir"
+				)
+				( pin "gnd"
+				)
+				( pin "vcca"
+				)
+				( pin "vccb"
+				)
+			)
+			( gate "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i266"
+				( attribute "CDS_LIB" "cnpassive"
+					( Origin gPackager )
+				)
+				( attribute "PACK_TYPE" "0402"
+					( Origin gFrontEnd )
+				)
+				( attribute "PHYS_PAGE" "3"
+					( Origin gFrontEnd )
+				)
+				( attribute "ROT" "2"
+					( Origin gFrontEnd )
+				)
+				( attribute "SIZE" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VALUE" "100nF"
+					( Origin gFrontEnd )
+				)
+				( attribute "VER" "1"
+					( Origin gFrontEnd )
+				)
+				( attribute "VOLTAGE" "16V_GEN"
+					( Units "uVoltage" "V" 1.000000)
+					( Origin gFrontEnd )
+				)
+				( attribute "XY" "(-1130,840)"
+					( Origin gFrontEnd )
+				)
+				( attribute "CHIPS_PART_NAME" "CAPCERSMDCL2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( objectStatus "PAGE3_I266" )
+				( pin "a(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+				( pin "b(0)"
+					( attribute "PN" "#"
+						( Origin gPackager )
+					)
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(0):a(0)"
+				( attribute "CDS_SEC" "8"
+					( Origin gPackager )
+				)
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(1):a(1)"
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(2):a(2)"
+				( attribute "CDS_SEC" "6"
+					( Origin gPackager )
+				)
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(3):a(3)"
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(4):a(4)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(5):a(5)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(6):a(6)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "9"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(7):a(7)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "10"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(0):b(0)"
+				( attribute "CDS_SEC" "8"
+					( Origin gPackager )
+				)
+				( attribute "PN" "21"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "8"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(1):b(1)"
+				( attribute "CDS_SEC" "7"
+					( Origin gPackager )
+				)
+				( attribute "PN" "20"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "7"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(2):b(2)"
+				( attribute "CDS_SEC" "6"
+					( Origin gPackager )
+				)
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "6"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(3):b(3)"
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "5"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(4):b(4)"
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(5):b(5)"
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(6):b(6)"
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(7):b(7)"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(7):dir"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i140(7):\oe*\"
+				( attribute "PN" "22"
+					( Origin gPackager )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):a(0)"
+				( attribute "PN" "16"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):a(1)"
+				( attribute "PN" "12"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):a(2)"
+				( attribute "PN" "7"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):a(3)"
+				( attribute "PN" "3"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):b(0)"
+				( attribute "PN" "17"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):b(1)"
+				( attribute "PN" "13"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):b(2)"
+				( attribute "PN" "8"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):b(3)"
+				( attribute "PN" "4"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):de(0)"
+				( attribute "PN" "22"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):de(1)"
+				( attribute "PN" "25"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):de(2)"
+				( attribute "PN" "31"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):de(3)"
+				( attribute "PN" "34"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):s0(0)"
+				( attribute "PN" "18"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):s0(1)"
+				( attribute "PN" "14"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):s0(2)"
+				( attribute "PN" "5"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):s0(3)"
+				( attribute "PN" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):s1(0)"
+				( attribute "PN" "19"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):s1(1)"
+				( attribute "PN" "15"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):s1(2)"
+				( attribute "PN" "6"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):s1(3)"
+				( attribute "PN" "2"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):y(0)"
+				( attribute "PN" "24"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):y(1)"
+				( attribute "PN" "27"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):y(2)"
+				( attribute "PN" "33"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):y(3)"
+				( attribute "PN" "36"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(0):\z*\(0)"
+				( attribute "PN" "23"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "4"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(1):\z*\(1)"
+				( attribute "PN" "26"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "3"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(2):\z*\(2)"
+				( attribute "PN" "32"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "2"
+					( Origin gFrontEnd )
+				)
+			)
+			( pin "@uob_hep_pc053a_lib.pc053b_toplevel(sch_1):page3_i187(3):\z*\(3)"
+				( attribute "PN" "35"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gFrontEnd )
+				)
+			)
+		)
+	)
+)

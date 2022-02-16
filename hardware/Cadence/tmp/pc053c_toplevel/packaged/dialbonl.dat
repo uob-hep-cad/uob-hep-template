@@ -1,0 +1,772 @@
+BODY ORDERED NET LIST - 1  
+C1               CAPCERSMDCL2_0402-100NF,16V_GEN 1        UNNAMED_3_CAPCERSMDCL2_I315_A
+                                  2        T_SFP_P                 
+C2               CAPCERSMDCL2_0402-100NF,16V_GEN 1        UNNAMED_3_CAPCERSMDCL2_I316_A
+                                  2        T_SFP_N                 
+C3               CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C4               CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C5               CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C6               CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C7               CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C8               CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C9               CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C10              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C11              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_4_CAPCERSMDCL2_I90_B
+C12              CAPCERSMDCL2_0805-2.2UF,10V_GEN 1        GND                     
+                                  2        P1V8                    
+C13              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P1V8                    
+C14              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P1V8                    
+C15              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C16              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        CVCC                    
+C17              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        CVCC                    
+C18              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        CVCC                    
+C19              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P1V8                    
+C20              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P1V8                    
+C21              CAPCERSMDCL2_0402-100NF,16V_GEN 1        UNNAMED_4_CAPCERSMDCL2_I119_A
+                                  2        OSC_CLK_P               
+C22              CAPCERSMDCL2_0402-100NF,16V_GEN 1        F_RJ45_CLK_P            
+                                  2        CLK_IN2_P               
+C23              CAPCERSMDCL2_0402-100NF,16V_GEN 1        F_MCX_CLK_P             
+                                  2        CLK_IN0_P               
+C24              CAPCERSMDCL2_0402-100NF,16V_GEN 1        REC_CLK_P               
+                                  2        CLK_IN1_P               
+C25              CAPCERSMDCL2_0402-100NF,16V_GEN 1        UNNAMED_4_CAPCERSMDCL2_I120_A
+                                  2        OSC_CLK_N               
+C26              CAPCERSMDCL2_0402-100NF,16V_GEN 1        F_MCX_CLK_N             
+                                  2        CLK_IN0_N               
+C27              CAPCERSMDCL2_0402-100NF,16V_GEN 1        REC_CLK_N               
+                                  2        CLK_IN1_N               
+C28              CAPCERSMDCL2_0402-100NF,16V_GEN 1        F_RJ45_CLK_N            
+                                  2        CLK_IN2_N               
+C29              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C30              CAPCERSMDCL2_0402-1.0NF,50V_GEN 1        GND                     
+                                  2        P3V3                    
+C31              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C32              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C33              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C34              CAPCERSMDCL2_0402-1.0NF,50V_GEN 1        GND                     
+                                  2        P3V3                    
+C35              CAPCERSMDCL2_0805-10UF,16V 1        GND                     
+                                  2        P3V3                    
+C36              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C37              CAPCERSMDCL2_0402-1.0NF,50V_GEN 1        GND                     
+                                  2        P3V3                    
+C38              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_11_ADN2814_I23_VREF
+C39              CAPCERSMDCL2_0603-470NF,6.3V 1        UNNAMED_11_ADN2814_I23_CF1
+                                  2        UNNAMED_11_ADN2814_I23_CF2
+C40              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C41              CAPCERSMDCL2_0402-1.0NF,50V_GEN 1        GND                     
+                                  2        P3V3                    
+C42              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_11_ADN2814_I23_THRADJ
+C43              CAPCERSMDCL2_0603-1.5UF,6.3V 1        T_CDR_P                 
+                                  2        IN_P                    
+C44              CAPCERSMDCL2_0603-1.5UF,6.3V 1        T_CDR_N                 
+                                  2        IN_N                    
+C45              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C46              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C47              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C48              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C49              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C50              CAPCERSMDCL2_0402-100NF,16V_GEN 1        S_CLK_IN                
+                                  2        UNNAMED_5_ADCMP604_I256__1
+C51              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_5_ADCMP604_I256_
+C52              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_5_ADCMP604_I285_
+C53              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_5_ADCMP604_I294_
+C54              CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C55              CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C56              CAPCERSMDCL2_0402-100NF,16V_GEN 1        P3V3                    
+                                  2        GND                     
+C57              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C58              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C59              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C60              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C61              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        CVCC                    
+C62              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_11_CON20PSFP_I175_VCCT
+C63              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        UNNAMED_11_CON20PSFP_I175_VCCR
+C64              CAPCERSMDCL2_0603-10UF_X5R,6.3V 1        GND                     
+                                  2        UNNAMED_11_CON20PSFP_I175_VCCR
+C65              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P1V8                    
+C66              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C67              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        CVCC                    
+C68              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        CVCC                    
+C69              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C70              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C71              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C72              CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C73              CAPCERSMDCL2_0402-10NF,16V_GEN 1        UNNAMED_11_CAPCERSMDCL2_I317_A
+                                  2        P3V3                    
+C74              CAPCERSMDCL2_0402-100NF,16V_GEN 1        AGND                    
+                                  2        UNNAMED_6_CAPCERSMDCL2_I6_B
+C75              CAPCERSMDCL2_0402-100NF,16V_GEN 1        AGND                    
+                                  2        UNNAMED_6_CAPCERSMDCL2_I7_B
+C107             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P3V3                    
+C117             CAPCERSMDCL2_0402-100NF,16V_GEN 1        GND                     
+                                  2        P1V8                    
+IC1              PCA9306DCU       2        P1V8                    
+                                  3        CLK_SCL                 
+                                  4        CLK_SDA                 
+                                  5        FMC_LA11_N              
+                                  6        FMC_LA11_P              
+                                  7        UNNAMED_2_PCA9306_I276_EN
+                                  8        UNNAMED_2_PCA9306_I276_EN
+IC2              24AA025E48T-I/SN 1        FMC_GA1                 
+                                  2        FMC_GA0                 
+                                  3        GND                     
+                                  4        GND                     
+                                  5        FMC_SDA                 
+                                  6        FMC_SCL                 
+                                  8        CVCC                    
+IC3              NBSG53AMNG-(),(GND:17;VEE:12;VA 1        UNNAMED_3_NBSG53A_I298_VTCLK
+                                  2        T_FFD_CLK_N             
+                                  3        T_FFD_CLK_P             
+                                  4        UNNAMED_3_NBSG53A_I298_VTCLK
+                                  5        UNNAMED_3_NBSG53A_I298_VTD
+                                  6        T_FFD_D_N               
+                                  7        T_FFD_D_P               
+                                  8        UNNAMED_3_NBSG53A_I298_VTD
+                                  10       UNNAMED_3_CAPCERSMDCL2_I315_A
+                                  11       UNNAMED_3_CAPCERSMDCL2_I316_A
+                                  13       UNNAMED_3_NBSG53A_I298_OLS
+                                  14       UNNAMED_3_NBSG53A_I298_SEL
+                                  15       UNNAMED_3_NBSG53A_I298_R
+IC4              SI5394A/B-A-GM-VDD=P1V8,VDDA=PA 1        CLK_IN1_P               
+                                  2        CLK_IN1_N               
+                                  3        IN_SEL0                 
+                                  5        OSC_CLK_P               
+                                  6        OSC_CLK_N               
+                                  10       CLK_IN2_P               
+                                  11       CLK_IN2_N               
+                                  12       UNNAMED_4_RSMD0402_I16_A
+                                  13       CLK_SDA                 
+                                  14       CLK_SCL                 
+                                  15       UNNAMED_4_RSMD0402_I49_A
+                                  16       UNNAMED_4_RSMD0402_I50_A
+                                  17       CLK_RST                 
+                                  18       P3V3                    
+                                  19       T_FFD_CLK_N             
+                                  20       T_FFD_CLK_P             
+                                  23       P3V3                    
+                                  24       T_FMC_CLK_N             
+                                  25       T_FMC_CLK_P             
+                                  27       UNNAMED_4_SI5394_I110_LOL
+                                  28       UNNAMED_4_SI5394_I110_LOSXAXB
+                                  29       P3V3                    
+                                  30       T_RJ45_CLK_N            
+                                  31       T_RJ45_CLK_P            
+                                  33       UNNAMED_4_SI5394_I110_INTR
+                                  34       P3V3                    
+                                  36       UNNAMED_4_RSMD0402_I123_A
+                                  37       IN_SEL1                 
+                                  38       UNNAMED_4_RSMD0402_I47_A
+                                  41       F_FMC_CLK_P             
+                                  42       F_FMC_CLK_N             
+                                  43       CLK_IN0_P               
+                                  44       CLK_IN0_N               
+IC5              ADCMP604BKSZ     1        F_MCX_CLK_P             
+                                  2        GND                     
+                                  3        UNNAMED_5_ADCMP604_I256__1
+                                  4        UNNAMED_5_ADCMP604_I256_
+                                  5        P3V3                    
+                                  6        F_MCX_CLK_N             
+IC6              ADCMP604BKSZ     1        GPIO_IN0_P              
+                                  2        GND                     
+                                  3        S_GPIO_IN0              
+                                  4        UNNAMED_5_ADCMP604_I285_
+                                  5        P3V3                    
+                                  6        GPIO_IN0_N              
+IC7              ADCMP604BKSZ     1        GPIO_IN1_P              
+                                  2        GND                     
+                                  3        S_GPIO_IN1              
+                                  4        UNNAMED_5_ADCMP604_I294_
+                                  5        P3V3                    
+                                  6        GPIO_IN1_N              
+IC8              DS90LV028A_SOIC  1        F_GPIO_OUT1_N           
+                                  2        F_GPIO_OUT1_P           
+                                  3        F_GPIO_OUT0_P           
+                                  4        F_GPIO_OUT0_N           
+                                  6        UNNAMED_5_74LCX04_I323_A
+                                  7        UNNAMED_5_74LCX04_I317_A
+IC9              74LCX04MTC-VCC=P3V3 1        UNNAMED_5_74LCX04_I317_A
+                                  2        UNNAMED_5_74LCX04_I317_Y
+                                  3        UNNAMED_5_74LCX04_I317_A
+                                  4        UNNAMED_5_74LCX04_I317_Y
+                                  5        UNNAMED_5_74LCX04_I323_A
+                                  6        UNNAMED_5_74LCX04_I323_Y
+                                  8        UNNAMED_5_74LCX04_I323_Y
+                                  9        UNNAMED_5_74LCX04_I323_A
+                                  10       UNNAMED_5_74LCX04_I304_Y
+                                  11       T_MCX_CLK               
+                                  12       UNNAMED_5_74LCX04_I304_Y
+                                  13       T_MCX_CLK               
+IC10             SN74AVC4T245PW-VCCA=P3V3,VCCB=A 2        CVCC                    
+                                  3        CVCC                    
+                                  4        SFP_TX_FAULT            
+                                  5        SFP_LOS                 
+                                  6        CDR_LOL                 
+                                  7        CDR_LOS                 
+                                  10       FPGA_CDR_LOS            
+                                  11       FPGA_CDR_LOL            
+                                  12       FPGA_SFP_LOS            
+                                  13       FPGA_SFP_TX_FLT         
+                                  14       GND                     
+                                  15       GND                     
+IC12             ADN2814ACPZ-VCC=P3V3,VEE=GND 3        UNNAMED_11_ADN2814_I23_VREF
+                                  4        IN_N                    
+                                  5        IN_P                    
+                                  6        GND                     
+                                  7        GND                     
+                                  9        UNNAMED_11_ADN2814_I23_THRADJ
+                                  10       P3V3                    
+                                  11       GND                     
+                                  14       UNNAMED_11_ADN2814_I23_CF2
+                                  15       UNNAMED_11_ADN2814_I23_CF1
+                                  16       CDR_LOL                 
+                                  19       UNNAMED_11_ADN2814_I23_SADDRS
+                                  20       SFP_SCL                 
+                                  21       SFP_SDA                 
+                                  22       CDR_LOS                 
+                                  25       F_CDR_CLK_N             
+                                  26       F_CDR_CLK_P             
+                                  27       UNNAMED_11_ADN2814_I23_SQUELCH
+                                  28       UNNAMED_11_ADN2814_I23_DATAOUTN
+                                  29       UNNAMED_11_ADN2814_I23_DATAOUTP
+                                  33       GND                     
+IC13             SY58608UMG-VCC=P3V3 1        F_SFP_P                 
+                                  2        UNNAMED_11_CAPCERSMDCL2_I317_A
+                                  3        UNNAMED_11_RSMD0402_I316_B
+                                  4        F_SFP_N                 
+                                  9        T_CDR_N                 
+                                  10       T_CDR_P                 
+                                  11       UNNAMED_11_RSMD0402_I313_A
+                                  12       UNNAMED_11_RSMD0402_I312_A
+IC14             SN74AVC1T45DCKR  1        P3V3                    
+                                  2        GND                     
+                                  3        SFP_TX_DISABLE          
+                                  4        FPGA_SFP_TX_DIS         
+                                  5        GND                     
+                                  6        CVCC                    
+IC15             PCA9517DGKR      1        CVCC                    
+                                  2        FMC_LA07_P              
+                                  3        FMC_LA07_N              
+                                  5        UNNAMED_2_PCA9517_I162_EN
+                                  6        SFP_SDA                 
+                                  7        SFP_SCL                 
+                                  8        P3V3                    
+IC16             SN74AVC1T45DCKR  1        P1V8                    
+                                  2        GND                     
+                                  3        CLK_RST                 
+                                  4        FPGA_CLK_RST            
+                                  5        GND                     
+                                  6        CVCC                    
+IC17             SY58608UMG-VCC=P3V3 1        SY5860_IN_P             
+                                  4        SY5860_IN_N             
+                                  9        T_FMC_REC_CLK_N         
+                                  10       T_FMC_REC_CLK_P         
+                                  11       REC_CLK_N               
+                                  12       REC_CLK_P               
+IC18             SN74LVC2GU04DCK-VCC=P3V3 1        CDR_LOS                 
+                                  3        CDR_LOL                 
+                                  4        UNNAMED_11_RSMD0402_I232_B
+                                  6        UNNAMED_11_RSMD0402_I233_B
+J1               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        CLK_IN2_N               
+                                  3        CLK_IN2_P               
+J2               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        OSC_CLK_N               
+                                  3        OSC_CLK_P               
+J3               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        CLK_IN1_N               
+                                  3        CLK_IN1_P               
+J4               CON20P_SFP-1888247-1 1        GND                     
+                                  2        SFP_TX_FAULT            
+                                  3        SFP_TX_DISABLE          
+                                  4        SFP_SDA                 
+                                  5        SFP_SCL                 
+                                  6        UNNAMED_11_CON20PSFP_I175_MODDE
+                                  7        UNNAMED_11_CON20PSFP_I175_RATES
+                                  8        SFP_LOS                 
+                                  9        UNNAMED_11_CON20PSFP_I175_VEER
+                                  10       GND                     
+                                  11       GND                     
+                                  12       F_SFP_N                 
+                                  13       F_SFP_P                 
+                                  14       GND                     
+                                  15       UNNAMED_11_CON20PSFP_I175_VCCR
+                                  16       UNNAMED_11_CON20PSFP_I175_VCCT
+                                  17       GND                     
+                                  18       T_SFP_P                 
+                                  19       T_SFP_N                 
+                                  20       GND                     
+J5               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        SFP_SDA                 
+                                  3        SFP_SCL                 
+J6               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        FMC_SDA                 
+                                  3        FMC_SCL                 
+J7               CON19P-HDMI-19-01-X-SM-GND=AGND 1        UNNAMED_6_CON19P_I1_A_4 
+                                  2        GND                     
+                                  3        UNNAMED_6_CON19P_I1_A_5 
+                                  4        UNNAMED_6_CON19P_I1_A_1 
+                                  5        GND                     
+                                  6        UNNAMED_6_CON19P_I1_A   
+                                  7        UNNAMED_6_CON19P_I1_A_3 
+                                  8        GND                     
+                                  9        UNNAMED_6_CON19P_I1_A_2 
+                                  10       F_RJ45_CLK_N            
+                                  11       GND                     
+                                  12       F_RJ45_CLK_P            
+                                  17       GND                     
+J8               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        FMC_LA11_N              
+                                  3        FMC_LA11_P              
+J9               CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        CLK_IN0_N               
+                                  3        CLK_IN0_P               
+J10              CON3P-MTLW-103-07-L-S-250 1        GND                     
+                                  2        FMC_LA07_N              
+                                  3        FMC_LA07_P              
+J11              CON4P-MTLW-104-07-L-S-250 1        GND                     
+                                  2        P1V8                    
+                                  3        P3V3                    
+                                  4        CVCC                    
+L1               INDUCTANCE_LQH32C_23-4.7UH 1        UNNAMED_11_CON20PSFP_I175_VCCR
+                                  2        P3V3                    
+L2               INDUCTANCE_LQH32C_23-4.7UH 1        P3V3                    
+                                  2        UNNAMED_11_CON20PSFP_I175_VCCT
+LD1              LGL29K-G2J1-24   1        UNNAMED_11_LED1_I225_A  
+                                  2        GND                     
+LD2              LGL29K-G2J1-24   1        UNNAMED_11_LED1_I226_A  
+                                  2        GND                     
+LD3              LGL29K-G2J1-24   1        UNNAMED_11_LED1_I227_A  
+                                  2        GND                     
+P1               CON400P_40ABCDEFGHJK-SEAM-40-0A A1       GND                     
+                                  A4       GND                     
+                                  A5       GND                     
+                                  A8       GND                     
+                                  A9       GND                     
+                                  A12      GND                     
+                                  A13      GND                     
+                                  A16      GND                     
+                                  A17      GND                     
+                                  A20      GND                     
+                                  A21      GND                     
+                                  A24      GND                     
+                                  A25      GND                     
+                                  A28      GND                     
+                                  A29      GND                     
+                                  A32      GND                     
+                                  A33      GND                     
+                                  A36      GND                     
+                                  A37      GND                     
+                                  A40      GND                     
+                                  B2       GND                     
+                                  B3       GND                     
+                                  B6       GND                     
+                                  B7       GND                     
+                                  B10      GND                     
+                                  B11      GND                     
+                                  B14      GND                     
+                                  B15      GND                     
+                                  B18      GND                     
+                                  B19      GND                     
+                                  B22      GND                     
+                                  B23      GND                     
+                                  B26      GND                     
+                                  B27      GND                     
+                                  B30      GND                     
+                                  B31      GND                     
+                                  B34      GND                     
+                                  B35      GND                     
+                                  B38      GND                     
+                                  B39      GND                     
+                                  C1       GND                     
+                                  C4       GND                     
+                                  C5       GND                     
+                                  C8       GND                     
+                                  C9       GND                     
+                                  C10      GPIO_IN0_P              
+                                  C11      GPIO_IN0_N              
+                                  C12      GND                     
+                                  C13      GND                     
+                                  C16      GND                     
+                                  C17      GND                     
+                                  C20      GND                     
+                                  C21      GND                     
+                                  C24      GND                     
+                                  C25      GND                     
+                                  C28      GND                     
+                                  C29      GND                     
+                                  C30      FMC_SCL                 
+                                  C31      FMC_SDA                 
+                                  C32      GND                     
+                                  C33      GND                     
+                                  C34      FMC_GA0                 
+                                  C35      P12V                    
+                                  C36      GND                     
+                                  C37      P12V                    
+                                  C38      GND                     
+                                  C39      P3V3                    
+                                  C40      GND                     
+                                  D2       GND                     
+                                  D3       GND                     
+                                  D6       GND                     
+                                  D7       GND                     
+                                  D10      GND                     
+                                  D11      GPIO_IN1_P              
+                                  D12      GPIO_IN1_N              
+                                  D13      GND                     
+                                  D14      FPGA_SFP_LOS            
+                                  D16      GND                     
+                                  D17      FPGA_SFP_TX_DIS         
+                                  D18      FPGA_SFP_TX_FLT         
+                                  D19      GND                     
+                                  D22      GND                     
+                                  D25      GND                     
+                                  D28      GND                     
+                                  D30      UNNAMED_2_CON400P40ABCDEFGHJK_I
+                                  D31      UNNAMED_2_CON400P40ABCDEFGHJK_I
+                                  D35      FMC_GA1                 
+                                  D36      P3V3                    
+                                  D37      GND                     
+                                  D38      P3V3                    
+                                  D39      GND                     
+                                  D40      P3V3                    
+                                  E1       GND                     
+                                  E4       GND                     
+                                  E5       GND                     
+                                  E8       GND                     
+                                  E11      GND                     
+                                  E14      GND                     
+                                  E17      GND                     
+                                  E20      GND                     
+                                  E23      GND                     
+                                  E26      GND                     
+                                  E29      GND                     
+                                  E32      GND                     
+                                  E35      GND                     
+                                  E38      GND                     
+                                  E40      GND                     
+                                  F2       GND                     
+                                  F3       GND                     
+                                  F6       GND                     
+                                  F9       GND                     
+                                  F12      GND                     
+                                  F15      GND                     
+                                  F18      GND                     
+                                  F21      GND                     
+                                  F24      GND                     
+                                  F27      GND                     
+                                  F30      GND                     
+                                  F33      GND                     
+                                  F36      GND                     
+                                  F39      GND                     
+                                  G1       GND                     
+                                  G2       T_FMC_REC_CLK_P         
+                                  G3       T_FMC_REC_CLK_N         
+                                  G4       GND                     
+                                  G5       GND                     
+                                  G6       F_FMC_CLK_P             
+                                  G7       F_FMC_CLK_N             
+                                  G8       GND                     
+                                  G9       F_GPIO_OUT0_P           
+                                  G10      F_GPIO_OUT0_N           
+                                  G11      GND                     
+                                  G12      FPGA_CDR_LOL            
+                                  G13      FPGA_CDR_LOS            
+                                  G14      GND                     
+                                  G17      GND                     
+                                  G18      F_RJ45_D_P              
+                                  G19      F_RJ45_D_N              
+                                  G20      GND                     
+                                  G21      T_FFD_D_P               
+                                  G22      T_FFD_D_N               
+                                  G23      GND                     
+                                  G26      GND                     
+                                  G29      GND                     
+                                  G30      FPGA_CLK_RST            
+                                  G32      GND                     
+                                  G35      GND                     
+                                  G38      GND                     
+                                  G39      CVCC                    
+                                  G40      GND                     
+                                  H2       GND                     
+                                  H3       GND                     
+                                  H4       T_FMC_CLK_P             
+                                  H5       T_FMC_CLK_N             
+                                  H6       GND                     
+                                  H7       F_CDR_D_P               
+                                  H8       F_CDR_D_N               
+                                  H9       GND                     
+                                  H12      GND                     
+                                  H13      FMC_LA07_P              
+                                  H14      FMC_LA07_N              
+                                  H15      GND                     
+                                  H16      FMC_LA11_P              
+                                  H17      FMC_LA11_N              
+                                  H18      GND                     
+                                  H21      GND                     
+                                  H22      F_GPIO_OUT1_P           
+                                  H23      F_GPIO_OUT1_N           
+                                  H24      GND                     
+                                  H25      T_FMC_P                 
+                                  H26      T_FMC_N                 
+                                  H27      GND                     
+                                  H28      T_RJ45_D_P              
+                                  H29      T_RJ45_D_N              
+                                  H30      GND                     
+                                  H33      GND                     
+                                  H36      GND                     
+                                  H39      GND                     
+                                  H40      CVCC                    
+                                  J1       GND                     
+                                  J4       GND                     
+                                  J5       GND                     
+                                  J8       GND                     
+                                  J11      GND                     
+                                  J14      GND                     
+                                  J17      GND                     
+                                  J20      GND                     
+                                  J23      GND                     
+                                  J26      GND                     
+                                  J29      GND                     
+                                  J32      GND                     
+                                  J35      GND                     
+                                  J38      GND                     
+                                  J40      GND                     
+                                  K2       GND                     
+                                  K3       GND                     
+                                  K6       GND                     
+                                  K9       GND                     
+                                  K12      GND                     
+                                  K15      GND                     
+                                  K18      GND                     
+                                  K21      GND                     
+                                  K24      GND                     
+                                  K27      GND                     
+                                  K30      GND                     
+                                  K33      GND                     
+                                  K36      GND                     
+                                  K39      GND                     
+PX1              PCOAX-U.FL-R-SMT-1(10) 1        S_CLK_IN                
+PX2              PCOAX-U.FL-R-SMT-1(10) 1        S_GPIO_IN0              
+PX3              PCOAX-U.FL-R-SMT-1(10) 1        S_GPIO_IN1              
+PX4              PCOAX-U.FL-R-SMT-1(10) 1        UNNAMED_5_PCOAX_I312_A  
+PX5              PCOAX-U.FL-R-SMT-1(10) 1        UNNAMED_5_PCOAX_I321_A  
+PX6              PCOAX-U.FL-R-SMT-1(10) 1        UNNAMED_5_PCOAX_I315_A  
+QZ1              DSC1123CI5-40.0000-VDD=P3V3 1        P3V3                    
+                                  4        UNNAMED_4_CAPCERSMDCL2_I119_A
+                                  5        UNNAMED_4_CAPCERSMDCL2_I120_A
+R1               RSMD0402_1/16W-200K,1% 1        UNNAMED_2_PCA9306_I276_EN
+                                  2        CVCC                    
+R2               RSMD0402_1/16W-2K,1% 1        GND                     
+                                  2        UNNAMED_3_NBSG53A_I298_R
+R3               RSMD0402_1/16W-2K,1% 1        UNNAMED_3_NBSG53A_I298_OLS
+                                  2        GND                     
+R4               RSMD0402_1/16W-2K,1% 1        UNNAMED_3_NBSG53A_I298_SEL
+                                  2        P3V3                    
+R5               RSMD0402_1/16W-150,1% 1        GND                     
+                                  2        UNNAMED_3_CAPCERSMDCL2_I315_A
+R6               RSMD0402_1/16W-150,1% 1        GND                     
+                                  2        UNNAMED_3_CAPCERSMDCL2_I316_A
+R7               RSMD0402_1/16W-100,1% 1        OSC_CLK_P               
+                                  2        OSC_CLK_N               
+R8               RSMD0402_1/16W-100,1% 1        CLK_IN2_P               
+                                  2        CLK_IN2_N               
+R9               RSMD0402_1/16W-100,1% 1        CLK_IN0_P               
+                                  2        CLK_IN0_N               
+R10              RSMD0402_1/16W-1K,1% 1        UNNAMED_4_RSMD0402_I16_A
+                                  2        GND                     
+R11              RSMD0402_1/16W-100,1% 1        CLK_IN1_N               
+                                  2        CLK_IN1_P               
+R12              RSMD0603_-00,    1        UNNAMED_11_ADN2814_I23_SQUELCH
+                                  2        GND                     
+R13              RSMD0402_1/16W-4.7K,1% 1        UNNAMED_4_RSMD0402_I47_A
+                                  2        P1V8                    
+R14              RSMD0402_1/16W-4.7K,1% 1        CLK_SCL                 
+                                  2        P1V8                    
+R15              RSMD0402_1/16W-4.7K,1% 1        CLK_SDA                 
+                                  2        P1V8                    
+R16              RSMD0402_1/16W-4.7K,1% 1        CLK_RST                 
+                                  2        P1V8                    
+R17              RSMD0402_1/16W-1K,1% 1        GND                     
+                                  2        IN_SEL0                 
+R18              RSMD0402_1/16W-100,1% 1        F_FMC_CLK_N             
+                                  2        F_FMC_CLK_P             
+R19              RSMD0402_1/16W-1K,1% 1        GND                     
+                                  2        IN_SEL1                 
+R20              RSMD0402_1/16W-1K,1% 1        UNNAMED_4_RSMD0402_I49_A
+                                  2        GND                     
+R21              RSMD0402_1/16W-1K,1% 1        UNNAMED_4_RSMD0402_I50_A
+                                  2        GND                     
+R22              RSMD0402_1/16W-4.7K,1% 1        P3V3                    
+                                  2        UNNAMED_11_CON20PSFP_I175_VEER
+R23              RSMD0402_1/16W-4.7K,1% 1        P3V3                    
+                                  2        SFP_LOS                 
+R24              RSMD0402_1/16W-4.7K,1% 1        UNNAMED_11_CON20PSFP_I175_RATES
+                                  2        P3V3                    
+R25              RSMD0402_1/16W-4.7K,1% 1        UNNAMED_11_CON20PSFP_I175_MODDE
+                                  2        P3V3                    
+R26              RSMD0402_1/16W-33,1% 1        UNNAMED_4_RSMD0402_I123_A
+                                  2        T_MCX_CLK               
+R27              RSMD0402_1/16W-51,1% 1        GND                     
+                                  2        S_CLK_IN                
+R28              RSMD0402_1/16W-4.7K,1% 1        P3V3                    
+                                  2        SFP_TX_DISABLE          
+R29              RSMD0402_1/16W-4.7K,1% 1        P3V3                    
+                                  2        SFP_TX_FAULT            
+R30              RSMD0402_1/16W-51,1% 1        GND                     
+                                  2        S_GPIO_IN0              
+R31              RSMD0402_1/16W-51,1% 1        GND                     
+                                  2        S_GPIO_IN1              
+R32              RSMD0402_1/16W-2K,1% 1        UNNAMED_5_ADCMP604_I256_
+                                  2        P3V3                    
+R33              RSMD0402_1/16W-2K,1% 1        GND                     
+                                  2        UNNAMED_5_ADCMP604_I256_
+R34              RSMD0603_-00,    1        GND                     
+                                  2        UNNAMED_11_ADN2814_I23_THRADJ
+R35              RSMD0402_1/16W-3.0K,1% 1        UNNAMED_5_ADCMP604_I285_
+                                  2        P3V3                    
+R36              RSMD0402_1/16W-2K,1% 1        GND                     
+                                  2        UNNAMED_5_ADCMP604_I285_
+R37              RSMD0402_1/16W-3.0K,1% 1        UNNAMED_5_ADCMP604_I294_
+                                  2        P3V3                    
+R38              RSMD0402_1/16W-2K,1% 1        GND                     
+                                  2        UNNAMED_5_ADCMP604_I294_
+R39              RSMD0402_1/16W-4.7K,1% 1        FMC_SDA                 
+                                  2        CVCC                    
+R40              RSMD0402_1/16W-4.7K,1% 1        P1V8                    
+                                  2        CLK_SDA                 
+R41              RSMD0402_1/16W-4.7K,1% 1        P1V8                    
+                                  2        CLK_SCL                 
+R42              RSMD0402_1/16W-4.7K,1% 1        UNNAMED_2_PCA9517_I162_EN
+                                  2        CVCC                    
+R43              RSMD0402_1/16W-4.7K,1% 1        FMC_LA11_P              
+                                  2        CVCC                    
+R44              RSMD0402_1/16W-1K,1% 1        UNNAMED_5_ADCMP604_I256_
+                                  2        UNNAMED_5_ADCMP604_I256__1
+R45              RSMD0402_1/16W-51,1% 1        F_GPIO_OUT0_N           
+                                  2        F_GPIO_OUT0_P           
+R46              RSMD0402_1/16W-51,1% 1        F_GPIO_OUT1_N           
+                                  2        F_GPIO_OUT1_P           
+R47              RSMD0603_1/10W-33,1% 1        UNNAMED_5_74LCX04_I304_Y
+                                  2        UNNAMED_5_PCOAX_I312_A  
+R48              RSMD0603_1/10W-33,1% 1        UNNAMED_5_74LCX04_I323_Y
+                                  2        UNNAMED_5_PCOAX_I321_A  
+R49              RSMD0603_1/10W-33,1% 1        UNNAMED_5_74LCX04_I317_Y
+                                  2        UNNAMED_5_PCOAX_I315_A  
+R50              RSMD0402_1/16W-750,1% 1        UNNAMED_11_LED1_I225_A  
+                                  2        UNNAMED_11_RSMD0402_I232_B
+R51              RSMD0402_1/16W-750,1% 1        UNNAMED_11_LED1_I226_A  
+                                  2        UNNAMED_11_RSMD0402_I233_B
+R52              RSMD0603_-00,    1        UNNAMED_11_ADN2814_I23_DATAOUTP
+                                  2        F_CDR_D_P               
+R53              RSMD0603_-00,    1        UNNAMED_11_ADN2814_I23_DATAOUTN
+                                  2        F_CDR_D_N               
+R54              RSMD0603_-00,    1        F_CDR_CLK_P             
+                                  2        SY5860_IN_P             
+R55              RSMD0603_-00,    1        F_CDR_CLK_N             
+                                  2        SY5860_IN_N             
+R56              RSMD0402_1/16W-750,1% 1        UNNAMED_11_LED1_I227_A  
+                                  2        P3V3                    
+R57              RSMD0402_1/16W-2K,1% 1        UNNAMED_11_ADN2814_I23_SADDRS
+                                  2        P3V3                    
+R58              RSMD0402_1/16W-0R0,1% 1        UNNAMED_11_RSMD0402_I312_A
+                                  2        T_FMC_P                 
+R59              RSMD0402_1/16W-0R0,1% 1        UNNAMED_11_RSMD0402_I313_A
+                                  2        T_FMC_N                 
+R60              RSMD0402_0.0625W-XX,1% 1        F_SFP_N                 
+                                  2        F_SFP_P                 
+R61              RSMD0402_1/16W-10,1% 1        UNNAMED_11_CAPCERSMDCL2_I317_A
+                                  2        UNNAMED_11_RSMD0402_I316_B
+R62              RSMD0402_1/16W-51,1% 1        UNNAMED_6_CAPCERSMDCL2_I6_B
+                                  2        GND                     
+R63              RSMD0402_1/16W-51,1% 1        UNNAMED_6_CAPCERSMDCL2_I7_B
+                                  2        GND                     
+R64              RSMD0402_1/16W-0R0,1% 1        T_RJ45_D_N              
+                                  2        UNNAMED_6_CON19P_I1_A_2 
+R65              RSMD0402_1/16W-0R0,1% 1        T_RJ45_D_P              
+                                  2        UNNAMED_6_CON19P_I1_A_3 
+R66              RSMD0402_1/16W-0R0,1% 1        T_RJ45_CLK_P            
+                                  2        UNNAMED_6_CON19P_I1_A_4 
+R67              RSMD0402_1/16W-0R0,1% 1        T_RJ45_CLK_N            
+                                  2        UNNAMED_6_CON19P_I1_A_5 
+R68              RSMD0402_1/16W-0R0,1% 1        UNNAMED_6_CON19P_I1_A_1 
+                                  2        F_RJ45_D_P              
+R69              RSMD0402_1/16W-0R0,1% 1        UNNAMED_6_CON19P_I1_A   
+                                  2        F_RJ45_D_N              
+R103             RSMD0402_1/16W-4.7K,1% 1        FMC_SCL                 
+                                  2        CVCC                    
+R138             RSMD0402_1/16W-4.7K,1% 1        FMC_GA0                 
+                                  2        CVCC                    
+R140             RSMD0402_1/16W-4.7K,1% 1        P3V3                    
+                                  2        SFP_SDA                 
+R142             RSMD0402_1/16W-4.7K,1% 1        FMC_LA07_N              
+                                  2        CVCC                    
+R143             RSMD0402_1/16W-4.7K,1% 1        FMC_LA07_P              
+                                  2        CVCC                    
+R242             RSMD0402_1/16W-4.7K,1% 1        FMC_LA11_N              
+                                  2        CVCC                    
+R411             RSMD0402_1/16W-4.7K,1% 1        P3V3                    
+                                  2        SFP_SCL                 
+R1328            RSMD0402_1/16W-4.7K,1% 1        FMC_GA1                 
+                                  2        CVCC                    
+REG1             TPS799185DDCTG4  1        P3V3                    
+                                  2        GND                     
+                                  3        P3V3                    
+                                  4        UNNAMED_4_CAPCERSMDCL2_I90_B
+                                  5        P1V8                    
+TP9              TP_HOLE-0.8MM    1        UNNAMED_4_SI5394_I110_INTR
+TP10             TP_HOLE-0.8MM    1        UNNAMED_4_SI5394_I110_LOL
+TP11             TP_HOLE-0.8MM    1        UNNAMED_4_SI5394_I110_LOSXAXB
+END BODY ORDERED NET LIST

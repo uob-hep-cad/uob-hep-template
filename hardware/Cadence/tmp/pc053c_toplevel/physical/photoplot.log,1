@@ -1,0 +1,653 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : pc053c_toplevel_51.brd                        )
+(    Software Version : 17.2060                                       )
+(    Date/Time        : Mon Nov 04 11:54:36 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < etp >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_etp_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (-69.1000 -12.9000)
+           ... using undefined line width of 0.2540
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2540
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25400                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.05000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.55000      90.000 NO     DARK 
+
+     art_etp_pc053c created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILK_TOP >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_SILK_TOP_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+
+     art_SILK_TOP_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_TOP >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_SOLDERMASK_TOP_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.05000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.55000      90.000 NO     DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_SOLDERMASK_TOP_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < L1_TOP >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_L1_TOP_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.22700                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  RECTANGLE  0.95000     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.80000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.05000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.05000     x 1.00000      90.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 1.05000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.55000       0.000 NO     DARK 
+  RECTANGLE  2.70000     x 1.55000      90.000 NO     DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_L1_TOP_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < L2_GND >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_L2_GND_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_L2_GND_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < L5_PWR >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_L5_PWR_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Suppress shape fill on neg film     NO
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_L5_PWR_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < L6_BOT >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_L6_BOT_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.14000                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.64000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.85000                     0.000 NO     DARK 
+  SQUARE     3.25000                     0.000 NO     DARK 
+  SQUARE     5.30000                     0.000 NO     DARK 
+  RECTANGLE  0.25400     x 0.63500       0.000 NO     DARK 
+  RECTANGLE  0.38100     x 1.77800      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 1.90500      90.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.25000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.25000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.15000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.45000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  2.35000     x 0.28000       0.000 NO     DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_L6_BOT_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASK_BOTTOM >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_SOLDERMASK_BOTTOM_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.64000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.85000                     0.000 NO     DARK 
+  SQUARE     3.25000                     0.000 NO     DARK 
+  SQUARE     5.30000                     0.000 NO     DARK 
+  RECTANGLE  0.38100     x 1.77800      90.000 NO     DARK 
+  RECTANGLE  0.50800     x 0.88900       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.25000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.25000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.88900     x 2.15900      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.15000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.45000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  2.35000     x 0.28000       0.000 NO     DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_SOLDERMASK_BOTTOM_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < SILK_BOT >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_SILK_BOT_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20300                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+
+     art_SILK_BOT_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < ebp >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_ebp_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.64000                                  DARK 
+  SQUARE     0.60000                     0.000 NO     DARK 
+  SQUARE     1.60000                     0.000 NO     DARK 
+  SQUARE     1.85000                     0.000 NO     DARK 
+  SQUARE     3.25000                     0.000 NO     DARK 
+  SQUARE     5.30000                     0.000 NO     DARK 
+  RECTANGLE  0.25400     x 0.63500       0.000 NO     DARK 
+  RECTANGLE  0.38100     x 1.77800      90.000 NO     DARK 
+  RECTANGLE  0.63500     x 1.90500      90.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.75000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 0.25000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.25000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.25000      90.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000       0.000 NO     DARK 
+  RECTANGLE  0.85000     x 0.30000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.40000      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000       0.000 NO     DARK 
+  RECTANGLE  1.00000     x 0.90000      90.000 NO     DARK 
+  RECTANGLE  1.15000     x 0.60000       0.000 NO     DARK 
+  RECTANGLE  1.40000     x 1.20000       0.000 NO     DARK 
+  RECTANGLE  1.50000     x 0.45000       0.000 NO     DARK 
+  RECTANGLE  1.60000     x 0.60000      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 0.50000       0.000 NO     DARK 
+  RECTANGLE  2.35000     x 0.28000       0.000 NO     DARK 
+
+     art_ebp_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < etc >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_etc_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.25400                                  DARK 
+
+     art_etc_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < pnl >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_pnl_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           -315.1182
+  Offset y:                           -288.1259
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+Fonted line will be drawn solid.
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+
+     art_pnl_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < L3_SIGN >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_L3_SIGN_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_L3_SIGN_pc053c created.
+
+
+================================================================
+     PROCESSING FILM < L4_SIGN >
+     TO FILE < P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/artwork/art_L4_SIGN_pc053c.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2540
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.10000                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.30000                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.39700                                  DARK 
+  CIRCLE     1.52400                                  DARK 
+  CIRCLE     1.60000                                  DARK 
+  CIRCLE     1.70000                                  DARK 
+  CIRCLE     1.75000                                  DARK 
+  CIRCLE     3.30200                                  DARK 
+  OBLONG     2.60000     x 1.40000       0.000 NO     DARK 
+  OBLONG     3.20000     x 1.40000       0.000 NO     DARK 
+
+     art_L4_SIGN_pc053c created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        art_etp_pc053c created with warnings
+        art_SILK_TOP_pc053c created.
+        art_SOLDERMASK_TOP_pc053c created.
+        art_L1_TOP_pc053c created.
+        art_L2_GND_pc053c created.
+        art_L5_PWR_pc053c created.
+        art_L6_BOT_pc053c created.
+        art_SOLDERMASK_BOTTOM_pc053c created.
+        art_SILK_BOT_pc053c created.
+        art_ebp_pc053c created.
+        art_etc_pc053c created.
+        art_pnl_pc053c created.
+        art_L3_SIGN_pc053c created.
+        art_L4_SIGN_pc053c created.
+
+ ARTWORK had warnings

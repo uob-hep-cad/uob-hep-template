@@ -1,0 +1,67 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
+(---------------------------------------------------------------------)
+(                                                                     )
+(    STEP Export                                                      )
+(                                                                     )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Mon Oct 24 15:19:45 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:10.9000 66.0000">(10.9000 66.0000)</a>
+  End <a href="xprobe:xy:10.9000 -3.0000">(10.9000 -3.0000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:10.9000 -3.0000">(10.9000 -3.0000)</a>
+  End <a href="xprobe:xy:-43.4000 -3.0000">(-43.4000 -3.0000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:-43.4000 -3.0000">(-43.4000 -3.0000)</a>
+  End <a href="xprobe:xy:-43.4000 -1.4000">(-43.4000 -1.4000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start <a href="xprobe:xy:-43.4000 -1.4000">(-43.4000 -1.4000)</a>
+  End <a href="xprobe:xy:-44.4000 -0.4000">(-44.4000 -0.4000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:-44.4000 -0.4000">(-44.4000 -0.4000)</a>
+  End <a href="xprobe:xy:-54.1000 -0.4000">(-54.1000 -0.4000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:-54.1000 -0.4000">(-54.1000 -0.4000)</a>
+  End <a href="xprobe:xy:-54.1000 0.7000">(-54.1000 0.7000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  ARC
+  Start <a href="xprobe:xy:-54.1000 0.7000">(-54.1000 0.7000)</a>
+  End <a href="xprobe:xy:-55.1000 1.7000">(-55.1000 1.7000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:-55.1000 1.7000">(-55.1000 1.7000)</a>
+  End <a href="xprobe:xy:-65.6000 1.7000">(-65.6000 1.7000)</a>
+WARNING: Discarding unconnected item on Board Geometry / Outline:
+  LINE
+  Start <a href="xprobe:xy:-65.6000 1.7000">(-65.6000 1.7000)</a>
+  End <a href="xprobe:xy:-65.6000 9.0600">(-65.6000 9.0600)</a>
+
+
+STEP file: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33nocopper.stp
+Design file: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33.brd
+Export units: Millimeter
+STEP protocol: AP-214
+Source identification: allegro_16.6-2015S058
+Export selected and highlighted parts?: NO
+Export secondary parts?: NO
+Export parts with mapped STEP Models?: YES
+Export parts without mapped STEP Models?: YES
+Export assemblies and enclosures parts?: NO
+Export mechanical drills?: YES
+Export electrical through pin drills?: YES
+Export electrical through via drills?: NO
+Export bare board only?: NO
+Export external copper?: NO
+step_out complete.
+</PRE>
+</BODY></HTML>

@@ -1,0 +1,33 @@
+\t (00:00:01) allegro_viewer_plus 16.6-2015 S053 (v16-6-112EB) Linux I32
+\t (00:00:01)     Journal start - Mon Oct 17 09:24:40 2016
+\t (00:00:01)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=2363 CPUs=8
+\t (00:00:01) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055//tools/pcb/bin/allegro_viewer_plus.exe pc053a_toplevel_30_ans_16-5.brd
+\t (00:00:01) 
+\t (00:00:02) Opening existing design...
+\i (00:00:05) fillin yes 
+\d (00:00:05) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_30_ans_16-5.brd
+\i (00:00:06) trapsize 5037
+\i (00:00:06) trapsize 4917
+\i (00:00:06) trapsize 5058
+\i (00:00:06) trapsize 4295
+\i (00:00:06) trapsize 7230
+\i (00:00:23) setwindow form.vf_vis
+\i (00:00:23) FORM vf_vis 2 all_colorvisible YES 
+\i (00:00:24) FORM vf_vis 2 all_colorvisible NO 
+\i (00:00:25) FORM vf_vis 3 all_colorvisible YES 
+\i (00:00:25) FORM vf_vis 3 all_colorvisible NO 
+\i (00:00:26) FORM vf_vis 4 all_colorvisible YES 
+\i (00:00:27) FORM vf_vis 4 all_colorvisible NO 
+\i (00:00:28) FORM vf_vis 5 all_colorvisible YES 
+\i (00:00:29) FORM vf_vis 5 all_colorvisible NO 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) color192 
+\i (00:00:49) setwindow cvf.dialog
+\i (00:00:49) cvf layer_mode
+\i (00:00:56) cvf layer_tree_item 'Package Geometry'
+\i (00:01:00) cvf layers_visible package_geometry/silkscreen_bottom FALSE
+\i (00:01:02) cvf apply
+\i (00:01:26) cvf cancel
+\i (00:01:32) setwindow pcb
+\i (00:01:32) exit 
+\t (00:01:32)     Journal end - Mon Oct 17 09:26:12 2016

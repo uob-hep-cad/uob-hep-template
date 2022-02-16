@@ -1,0 +1,57 @@
+FILE_TYPE = CONNECTIVITY;
+{Allegro Design Entry HDL 16.6-S055 (v16-6-112EP) 8/13/2015}
+"PAGE_NUMBER" = 4;
+0"NC";
+%"SI5344"
+"1","(1000,490)","0","cninterface","I1";
+;
+$LOCATION"IC?"
+TYPE"SI5344B-B-GM"
+PACK_TYPE"QFN"
+CDS_LMAN_SYM_OUTLINE"-300,700,300,-700"
+CDS_LIB"cninterface";
+"IN2"0;
+"IN_SEL0"0;
+"IN_SEL1"0;
+"VDDO3"0;
+"SCLK"0;
+"SDA/SDIO"0;
+"A1/SDO"0;
+"X2"0;
+"OE* \B"0;
+"XB"0;
+"XA"0;
+"IN2* \B"0;
+"I2C_SEL"0;
+"RST* \B"0;
+"LOS_XAXB* \B"0;
+"IN1"0;
+"IN0"0;
+"OUT0* \B"0;
+"VDDO0"0;
+"A0/CS"0;
+"OUT0"0;
+"IN3/FB_IN* \B"0;
+"LOL* \B"0;
+"INTR* \B"0;
+"X1"0;
+"IN3/FB_IN"0;
+"IN1* \B"0;
+"IN0* \B"0;
+"VDDO1"0;
+"OUT1"0;
+"OUT1* \B"0;
+"OUT3"0;
+"OUT3* \B"0;
+"VDDO2"0;
+"OUT2"0;
+"OUT2* \B"0;
+%"PCOAX"
+"1","(2840,1400)","0","cnconnector","I2";
+;
+TYPE"U.FL-R-SMT-1(10)"
+CDS_LIB"cnconnector"
+NEEDS_NO_SIZE"TRUE"
+$LOCATION"PX?";
+"A\NAC"0;
+END.

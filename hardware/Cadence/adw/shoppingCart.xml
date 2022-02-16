@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:shoppingCart xmlns:sc="http://www.cadence.com/SPB/shopping_cart" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" checksum="0">
+	<component cell="led2" library="cndiscrete" partname="LED2" partno="571-0112F" quantity="1" >
+		<property name="BOTTOM_COLOR"  value="G"/>
+		<property name="PACK_TYPE"  value="A13C24"/>
+		<property name="TOP_COLOR"  value="R"/>
+		<property name="TYPE"  value="571-0112F"/>
+	</component>
+	<component cell="24aa025e48" library="cnmemory" partname="24AA025E48" partno="24AA025E48T-I/SN" quantity="1" >
+		<property name="PACK_TYPE"  value="SOIC"/>
+		<property name="TYPE"  value="24AA025E48T-I/SN"/>
+	</component>
+	<component cell="74avc8t245" library="cninterface" partname="74AVC8T245" partno="SN74AVC8T245PW" quantity="1" >
+		<property name="PACK_TYPE"  value="TSSOP"/>
+		<property name="TYPE"  value="SN74AVC8T245PW"/>
+	</component>
+	<component cell="74lcx04" library="cninterface" partname="74LCX04" partno="74LCX04MTC" quantity="1" >
+		<property name="PACK_TYPE"  value="TSSOP"/>
+		<property name="TYPE"  value="74LCX04MTC"/>
+	</component>
+	<component cell="sy89540u" library="cninterface" partname="SY89540U" partno="SY89540UMY" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="SY89540UMY"/>
+	</component>
+	<component cell="si5344" library="cninterface" partname="SI5344" partno="Si5344B-B-GM" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="Si5344B-B-GM"/>
+	</component>
+	<component cell="pcoax" library="cnconnector" partname="PCOAX" partno="U.FL-R-SMT-1(10)" quantity="1" >
+		<property name="TYPE"  value="U.FL-R-SMT-1(10)"/>
+	</component>
+	<component cell="nbsg53a" library="cninterface" partname="NBSG53A" partno="NBSG53AMNG" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="NBSG53AMNG"/>
+	</component>
+	<component cell="rj45-12_1led2p_1led3p" library="cnconnector" partname="RJ45-12_1LED2P_1LED3P" partno="L829-1J1T-43" quantity="1" >
+		<property name="TYPE"  value="L829-1J1T-43"/>
+	</component>
+	<component cell="osc_6p_endis_out_compout" library="cndiscrete" partname="OSC_6P_ENDIS_OUT_COMPOUT" partno="CCLD-033-50-100.000" quantity="1" >
+		<property name="PACK_TYPE"  value="145"/>
+		<property name="TYPE"  value="CCLD-033-50-100.000"/>
+		<property name="VALUE"  value="100.000MHz"/>
+	</component>
+	<component cell="sy58608u" library="cninterface" partname="SY58608U" partno="SY58608UMG" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="SY58608UMG"/>
+	</component>
+	<component cell="capacitor" library="cnpassive" partname="CAPACITOR" partno="CA152 10PF 10% 100V" quantity="1" >
+		<property name="PACK_TYPE"  value="MICA"/>
+		<property name="VALUE"  value="10pF"/>
+		<property name="VOLTAGE"  value="160V"/>
+	</component>
+	<component cell="capacitor" library="cnpassive" partname="CAPACITOR" partno="10.35.06.300.7" quantity="1" >
+		<property name="PACK_TYPE"  value="POLY2.54"/>
+		<property name="VALUE"  value="10nF"/>
+		<property name="VOLTAGE"  value="50V"/>
+	</component>
+	<component cell="lt1764a" library="cnlinear" partname="LT1764AEQ" partno="LT1764AEQ-1.8#PBF" quantity="1" >
+		<property name="PACK_TYPE"  value="TO263"/>
+		<property name="PART_NAME"  value="LT1764AEQ"/>
+		<property name="VOLTAGE"  value="1.8V"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0402_100NF_16V_10%_X7R" quantity="1" >
+		<property name="PACK_TYPE"  value="0402"/>
+		<property name="VALUE"  value="100nF_X7R"/>
+		<property name="VOLTAGE"  value="16V"/>
+	</component>
+	<component cell="tps799xx" library="cnlinear" partname="TPS799XX" partno="TPS799185DDCTG4" quantity="1" >
+		<property name="PACK_TYPE"  value="TSOT23"/>
+		<property name="PART_NAME"  value="TPS799XX"/>
+		<property name="TYPE"  value="TPS799185DDCTG4"/>
+	</component>
+	<component cell="rsmd1206" library="cnpassive" partname="RSMD1206" partno="R1206_4K7_1%_0.25W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="250MW"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="4.7k"/>
+	</component>
+	<component cell="rsmd1206" library="cnpassive" partname="RSMD1206" partno="R1206_10K_1%_0.5W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="500MW"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="10k"/>
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+	</component>
+	<component cell="rsmd1206" library="cnpassive" partname="RSMD1206" partno="R1206_1K_1%_0.5W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="500MW"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="1k"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+	</component>
+	<component cell="rj45_molex_0445600012" library="uob_hep_pc053a_lib" partname="RJ45_MOLEX_0445600012" partno="" quantity="1" >
+	</component>
+	<component cell="r7ismd" library="cnpassive" partname="R7ISMD" partno="" quantity="1" >
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_XX_1%_0.063W" quantity="1" >
+		<property name="PACK_TYPE"  value="0.0625W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="XX"/>
+	</component>
+	<component cell="rj45_dual_jgl_0001nl" library="uob_hep_pc053a_lib" partname="RJ45_DUAL_JGL_0001NL" partno="" quantity="1" >
+	</component>
+	<component cell="74avc4t245" library="cninterface" partname="74AVC4T245" partno="SN74AVC4T245PW" quantity="1" >
+		<property name="PACK_TYPE"  value="TSSOP"/>
+		<property name="TYPE"  value="SN74AVC4T245PW"/>
+	</component>
+	<component cell="74avc4t245" library="cninterface" partname="74AVC4T245" partno="SN74AVC4T245D" quantity="1" >
+		<property name="PACK_TYPE"  value="SOIC"/>
+		<property name="TYPE"  value="SN74AVC4T245D"/>
+	</component>
+	<component cell="led1" library="cndiscrete" partname="LED1" partno="LGL29K-G2J1-24" quantity="1" >
+		<property name="TYPE"  value="LGL29K-G2J1-24"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_750R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="750"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_150R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="150"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_56R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="56"/>
+	</component>
+	<component cell="dsc1123ci5" library="bris_cds_discrete" partname="DSC1123CI5" partno="DSC1123CI5-40.0000" quantity="1" >
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="TYPE"  value="DSC1123CI5-40.0000"/>
+		<property name="VALUE"  value="40.00MHz"/>
+	</component>
+	<component cell="pca9306" library="cninterface" partname="PCA9306" partno="PCA9306DCU" quantity="1" >
+		<property name="PACK_TYPE"  value="VSSOP/DCU"/>
+		<property name="TYPE"  value="PCA9306DCU"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_200K_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="200k"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0402_100NF_16V_10%_X7R" quantity="1" >
+		<property name="PACK_TYPE"  value="0402"/>
+		<property name="VALUE"  value="100nF"/>
+		<property name="VOLTAGE"  value="16V_GEN"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0603_10UF_6V3_5%_X5R" quantity="1" >
+		<property name="PACK_TYPE"  value="0603"/>
+		<property name="VALUE"  value="10uF_X5R"/>
+		<property name="VOLTAGE"  value="6.3V"/>
+	</component>
+	<component cell="adcmp605" library="cnlinear" partname="ADCMP605" partno="ADCMP605BCPZ" quantity="1" >
+		<property name="PACK_TYPE"  value="LFCSP"/>
+		<property name="TYPE"  value="ADCMP605BCPZ"/>
+	</component>
+	<component cell="pcoax" library="cnconnector" partname="PCOAX" partno="MMCX-J-P-H-ST-SM1" quantity="1" >
+		<property name="TYPE"  value="MMCX-J-P-H-ST-SM1"/>
+	</component>
+	<component cell="adcmp604" library="cnlinear" partname="ADCMP604" partno="ADCMP604BKSZ" quantity="1" >
+		<property name="PACK_TYPE"  value="SC70"/>
+		<property name="TYPE"  value="ADCMP604BKSZ"/>
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="R0603_51R_1%_0.1W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/10W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="51"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_2K_1%_0.063W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="2k"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_1K_1%_0.063W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="1k"/>
+	</component>
+	<component cell="jt3_1125hl" library="uob_hep_pc053a_lib" partname="JT3_1125HL" partno="" quantity="1" >
+	</component>
+	<component cell="con8p" library="cnconnector" partname="CON8P" partno="44661-1011" quantity="1" >
+		<property name="TYPE"  value="44661-1011"/>
+	</component>
+	<component cell="sn74lvc2gu04" library="cninterface" partname="SN74LVC2GU04" partno="SN74LVC2GU04DCK" quantity="1" >
+		<property name="PACK_TYPE"  value="SC70"/>
+		<property name="TYPE"  value="SN74LVC2GU04DCK"/>
+	</component>
+	<component cell="74avc1t45" library="cninterface" partname="74AVC1T45" partno="SN74AVC1T45DCKR" quantity="1" >
+		<property name="PACK_TYPE"  value="SOT23"/>
+		<property name="TYPE"  value="SN74AVC1T45DCKR"/>
+	</component>
+	<component cell="sk-sma-pcb-indept-gnd" library="bris_cds_connectors" partname="SK-SMA-PCB-INDEPT-GND" partno="RS 408-6373" quantity="1" >
+		<property name="MANUF"  value="Johnson"/>
+		<property name="PACK_TYPE"  value="STR"/>
+	</component>
+	<component cell="sk-sma-pcbe" library="bris_cds_discrete" partname="SK-SMA-PCBE" partno="RS 363-4690" quantity="1" >
+		<property name="MANUF"  value="Johnson"/>
+		<property name="PACK_TYPE"  value="EDGE"/>
+	</component>
+	<component cell="rsmd0603" library="cnpassive" partname="RSMD0603" partno="R0603_00_JUMPER" quantity="1" >
+		<property name="PACK_TYPE"  value=""/>
+		<property name="TOL"  value=""/>
+		<property name="VALUE"  value="00"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_00_JUMPER" quantity="1" >
+		<property name="PACK_TYPE"  value=""/>
+		<property name="TOL"  value=""/>
+		<property name="VALUE"  value="00"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_100R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="100"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0402_UNSPEC" quantity="1" >
+		<property name="PACK_TYPE"  value="0402"/>
+		<property name="VALUE"  value="XX"/>
+		<property name="VOLTAGE"  value=""/>
+	</component>
+	<component cell="osc_6p_en_diffout" library="bris_cds_logic" partname="OSC_6P_EN_DIFFOUT" partno="BF-100.000MBE-T" quantity="1" >
+		<property name="PACK_TYPE"  value="145"/>
+		<property name="TYPE"  value="BF-50.000MBE-T"/>
+		<property name="VALUE"  value="50MHz"/>
+	</component>
+	<component cell="con19p" library="cnconnector" partname="CON19P" partno="HDMI-19-01-X-SM" quantity="1" >
+		<property name="TYPE"  value="HDMI-19-01-X-SM"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0603_100NF_16V_10%_X7R" quantity="1" >
+		<property name="PACK_TYPE"  value="0603"/>
+		<property name="VALUE"  value="100nF"/>
+		<property name="VOLTAGE"  value="16V"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_51R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="51"/>
+	</component>
+	<component cell="con2p" library="cnconnector" partname="CON2P" partno="121-1-2010-1645" quantity="1" >
+		<property name="TYPE"  value="BARCON2FD"/>
+	</component>
+	<component cell="con4p" library="cnconnector" partname="CON4P" partno="MTLW-104-07-L-S-250" quantity="1" >
+		<property name="TYPE"  value="MTLW-104-07-L-S-250"/>
+	</component>
+	<component cell="si5394" library="bris_cds_discrete" partname="SI5394" partno="Si5394A/B-A-GM" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="Si5394A/B-A-GM"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_4K7_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="4.7k"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_0R_1%_0.063W_100PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="0R0"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_10R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="10"/>
+	</component>
+	<component cell="capcersmdcl2" library="cnpassive" partname="CAPCERSMDCL2" partno="CC0402_10NF_16V_10%_X7R" quantity="1" >
+		<property name="PACK_TYPE"  value="0402"/>
+		<property name="VALUE"  value="10nF"/>
+		<property name="VOLTAGE"  value="16V_GEN"/>
+	</component>
+	<component cell="nb7v52m" library="cnlinear" partname="NB7V52M" partno="NB7V52MMNG" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="NB7V52MMNG"/>
+	</component>
+	<component cell="rsmd0402" library="cnpassive" partname="RSMD0402" partno="R0402_220R_1%_0.063W_200PPM" quantity="1" >
+		<property name="PACK_TYPE"  value="1/16W"/>
+		<property name="TOL"  value="1%"/>
+		<property name="VALUE"  value="220"/>
+	</component>
+</sc:shoppingCart>

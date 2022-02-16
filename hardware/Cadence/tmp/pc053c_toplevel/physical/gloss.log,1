@@ -1,0 +1,3217 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : pc053c_toplevel_50.brd                        )
+(    Software Version : 17.2S060                                      )
+(    Date/Time        : Mon Nov 04 11:41:24 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+**WARNING: Disabling dynamic shapes
+
+
+
+Line entry into Pad glossing in progress.
+Started on Mon Nov 04 11:41:24 2019
+Bend Distance is 0.3048.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing was successful:  SYMBOL PIN at (-24.5500,26.4500) defined by pad  R85_25
+
+Glossing was successful:  VIA at (-19.2000,26.3500) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-24.5500,26.9500) defined by pad  R85_25
+
+Glossing was successful:  VIA at (-19.2000,27.2500) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-27.4500,26.9500).
+
+Glossing was successful:  SYMBOL PIN at (-27.4500,27.4500) defined by pad  R85_25
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,15.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,16.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,56.4960).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5490,1.9050).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,2.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.0050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,0.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.9510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7500,56.5000).
+
+Glossing was successful:  SYMBOL PIN at (-34.0000,57.8000) defined by pad  RT_15X70
+
+Glossing was successful:  SYMBOL PIN at (-31.7500,62.3000) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,58.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,60.4000).
+
+Glossing was successful:  SYMBOL PIN at (-39.9400,57.8000) defined by pad  RT_15X70
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,9.4670).
+
+Glossing attempt unsuccessful. Active pad is at (-20.6000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.1000,51.2500).
+
+Glossing was successful:  SYMBOL PIN at (-15.8500,16.4000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-25.8000,43.3000) defined by pad  R200_50
+
+Glossing was successful:  SYMBOL PIN at (-25.8000,42.5000) defined by pad  R200_50
+
+Glossing was successful:  SYMBOL PIN at (-15.8500,15.3000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,24.0000) defined by pad  R235_28
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,23.0000) defined by pad  R235_28
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,27.0000) defined by pad  R235_28
+
+Glossing attempt unsuccessful. Active pad is at (-57.2000,26.0000).
+
+Glossing was successful:  SYMBOL PIN at (-39.9400,59.7500) defined by pad  RT_15X70
+
+Glossing attempt unsuccessful. Active pad is at (-38.5950,58.4050).
+
+Glossing was successful:  VIA at (-38.5950,58.4050) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (0.0800,55.0300).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,25.8200).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,24.5500).
+
+Glossing was successful:  SYMBOL PIN at (-19.8500,17.4000) defined by pad  R75_30
+
+Glossing was successful:  SYMBOL PIN at (-20.3500,17.4000) defined by pad  R75_30
+
+Glossing was successful:  SYMBOL PIN at (0.0800,29.6300) defined by pad  C64
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.1500).
+
+Glossing was successful:  SYMBOL PIN at (-31.6940,16.3670) defined by pad  R85_30
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.9000,25.1500).
+
+Glossing was successful:  SYMBOL PIN at (-32.4000,25.1500) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-11.9340,56.4790).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,56.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-11.9340,62.3290).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,62.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,55.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,60.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,47.3000).
+
+Glossing was successful:  SYMBOL PIN at (-24.5500,27.4500) defined by pad  R85_25
+
+Glossing attempt unsuccessful. Active pad is at (-24.5500,25.9500).
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,25.5000) defined by pad  R235_28
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,24.5000) defined by pad  R235_28
+
+Glossing was successful:  SYMBOL PIN at (-52.1500,14.6000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,21.5000) defined by pad  R235_28
+
+Glossing was successful:  SYMBOL PIN at (-52.1500,15.6000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-57.2000,22.5000) defined by pad  R235_28
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,1.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,0.4120).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,0.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,60.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,60.1300).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,61.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,61.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,58.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,58.8600).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,57.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,57.5900).
+
+Glossing was successful:  SYMBOL PIN at (-34.0500,6.6000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-34.0500,6.6000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-33.6940,9.4670) defined by pad  R85_30
+
+Glossing was successful:  SYMBOL PIN at (-34.9500,6.6000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-34.9500,6.6000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-34.1940,9.4670) defined by pad  R85_30
+
+Glossing was successful:  SYMBOL PIN at (-35.1840,34.4220) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-36.8840,34.4220) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.4000,18.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.9000,18.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-19.3500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,14.7616).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,17.0180).
+
+Glossing was successful:  VIA at (-7.6000,45.1000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-7.1000,51.2150) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-0.5550,42.9650).
+
+Glossing was successful:  VIA at (-6.6971,45.0803) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-6.6971,45.0803) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-6.3000,50.5000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-6.3000,50.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.5000,18.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6940,16.3670).
+
+Glossing was successful:  VIA at (-32.4000,48.2000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing was successful:  VIA at (3.2766,40.4368) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-42.9500,12.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.1500,11.9500).
+
+Glossing was successful:  SYMBOL PIN at (-47.1000,1.3000) defined by pad  C170H100
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,15.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing was successful:  SYMBOL PIN at (-44.5600,1.3000) defined by pad  C170H100
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,14.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing was successful:  SYMBOL PIN at (-47.1000,4.7000) defined by pad  C170H100
+
+Glossing was successful:  SYMBOL PIN at (-44.5600,4.7000) defined by pad  C170H100
+
+Glossing was successful:  SYMBOL PIN at (-45.4500,6.5000) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-45.4500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6310,6.6040).
+
+Glossing was successful:  SYMBOL PIN at (-37.6310,6.6040) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-35.1940,9.4670) defined by pad  R85_30
+
+Glossing was successful:  SYMBOL PIN at (-36.4500,0.9000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-36.7310,6.6040) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-36.7310,6.6040) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-36.4500,1.9000) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-30.4090,34.5030) defined by pad  R85_25
+
+Glossing was successful:  SYMBOL PIN at (-42.0370,34.4050) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-30.4090,33.0030) defined by pad  R85_25
+
+Glossing was successful:  SYMBOL PIN at (-40.2840,34.4220) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-35.1840,32.9220) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-21.7500,20.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.2500,19.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-7.1000,22.7600).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6000,25.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,34.6000).
+
+Glossing was successful:  VIA at (-35.9800,18.2000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-34.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1940,16.3670).
+
+Glossing was successful:  VIA at (-34.9000,18.1000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-34.9000,18.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-12.7500,4.4000).
+
+Glossing was successful:  SYMBOL PIN at (-12.7500,4.4000) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1630,16.8330).
+
+Glossing was successful:  SYMBOL PIN at (-14.3920,49.2650) defined by pad  RT_15X70
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,42.5450).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing was successful:  SYMBOL PIN at (-40.5080,28.0760) defined by pad  R80_25
+
+Glossing was successful:  VIA at (-38.3000,44.2000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-38.3000,44.2000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-38.3000,44.2000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-19.0000,37.7500) defined by pad  SQM_06
+
+Glossing was successful:  VIA at (-38.3000,45.3000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2080,39.5000).
+
+Glossing was successful:  VIA at (-18.2080,39.5000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-44.9000,8.4500).
+
+Glossing was successful:  SYMBOL PIN at (-38.4000,12.1500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,12.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing was successful:  SYMBOL PIN at (-42.0500,11.9000) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing was successful:  SYMBOL PIN at (-40.2090,13.8760) defined by pad  C170H100
+
+Glossing was successful:  SYMBOL PIN at (-40.2090,13.8760) defined by pad  C170H100
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,8.2550).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,11.4170).
+
+Glossing was successful:  VIA at (-5.7000,34.9000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (3.2550,36.6150).
+
+Glossing was successful:  SYMBOL PIN at (-40.2840,32.9220) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-42.0370,32.9050) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.9250,18.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,10.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2730,7.1270).
+
+Glossing attempt unsuccessful. Active pad is at (-32.8000,6.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,38.2780).
+
+Glossing attempt unsuccessful. Active pad is at (-20.7000,48.5000).
+
+Glossing was successful:  VIA at (-20.0460,48.6000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-20.0460,48.6000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-20.0460,48.6000).
+
+Glossing was successful:  VIA at (-42.6720,28.9560) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-22.5540,48.5000).
+
+Glossing was successful:  VIA at (-22.7000,23.2000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,23.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,49.5300).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.5850,44.7040).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6000,44.4000).
+
+Glossing was successful:  VIA at (-22.6000,44.4000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.1660,47.6250).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7180,48.1630).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4850,45.9740).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,46.9900).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,46.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,45.7200).
+
+Glossing attempt unsuccessful. Active pad is at (-11.5000,48.6920).
+
+Glossing attempt unsuccessful. Active pad is at (-8.4520,47.3150).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.8950,47.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5840,32.9220).
+
+Glossing was successful:  SYMBOL PIN at (-40.5500,22.8000) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-39.3080,25.3760).
+
+Glossing was successful:  SYMBOL PIN at (-42.0500,22.8000) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-33.9000,26.6500) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-35.6080,27.5760) defined by pad  R80_25
+
+Glossing was successful:  SYMBOL PIN at (-32.4000,26.6500) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-35.6080,28.0760) defined by pad  R80_25
+
+Glossing was successful:  SYMBOL PIN at (-50.3000,25.5000) defined by pad  C170H100
+
+Glossing was successful:  VIA at (4.5250,17.5650) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-11.2000,12.2500).
+
+Glossing was successful:  VIA at (-11.3050,13.6000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-11.3050,13.6000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-7.4000,7.4500).
+
+Glossing was successful:  VIA at (-7.4950,9.0000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-8.7650,9.0000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-8.8000,7.4500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,12.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.4000,13.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.5000,19.2000).
+
+Glossing was successful:  SYMBOL PIN at (-7.2000,19.2000) defined by pad  R115_60
+
+Glossing was successful:  SYMBOL PIN at (-24.8500,20.0500) defined by pad  R85_30
+
+Glossing attempt unsuccessful. Active pad is at (-30.5500,3.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4000,3.4000).
+
+Glossing was successful:  SYMBOL PIN at (-35.4330,26.6120) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-26.2500,25.2500) defined by pad  R85_25
+
+Glossing attempt unsuccessful. Active pad is at (-26.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4957,29.1044).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,24.9500).
+
+Glossing was successful:  SYMBOL PIN at (-38.3080,25.3760) defined by pad  R80_25
+
+Glossing attempt unsuccessful. Active pad is at (-41.6000,25.5000).
+
+Glossing was successful:  SYMBOL PIN at (-9.8000,19.2000) defined by pad  R115_60
+
+Glossing was successful:  VIA at (-11.1000,45.6000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-23.0000,58.9500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,57.5820).
+
+Glossing was successful:  SYMBOL PIN at (-25.8000,46.5000) defined by pad  R200_50
+
+Glossing attempt unsuccessful. Active pad is at (-13.7000,44.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.8140,41.5630).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,49.3000).
+
+Glossing was successful:  SYMBOL PIN at (-11.5850,38.0130) defined by pad  R150_45
+
+Glossing attempt unsuccessful. Active pad is at (-35.3060,15.9330).
+
+Glossing was successful:  SYMBOL PIN at (-19.4500,17.5000) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,22.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6390,14.3510).
+
+Glossing was successful:  VIA at (-34.1630,14.3510) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,41.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,42.1000).
+
+Glossing was successful:  VIA at (-18.2000,56.6000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-21.3756,56.5771) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-10.0000,49.5000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,47.7000).
+
+Glossing was successful:  VIA at (-1.8000,56.9000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-3.1000,54.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.7300,49.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-4.1340,50.5916).
+
+Glossing attempt unsuccessful. Active pad is at (-28.5000,0.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-28.5000,3.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.6000,2.1500).
+
+Glossing was successful:  VIA at (-11.2000,5.4000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-10.0240,5.5000).
+
+Glossing was successful:  SYMBOL PIN at (-15.8500,17.5000) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,15.0000).
+
+Glossing was successful:  VIA at (-17.7000,15.0000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-39.4000,61.2000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-29.1000,63.8000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-29.1000,60.8000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (3.2500,55.6500) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (2.0000,22.7000).
+
+Glossing was successful:  VIA at (3.2500,37.9000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-23.8000,45.4810) defined by pad  P95_PF
+
+Glossing was successful:  SYMBOL PIN at (-38.0420,59.3090) defined by pad  SQM_06
+
+Glossing was successful:  VIA at (-19.9000,56.6000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-39.2430,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.7090,35.2030).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9560,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,12.9540).
+
+Glossing attempt unsuccessful. Active pad is at (-33.0200,15.9330).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7870,12.5730).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7870,11.1760).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,9.9750).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.1000).
+
+Glossing was successful:  SYMBOL PIN at (-25.8000,41.7000) defined by pad  R200_50
+
+Glossing was successful:  VIA at (-36.0704,48.9403) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,44.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2790,35.1790).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,15.4170).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,25.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-24.7000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.7500,25.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-24.7000,29.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,25.8500).
+
+Glossing was successful:  SYMBOL PIN at (-30.1940,9.4670) defined by pad  R85_30
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,58.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.7000,57.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,64.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.7000,63.0500).
+
+Glossing was successful:  SYMBOL PIN at (-23.0000,59.8500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-21.3500,50.2800).
+
+Glossing attempt unsuccessful. Active pad is at (-22.0980,13.3350).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,14.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.4000,0.0000).
+
+Glossing was successful:  VIA at (-7.8000,1.3000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-36.5180,14.2240) defined by pad  SQM_06
+
+Glossing was successful:  VIA at (-27.4000,10.7000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-26.9315,14.0315).
+
+Glossing was successful:  SYMBOL PIN at (-28.8870,12.5730) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,16.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,16.6430).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,17.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.7880,25.5270).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.7000,30.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.4000,29.5760).
+
+Glossing was successful:  SYMBOL PIN at (-36.9570,31.1840) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-30.4800,31.3690).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-35.6080,29.0760).
+
+Glossing was successful:  VIA at (-27.3616,31.7500) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-27.3616,31.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-28.2090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-30.0990,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,40.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,43.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing was successful:  VIA at (-35.5000,49.8000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-39.9400,60.4000).
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (-27.4500,26.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,15.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,16.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,56.4960).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5490,1.9050).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,2.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.0050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,0.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.9510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7500,56.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,58.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,60.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,9.4670).
+
+Glossing attempt unsuccessful. Active pad is at (-20.6000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.1000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-57.2000,26.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5950,58.4050).
+
+Glossing attempt unsuccessful. Active pad is at (0.0800,55.0300).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,25.8200).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,24.5500).
+
+Glossing was successful:  SYMBOL PIN at (-31.1940,16.3670) defined by pad  R85_30
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.9000,25.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-11.9340,56.4790).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,56.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-11.9340,62.3290).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,62.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,55.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,60.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-24.5500,25.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,1.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,0.4120).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,0.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,60.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,60.1300).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,61.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,61.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,58.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,58.8600).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,57.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,57.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.4000,18.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.9000,18.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-19.3500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,14.7616).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,17.0180).
+
+Glossing attempt unsuccessful. Active pad is at (-0.5550,42.9650).
+
+Glossing attempt unsuccessful. Active pad is at (-6.3000,50.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.5000,18.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.9500,12.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.1500,11.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,15.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,14.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-45.4500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6310,6.6040).
+
+Glossing attempt unsuccessful. Active pad is at (-21.7500,20.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.2500,19.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-7.1000,22.7600).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6000,25.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,34.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.9000,18.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-12.7500,4.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1630,16.8330).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,42.5450).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2080,39.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.9000,8.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,12.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing was successful:  SYMBOL PIN at (-40.2090,11.3360) defined by pad  C170H100
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,8.2550).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,11.4170).
+
+Glossing attempt unsuccessful. Active pad is at (3.2550,36.6150).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.9250,18.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,10.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2730,7.1270).
+
+Glossing attempt unsuccessful. Active pad is at (-32.8000,6.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,38.2780).
+
+Glossing attempt unsuccessful. Active pad is at (-20.7000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-20.0460,48.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.5540,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,23.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,49.5300).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.5850,44.7040).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6000,44.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.1660,47.6250).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7180,48.1630).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4850,45.9740).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,46.9900).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,46.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,45.7200).
+
+Glossing attempt unsuccessful. Active pad is at (-11.5000,48.6920).
+
+Glossing attempt unsuccessful. Active pad is at (-8.4520,47.3150).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.8950,47.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5840,32.9220).
+
+Glossing attempt unsuccessful. Active pad is at (-39.3080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-11.2000,12.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.4000,7.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,12.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.4000,13.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5500,3.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4000,3.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4957,29.1044).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,24.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6000,25.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,57.5820).
+
+Glossing attempt unsuccessful. Active pad is at (-13.7000,44.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.8140,41.5630).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.3060,15.9330).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,22.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6390,14.3510).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,41.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,47.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.1000,54.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.7300,49.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-4.1340,50.5916).
+
+Glossing attempt unsuccessful. Active pad is at (-28.5000,0.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-28.5000,3.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.6000,2.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0240,5.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,15.0000).
+
+Glossing attempt unsuccessful. Active pad is at (2.0000,22.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.2430,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.7090,35.2030).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9560,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,12.9540).
+
+Glossing attempt unsuccessful. Active pad is at (-33.0200,15.9330).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7870,12.5730).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7870,11.1760).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,9.9750).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,44.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2790,35.1790).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,15.4170).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,25.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-24.7000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.7500,25.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-24.7000,29.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,25.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,58.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.7000,57.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,64.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.7000,63.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3500,50.2800).
+
+Glossing attempt unsuccessful. Active pad is at (-22.0980,13.3350).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,14.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.4000,0.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.9315,14.0315).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,16.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,16.6430).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,17.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.7880,25.5270).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.7000,30.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.4000,29.5760).
+
+Glossing attempt unsuccessful. Active pad is at (-30.4800,31.3690).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-35.6080,29.0760).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3616,31.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-28.2090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-30.0990,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,40.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,43.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-39.9400,60.4000).
+
+
+Finished execution 2
+
+Glossing attempt unsuccessful. Active pad is at (-27.4500,26.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,15.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,16.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,56.4960).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5490,1.9050).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,2.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.0050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,0.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.9510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7500,56.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,58.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,60.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,9.4670).
+
+Glossing attempt unsuccessful. Active pad is at (-20.6000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.1000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-57.2000,26.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5950,58.4050).
+
+Glossing attempt unsuccessful. Active pad is at (0.0800,55.0300).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,25.8200).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,24.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.9000,25.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-11.9340,56.4790).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,56.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-11.9340,62.3290).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,62.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,55.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,60.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-24.5500,25.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,1.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,0.4120).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,0.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,60.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,60.1300).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,61.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,61.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,58.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,58.8600).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,57.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,57.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.4000,18.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.9000,18.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-19.3500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,14.7616).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,17.0180).
+
+Glossing attempt unsuccessful. Active pad is at (-0.5550,42.9650).
+
+Glossing attempt unsuccessful. Active pad is at (-6.3000,50.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.5000,18.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.9500,12.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.1500,11.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,15.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,14.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-45.4500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6310,6.6040).
+
+Glossing attempt unsuccessful. Active pad is at (-21.7500,20.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.2500,19.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-7.1000,22.7600).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6000,25.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,34.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.9000,18.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-12.7500,4.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1630,16.8330).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,42.5450).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2080,39.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.9000,8.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,12.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,8.2550).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,11.4170).
+
+Glossing attempt unsuccessful. Active pad is at (3.2550,36.6150).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.9250,18.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,10.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2730,7.1270).
+
+Glossing attempt unsuccessful. Active pad is at (-32.8000,6.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,38.2780).
+
+Glossing attempt unsuccessful. Active pad is at (-20.7000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-20.0460,48.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.5540,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,23.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,49.5300).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.5850,44.7040).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6000,44.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.1660,47.6250).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7180,48.1630).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4850,45.9740).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,46.9900).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,46.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,45.7200).
+
+Glossing attempt unsuccessful. Active pad is at (-11.5000,48.6920).
+
+Glossing attempt unsuccessful. Active pad is at (-8.4520,47.3150).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.8950,47.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5840,32.9220).
+
+Glossing attempt unsuccessful. Active pad is at (-39.3080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-11.2000,12.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.4000,7.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,12.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.4000,13.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5500,3.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4000,3.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4957,29.1044).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,24.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6000,25.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,57.5820).
+
+Glossing attempt unsuccessful. Active pad is at (-13.7000,44.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.8140,41.5630).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.3060,15.9330).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,22.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6390,14.3510).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,41.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,47.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.1000,54.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.7300,49.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-4.1340,50.5916).
+
+Glossing attempt unsuccessful. Active pad is at (-28.5000,0.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-28.5000,3.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.6000,2.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0240,5.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,15.0000).
+
+Glossing attempt unsuccessful. Active pad is at (2.0000,22.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.2430,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.7090,35.2030).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9560,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,12.9540).
+
+Glossing attempt unsuccessful. Active pad is at (-33.0200,15.9330).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7870,12.5730).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7870,11.1760).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,9.9750).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,44.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2790,35.1790).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,15.4170).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,25.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-24.7000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.7500,25.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-24.7000,29.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,25.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,58.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.7000,57.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,64.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.7000,63.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3500,50.2800).
+
+Glossing attempt unsuccessful. Active pad is at (-22.0980,13.3350).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,14.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.4000,0.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.9315,14.0315).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,16.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,16.6430).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,17.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.7880,25.5270).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.7000,30.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.4000,29.5760).
+
+Glossing attempt unsuccessful. Active pad is at (-30.4800,31.3690).
+
+Glossing attempt unsuccessful. Active pad is at (-29.7090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-35.6080,29.0760).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3616,31.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-28.2090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-30.0990,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,40.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,43.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-39.9400,60.4000).
+
+
+Finished execution 3
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Mon Nov 04 11:41:25 2019
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 857
+Number of Actual Glossings                    : 136
+Number of Glossings Aborted by DRC violations : 0
+
+
+
+
+Line Smooth glossing in progress.
+Started on Mon Nov 04 11:41:25 2019
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.0001.
+
+ Maximum 45 limit is -0.0001.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Mon Nov 04 11:41:25 2019
+
+ - 0 - Error(s) from Line smooth Glossing
+
+
+Line Centering Between Pins glossing in progress.
+Started on Mon Nov 04 11:41:25 2019
+
+Minimum Move Size 0.0508.
+Line spacing MINIMUM
+Pad Tolerance 2.5400.
+Corner type 45
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Mon Nov 04 11:41:26 2019
+
+
+
+Line Center Between Pins Stats
+
+Number of Glossing Attempts                   : 1683
+Number of Actual Glossings                    : 3
+Number of Glossings Aborted by DRC violations : 11
+Number of Glossings Aborted by No-Gloss nets  : 0
+
+
+
+Line entry into Pad glossing in progress.
+Started on Mon Nov 04 11:41:26 2019
+Bend Distance is 0.3048.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (-19.2000,26.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-19.2000,27.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.4500,26.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,15.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,16.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,56.4960).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5490,1.9050).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,2.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,0.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.9510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7500,56.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,58.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,60.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,9.4670).
+
+Glossing attempt unsuccessful. Active pad is at (-20.6000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.1000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-57.2000,26.0000).
+
+Glossing was successful:  VIA at (-38.5950,58.4050) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-38.5950,58.4050).
+
+Glossing attempt unsuccessful. Active pad is at (0.0800,55.0300).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,25.8200).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,24.5500).
+
+Glossing was successful:  SYMBOL PIN at (0.0800,29.6300) defined by pad  C64
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.9000,25.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,56.4500).
+
+Glossing was successful:  SYMBOL PIN at (-8.3500,55.1000) defined by pad  R100_40
+
+Glossing was successful:  SYMBOL PIN at (-8.3500,60.9500) defined by pad  R100_40
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,62.3000).
+
+Glossing was successful:  VIA at (-28.5750,1.9050) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,55.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,60.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,47.3000).
+
+Glossing was successful:  SYMBOL PIN at (-24.5500,27.4500) defined by pad  R85_25
+
+Glossing attempt unsuccessful. Active pad is at (-24.5500,25.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,1.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,0.4120).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,0.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,60.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,60.1300).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,61.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,61.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,58.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,58.8600).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,57.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,57.5900).
+
+Glossing was successful:  SYMBOL PIN at (-35.1840,34.4220) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-20.8500,17.4000) defined by pad  R75_30
+
+Glossing attempt unsuccessful. Active pad is at (-19.3500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,17.0180).
+
+Glossing attempt unsuccessful. Active pad is at (-19.9000,12.8500).
+
+Glossing was successful:  SYMBOL PIN at (-18.8000,12.8500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-0.5550,42.9650).
+
+Glossing attempt unsuccessful. Active pad is at (-6.3000,50.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.5000,18.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,47.7000).
+
+Glossing was successful:  SYMBOL PIN at (3.8900,39.7900) defined by pad  C64
+
+Glossing attempt unsuccessful. Active pad is at (-42.9500,12.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.1500,11.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,15.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,14.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-45.4500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6310,6.6040).
+
+Glossing was successful:  SYMBOL PIN at (-35.1840,32.9220) defined by pad  RTM_10X09
+
+Glossing was successful:  SYMBOL PIN at (-36.8840,32.9220) defined by pad  RTM_10X09
+
+Glossing attempt unsuccessful. Active pad is at (-21.7500,20.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.2500,19.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-7.1000,22.7600).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6000,25.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,34.6000).
+
+Glossing was successful:  SYMBOL PIN at (-36.9000,18.8500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-34.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.9000,18.1000).
+
+Glossing was successful:  SYMBOL PIN at (-12.5000,3.0500) defined by pad  R105_60
+
+Glossing attempt unsuccessful. Active pad is at (-12.7500,4.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,42.5450).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-38.3000,44.2000).
+
+Glossing was successful:  SYMBOL PIN at (-19.0000,37.7500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,38.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.3000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,45.3000).
+
+Glossing was successful:  VIA at (-18.2080,39.5000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-18.2080,39.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.9000,8.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,12.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,8.2550).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,11.4170).
+
+Glossing attempt unsuccessful. Active pad is at (-5.7000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.2000,35.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.2000,45.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.9250,18.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,10.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2730,7.1270).
+
+Glossing attempt unsuccessful. Active pad is at (-32.8000,6.6000).
+
+Glossing was successful:  VIA at (-8.9692,38.9000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,38.2780).
+
+Glossing attempt unsuccessful. Active pad is at (-20.0460,48.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6720,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-22.5540,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,23.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,49.5300).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,48.5000).
+
+Glossing was successful:  SYMBOL PIN at (-25.5850,44.7040) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-25.5850,44.7040).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6000,44.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.1660,47.6250).
+
+Glossing was successful:  SYMBOL PIN at (-26.4850,45.9740) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,46.9900).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,46.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,45.7200).
+
+Glossing was successful:  VIA at (-11.5000,48.6920) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-10.0000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.8950,47.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8500,28.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,23.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5840,32.9220).
+
+Glossing attempt unsuccessful. Active pad is at (-39.3080,25.3760).
+
+Glossing was successful:  SYMBOL PIN at (-42.0500,22.8000) defined by pad  RTM_10X09
+
+Glossing was successful:  VIA at (-11.3050,13.6000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-10.0000,14.8000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-7.4000,7.4500) defined by pad  SQM_06
+
+Glossing was successful:  VIA at (-8.7650,9.0000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-6.4000,13.4000).
+
+Glossing was successful:  SYMBOL PIN at (-24.8500,20.0500) defined by pad  R85_30
+
+Glossing attempt unsuccessful. Active pad is at (-30.5500,3.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4000,3.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4957,29.1044).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,24.9500).
+
+Glossing was successful:  SYMBOL PIN at (-38.3080,25.3760) defined by pad  R80_25
+
+Glossing attempt unsuccessful. Active pad is at (-41.6000,25.5000).
+
+Glossing was successful:  SYMBOL PIN at (-9.9000,44.9000) defined by pad  R115_60
+
+Glossing was successful:  SYMBOL PIN at (-23.0000,58.9500) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,57.5820).
+
+Glossing attempt unsuccessful. Active pad is at (-13.7000,44.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.8140,41.5630).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,49.3000).
+
+Glossing was successful:  SYMBOL PIN at (-11.5850,38.0130) defined by pad  R150_45
+
+Glossing was successful:  SYMBOL PIN at (-29.7870,15.3670) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-35.3060,15.9330) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,22.3500).
+
+Glossing was successful:  VIA at (-32.6390,14.3510) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,41.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,47.7000).
+
+Glossing was successful:  VIA at (-1.8000,56.9000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-3.1000,54.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.7300,49.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-4.1340,50.5916).
+
+Glossing was successful:  VIA at (-28.5000,0.3000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-28.5000,3.6000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-8.6000,2.1500).
+
+Glossing was successful:  VIA at (-11.2000,5.4000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-10.0240,5.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-39.4000,61.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.4000,61.2000).
+
+Glossing was successful:  VIA at (-29.1000,63.8000) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-29.1000,60.8000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (2.0000,22.7000).
+
+Glossing was successful:  VIA at (3.2500,37.9000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-23.8000,45.4810) defined by pad  P95_PF
+
+Glossing was successful:  SYMBOL PIN at (3.8900,55.0300) defined by pad  C64
+
+Glossing was successful:  SYMBOL PIN at (-8.8950,48.4900) defined by pad  SQM_06
+
+Glossing was successful:  SYMBOL PIN at (-20.6000,55.6500) defined by pad  R95_70
+
+Glossing was successful:  SYMBOL PIN at (-22.1000,55.6500) defined by pad  R95_70
+
+Glossing was successful:  SYMBOL PIN at (-19.1000,55.6500) defined by pad  R95_70
+
+Glossing attempt unsuccessful. Active pad is at (-39.2430,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9560,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-31.2420,11.4300).
+
+Glossing was successful:  VIA at (-31.2420,11.4300) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-34.1630,12.9540) defined by pad  VIA60-30-85
+
+Glossing was successful:  VIA at (-31.2420,12.9540) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,44.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2790,35.1790).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8510,-0.9510).
+
+Glossing was successful:  VIA at (-27.9000,15.5000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing was successful:  SYMBOL PIN at (-25.2500,25.2500) defined by pad  R85_25
+
+Glossing was successful:  SYMBOL PIN at (-26.7500,25.2500) defined by pad  R85_25
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,25.8500).
+
+Glossing was successful:  SYMBOL PIN at (-30.1940,9.4670) defined by pad  R85_30
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,58.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,64.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.0980,13.3350).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,14.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.4000,0.0000).
+
+Glossing was successful:  VIA at (-7.8000,1.3000) defined by pad  VIA60-30-85
+
+Glossing was successful:  SYMBOL PIN at (-36.5180,14.2240) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-37.6610,14.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,13.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-26.9315,14.0315).
+
+Glossing was successful:  VIA at (-27.3000,12.4170) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,16.6430).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,17.5000).
+
+Glossing was successful:  VIA at (-38.1000,24.3000) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.7000,30.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.4000,29.5760).
+
+Glossing was successful:  SYMBOL PIN at (-36.9570,31.1840) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,30.2760).
+
+Glossing was successful:  SYMBOL PIN at (-29.7090,32.3030) defined by pad  R85_25
+
+Glossing attempt unsuccessful. Active pad is at (-35.6080,29.0760).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3616,31.7500).
+
+Glossing was successful:  SYMBOL PIN at (-28.3790,32.3850) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-28.2090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-30.0990,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,40.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,43.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,50.1500).
+
+Glossing was successful:  SYMBOL PIN at (-34.3590,49.5300) defined by pad  SQM_06
+
+Glossing attempt unsuccessful. Active pad is at (-35.9000,60.4520).
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (-19.2000,26.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-19.2000,27.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.4500,26.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,15.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,16.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,56.4960).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5490,1.9050).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,2.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,0.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.9510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7500,56.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,58.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,60.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,9.4670).
+
+Glossing attempt unsuccessful. Active pad is at (-20.6000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.1000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-57.2000,26.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5950,58.4050).
+
+Glossing attempt unsuccessful. Active pad is at (0.0800,55.0300).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,25.8200).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,24.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.9000,25.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,56.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,62.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,55.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,60.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-24.5500,25.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,1.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,0.4120).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,0.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,60.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,60.1300).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,61.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,61.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,58.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,58.8600).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,57.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,57.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-19.3500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,17.0180).
+
+Glossing attempt unsuccessful. Active pad is at (-19.9000,12.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-0.5550,42.9650).
+
+Glossing attempt unsuccessful. Active pad is at (-6.3000,50.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.5000,18.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,47.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.9500,12.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.1500,11.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,15.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,14.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-45.4500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6310,6.6040).
+
+Glossing attempt unsuccessful. Active pad is at (-21.7500,20.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.2500,19.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-7.1000,22.7600).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6000,25.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,34.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.9000,18.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-12.7500,4.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,42.5450).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-38.3000,44.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,38.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.3000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2080,39.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.9000,8.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,12.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,8.2550).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,11.4170).
+
+Glossing attempt unsuccessful. Active pad is at (-5.7000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.2000,35.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.2000,45.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.9250,18.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,10.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2730,7.1270).
+
+Glossing attempt unsuccessful. Active pad is at (-32.8000,6.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,38.2780).
+
+Glossing attempt unsuccessful. Active pad is at (-20.0460,48.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6720,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-22.5540,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,23.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,49.5300).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.5850,44.7040).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6000,44.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.1660,47.6250).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,46.9900).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,46.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,45.7200).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.8950,47.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8500,28.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,23.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5840,32.9220).
+
+Glossing attempt unsuccessful. Active pad is at (-39.3080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-6.4000,13.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5500,3.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4000,3.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4957,29.1044).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,24.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6000,25.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,57.5820).
+
+Glossing attempt unsuccessful. Active pad is at (-13.7000,44.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.8140,41.5630).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,22.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,41.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,47.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.1000,54.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.7300,49.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-4.1340,50.5916).
+
+Glossing attempt unsuccessful. Active pad is at (-8.6000,2.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0240,5.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-39.4000,61.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.4000,61.2000).
+
+Glossing attempt unsuccessful. Active pad is at (2.0000,22.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.2430,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9560,36.4490).
+
+Glossing was successful:  VIA at (-31.2420,11.4300) defined by pad  VIA60-30-85
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,44.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2790,35.1790).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,25.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,58.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,64.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.0980,13.3350).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,14.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.4000,0.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6610,14.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,13.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-26.9315,14.0315).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,16.6430).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,17.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.7000,30.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.4000,29.5760).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,30.2760).
+
+Glossing attempt unsuccessful. Active pad is at (-35.6080,29.0760).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3616,31.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-28.2090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-30.0990,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,40.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,43.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,50.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.9000,60.4520).
+
+
+Finished execution 2
+
+Glossing attempt unsuccessful. Active pad is at (-19.2000,26.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-19.2000,27.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.4500,26.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,15.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-16.7500,16.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,56.4960).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5490,1.9050).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,2.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7000,0.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.9510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-31.7500,56.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,58.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,60.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.1940,9.4670).
+
+Glossing attempt unsuccessful. Active pad is at (-20.6000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.1000,51.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-57.2000,26.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5950,58.4050).
+
+Glossing attempt unsuccessful. Active pad is at (0.0800,55.0300).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,25.8200).
+
+Glossing attempt unsuccessful. Active pad is at (-1.1900,24.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-33.9000,25.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,56.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.6000,62.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,55.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-7.0500,60.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-24.5500,25.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,1.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,2.5120).
+
+Glossing attempt unsuccessful. Active pad is at (-34.3050,0.4120).
+
+Glossing attempt unsuccessful. Active pad is at (-35.5500,0.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,60.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,60.1300).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,61.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,61.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,58.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,58.8600).
+
+Glossing attempt unsuccessful. Active pad is at (-18.0000,57.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.4000,57.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-19.3500,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6060,17.0180).
+
+Glossing attempt unsuccessful. Active pad is at (-19.9000,12.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-0.5550,42.9650).
+
+Glossing attempt unsuccessful. Active pad is at (-6.3000,50.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.5000,18.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-32.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,48.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,47.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.9500,12.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.1500,11.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,15.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,15.5500).
+
+Glossing attempt unsuccessful. Active pad is at (-51.2500,14.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,14.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-46.3500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-45.4500,6.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6310,6.6040).
+
+Glossing attempt unsuccessful. Active pad is at (-21.7500,20.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-22.2500,19.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-41.9257,26.9642).
+
+Glossing attempt unsuccessful. Active pad is at (-7.1000,22.7600).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6000,25.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-6.7000,34.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.1940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-34.9000,18.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-12.7500,4.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-33.2740,17.7800).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0360,18.0340).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,42.5450).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2580,43.8150).
+
+Glossing attempt unsuccessful. Active pad is at (-38.3000,44.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,38.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.3000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,45.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2080,39.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-44.9000,8.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,12.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-40.2090,11.3360).
+
+Glossing attempt unsuccessful. Active pad is at (-38.4000,13.0500).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4960,8.2550).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,11.4170).
+
+Glossing attempt unsuccessful. Active pad is at (-5.7000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.2000,35.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.2000,45.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-9.8000,18.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.9250,18.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.6940,16.3670).
+
+Glossing attempt unsuccessful. Active pad is at (-29.1000,17.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2440,10.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-32.2730,7.1270).
+
+Glossing attempt unsuccessful. Active pad is at (-32.8000,6.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.9692,38.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,39.4100).
+
+Glossing attempt unsuccessful. Active pad is at (-9.6410,38.2780).
+
+Glossing attempt unsuccessful. Active pad is at (-20.0460,48.6000).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6720,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-22.5540,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,23.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,49.5300).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,48.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.5850,44.7040).
+
+Glossing attempt unsuccessful. Active pad is at (-22.6000,44.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.9000).
+
+Glossing attempt unsuccessful. Active pad is at (-27.1660,47.6250).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,45.8470).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,46.9900).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,46.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-32.4000,45.7200).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0000,47.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-8.8950,47.5900).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8500,28.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.6000,23.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,23.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-38.5840,32.9220).
+
+Glossing attempt unsuccessful. Active pad is at (-39.3080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-6.4000,13.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-30.5500,3.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-31.4000,3.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-26.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-26.4957,29.1044).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,24.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6000,25.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.7000,57.5820).
+
+Glossing attempt unsuccessful. Active pad is at (-13.7000,44.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.8140,41.5630).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,44.4500).
+
+Glossing attempt unsuccessful. Active pad is at (-34.0000,49.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.2000,22.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,41.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.2000,42.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,47.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.1000,54.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-3.7300,49.9500).
+
+Glossing attempt unsuccessful. Active pad is at (-4.1340,50.5916).
+
+Glossing attempt unsuccessful. Active pad is at (-8.6000,2.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-10.0240,5.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,15.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-39.4000,61.2000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.4000,61.2000).
+
+Glossing attempt unsuccessful. Active pad is at (2.0000,22.7000).
+
+Glossing attempt unsuccessful. Active pad is at (-39.2430,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,28.9560).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-36.9570,26.6700).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9590,33.7530).
+
+Glossing attempt unsuccessful. Active pad is at (-28.9560,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-25.8000,44.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,44.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-29.2790,35.1790).
+
+Glossing attempt unsuccessful. Active pad is at (-33.8510,-0.9510).
+
+Glossing attempt unsuccessful. Active pad is at (-27.9000,15.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-25.2500,28.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-42.6000,25.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,58.2500).
+
+Glossing attempt unsuccessful. Active pad is at (-7.6500,64.1000).
+
+Glossing attempt unsuccessful. Active pad is at (-22.0980,13.3350).
+
+Glossing attempt unsuccessful. Active pad is at (-20.8500,14.4000).
+
+Glossing attempt unsuccessful. Active pad is at (-35.4000,0.0000).
+
+Glossing attempt unsuccessful. Active pad is at (-37.6610,14.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.1440,13.9170).
+
+Glossing attempt unsuccessful. Active pad is at (-26.9315,14.0315).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-32.1161,18.0344).
+
+Glossing attempt unsuccessful. Active pad is at (-17.7000,16.6430).
+
+Glossing attempt unsuccessful. Active pad is at (-18.6000,16.6500).
+
+Glossing attempt unsuccessful. Active pad is at (-18.5500,17.5000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-38.1000,24.3000).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,25.3760).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.6560,26.2890).
+
+Glossing attempt unsuccessful. Active pad is at (-41.7000,30.3500).
+
+Glossing attempt unsuccessful. Active pad is at (-41.4000,29.5760).
+
+Glossing attempt unsuccessful. Active pad is at (-36.8080,30.2760).
+
+Glossing attempt unsuccessful. Active pad is at (-35.6080,29.0760).
+
+Glossing attempt unsuccessful. Active pad is at (-27.3616,31.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-28.2090,32.3030).
+
+Glossing attempt unsuccessful. Active pad is at (-27.8130,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-30.0990,36.4490).
+
+Glossing attempt unsuccessful. Active pad is at (-17.3000,40.7500).
+
+Glossing attempt unsuccessful. Active pad is at (-14.5000,43.8500).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3730,51.0245).
+
+Glossing attempt unsuccessful. Active pad is at (-21.3000,50.1500).
+
+Glossing attempt unsuccessful. Active pad is at (-35.9000,60.4520).
+
+
+Finished execution 3
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Mon Nov 04 11:41:26 2019
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 684
+Number of Actual Glossings                    : 62
+Number of Glossings Aborted by DRC violations : 6
+
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

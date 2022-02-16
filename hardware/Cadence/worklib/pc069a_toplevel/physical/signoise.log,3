@@ -1,0 +1,85 @@
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing device file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Loaded existing interconnect file '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/interconn.iml'
+INFO: Loaded existing interconnect file '/software/CAD/Cadence/SPB174/share/pcb/signal/cds_interconn.iml'
+INFO: Finished loading SigNoise interconnect libraries
+INFO: Field Solver bem2d for STL_1S_1R_465
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakb04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_466
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakc04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_467
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakd04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_468
+INFO: Executing command: bem2d 0 "/tmp/#Taaaake04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_469
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakf04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_470
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakg04129.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_471
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakh04129.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_472
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaki04129.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_473
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakj04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_474
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakk04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_475
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakl04129.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_476
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakm04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_477
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakn04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_478
+INFO: Executing command: bem2d 0 "/tmp/#Taaaako04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_479
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakp04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_480
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakq04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_481
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakr04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_482
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaks04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_483
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakt04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_484
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaku04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_485
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakv04129.in" 0.00127
+INFO: Field Solver bem2d for STL_2S_1R_486
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakw04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_487
+INFO: Executing command: bem2d 0 "/tmp/#Taaaakx04129.in" 0.00127
+INFO: Field Solver bem2d for STL_1S_1R_488
+INFO: Executing command: bem2d 0 "/tmp/#Taaaaky04129.in" 0.00127

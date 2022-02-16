@@ -1,0 +1,81 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : pc053e_toplevel_65.brd                        )
+(    Software Version : 17.4S011                                      )
+(    Date/Time        : Thu Apr 15 18:21:47 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-365): This design contains 4 slot holes that cannot be drilled.
+ WARNING(SPMHMF-366): They can be processed by NC routing instead.
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.3000  P        T01            0.000000     0.000000
+         0.8128  P        T02            0.000000     0.000000
+         0.8499  P        T03            0.000000     0.000000
+         0.9500  P        T04            0.050000     0.050000
+         1.0000  P        T05            0.000000     0.000000
+         1.0500  P        T06            0.050000     0.050000
+         2.7000  P        T07            0.000000     0.000000
+         1.3000  N        T08            0.000000     0.000000
+         1.4000  N        T09            0.000000     0.000000
+
+
+ Drill files being output to directory 'Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/artwork' ...
+
+
+
+     'art_ pc053e-1-6-1-6.drl' created for holes connecting TOP and BOTTOM
+     ---------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.3000    0.0000/  0.0000      PLATED        548
+     T02    2.   0.8128    0.0000/  0.0000      PLATED          3
+     T03    3.   0.8499    0.0000/  0.0000      PLATED          1
+     T04    4.   0.9500    0.0500/  0.0500      PLATED          9
+     T05    5.   1.0000    0.0000/  0.0000      PLATED         28
+     T06    6.   1.0500    0.0500/  0.0500      PLATED         10
+     T07    7.   2.7000    0.0000/  0.0000      PLATED          4
+     T08    8.   1.3000    0.0000/  0.0000  NON_PLATED          2
+     T09    9.   1.4000    0.0000/  0.0000  NON_PLATED          2
+
+     ---- Total holes:                                        607
+
+     ---- Total head travel:              28.22 feet (8.60 meters)
+

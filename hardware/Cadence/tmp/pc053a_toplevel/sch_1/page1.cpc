@@ -1,0 +1,285 @@
+#ISCELL
+  bris_cds_standard a3-2000 *
+  *
+#ISCELL
+  cnpower gnd *
+  page11_i100
+#CELL
+  cnpassive rsmd0402 *
+  page11_i102
+#CELL
+  cnpassive rsmd0402 *
+  page11_i103
+#CELL
+  cnpassive rsmd0402 *
+  page11_i104
+#CELL
+  cndiscrete inductance *
+  page11_i105
+#ISCELL
+  cnpower p3v3 *
+  page11_i108
+#CELL
+  cnpassive rsmd0402 *
+  page11_i109
+#ISCELL
+  cnpower gnd *
+  page11_i110
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i127
+#ISCELL
+  cnpower gnd *
+  page11_i128
+#ISCELL
+  cnpower gnd *
+  page11_i129
+#ISCELL
+  cnpower p3v3 *
+  page11_i130
+#ISCELL
+  cnpower gnd *
+  page11_i131
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i133
+#CELL
+  cnpassive rsmd0603 *
+  page11_i134
+#ISCELL
+  cnpower gnd *
+  page11_i135
+#ISCELL
+  cnpower gnd *
+  page11_i136
+#CELL
+  cnpassive rsmd0603 *
+  page11_i137
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i140
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i141
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i142
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i146
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i147
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i148
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i149
+#ISCELL
+  cnpower p3v3 *
+  page11_i150
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i151
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i152
+#ISCELL
+  cnpower gnd *
+  page11_i153
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i154
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i155
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i156
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i157
+#ISCELL
+  cnpower gnd *
+  page11_i158
+#ISCELL
+  cnpower p3v3 *
+  page11_i159
+#CELL
+  cnconnector con20p_sfp *
+  page11_i175
+#CELL
+  cnmech sfp_cage *
+  page11_i176
+#ISCELL
+  cnpower gnd *
+  page11_i181
+#ISCELL
+  cnpower p3v3 *
+  page11_i183
+#CELL
+  cninterface sy58608u *
+  page11_i207
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i215
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i216
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i217
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i218
+#ISCELL
+  cnpower gnd *
+  page11_i219
+#ISCELL
+  cnpower p3v3 *
+  page11_i220
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i221
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i222
+#CELL
+  cndiscrete led1 *
+  page11_i225
+#CELL
+  cndiscrete led1 *
+  page11_i226
+#CELL
+  cndiscrete led1 *
+  page11_i227
+#CELL
+  cninterface adn2814 *
+  page11_i23
+#CELL
+  cnpassive rsmd0402 *
+  page11_i232
+#CELL
+  cnpassive rsmd0402 *
+  page11_i233
+#CELL
+  cnpassive rsmd0402 *
+  page11_i236
+#CELL
+  cnpassive rsmd0402 *
+  page11_i237
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i238
+#CELL
+  cnpassive rsmd0603 *
+  page11_i239
+#CELL
+  cnpassive rsmd0603 *
+  page11_i240
+#CELL
+  cnpassive rsmd0603 *
+  page11_i241
+#CELL
+  cnpassive rsmd0603 *
+  page11_i242
+#CELL
+  cninterface 74avc4t245 *
+  page11_i269
+#ISCELL
+  cnpower gnd *
+  page11_i271
+#ISCELL
+  cnpower cvcc *
+  page11_i272
+#ISCELL
+  cnpower gnd *
+  page11_i273
+#CELL
+  cninterface 74avc4t245 *
+  page11_i274
+#ISCELL
+  cnpower cvcc *
+  page11_i275
+#ISCELL
+  cnpower gnd *
+  page11_i283
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i285
+#ISCELL
+  cnpower gnd *
+  page11_i288
+#ISCELL
+  cnpower cvcc *
+  page11_i289
+#CELL
+  cninterface sy58608u *
+  page11_i290
+#CELL
+  cninterface sn74lvc2gu04 *
+  page11_i291
+#CELL
+  cninterface sn74lvc2gu04 *
+  page11_i292
+#CELL
+  cninterface 74avc1t45 *
+  page11_i293
+#CELL
+  cninterface 74avc1t45 *
+  page11_i294
+#ISCELL
+  cnpower cvcc *
+  page11_i295
+#ISCELL
+  cnpower gnd *
+  page11_i298
+#ISCELL
+  cnpower p3v3 *
+  page11_i300
+#ISCELL
+  cnpower gnd *
+  page11_i301
+#ISCELL
+  cnpower gnd *
+  page11_i302
+#ISCELL
+  cnpower cvcc *
+  page11_i303
+#ISCELL
+  cnpower gnd *
+  page11_i304
+#ISCELL
+  cnpower gnd *
+  page11_i305
+#ISCELL
+  cnpower p1v8 *
+  page11_i307
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i308
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i309
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i310
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i311
+#ISCELL
+  cnpower gnd *
+  page11_i42
+#ISCELL
+  cnpower p3v3 *
+  page11_i94
+#CELL
+  cnpassive rsmd0402 *
+  page11_i95
+#CELL
+  cnpassive rsmd0402 *
+  page11_i98
+#CELL
+  cndiscrete inductance *
+  page11_i99

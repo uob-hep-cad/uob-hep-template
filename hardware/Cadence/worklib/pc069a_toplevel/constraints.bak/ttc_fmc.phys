@@ -1,0 +1,3016 @@
+( ConstraintFile "ttc_fmc"
+    ( constraintHeader
+        ( objectKey
+            ( physical )
+        )
+        ( version
+            ( 16.3 )
+        )
+        ( revisionNumber
+            ( logicalViewRevNum 410 )
+            ( physicalViewRevNum 25 )
+            ( otherViewRevNum 0 )
+        )
+        ( contents
+            ( drawing )
+            ( dictionaryExtensions )
+            ( worksheetCustomizations )
+            ( crossSection )
+            ( electricalConstraints )
+            ( physicalConstraints )
+            ( spacingConstraints )
+            ( sameNetSpacingConstraints )
+            ( netClasses )
+            ( properties )
+        )
+        ( precision
+            ( units mm )
+            ( numberOfDecimalPlaces 4 )
+        )
+    )
+    ( drawing
+        ( attribute "DRAWING_EXTENTS" "741.3200,673.0560"
+        )
+        ( attribute "DRAWING_LOWER_LEFT" "-315.1182,-288.1258"
+        )
+    )
+    ( DictionaryExtensions
+    )
+    ( crossSection
+        ( layer "SURFACE_INDEX_0"
+            ( attribute "CDS_LAYER_TYPE" "SURFACE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "AIR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0002700"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "TOP"
+            ( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "3.980"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "DIELECTRIC_BELOW_TOP"
+            ( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "FR-4"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.1000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "L2PWR"
+            ( attribute "CDS_LAYER_TYPE" "PLANE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "DIELECTRIC_BELOW_L2PWR"
+            ( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "FR-4"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "1.3000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "L3GND"
+            ( attribute "CDS_LAYER_TYPE" "PLANE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "DIELECTRIC_BELOW_L3GND"
+            ( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "FR-4"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.1000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "BOTTOM"
+            ( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "COPPER"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0350"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "3.980"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_NAMED" "1"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+                ( Origin gBackEnd )
+            )
+        )
+        ( layer "SURFACE_BELOW_BOTTOM"
+            ( attribute "CDS_LAYER_TYPE" "SURFACE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_MATERIAL" "AIR"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THICKNESS" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+                ( Units "uElectricalConductivity" "mho/cm" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0002700"
+                ( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+                ( Origin gBackEnd )
+            )
+            ( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+                ( Origin gBackEnd )
+            )
+        )
+    )
+    ( designConstraints
+        ( ruleChanges
+            ( allRules )
+            ( design "ttc_fmc"
+                ( physicalCSetRef "DEFAULT" )
+                ( spacingCSetRef "DEFAULT" )
+                ( sameNetSpacingCSetRef "DEFAULT" )
+                ( objectStatus sObjectLogicalNet )
+            )
+            ( electricalCSet "PDIFF"
+                ( attribute "DIFFP_PRIMARY_GAP" "0.1200"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_MIN_SPACE" "0.1200"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.1200"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\PDIFF\" )
+            )
+            ( physicalCSet "DEFAULT"
+                ( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.1500,0.1500,0.1500,0.1500"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_NECK_WIDTH" "0.2000,0.2000,0.2000,0.2000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAXIMUM_NECK_LENGTH" "5.0000,5.0000,5.0000,5.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "VIA_LIST" "VIA80-40-110,VIA60-30-85"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@glib_lib.glib(sch_1):\DEFAULT\" )
+            )
+            ( physicalCSet "PCS1"
+                ( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_MIN_SPACE" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_NECK_WIDTH" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAXIMUM_NECK_LENGTH" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "VIA_LIST" "VIA80-40-110,VIA60-30-85"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\PCS1\" )
+            )
+            ( spacingCSet "DEFAULT"
+                ( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_SMDPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_TESTPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUVIA_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_TESTVIA_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_SHAPE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_BVIA_GAP" "0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@glib_lib.glib(sch_1):\DEFAULT\" )
+            )
+            ( sameNetSpacingCSet "DEFAULT"
+                ( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@glib_lib.glib(sch_1):\DEFAULT\" )
+            )
+            ( signal "VTT"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):vtt" )
+            )
+            ( signal "VCCA"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):vcca" )
+            )
+            ( signal "P1V5"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p1v5" )
+            )
+            ( signal "P1V0"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p1v0" )
+            )
+            ( signal "P1V8"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p1v8" )
+            )
+            ( signal "P2V5A"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p2v5a" )
+            )
+            ( signal "P1V8A"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p1v8a" )
+            )
+            ( signal "P3V3A"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p3v3a" )
+            )
+            ( signal "P12V"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p12v" )
+            )
+            ( signal "P3V3"
+                ( attribute "DIFFP_MIN_SPACE" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MIN_LINE_WIDTH" "0.3000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p3v3" )
+            )
+            ( signal "P2V5"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p2v5" )
+            )
+            ( signal "GND"
+                ( attribute "MIN_LINE_WIDTH" "0.3000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):gnd" )
+            )
+            ( signal "FMC1_VIO_B_M2C"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_vio_b_m2c" )
+            )
+            ( signal "FMC2_VIO_B_M2C"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_vio_b_m2c" )
+            )
+            ( signal "INTVCC_2V5"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):intvcc_2v5" )
+            )
+            ( signal "DRVCC_1V5<0>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):drvcc_1v5(0)" )
+            )
+            ( signal "DRVCC_3V3<0>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):drvcc_3v3(0)" )
+            )
+            ( signal "VCC0_13<0>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc0_13(0)" )
+            )
+            ( signal "VCC0_13<1>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc0_13(1)" )
+            )
+            ( signal "VCC0_13<2>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc0_13(2)" )
+            )
+            ( signal "VCC0_13<3>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc0_13(3)" )
+            )
+            ( signal "VCC0_13<4>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc0_13(4)" )
+            )
+            ( signal "VD_1V5<0>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vd_1v5(0)" )
+            )
+            ( signal "VD_2V5<0>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vd_2v5(0)" )
+            )
+            ( signal "VD_3V3<0>"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vd_3v3(0)" )
+            )
+            ( signal "P1V5B"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p1v5b" )
+            )
+            ( signal "P2V5B"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p2v5b" )
+            )
+            ( signal "P3V3B"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p3v3b" )
+            )
+            ( signal "DVDD"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):dvdd" )
+            )
+            ( signal "VCC_PLL"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc_pll" )
+            )
+            ( signal "VCC_VCO"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc_vco" )
+            )
+            ( signal "UNNAMED_8_ICS55703_I244_CLK0"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_8_ics55703_i244_clk0" )
+            )
+            ( signal "UNNAMED_8_ICS55703_I244_CLK0_1"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_8_ics55703_i244_clk0_1" )
+            )
+            ( signal "TCLKA_TO_GLIB_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclka_to_glib_n" )
+            )
+            ( signal "TCLKA_TO_GLIB_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclka_to_glib_p" )
+            )
+            ( signal "TCLKA_FROM_GLIB_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclka_from_glib_n" )
+            )
+            ( signal "TCLKA_FROM_GLIB_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclka_from_glib_p" )
+            )
+            ( signal "XPOINT_CLK0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):xpoint_clk0_n" )
+            )
+            ( signal "XPOINT_CLK0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):xpoint_clk0_p" )
+            )
+            ( signal "MCLK_1_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mclk_1_n" )
+            )
+            ( signal "MCLK_1_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mclk_1_p" )
+            )
+            ( signal "MCLK_0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mclk_0_n" )
+            )
+            ( signal "MCLK_0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mclk_0_p" )
+            )
+            ( signal "SFP_REFCLK0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp_refclk0_n" )
+            )
+            ( signal "SFP_REFCLK0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp_refclk0_p" )
+            )
+            ( signal "EXTFP_REFCLK0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):extfp_refclk0_n" )
+            )
+            ( signal "EXTFP_REFCLK0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):extfp_refclk0_p" )
+            )
+            ( signal "FP_REFCLK0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fp_refclk0_n" )
+            )
+            ( signal "FP_REFCLK0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fp_refclk0_p" )
+            )
+            ( signal "FMC1_REFCLK0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_refclk0_n" )
+            )
+            ( signal "FMC1_REFCLK0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_refclk0_p" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I71_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i71_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I72_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i72_a" )
+            )
+            ( signal "MGT_REFCLK_COPY_0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mgt_refclk_copy_0_n" )
+            )
+            ( signal "MGT_REFCLK_COPY_0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mgt_refclk_copy_0_p" )
+            )
+            ( signal "MGT_REFCLK_COPY_1_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mgt_refclk_copy_1_n" )
+            )
+            ( signal "MGT_REFCLK_COPY_1_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mgt_refclk_copy_1_p" )
+            )
+            ( signal "FMC2_LA18_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la18_n_cc" )
+            )
+            ( signal "FMC2_LA18_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la18_p_cc" )
+            )
+            ( signal "FMC2_LA17_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la17_n_cc" )
+            )
+            ( signal "FMC2_LA17_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la17_p_cc" )
+            )
+            ( signal "FMC2_LA01_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la01_n_cc" )
+            )
+            ( signal "FMC2_LA01_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la01_p_cc" )
+            )
+            ( signal "FMC2_LA00_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la00_n_cc" )
+            )
+            ( signal "FMC2_LA00_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la00_p_cc" )
+            )
+            ( signal "FMC2_HB17_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb17_n_cc" )
+            )
+            ( signal "FMC2_HB17_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb17_p_cc" )
+            )
+            ( signal "FMC2_HB06_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb06_n_cc" )
+            )
+            ( signal "FMC2_HB06_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb06_p_cc" )
+            )
+            ( signal "FMC2_HB00_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb00_n_cc" )
+            )
+            ( signal "FMC2_HB00_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb00_p_cc" )
+            )
+            ( signal "FMC2_HA17_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha17_n_cc" )
+            )
+            ( signal "FMC2_HA17_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha17_p_cc" )
+            )
+            ( signal "FMC2_HA01_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha01_n_cc" )
+            )
+            ( signal "FMC2_HA01_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha01_p_cc" )
+            )
+            ( signal "FMC2_HA00_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha00_n_cc" )
+            )
+            ( signal "FMC2_HA00_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha00_p_cc" )
+            )
+            ( signal "FMC1_LA18_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la18_n_cc" )
+            )
+            ( signal "FMC1_LA18_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la18_p_cc" )
+            )
+            ( signal "FMC1_LA17_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la17_n_cc" )
+            )
+            ( signal "FMC1_LA17_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la17_p_cc" )
+            )
+            ( signal "FMC1_LA01_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la01_n_cc" )
+            )
+            ( signal "FMC1_LA01_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la01_p_cc" )
+            )
+            ( signal "FMC1_LA00_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la00_n_cc" )
+            )
+            ( signal "FMC1_LA00_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la00_p_cc" )
+            )
+            ( signal "FMC1_HB17_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb17_n_cc" )
+            )
+            ( signal "FMC1_HB17_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb17_p_cc" )
+            )
+            ( signal "FMC1_HB06_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb06_n_cc" )
+            )
+            ( signal "FMC1_HB06_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb06_p_cc" )
+            )
+            ( signal "FMC1_HB00_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb00_n_cc" )
+            )
+            ( signal "FMC1_HB00_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb00_p_cc" )
+            )
+            ( signal "FMC1_HA17_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha17_n_cc" )
+            )
+            ( signal "FMC1_HA17_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha17_p_cc" )
+            )
+            ( signal "FMC1_HA01_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha01_n_cc" )
+            )
+            ( signal "FMC1_HA01_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha01_p_cc" )
+            )
+            ( signal "FMC1_HA00_N_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha00_n_cc" )
+            )
+            ( signal "FMC1_HA00_P_CC"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha00_p_cc" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I61_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i61_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I62_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i62_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I59_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i59_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I60_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i60_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I20_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i20_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I21_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i21_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I24_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i24_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I25_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i25_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I26_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i26_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I27_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i27_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I73_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i73_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I74_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i74_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I40_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i40_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I41_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i41_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I67_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i67_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I68_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i68_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I38_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i38_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I39_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i39_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I36_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i36_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I37_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i37_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I65_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i65_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I66_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i66_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I174_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i174_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I175_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i175_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I69_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i69_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I70_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i70_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I34_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i34_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I35_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i35_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I32_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i32_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I33_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i33_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I30_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i30_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I31_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i31_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I63_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i63_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I64_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i64_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I28_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i28_b" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I29_B"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i29_b" )
+            )
+            ( signal "SFP4_TXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp4_txn" )
+            )
+            ( signal "SFP4_TXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp4_txp" )
+            )
+            ( signal "SFP3_TXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp3_txn" )
+            )
+            ( signal "SFP3_TXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp3_txp" )
+            )
+            ( signal "SFP2_TXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp2_txn" )
+            )
+            ( signal "SFP2_TXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp2_txp" )
+            )
+            ( signal "SFP1_TXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp1_txn" )
+            )
+            ( signal "SFP1_TXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp1_txp" )
+            )
+            ( signal "SFP4_RXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp4_rxn" )
+            )
+            ( signal "SFP4_RXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp4_rxp" )
+            )
+            ( signal "SFP3_RXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp3_rxn" )
+            )
+            ( signal "SFP3_RXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp3_rxp" )
+            )
+            ( signal "SFP2_RXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp2_rxn" )
+            )
+            ( signal "SFP2_RXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp2_rxp" )
+            )
+            ( signal "SFP1_RXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp1_rxn" )
+            )
+            ( signal "SFP1_RXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):sfp1_rxp" )
+            )
+            ( signal "AMC_FCLKA_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_fclka_n" )
+            )
+            ( signal "AMC_FCLKA_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_fclka_p" )
+            )
+            ( signal "AMC_P0_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p0_rx_n" )
+            )
+            ( signal "AMC_P0_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p0_rx_p" )
+            )
+            ( signal "AMC_P0_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p0_tx_n" )
+            )
+            ( signal "AMC_P0_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p0_tx_p" )
+            )
+            ( signal "AMC_P10_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p10_rx_n" )
+            )
+            ( signal "AMC_P10_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p10_rx_p" )
+            )
+            ( signal "AMC_P10_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p10_tx_n" )
+            )
+            ( signal "AMC_P10_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p10_tx_p" )
+            )
+            ( signal "AMC_P11_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p11_rx_n" )
+            )
+            ( signal "AMC_P11_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p11_rx_p" )
+            )
+            ( signal "AMC_P11_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p11_tx_n" )
+            )
+            ( signal "AMC_P11_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p11_tx_p" )
+            )
+            ( signal "AMC_P12_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p12_rx_n" )
+            )
+            ( signal "AMC_P12_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p12_rx_p" )
+            )
+            ( signal "AMC_P12_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p12_tx_n" )
+            )
+            ( signal "AMC_P12_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p12_tx_p" )
+            )
+            ( signal "AMC_P13_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p13_rx_n" )
+            )
+            ( signal "AMC_P13_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p13_rx_p" )
+            )
+            ( signal "AMC_P13_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p13_tx_n" )
+            )
+            ( signal "AMC_P13_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p13_tx_p" )
+            )
+            ( signal "AMC_P14_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p14_rx_n" )
+            )
+            ( signal "AMC_P14_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p14_rx_p" )
+            )
+            ( signal "AMC_P14_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p14_tx_n" )
+            )
+            ( signal "AMC_P14_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p14_tx_p" )
+            )
+            ( signal "AMC_P15_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p15_rx_n" )
+            )
+            ( signal "AMC_P15_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p15_rx_p" )
+            )
+            ( signal "AMC_P15_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p15_tx_n" )
+            )
+            ( signal "AMC_P15_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p15_tx_p" )
+            )
+            ( signal "AMC_P17_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p17_rx_n" )
+            )
+            ( signal "AMC_P17_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p17_rx_p" )
+            )
+            ( signal "AMC_P17_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p17_tx_n" )
+            )
+            ( signal "AMC_P17_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p17_tx_p" )
+            )
+            ( signal "AMC_P18_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p18_rx_n" )
+            )
+            ( signal "AMC_P18_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p18_rx_p" )
+            )
+            ( signal "AMC_P18_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p18_tx_n" )
+            )
+            ( signal "AMC_P18_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p18_tx_p" )
+            )
+            ( signal "AMC_P19_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p19_rx_n" )
+            )
+            ( signal "AMC_P19_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p19_rx_p" )
+            )
+            ( signal "AMC_P19_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p19_tx_n" )
+            )
+            ( signal "AMC_P19_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p19_tx_p" )
+            )
+            ( signal "AMC_P1_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p1_rx_n" )
+            )
+            ( signal "AMC_P1_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p1_rx_p" )
+            )
+            ( signal "AMC_P1_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p1_tx_n" )
+            )
+            ( signal "AMC_P1_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p1_tx_p" )
+            )
+            ( signal "AMC_P20_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p20_rx_n" )
+            )
+            ( signal "AMC_P20_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p20_rx_p" )
+            )
+            ( signal "AMC_P20_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p20_tx_n" )
+            )
+            ( signal "AMC_P20_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p20_tx_p" )
+            )
+            ( signal "AMC_P2_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p2_rx_n" )
+            )
+            ( signal "AMC_P2_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p2_rx_p" )
+            )
+            ( signal "AMC_P2_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p2_tx_n" )
+            )
+            ( signal "AMC_P2_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p2_tx_p" )
+            )
+            ( signal "AMC_P3_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p3_rx_n" )
+            )
+            ( signal "AMC_P3_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p3_rx_p" )
+            )
+            ( signal "AMC_P3_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p3_tx_n" )
+            )
+            ( signal "AMC_P3_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p3_tx_p" )
+            )
+            ( signal "AMC_P4_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p4_rx_n" )
+            )
+            ( signal "AMC_P4_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p4_rx_p" )
+            )
+            ( signal "AMC_P4_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p4_tx_n" )
+            )
+            ( signal "AMC_P4_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p4_tx_p" )
+            )
+            ( signal "AMC_P5_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p5_rx_n" )
+            )
+            ( signal "AMC_P5_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p5_rx_p" )
+            )
+            ( signal "AMC_P5_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p5_tx_n" )
+            )
+            ( signal "AMC_P5_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p5_tx_p" )
+            )
+            ( signal "AMC_P6_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p6_rx_n" )
+            )
+            ( signal "AMC_P6_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p6_rx_p" )
+            )
+            ( signal "AMC_P6_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p6_tx_n" )
+            )
+            ( signal "AMC_P6_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p6_tx_p" )
+            )
+            ( signal "AMC_P7_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p7_rx_n" )
+            )
+            ( signal "AMC_P7_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p7_rx_p" )
+            )
+            ( signal "AMC_P7_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p7_tx_n" )
+            )
+            ( signal "AMC_P7_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p7_tx_p" )
+            )
+            ( signal "AMC_P8_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p8_rx_n" )
+            )
+            ( signal "AMC_P8_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p8_rx_p" )
+            )
+            ( signal "AMC_P8_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p8_tx_n" )
+            )
+            ( signal "AMC_P8_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p8_tx_p" )
+            )
+            ( signal "AMC_P9_RX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p9_rx_n" )
+            )
+            ( signal "AMC_P9_RX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p9_rx_p" )
+            )
+            ( signal "AMC_P9_TX_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p9_tx_n" )
+            )
+            ( signal "AMC_P9_TX_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_p9_tx_p" )
+            )
+            ( signal "AMC_TCLKA_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_tclka_n" )
+            )
+            ( signal "AMC_TCLKA_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_tclka_p" )
+            )
+            ( signal "AMC_TCLKB_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_tclkb_n" )
+            )
+            ( signal "AMC_TCLKB_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):amc_tclkb_p" )
+            )
+            ( signal "CLK125_0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_0_n" )
+            )
+            ( signal "CLK125_0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_0_p" )
+            )
+            ( signal "CLK125_1_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_1_n" )
+            )
+            ( signal "CLK125_1_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_1_p" )
+            )
+            ( signal "CLK125_2_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_2_n" )
+            )
+            ( signal "CLK125_2_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_2_p" )
+            )
+            ( signal "CLK125_3_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_3_n" )
+            )
+            ( signal "CLK125_3_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clk125_3_p" )
+            )
+            ( signal "FMC1_CLK0_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk0_c2m_n" )
+            )
+            ( signal "FMC1_CLK0_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk0_c2m_p" )
+            )
+            ( signal "FMC1_CLK0_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk0_m2c_n" )
+            )
+            ( signal "FMC1_CLK0_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk0_m2c_p" )
+            )
+            ( signal "FMC1_CLK1_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk1_c2m_n" )
+            )
+            ( signal "FMC1_CLK1_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk1_c2m_p" )
+            )
+            ( signal "FMC1_CLK1_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk1_m2c_n" )
+            )
+            ( signal "FMC1_CLK1_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_clk1_m2c_p" )
+            )
+            ( signal "FMC1_DP0_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp0_c2m_n" )
+            )
+            ( signal "FMC1_DP0_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp0_c2m_p" )
+            )
+            ( signal "FMC1_DP0_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp0_m2c_n" )
+            )
+            ( signal "FMC1_DP0_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp0_m2c_p" )
+            )
+            ( signal "FMC1_DP1_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp1_c2m_n" )
+            )
+            ( signal "FMC1_DP1_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp1_c2m_p" )
+            )
+            ( signal "FMC1_DP1_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp1_m2c_n" )
+            )
+            ( signal "FMC1_DP1_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp1_m2c_p" )
+            )
+            ( signal "FMC1_DP2_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp2_c2m_n" )
+            )
+            ( signal "FMC1_DP2_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp2_c2m_p" )
+            )
+            ( signal "FMC1_DP2_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp2_m2c_n" )
+            )
+            ( signal "FMC1_DP2_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp2_m2c_p" )
+            )
+            ( signal "FMC1_DP3_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp3_c2m_n" )
+            )
+            ( signal "FMC1_DP3_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp3_c2m_p" )
+            )
+            ( signal "FMC1_DP3_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp3_m2c_n" )
+            )
+            ( signal "FMC1_DP3_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_dp3_m2c_p" )
+            )
+            ( signal "FMC1_HA02_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha02_n" )
+            )
+            ( signal "FMC1_HA02_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha02_p" )
+            )
+            ( signal "FMC1_HA03_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha03_n" )
+            )
+            ( signal "FMC1_HA03_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha03_p" )
+            )
+            ( signal "FMC1_HA04_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha04_n" )
+            )
+            ( signal "FMC1_HA04_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha04_p" )
+            )
+            ( signal "FMC1_HA05_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha05_n" )
+            )
+            ( signal "FMC1_HA05_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha05_p" )
+            )
+            ( signal "FMC1_HA06_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha06_n" )
+            )
+            ( signal "FMC1_HA06_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha06_p" )
+            )
+            ( signal "FMC1_HA07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha07_n" )
+            )
+            ( signal "FMC1_HA07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha07_p" )
+            )
+            ( signal "FMC1_HA08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha08_n" )
+            )
+            ( signal "FMC1_HA08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha08_p" )
+            )
+            ( signal "FMC1_HA09_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha09_n" )
+            )
+            ( signal "FMC1_HA09_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha09_p" )
+            )
+            ( signal "FMC1_HA10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha10_n" )
+            )
+            ( signal "FMC1_HA10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha10_p" )
+            )
+            ( signal "FMC1_HA11_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha11_n" )
+            )
+            ( signal "FMC1_HA11_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha11_p" )
+            )
+            ( signal "FMC1_HA12_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha12_n" )
+            )
+            ( signal "FMC1_HA12_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha12_p" )
+            )
+            ( signal "FMC1_HA13_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha13_n" )
+            )
+            ( signal "FMC1_HA13_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha13_p" )
+            )
+            ( signal "FMC1_HA14_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha14_n" )
+            )
+            ( signal "FMC1_HA14_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha14_p" )
+            )
+            ( signal "FMC1_HA15_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha15_n" )
+            )
+            ( signal "FMC1_HA15_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha15_p" )
+            )
+            ( signal "FMC1_HA16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha16_n" )
+            )
+            ( signal "FMC1_HA16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha16_p" )
+            )
+            ( signal "FMC1_HA18_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha18_n" )
+            )
+            ( signal "FMC1_HA18_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha18_p" )
+            )
+            ( signal "FMC1_HA19_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha19_n" )
+            )
+            ( signal "FMC1_HA19_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha19_p" )
+            )
+            ( signal "FMC1_HA20_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha20_n" )
+            )
+            ( signal "FMC1_HA20_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha20_p" )
+            )
+            ( signal "FMC1_HA21_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha21_n" )
+            )
+            ( signal "FMC1_HA21_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha21_p" )
+            )
+            ( signal "FMC1_HA22_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha22_n" )
+            )
+            ( signal "FMC1_HA22_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha22_p" )
+            )
+            ( signal "FMC1_HA23_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha23_n" )
+            )
+            ( signal "FMC1_HA23_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_ha23_p" )
+            )
+            ( signal "FMC1_HB01_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb01_n" )
+            )
+            ( signal "FMC1_HB01_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb01_p" )
+            )
+            ( signal "FMC1_HB02_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb02_n" )
+            )
+            ( signal "FMC1_HB02_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb02_p" )
+            )
+            ( signal "FMC1_HB03_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb03_n" )
+            )
+            ( signal "FMC1_HB03_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb03_p" )
+            )
+            ( signal "FMC1_HB04_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb04_n" )
+            )
+            ( signal "FMC1_HB04_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb04_p" )
+            )
+            ( signal "FMC1_HB05_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb05_n" )
+            )
+            ( signal "FMC1_HB05_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb05_p" )
+            )
+            ( signal "FMC1_HB07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb07_n" )
+            )
+            ( signal "FMC1_HB07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb07_p" )
+            )
+            ( signal "FMC1_HB08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb08_n" )
+            )
+            ( signal "FMC1_HB08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb08_p" )
+            )
+            ( signal "FMC1_HB09_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb09_n" )
+            )
+            ( signal "FMC1_HB09_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb09_p" )
+            )
+            ( signal "FMC1_HB10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb10_n" )
+            )
+            ( signal "FMC1_HB10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb10_p" )
+            )
+            ( signal "FMC1_HB11_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb11_n" )
+            )
+            ( signal "FMC1_HB11_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb11_p" )
+            )
+            ( signal "FMC1_HB12_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb12_n" )
+            )
+            ( signal "FMC1_HB12_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb12_p" )
+            )
+            ( signal "FMC1_HB13_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb13_n" )
+            )
+            ( signal "FMC1_HB13_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb13_p" )
+            )
+            ( signal "FMC1_HB14_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb14_n" )
+            )
+            ( signal "FMC1_HB14_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb14_p" )
+            )
+            ( signal "FMC1_HB15_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb15_n" )
+            )
+            ( signal "FMC1_HB15_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb15_p" )
+            )
+            ( signal "FMC1_HB16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb16_n" )
+            )
+            ( signal "FMC1_HB16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb16_p" )
+            )
+            ( signal "FMC1_HB18_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb18_n" )
+            )
+            ( signal "FMC1_HB18_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb18_p" )
+            )
+            ( signal "FMC1_HB19_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb19_n" )
+            )
+            ( signal "FMC1_HB19_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb19_p" )
+            )
+            ( signal "FMC1_HB20_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb20_n" )
+            )
+            ( signal "FMC1_HB20_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb20_p" )
+            )
+            ( signal "FMC1_HB21_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb21_n" )
+            )
+            ( signal "FMC1_HB21_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_hb21_p" )
+            )
+            ( signal "FMC1_LA02_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la02_n" )
+            )
+            ( signal "FMC1_LA02_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la02_p" )
+            )
+            ( signal "FMC1_LA03_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la03_n" )
+            )
+            ( signal "FMC1_LA03_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la03_p" )
+            )
+            ( signal "FMC1_LA04_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la04_n" )
+            )
+            ( signal "FMC1_LA04_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la04_p" )
+            )
+            ( signal "FMC1_LA05_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la05_n" )
+            )
+            ( signal "FMC1_LA05_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la05_p" )
+            )
+            ( signal "FMC1_LA06_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la06_n" )
+            )
+            ( signal "FMC1_LA06_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la06_p" )
+            )
+            ( signal "FMC1_LA07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la07_n" )
+            )
+            ( signal "FMC1_LA07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la07_p" )
+            )
+            ( signal "FMC1_LA08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la08_n" )
+            )
+            ( signal "FMC1_LA08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la08_p" )
+            )
+            ( signal "FMC1_LA09_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la09_n" )
+            )
+            ( signal "FMC1_LA09_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la09_p" )
+            )
+            ( signal "FMC1_LA10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la10_n" )
+            )
+            ( signal "FMC1_LA10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la10_p" )
+            )
+            ( signal "FMC1_LA11_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la11_n" )
+            )
+            ( signal "FMC1_LA11_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la11_p" )
+            )
+            ( signal "FMC1_LA12_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la12_n" )
+            )
+            ( signal "FMC1_LA12_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la12_p" )
+            )
+            ( signal "FMC1_LA13_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la13_n" )
+            )
+            ( signal "FMC1_LA13_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la13_p" )
+            )
+            ( signal "FMC1_LA14_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la14_n" )
+            )
+            ( signal "FMC1_LA14_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la14_p" )
+            )
+            ( signal "FMC1_LA15_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la15_n" )
+            )
+            ( signal "FMC1_LA15_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la15_p" )
+            )
+            ( signal "FMC1_LA16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la16_n" )
+            )
+            ( signal "FMC1_LA16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la16_p" )
+            )
+            ( signal "FMC1_LA19_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la19_n" )
+            )
+            ( signal "FMC1_LA19_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la19_p" )
+            )
+            ( signal "FMC1_LA20_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la20_n" )
+            )
+            ( signal "FMC1_LA20_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la20_p" )
+            )
+            ( signal "FMC1_LA21_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la21_n" )
+            )
+            ( signal "FMC1_LA21_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la21_p" )
+            )
+            ( signal "FMC1_LA22_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la22_n" )
+            )
+            ( signal "FMC1_LA22_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la22_p" )
+            )
+            ( signal "FMC1_LA23_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la23_n" )
+            )
+            ( signal "FMC1_LA23_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la23_p" )
+            )
+            ( signal "FMC1_LA24_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la24_n" )
+            )
+            ( signal "FMC1_LA24_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la24_p" )
+            )
+            ( signal "FMC1_LA25_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la25_n" )
+            )
+            ( signal "FMC1_LA25_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la25_p" )
+            )
+            ( signal "FMC1_LA26_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la26_n" )
+            )
+            ( signal "FMC1_LA26_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la26_p" )
+            )
+            ( signal "FMC1_LA27_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la27_n" )
+            )
+            ( signal "FMC1_LA27_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la27_p" )
+            )
+            ( signal "FMC1_LA28_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la28_n" )
+            )
+            ( signal "FMC1_LA28_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la28_p" )
+            )
+            ( signal "FMC1_LA29_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la29_n" )
+            )
+            ( signal "FMC1_LA29_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la29_p" )
+            )
+            ( signal "FMC1_LA30_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la30_n" )
+            )
+            ( signal "FMC1_LA30_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la30_p" )
+            )
+            ( signal "FMC1_LA31_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la31_n" )
+            )
+            ( signal "FMC1_LA31_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la31_p" )
+            )
+            ( signal "FMC1_LA32_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la32_n" )
+            )
+            ( signal "FMC1_LA32_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la32_p" )
+            )
+            ( signal "FMC1_LA33_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la33_n" )
+            )
+            ( signal "FMC1_LA33_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc1_la33_p" )
+            )
+            ( signal "FMC2_CLK0_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk0_c2m_n" )
+            )
+            ( signal "FMC2_CLK0_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk0_c2m_p" )
+            )
+            ( signal "FMC2_CLK0_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk0_m2c_n" )
+            )
+            ( signal "FMC2_CLK0_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk0_m2c_p" )
+            )
+            ( signal "FMC2_CLK1_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk1_c2m_n" )
+            )
+            ( signal "FMC2_CLK1_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk1_c2m_p" )
+            )
+            ( signal "FMC2_CLK1_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk1_m2c_n" )
+            )
+            ( signal "FMC2_CLK1_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_clk1_m2c_p" )
+            )
+            ( signal "FMC2_DP0_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_dp0_c2m_n" )
+            )
+            ( signal "FMC2_DP0_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_dp0_c2m_p" )
+            )
+            ( signal "FMC2_DP0_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_dp0_m2c_n" )
+            )
+            ( signal "FMC2_DP0_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_dp0_m2c_p" )
+            )
+            ( signal "FMC2_HA02_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha02_n" )
+            )
+            ( signal "FMC2_HA02_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha02_p" )
+            )
+            ( signal "FMC2_HA03_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha03_n" )
+            )
+            ( signal "FMC2_HA03_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha03_p" )
+            )
+            ( signal "FMC2_HA04_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha04_n" )
+            )
+            ( signal "FMC2_HA04_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha04_p" )
+            )
+            ( signal "FMC2_HA05_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha05_n" )
+            )
+            ( signal "FMC2_HA05_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha05_p" )
+            )
+            ( signal "FMC2_HA06_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha06_n" )
+            )
+            ( signal "FMC2_HA06_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha06_p" )
+            )
+            ( signal "FMC2_HA07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha07_n" )
+            )
+            ( signal "FMC2_HA07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha07_p" )
+            )
+            ( signal "FMC2_HA08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha08_n" )
+            )
+            ( signal "FMC2_HA08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha08_p" )
+            )
+            ( signal "FMC2_HA09_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha09_n" )
+            )
+            ( signal "FMC2_HA09_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha09_p" )
+            )
+            ( signal "FMC2_HA10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha10_n" )
+            )
+            ( signal "FMC2_HA10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha10_p" )
+            )
+            ( signal "FMC2_HA11_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha11_n" )
+            )
+            ( signal "FMC2_HA11_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha11_p" )
+            )
+            ( signal "FMC2_HA12_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha12_n" )
+            )
+            ( signal "FMC2_HA12_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha12_p" )
+            )
+            ( signal "FMC2_HA13_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha13_n" )
+            )
+            ( signal "FMC2_HA13_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha13_p" )
+            )
+            ( signal "FMC2_HA14_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha14_n" )
+            )
+            ( signal "FMC2_HA14_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha14_p" )
+            )
+            ( signal "FMC2_HA15_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha15_n" )
+            )
+            ( signal "FMC2_HA15_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha15_p" )
+            )
+            ( signal "FMC2_HA16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha16_n" )
+            )
+            ( signal "FMC2_HA16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha16_p" )
+            )
+            ( signal "FMC2_HA18_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha18_n" )
+            )
+            ( signal "FMC2_HA18_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha18_p" )
+            )
+            ( signal "FMC2_HA19_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha19_n" )
+            )
+            ( signal "FMC2_HA19_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha19_p" )
+            )
+            ( signal "FMC2_HA20_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha20_n" )
+            )
+            ( signal "FMC2_HA20_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha20_p" )
+            )
+            ( signal "FMC2_HA21_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha21_n" )
+            )
+            ( signal "FMC2_HA21_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha21_p" )
+            )
+            ( signal "FMC2_HA22_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha22_n" )
+            )
+            ( signal "FMC2_HA22_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha22_p" )
+            )
+            ( signal "FMC2_HA23_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha23_n" )
+            )
+            ( signal "FMC2_HA23_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_ha23_p" )
+            )
+            ( signal "FMC2_HB01_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb01_n" )
+            )
+            ( signal "FMC2_HB01_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb01_p" )
+            )
+            ( signal "FMC2_HB02_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb02_n" )
+            )
+            ( signal "FMC2_HB02_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb02_p" )
+            )
+            ( signal "FMC2_HB03_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb03_n" )
+            )
+            ( signal "FMC2_HB03_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb03_p" )
+            )
+            ( signal "FMC2_HB04_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb04_n" )
+            )
+            ( signal "FMC2_HB04_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb04_p" )
+            )
+            ( signal "FMC2_HB05_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb05_n" )
+            )
+            ( signal "FMC2_HB05_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb05_p" )
+            )
+            ( signal "FMC2_HB07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb07_n" )
+            )
+            ( signal "FMC2_HB07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb07_p" )
+            )
+            ( signal "FMC2_HB08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb08_n" )
+            )
+            ( signal "FMC2_HB08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb08_p" )
+            )
+            ( signal "FMC2_HB09_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb09_n" )
+            )
+            ( signal "FMC2_HB09_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb09_p" )
+            )
+            ( signal "FMC2_HB10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb10_n" )
+            )
+            ( signal "FMC2_HB10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb10_p" )
+            )
+            ( signal "FMC2_HB11_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb11_n" )
+            )
+            ( signal "FMC2_HB11_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb11_p" )
+            )
+            ( signal "FMC2_HB12_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb12_n" )
+            )
+            ( signal "FMC2_HB12_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb12_p" )
+            )
+            ( signal "FMC2_HB13_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb13_n" )
+            )
+            ( signal "FMC2_HB13_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb13_p" )
+            )
+            ( signal "FMC2_HB14_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb14_n" )
+            )
+            ( signal "FMC2_HB14_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb14_p" )
+            )
+            ( signal "FMC2_HB15_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb15_n" )
+            )
+            ( signal "FMC2_HB15_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb15_p" )
+            )
+            ( signal "FMC2_HB16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb16_n" )
+            )
+            ( signal "FMC2_HB16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb16_p" )
+            )
+            ( signal "FMC2_HB18_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb18_n" )
+            )
+            ( signal "FMC2_HB18_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb18_p" )
+            )
+            ( signal "FMC2_HB19_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb19_n" )
+            )
+            ( signal "FMC2_HB19_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb19_p" )
+            )
+            ( signal "FMC2_HB20_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb20_n" )
+            )
+            ( signal "FMC2_HB20_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb20_p" )
+            )
+            ( signal "FMC2_HB21_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb21_n" )
+            )
+            ( signal "FMC2_HB21_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_hb21_p" )
+            )
+            ( signal "FMC2_LA02_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la02_n" )
+            )
+            ( signal "FMC2_LA02_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la02_p" )
+            )
+            ( signal "FMC2_LA03_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la03_n" )
+            )
+            ( signal "FMC2_LA03_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la03_p" )
+            )
+            ( signal "FMC2_LA04_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la04_n" )
+            )
+            ( signal "FMC2_LA04_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la04_p" )
+            )
+            ( signal "FMC2_LA05_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la05_n" )
+            )
+            ( signal "FMC2_LA05_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la05_p" )
+            )
+            ( signal "FMC2_LA06_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la06_n" )
+            )
+            ( signal "FMC2_LA06_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la06_p" )
+            )
+            ( signal "FMC2_LA07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la07_n" )
+            )
+            ( signal "FMC2_LA07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la07_p" )
+            )
+            ( signal "FMC2_LA08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la08_n" )
+            )
+            ( signal "FMC2_LA08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la08_p" )
+            )
+            ( signal "FMC2_LA09_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la09_n" )
+            )
+            ( signal "FMC2_LA09_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la09_p" )
+            )
+            ( signal "FMC2_LA10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la10_n" )
+            )
+            ( signal "FMC2_LA10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la10_p" )
+            )
+            ( signal "FMC2_LA11_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la11_n" )
+            )
+            ( signal "FMC2_LA11_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la11_p" )
+            )
+            ( signal "FMC2_LA12_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la12_n" )
+            )
+            ( signal "FMC2_LA12_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la12_p" )
+            )
+            ( signal "FMC2_LA13_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la13_n" )
+            )
+            ( signal "FMC2_LA13_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la13_p" )
+            )
+            ( signal "FMC2_LA14_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la14_n" )
+            )
+            ( signal "FMC2_LA14_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la14_p" )
+            )
+            ( signal "FMC2_LA15_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la15_n" )
+            )
+            ( signal "FMC2_LA15_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la15_p" )
+            )
+            ( signal "FMC2_LA16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la16_n" )
+            )
+            ( signal "FMC2_LA16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la16_p" )
+            )
+            ( signal "FMC2_LA19_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la19_n" )
+            )
+            ( signal "FMC2_LA19_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la19_p" )
+            )
+            ( signal "FMC2_LA20_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la20_n" )
+            )
+            ( signal "FMC2_LA20_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la20_p" )
+            )
+            ( signal "FMC2_LA21_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la21_n" )
+            )
+            ( signal "FMC2_LA21_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la21_p" )
+            )
+            ( signal "FMC2_LA22_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la22_n" )
+            )
+            ( signal "FMC2_LA22_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la22_p" )
+            )
+            ( signal "FMC2_LA23_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la23_n" )
+            )
+            ( signal "FMC2_LA23_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la23_p" )
+            )
+            ( signal "FMC2_LA24_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la24_n" )
+            )
+            ( signal "FMC2_LA24_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la24_p" )
+            )
+            ( signal "FMC2_LA25_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la25_n" )
+            )
+            ( signal "FMC2_LA25_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la25_p" )
+            )
+            ( signal "FMC2_LA26_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la26_n" )
+            )
+            ( signal "FMC2_LA26_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la26_p" )
+            )
+            ( signal "FMC2_LA27_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la27_n" )
+            )
+            ( signal "FMC2_LA27_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la27_p" )
+            )
+            ( signal "FMC2_LA28_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la28_n" )
+            )
+            ( signal "FMC2_LA28_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la28_p" )
+            )
+            ( signal "FMC2_LA29_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la29_n" )
+            )
+            ( signal "FMC2_LA29_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la29_p" )
+            )
+            ( signal "FMC2_LA30_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la30_n" )
+            )
+            ( signal "FMC2_LA30_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la30_p" )
+            )
+            ( signal "FMC2_LA31_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la31_n" )
+            )
+            ( signal "FMC2_LA31_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la31_p" )
+            )
+            ( signal "FMC2_LA32_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la32_n" )
+            )
+            ( signal "FMC2_LA32_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la32_p" )
+            )
+            ( signal "FMC2_LA33_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la33_n" )
+            )
+            ( signal "FMC2_LA33_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc2_la33_p" )
+            )
+            ( signal "FMCX_CLK0_M2C_COPY1_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmcx_clk0_m2c_copy1_n" )
+            )
+            ( signal "FMCX_CLK0_M2C_COPY1_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmcx_clk0_m2c_copy1_p" )
+            )
+            ( signal "FMCX_CLK0_M2C_COPY2_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmcx_clk0_m2c_copy2_n" )
+            )
+            ( signal "FMCX_CLK0_M2C_COPY2_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmcx_clk0_m2c_copy2_p" )
+            )
+            ( signal "GBE_SIN_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):gbe_sin_n" )
+            )
+            ( signal "GBE_SIN_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):gbe_sin_p" )
+            )
+            ( signal "GBE_SOUT_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):gbe_sout_n" )
+            )
+            ( signal "GBE_SOUT_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):gbe_sout_p" )
+            )
+            ( signal "ICS874003_CLK0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ics874003_clk0_n" )
+            )
+            ( signal "ICS874003_CLK0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ics874003_clk0_p" )
+            )
+            ( signal "ICS874003_CLK1_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ics874003_clk1_n" )
+            )
+            ( signal "ICS874003_CLK1_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ics874003_clk1_p" )
+            )
+            ( signal "LVDS_FCLKA_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):lvds_fclka_n" )
+            )
+            ( signal "LVDS_FCLKA_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):lvds_fclka_p" )
+            )
+            ( signal "MDI0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi0_n" )
+            )
+            ( signal "MDI0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi0_p" )
+            )
+            ( signal "MDI1_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi1_n" )
+            )
+            ( signal "MDI1_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi1_p" )
+            )
+            ( signal "MDI2_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi2_n" )
+            )
+            ( signal "MDI2_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi2_p" )
+            )
+            ( signal "MDI3_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi3_n" )
+            )
+            ( signal "MDI3_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):mdi3_p" )
+            )
+            ( signal "TCLKB_FROM_GLIB_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclkb_from_glib_n" )
+            )
+            ( signal "TCLKB_FROM_GLIB_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclkb_from_glib_p" )
+            )
+            ( signal "TCLKB_TO_GLIB_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclkb_to_glib_n" )
+            )
+            ( signal "TCLKB_TO_GLIB_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):tclkb_to_glib_p" )
+            )
+            ( signal "XPOINT_CLK3_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):xpoint_clk3_n" )
+            )
+            ( signal "XPOINT_CLK3_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):xpoint_clk3_p" )
+            )
+            ( signal "FPGA_DXN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fpga_dxn" )
+            )
+            ( signal "FPGA_DXP"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fpga_dxp" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I22_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i22_a" )
+            )
+            ( signal "UNNAMED_10_CAPCERSMDCL2_I23_A"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):unnamed_10_capcersmdcl2_i23_a" )
+            )
+            ( signal "CTRLVCC"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):ctrlvcc" )
+            )
+            ( signal "VPP"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):vpp" )
+            )
+            ( signal "P5V"
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):p5v" )
+            )
+            ( signal "FMC_LA16_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la16_n" )
+            )
+            ( signal "FMC_LA16_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la16_p" )
+            )
+            ( signal "TTCSFP_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ttcsfp_n" )
+            )
+            ( signal "TTCSFP_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ttcsfp_p" )
+            )
+            ( signal "IN_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):in_n" )
+            )
+            ( signal "IN_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):in_p" )
+            )
+            ( signal "FMC_DP0_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_dp0_m2c_n" )
+            )
+            ( signal "FMC_DP0_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_dp0_m2c_p" )
+            )
+            ( signal "FMC_DP0_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_dp0_c2m_n" )
+            )
+            ( signal "FMC_DP0_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_dp0_c2m_p" )
+            )
+            ( signal "FMC_CLK1_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_m2c_n" )
+            )
+            ( signal "FMC_CLK1_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_m2c_p" )
+            )
+            ( signal "FMC_CLK1_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_c2m_n" )
+            )
+            ( signal "FMC_CLK1_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk1_c2m_p" )
+            )
+            ( signal "FMC_CLK0_C2M_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_c2m_n" )
+            )
+            ( signal "FMC_CLK0_C2M_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_c2m_p" )
+            )
+            ( signal "FICER_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ficer_n" )
+            )
+            ( signal "FICER_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):ficer_p" )
+            )
+            ( signal "DATAOUT_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):dataout_n" )
+            )
+            ( signal "DATAOUT_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):dataout_p" )
+            )
+            ( signal "CLKOUT_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clkout_n" )
+            )
+            ( signal "CLKOUT_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):clkout_p" )
+            )
+            ( signal "CDR_IN_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_in_n" )
+            )
+            ( signal "CDR_IN_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_in_p" )
+            )
+            ( signal "CDR_DATAOUT_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_dataout_n" )
+            )
+            ( signal "CDR_DATAOUT_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_dataout_p" )
+            )
+            ( signal "CDR_CLKOUT_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clkout_n" )
+            )
+            ( signal "CDR_CLKOUT_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clkout_p" )
+            )
+            ( signal "CVCC"
+                ( attribute "MIN_LINE_WIDTH" "0.3000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.glbl(sch_1):cvcc" )
+            )
+            ( signal "FRONT_PANEL_CLK_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):front_panel_clk_n" )
+            )
+            ( signal "FRONT_PANEL_CLK_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):front_panel_clk_p" )
+            )
+            ( signal "CDR_CLK_FANOUT_Q0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q0_n" )
+            )
+            ( signal "CDR_CLK_FANOUT_Q0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q0_p" )
+            )
+            ( signal "CDR_CLK_DIVIDED_QB0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_divided_qb0_n" )
+            )
+            ( signal "CDR_CLK_DIVIDED_QB0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_divided_qb0_p" )
+            )
+            ( signal "JITTER_CLEANER_U0_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):jitter_cleaner_u0_n" )
+            )
+            ( signal "JITTER_CLEANER_U0_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):jitter_cleaner_u0_p" )
+            )
+            ( signal "CDR_CLK_FANOUT_Q2_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q2_n" )
+            )
+            ( signal "CDR_CLK_FANOUT_Q2_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):cdr_clk_fanout_q2_p" )
+            )
+            ( signal "JITTER_CLEANER_PRI_REF_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):jitter_cleaner_pri_ref_n" )
+            )
+            ( signal "JITTER_CLEANER_PRI_REF_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):jitter_cleaner_pri_ref_p" )
+            )
+            ( signal "FMC_CLK0_M2C_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_m2c_n" )
+            )
+            ( signal "FMC_CLK0_M2C_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk0_m2c_p" )
+            )
+            ( signal "VCC_IN"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):vcc_in" )
+            )
+            ( signal "FMC_CLK2_BIDIR_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk2_bidir_n" )
+            )
+            ( signal "FMC_CLK2_BIDIR_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_clk2_bidir_p" )
+            )
+            ( signal "FMC_LA07_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la07_n" )
+            )
+            ( signal "FMC_LA07_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la07_p" )
+            )
+            ( signal "FMC_LA08_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la08_n" )
+            )
+            ( signal "FMC_LA08_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la08_p" )
+            )
+            ( signal "FMC_LA10_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la10_n" )
+            )
+            ( signal "FMC_LA10_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la10_p" )
+            )
+            ( signal "FMC_LA06_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la06_n" )
+            )
+            ( signal "FMC_LA06_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):fmc_la06_p" )
+            )
+            ( signal "XTAL_N"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):xtal_n" )
+            )
+            ( signal "XTAL_P"
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):xtal_p" )
+            )
+            ( signal "LEMO2"
+                ( attribute "MIN_LINE_WIDTH" "0.1700"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):lemo2" )
+            )
+            ( signal "LEMO1"
+                ( attribute "MIN_LINE_WIDTH" "0.1700"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):lemo1" )
+            )
+            ( differentialPair "FRONT_PANEL_CLK"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FRONT_PANEL_CLK_N") )
+                ( member ( signalRef "FRONT_PANEL_CLK_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FRONT_PANEL_CLK\" )
+            )
+            ( differentialPair "CDR_CLK_FANOUT_Q0"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "CDR_CLK_FANOUT_Q0_N") )
+                ( member ( signalRef "CDR_CLK_FANOUT_Q0_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLK_FANOUT_Q0\" )
+            )
+            ( differentialPair "CDR_CLK_DIVIDED_QB0"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "CDR_CLK_DIVIDED_QB0_N") )
+                ( member ( signalRef "CDR_CLK_DIVIDED_QB0_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLK_DIVIDED_QB0\" )
+            )
+            ( differentialPair "CDR_CLK_FANOUT_Q2"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "CDR_CLK_FANOUT_Q2_N") )
+                ( member ( signalRef "CDR_CLK_FANOUT_Q2_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLK_FANOUT_Q2\" )
+            )
+            ( differentialPair "FMC_CLK0_M2C"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_CLK0_M2C_N") )
+                ( member ( signalRef "FMC_CLK0_M2C_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_CLK0_M2C\" )
+            )
+            ( differentialPair "TTCSFP"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "TTCSFP_N") )
+                ( member ( signalRef "TTCSFP_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\TTCSFP\" )
+            )
+            ( differentialPair "IN"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "IN_N") )
+                ( member ( signalRef "IN_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\IN\" )
+            )
+            ( differentialPair "FMC_CLK1_M2C"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_CLK1_M2C_N") )
+                ( member ( signalRef "FMC_CLK1_M2C_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_CLK1_M2C\" )
+            )
+            ( differentialPair "FICER"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "FICER_N") )
+                ( member ( signalRef "FICER_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FICER\" )
+            )
+            ( differentialPair "DATAOUT"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "DATAOUT_N") )
+                ( member ( signalRef "DATAOUT_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\DATAOUT\" )
+            )
+            ( differentialPair "CLKOUT"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "CLKOUT_N") )
+                ( member ( signalRef "CLKOUT_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CLKOUT\" )
+            )
+            ( differentialPair "CDR_IN"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "CDR_IN_N") )
+                ( member ( signalRef "CDR_IN_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_IN\" )
+            )
+            ( differentialPair "CDR_DATAOUT"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "CDR_DATAOUT_N") )
+                ( member ( signalRef "CDR_DATAOUT_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_DATAOUT\" )
+            )
+            ( differentialPair "CDR_CLKOUT"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1400"
+                    ( Origin gBackEnd )
+                )
+                ( member ( signalRef "CDR_CLKOUT_N") )
+                ( member ( signalRef "CDR_CLKOUT_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\CDR_CLKOUT\" )
+            )
+            ( differentialPair "FMC_CLK2_BIDIR"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_CLK2_BIDIR_N") )
+                ( member ( signalRef "FMC_CLK2_BIDIR_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_CLK2_BIDIR\" )
+            )
+            ( differentialPair "FMC_LA07"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_LA07_N") )
+                ( member ( signalRef "FMC_LA07_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA07\" )
+            )
+            ( differentialPair "FMC_LA08"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_LA08_N") )
+                ( member ( signalRef "FMC_LA08_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA08\" )
+            )
+            ( differentialPair "FMC_LA10"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_LA10_N") )
+                ( member ( signalRef "FMC_LA10_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA10\" )
+            )
+            ( differentialPair "FMC_LA06"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "FMC_LA06_N") )
+                ( member ( signalRef "FMC_LA06_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\FMC_LA06\" )
+            )
+            ( differentialPair "XTAL"
+                ( memberType ( signal ) )
+                ( electricalCSetRef "PDIFF" )
+                ( member ( signalRef "XTAL_N") )
+                ( member ( signalRef "XTAL_P") )
+                ( objectStatus "@ttc_fmc_lib.ttc_fmc(sch_1):\XTAL\" )
+            )
+            ( bus "VADJ"
+                ( memberType ( signal ) )
+                ( member ( signalRef "P2V5") )
+                ( objectStatus "@psb_ddc_v1_lib.digital_receiver(sch_1):page3_i48@psb_ddc_v1_lib.fmc_port(sch_1):vadj" )
+            )
+            ( bus "3P3V"
+                ( memberType ( signal ) )
+                ( member ( signalRef "P3V3") )
+                ( objectStatus "@psb_ddc_v1_lib.digital_receiver(sch_1):page3_i48@psb_ddc_v1_lib.fmc_port(sch_1):\3p3v\" )
+            )
+            ( region "BGA"
+                ( attribute "MIN_LINE_WIDTH" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "MAX_LINE_WIDTH" "0.2500"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "VIA_LIST" "VIA50-25-70"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUPIN_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_SMDPIN_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_THRUVIA_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( attribute "LINE_TO_LINE_SPACING" "0.1000"
+                    ( Origin gBackEnd )
+                )
+                ( objectStatus "@glib_lib.glib(sch_1):\BGA\" )
+            )
+        )
+    )
+)

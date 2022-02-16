@@ -1,0 +1,36 @@
+M48
+METRIC
+T01C.9
+;EXTENTS: -315.118 -288.126 426.202 384.930 
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/artwork/art_pc053e_1-6.rou for board Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/#Taaaadq28084.tmp, layers TOP to BOTTOM
+%
+G90
+F1
+M16
+T01
+M16
+G00X-5872000Y2975000
+G40
+M15
+G01X-5692000Y2975000
+M16
+G00X-5872000Y1525000
+G40
+M15
+G01X-5692000Y1525000
+M16
+G00X-6439000Y2975000
+G40
+M15
+G01X-6319000Y2975000
+M16
+G00X-6439000Y1525000
+G40
+M15
+G01X-6319000Y1525000
+M16
+G40
+M30

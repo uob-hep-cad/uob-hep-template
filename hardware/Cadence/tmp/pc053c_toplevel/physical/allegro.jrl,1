@@ -1,0 +1,25 @@
+\t (00:01:26) allegro 17.4 S012 Linux SPB 64-bit Edition
+\t (00:01:26)     Journal start - Wed Apr  7 14:15:30 2021
+\t (00:01:26)         Host=dilbert User=phdgc Pid=5285 CPUs=20
+\t (00:01:26) CmdLine= /software/CAD/Cadence/SPB174//tools/bin/allegro.exe
+\t (00:01:26) 
+   (00:01:26) Loading axlcore.cxt 
+   (00:01:26) *Error* load: can't access file - "~/Download/fcircle.il"
+   (00:01:26) Searching for nsWare programs v2.62
+   (00:01:26) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
+   (00:01:26) 	NsWare programs must reside in this directory!
+\t (00:01:27) Opening existing design...
+\i (00:01:32) fillin yes 
+\i (00:01:32) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc053c_toplevel_61"
+\d (00:01:32) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/pc053c_toplevel_61.brd
+\i (00:01:32) trapsize 1659
+\i (00:01:32) trapsize 1740
+\i (00:01:32) trapsize 1761
+\i (00:01:32) trapsize 1634
+\i (00:01:32) trapsize 1634
+\i (00:01:33) generaledit 
+\i (00:01:41) open 
+\i (00:01:48) fillin "menu_cancel"
+\i (00:01:48) generaledit 
+\i (00:01:51) exit 
+\t (00:01:51)     Journal end - Wed Apr  7 14:15:55 2021

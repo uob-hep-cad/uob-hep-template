@@ -1,0 +1,1940 @@
+; run on Thu Sep  1 13:44:00 2016 CONSTRAINTS_VIEW_GENERATED
+( ConstraintFile "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1)"
+	( constraintHeader
+		( objectKey
+			( logical )
+		)
+		( version
+			( 16.6 )
+		)
+		( revisionNumber
+			( logicalViewRevNum 755 )
+			( physicalViewRevNum 26 )
+			( otherViewRevNum 0 )
+		)
+		( contents
+			( drawing )
+			( dictionaryExtensions )
+			( worksheetCustomizations )
+			( crossSection )
+			( electricalConstraints )
+			( physicalConstraints )
+			( spacingConstraints )
+			( sameNetSpacingConstraints )
+			( netClasses )
+			( properties )
+		)
+		( precision
+			( units mm )
+			( numberOfDecimalPlaces 4 )
+		)
+	)
+	( drawing
+		( attribute "DRAWING_EXTENTS" "741.3200,673.0560"
+		)
+		( attribute "DRAWING_LOWER_LEFT" "-315.1182,-288.1258"
+		)
+	)
+	( DictionaryExtensions
+		( Attribute
+			( Name "$location" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "$sec" )
+			( Description "" )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty )
+			)
+			( Objects
+				( ValidObjects  oAll )
+			)
+			( Analysis
+			)
+		)
+	)
+	( crossSection
+		( layer "SURFACE_INDEX_0"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0002700"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "TOP"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.035"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "3.980"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_TOP_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_TOP"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.1"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L2PWR"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.035"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L2PWR"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "1.3"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "L3GND"
+			( attribute "CDS_LAYER_TYPE" "PLANE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.035"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "TRUE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "DIELECTRIC_BELOW_L3GND"
+			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "FR-4"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.1"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.01200"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.03500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "CONDUCTOR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "COPPER"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.035"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "595900"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "3.980"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "4.500"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_NAMED" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_BOTTOM_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
+		)
+		( layer "SURFACE_BELOW_BOTTOM"
+			( attribute "CDS_LAYER_TYPE" "SURFACE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_MATERIAL" "AIR"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THICKNESS" "0.0000"
+				( Units "uLayerThickness" "mm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_ELECTRICAL_CONDUCTIVITY" "0.0000"
+				( Units "uElectricalConductivity" "mho/cm" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_THERMAL_CONDUCTIVITY" "0.0002700"
+				( Units "uThermalConductivity" "W/cm-degC" 1.000000)
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_DIELECTRIC_CONSTANT" "1.000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_LOSS_TANGENT" "0.0000"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_NEGATIVE_ARTWORK" "FALSE"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_IS_SHIELD" "FALSE"
+				( Origin gBackEnd )
+			)
+		)
+	)
+	( designConstraints
+		( ruleChanges
+			( allRules )
+			( design "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1)"
+				( physicalCSetRef "@glib_lib.glib(sch_1):\DEFAULT\" )
+				( spacingCSetRef "@glib_lib.glib(sch_1):\DEFAULT\" )
+				( sameNetSpacingCSetRef "@glib_lib.glib(sch_1):\DEFAULT\" )
+				( objectStatus "pc053a_toplevel_18" )
+			)
+			( electricalCSet "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\"
+				( attribute "DIFFP_PRIMARY_GAP" "0.1200"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.1200"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1200"
+					( Origin gBackEnd )
+				)
+				( objectStatus "PDIFF" )
+			)
+			( physicalCSet "@glib_lib.glib(sch_1):\DEFAULT\"
+				( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1500,0.1500,0.1500,0.1500"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.2000,0.2000,0.2000,0.2000"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "5.0000,5.0000,5.0000,5.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA80-40-110,VIA60-30-85"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( physicalCSet "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PCS1\"
+				( attribute "DIFFP_PRIMARY_GAP" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_PLUS" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_COUPLED_MINUS" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_MIN_SPACE" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "DIFFP_NECK_GAP" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_NECK_WIDTH" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAXIMUM_NECK_LENGTH" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA80-40-110,VIA60-30-85"
+					( Origin gBackEnd )
+				)
+				( attribute "ALLOW_ON_ETCH_SUBCLASS" "TRUE,TRUE,TRUE,TRUE"
+					( Origin gBackEnd )
+				)
+				( attribute "TS_ALLOWED" "ANYWHERE,ANYWHERE,ANYWHERE,ANYWHERE"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_STAGGER" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_BVIA_STAGGER" "0.0000,0.0000,0.0000,0.0000"
+					( Origin gBackEnd )
+				)
+				( attribute "PAD_PAD_DIRECT_CONNECT" "ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED,ALL_ALLOWED"
+					( Origin gBackEnd )
+				)
+				( objectStatus "PCS1" )
+			)
+			( spacingCSet "@glib_lib.glib(sch_1):\DEFAULT\"
+				( attribute "THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTPIN_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_TESTVIA_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SHAPE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_LINE_SPACING" "0.1000,0.1000,0.1000,0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_BVIA_GAP" "0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "BONDPAD_TO_BONDPAD_DIFFP_SPC" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( sameNetSpacingCSet "@glib_lib.glib(sch_1):\DEFAULT\"
+				( attribute "SAME_NET" "FALSE,FALSE,FALSE,FALSE"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUPIN_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SMDPIN_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTPIN_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_THRUVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_TESTVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BBV_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_BONDPAD_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_LINE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_SHAPE_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_PIN_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_VIA_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_LINE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_SHAPE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_HOLE_TO_HOLE_SPACING" "0.2032,0.2032,0.2032,0.2032"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SMDPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_THRUVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_BBV_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_LINE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_SHAPE_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTPIN_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_MVIA_TO_TESTVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( attribute "SN_BONDPAD_TO_MVIA_SPACING" "0.1270,0.1270,0.1270,0.1270"
+					( Origin gBackEnd )
+				)
+				( objectStatus "DEFAULT" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):to_coax_n"
+				( objectStatus "TO_COAX_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):to_coax_p"
+				( objectStatus "TO_COAX_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_do_n"
+				( objectStatus "SFP_DO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_do_p"
+				( objectStatus "SFP_DO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_di_n"
+				( objectStatus "SFP_DI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_di_p"
+				( objectStatus "SFP_DI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_do_n"
+				( objectStatus "SERPAR_DO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_do_p"
+				( objectStatus "SERPAR_DO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_di_n"
+				( objectStatus "SERPAR_DI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_di_p"
+				( objectStatus "SERPAR_DI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clko_n"
+				( objectStatus "SERPAR_CLKO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clko_p"
+				( objectStatus "SERPAR_CLKO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clki_n"
+				( objectStatus "SERPAR_CLKI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clki_p"
+				( objectStatus "SERPAR_CLKI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):rec_clk_n"
+				( objectStatus "REC_CLK_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):rec_clk_p"
+				( objectStatus "REC_CLK_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_do_n"
+				( objectStatus "PAR_DO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_do_p"
+				( objectStatus "PAR_DO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_di_n"
+				( objectStatus "PAR_DI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_di_p"
+				( objectStatus "PAR_DI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clko_n"
+				( objectStatus "PAR_CLKO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clko_p"
+				( objectStatus "PAR_CLKO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clki_n"
+				( objectStatus "PAR_CLKI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clki_p"
+				( objectStatus "PAR_CLKI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):osc_clk_n"
+				( objectStatus "OSC_CLK_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):osc_clk_p"
+				( objectStatus "OSC_CLK_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_rec_clk_n"
+				( objectStatus "FMC_REC_CLK_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_rec_clk_p"
+				( objectStatus "FMC_REC_CLK_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_di_n"
+				( objectStatus "FMC_DI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_di_p"
+				( objectStatus "FMC_DI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_clk_n"
+				( objectStatus "FMC_CLK_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_clk_p"
+				( objectStatus "FMC_CLK_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_do_n"
+				( objectStatus "FFD_DO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_do_p"
+				( objectStatus "FFD_DO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_di_n"
+				( objectStatus "FFD_DI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_di_p"
+				( objectStatus "FFD_DI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_clk_n"
+				( objectStatus "FFD_CLK_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_clk_p"
+				( objectStatus "FFD_CLK_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_di_n"
+				( objectStatus "CDR_DI_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_di_p"
+				( objectStatus "CDR_DI_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la07_p"
+				( objectStatus "FMC_LA07_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la07_n"
+				( objectStatus "FMC_LA07_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la08_p"
+				( objectStatus "FMC_LA08_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la08_n"
+				( objectStatus "FMC_LA08_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la10_n"
+				( objectStatus "FMC_LA10_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la10_p"
+				( objectStatus "FMC_LA10_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la06_p"
+				( objectStatus "FMC_LA06_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la06_n"
+				( objectStatus "FMC_LA06_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):in_n"
+				( objectStatus "IN_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):in_p"
+				( objectStatus "IN_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):dataout_n"
+				( objectStatus "DATAOUT_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):dataout_p"
+				( objectStatus "DATAOUT_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_do_n"
+				( objectStatus "CDR_DO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_do_p"
+				( objectStatus "CDR_DO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_clko_n"
+				( objectStatus "CDR_CLKO_N" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_clko_p"
+				( objectStatus "CDR_CLKO_P" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p1v8"
+				( attribute "NO_RAT" "1"
+					( Origin gBackEnd )
+				)
+				( objectStatus "P1V8" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cvcc"
+				( attribute "MIN_LINE_WIDTH" "0.3000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "CVCC" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):gnd"
+				( attribute "MIN_LINE_WIDTH" "0.3000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "GND" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p3v3"
+				( attribute "DIFFP_MIN_SPACE" "0.1400"
+					( Origin gBackEnd )
+				)
+				( attribute "MIN_LINE_WIDTH" "0.3000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "P3V3" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i60"
+				( objectStatus "F105" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i61"
+				( objectStatus "F104" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i110"
+				( objectStatus "F31" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i238"
+				( objectStatus "F131" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i276"
+				( objectStatus "F109" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i279"
+				( objectStatus "F90" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i111"
+				( objectStatus "F116" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1)"
+				( objectStatus "F24" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(0)"
+				( objectStatus "F23" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1)"
+				( objectStatus "F22" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(0)"
+				( objectStatus "F21" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i234"
+				( objectStatus "F97" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i235"
+				( objectStatus "F96" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i82"
+				( objectStatus "F42" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i84"
+				( objectStatus "F44" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i85"
+				( objectStatus "F43" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i83"
+				( objectStatus "F41" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i236"
+				( objectStatus "F38" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i232"
+				( objectStatus "F40" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i233"
+				( objectStatus "F39" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i225"
+				( objectStatus "F113" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i226"
+				( objectStatus "F112" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i227"
+				( objectStatus "F111" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i224"
+				( objectStatus "F195" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i223"
+				( objectStatus "F194" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i65"
+				( objectStatus "F142" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i62"
+				( objectStatus "F141" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i66"
+				( objectStatus "F137" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i59"
+				( objectStatus "F139" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i64"
+				( objectStatus "F138" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i63"
+				( objectStatus "F140" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i69"
+				( objectStatus "F134" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i67"
+				( objectStatus "F136" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i68"
+				( objectStatus "F135" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i206"
+				( objectStatus "F110" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i18"
+				( objectStatus "F103" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i32"
+				( objectStatus "F100" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i26"
+				( objectStatus "F102" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i45"
+				( objectStatus "F101" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i297"
+				( objectStatus "F98" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i279"
+				( objectStatus "F99" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i53"
+				( objectStatus "F94" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i52"
+				( objectStatus "F93" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i16"
+				( objectStatus "F95" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i49"
+				( objectStatus "F92" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i50"
+				( objectStatus "F91" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i210"
+				( objectStatus "F89" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i237"
+				( objectStatus "F86" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i202"
+				( objectStatus "F88" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i212"
+				( objectStatus "F87" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i207"
+				( objectStatus "F12" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i86"
+				( objectStatus "F11" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i299"
+				( objectStatus "F106" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i300"
+				( objectStatus "F107" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i228"
+				( objectStatus "F203" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i75"
+				( objectStatus "F202" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i72"
+				( objectStatus "F201" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i73"
+				( objectStatus "F200" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i74"
+				( objectStatus "F199" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i9"
+				( objectStatus "F198" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i179"
+				( objectStatus "F197" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i155"
+				( objectStatus "F193" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i147"
+				( objectStatus "F192" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i149"
+				( objectStatus "F191" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i152"
+				( objectStatus "F190" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i139"
+				( objectStatus "F121" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i126"
+				( objectStatus "F120" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i136"
+				( objectStatus "F119" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i129"
+				( objectStatus "F118" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i128"
+				( objectStatus "F117" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(3)"
+				( objectStatus "F30" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(2)"
+				( objectStatus "F29" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(1)"
+				( objectStatus "F28" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(0)"
+				( objectStatus "F27" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7)"
+				( objectStatus "F20" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(6)"
+				( objectStatus "F19" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(5)"
+				( objectStatus "F18" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(4)"
+				( objectStatus "F17" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(3)"
+				( objectStatus "F16" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(2)"
+				( objectStatus "F15" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(1)"
+				( objectStatus "F14" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(0)"
+				( objectStatus "F13" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i27"
+				( objectStatus "F126" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i33"
+				( objectStatus "F125" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i174"
+				( objectStatus "F122" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i170"
+				( objectStatus "F124" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i171"
+				( objectStatus "F123" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i118"
+				( objectStatus "F35" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i117"
+				( objectStatus "F34" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i116"
+				( objectStatus "F33" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i115"
+				( objectStatus "F32" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i154"
+				( objectStatus "F129" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i142"
+				( objectStatus "F133" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i141"
+				( objectStatus "F132" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i140"
+				( objectStatus "F130" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i89"
+				( objectStatus "F128" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i175"
+				( objectStatus "F127" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i176"
+				( objectStatus "TF-1966" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i267"
+				( objectStatus "F8" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i250"
+				( objectStatus "F7" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i40"
+				( objectStatus "F6" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i41"
+				( objectStatus "F5" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i37"
+				( objectStatus "F4" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i38"
+				( objectStatus "F3" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i29"
+				( objectStatus "F2" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i30"
+				( objectStatus "F1" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i55"
+				( objectStatus "F0" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i249"
+				( objectStatus "F9" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i268"
+				( objectStatus "F10" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i292"
+				( objectStatus "F84" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i272"
+				( objectStatus "F60" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i273"
+				( objectStatus "F59" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i280"
+				( objectStatus "F58" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i264"
+				( objectStatus "F57" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47"
+				( objectStatus "F56" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48"
+				( objectStatus "F55" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i257"
+				( objectStatus "F51" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i263"
+				( objectStatus "F47" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i259"
+				( objectStatus "F45" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i51"
+				( objectStatus "F54" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i14"
+				( objectStatus "F53" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i287"
+				( objectStatus "F85" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i274"
+				( objectStatus "F82" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i254"
+				( objectStatus "F79" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i293"
+				( objectStatus "F78" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i294"
+				( objectStatus "F76" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i295"
+				( objectStatus "F64" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i104"
+				( objectStatus "F68" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i98"
+				( objectStatus "F66" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i222"
+				( objectStatus "F52" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i223"
+				( objectStatus "F61" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i224"
+				( objectStatus "F50" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i225"
+				( objectStatus "F46" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i226"
+				( objectStatus "F49" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i227"
+				( objectStatus "F48" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i194"
+				( objectStatus "F75" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i195"
+				( objectStatus "F74" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i196"
+				( objectStatus "F73" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i209"
+				( objectStatus "F72" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i198"
+				( objectStatus "F71" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i210"
+				( objectStatus "F70" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i200"
+				( objectStatus "F69" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i284"
+				( objectStatus "F80" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i276"
+				( objectStatus "F83" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i231"
+				( objectStatus "F77" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i281"
+				( objectStatus "F81" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i109"
+				( objectStatus "F63" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i103"
+				( objectStatus "F62" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i102"
+				( objectStatus "F67" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i95"
+				( objectStatus "F65" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i23"
+				( objectStatus "F196" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i278"
+				( objectStatus "F175" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i90"
+				( objectStatus "F173" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i106"
+				( objectStatus "F169" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i98"
+				( objectStatus "F157" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i102"
+				( objectStatus "F156" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i101"
+				( objectStatus "F155" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i216"
+				( objectStatus "F147" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i217"
+				( objectStatus "F146" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i218"
+				( objectStatus "F145" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i270"
+				( objectStatus "F143" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i109"
+				( objectStatus "F158" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i108"
+				( objectStatus "F159" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i100"
+				( objectStatus "F154" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i105"
+				( objectStatus "F153" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i104"
+				( objectStatus "F152" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i103"
+				( objectStatus "F151" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i222"
+				( objectStatus "F150" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i221"
+				( objectStatus "F149" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i107"
+				( objectStatus "F168" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i91"
+				( objectStatus "F181" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i215"
+				( objectStatus "F148" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i244"
+				( objectStatus "F187" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i246"
+				( objectStatus "F185" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i242"
+				( objectStatus "F184" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i236"
+				( objectStatus "F183" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i233"
+				( objectStatus "F182" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i248"
+				( objectStatus "F188" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i251"
+				( objectStatus "F189" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i183"
+				( objectStatus "F170" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i180"
+				( objectStatus "F171" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i247"
+				( objectStatus "F186" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i170"
+				( objectStatus "F180" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i168"
+				( objectStatus "F172" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i127"
+				( objectStatus "F162" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i133"
+				( objectStatus "F160" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i125"
+				( objectStatus "F165" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i124"
+				( objectStatus "F166" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i199"
+				( objectStatus "F144" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i210"
+				( objectStatus "F179" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i212"
+				( objectStatus "F178" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i193"
+				( objectStatus "F176" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i183"
+				( objectStatus "F174" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i157"
+				( objectStatus "F177" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i146"
+				( objectStatus "F164" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i148"
+				( objectStatus "F163" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i151"
+				( objectStatus "F161" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i156"
+				( objectStatus "F167" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i105"
+				( objectStatus "F114" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i99"
+				( objectStatus "F115" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i162"
+				( objectStatus "F108" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i239"
+				( objectStatus "F26" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i10"
+				( objectStatus "F25" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i134"
+				( objectStatus "F36" )
+			)
+			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i137"
+				( objectStatus "F37" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\TO_COAX\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):to_coax_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):to_coax_p") )
+				( objectStatus "TO_COAX" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SFP_DO\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_do_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_do_p") )
+				( objectStatus "SFP_DO" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SFP_DI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_di_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_di_p") )
+				( objectStatus "SFP_DI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_DO\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_do_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_do_p") )
+				( objectStatus "SERPAR_DO" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_DI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_di_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_di_p") )
+				( objectStatus "SERPAR_DI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_CLKO\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clko_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clko_p") )
+				( objectStatus "SERPAR_CLKO" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_CLKI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clki_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_clki_p") )
+				( objectStatus "SERPAR_CLKI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\REC_CLK\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):rec_clk_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):rec_clk_p") )
+				( objectStatus "REC_CLK" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_DO\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_do_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_do_p") )
+				( objectStatus "PAR_DO" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_DI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_di_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_di_p") )
+				( objectStatus "PAR_DI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_CLKO\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clko_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clko_p") )
+				( objectStatus "PAR_CLKO" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_CLKI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clki_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_clki_p") )
+				( objectStatus "PAR_CLKI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\OSC_CLK\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):osc_clk_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):osc_clk_p") )
+				( objectStatus "OSC_CLK" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_REC_CLK\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_rec_clk_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_rec_clk_p") )
+				( objectStatus "FMC_REC_CLK" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_DI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_di_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_di_p") )
+				( objectStatus "FMC_DI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_CLK\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_clk_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_clk_p") )
+				( objectStatus "FMC_CLK" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FFD_DO\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_do_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_do_p") )
+				( objectStatus "FFD_DO" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FFD_DI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_di_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_di_p") )
+				( objectStatus "FFD_DI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FFD_CLK\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_clk_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ffd_clk_p") )
+				( objectStatus "FFD_CLK" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\CDR_DI\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_di_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_di_p") )
+				( objectStatus "CDR_DI" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_LA07\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la07_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la07_p") )
+				( objectStatus "FMC_LA07" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_LA08\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la08_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la08_p") )
+				( objectStatus "FMC_LA08" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_LA10\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la10_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la10_p") )
+				( objectStatus "FMC_LA10" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_LA06\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la06_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la06_p") )
+				( objectStatus "FMC_LA06" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\IN\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( attribute "LINE_TO_LINE_SPACING" "0.1400"
+					( Origin gBackEnd )
+				)
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):in_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):in_p") )
+				( objectStatus "IN" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\DATAOUT\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( attribute "LINE_TO_LINE_SPACING" "0.1400"
+					( Origin gBackEnd )
+				)
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):dataout_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):dataout_p") )
+				( objectStatus "DATAOUT" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\CDR_DATAOUT\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( attribute "LINE_TO_LINE_SPACING" "0.1400"
+					( Origin gBackEnd )
+				)
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_do_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_do_p") )
+				( objectStatus "CDR_DATAOUT" )
+			)
+			( differentialPair "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\CDR_CLKOUT\"
+				( memberType ( signal ) )
+				( electricalCSetRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PDIFF\" )
+				( attribute "LINE_TO_LINE_SPACING" "0.1400"
+					( Origin gBackEnd )
+				)
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_clko_n") )
+				( member ( signalRef "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_clko_p") )
+				( objectStatus "CDR_CLKOUT" )
+			)
+			( region "@glib_lib.glib(sch_1):\BGA\"
+				( attribute "MIN_LINE_WIDTH" "0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "MAX_LINE_WIDTH" "0.2500"
+					( Origin gBackEnd )
+				)
+				( attribute "VIA_LIST" "VIA50-25-70"
+					( Origin gBackEnd )
+				)
+				( attribute "THRUPIN_TO_SMDPIN_SPACING" "0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUPIN_SPACING" "0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "SMDPIN_TO_THRUVIA_SPACING" "0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_SMDPIN_SPACING" "0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_THRUVIA_SPACING" "0.1000"
+					( Origin gBackEnd )
+				)
+				( attribute "LINE_TO_LINE_SPACING" "0.1000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "BGA" )
+			)
+		)
+	)
+)
