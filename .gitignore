@@ -1,3 +1,10 @@
+# Cadence backup files
+*\,[0-9]
+
+*.lck
+
+hardware/Cadence/temp/xxnedtmp*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

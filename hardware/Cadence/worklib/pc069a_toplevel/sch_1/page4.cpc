@@ -83,6 +83,12 @@
   cnpower gnd *
   page4_i128
 #CELL
+  cninterface si5345 *
+  page4_i129
+#CELL
+  bris_cds_logic osc_6p_en_diffout *
+  page4_i130
+#CELL
   cnpassive rsmd0402 *
   page4_i14
 #ISCELL

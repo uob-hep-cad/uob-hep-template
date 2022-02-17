@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S019 (3960720) 7/14/2021 on Wed Feb 16 15:45:37 2022
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S026 (4007227) 1/17/2022 on Wed Feb 16 18:32:43 2022
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -677,6 +677,12 @@
 #ISCELL
   cnpower gnd *
   page4_i128
+#CELL
+  cninterface si5345 *
+  page4_i129
+#CELL
+  bris_cds_logic osc_6p_en_diffout *
+  page4_i130
 #CELL
   cnpassive rsmd0402 *
   page4_i14
