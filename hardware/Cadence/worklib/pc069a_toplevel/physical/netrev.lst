@@ -1,0 +1,123 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pc069a_toplevel_01.brd                        )
+(    Software Version : 17.4S011                                      )
+(    Date/Time        : Fri Mar  4 14:28:30 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  Yes
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               IfSame
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged'
+Design Directory:            '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical'
+Old design name:             '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_01.brd'
+New design name:             '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_02.brd'
+
+CmdLine: netrev -proj /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm -y 2 -x -z -O /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_01.brd /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_02.brd -q /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml -$
+
+------ Preparing to read pst files ------
+
+Starting to read /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstchip.dat 
+   Finished reading /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstchip.dat (00:00:00.50)
+Starting to read /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxprt.dat 
+   Finished reading /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxnet.dat 
+   Finished reading /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'OSCSC254P500X700X100-6N' used by RefDes QZ2 for device '637L5003I2T' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstcmdb.dat
+	Allegro Baseline:   /tmp/#Taaaaai29246.tmp
+	Start time: Fri Mar  4 14:28:30 2022
+===========================================================
+
+
+The constraint difference report file can be viewed using the following command:
+cdnFlowOOSMsg.exe -file file:///data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml
+
+===========================================================
+Finished Constraint Update	Time: Fri Mar  4 14:28:30 2022
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           /data/CAD/Cadence/installs/SPB174/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /data/CAD/Cadence/installs/SPB174/share/local/pcb/symbols 
+           /data/CAD/Cadence/installs/SPB174/share/pcb/pcb_lib/symbols 
+           /data/CAD/Cadence/installs/SPB174/share/pcb/allegrolib/symbols 
+           /data/CAD/Cadence/libraries/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           /data/CAD/Cadence/installs/SPB174/share/local/pcb/padstacks 
+           /data/CAD/Cadence/installs/SPB174/share/pcb/pcb_lib/symbols 
+           /data/CAD/Cadence/installs/SPB174/share/pcb/allegrolib/symbols 
+           /data/CAD/Cadence/libraries/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Mar 4 14:28:29 2022
+   DESIGN NAME : 'PC069A_TOPLEVEL'
+   PACKAGING ON 04-Mar-2022 AT 14:28:27
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'uob_hep_pc069_lib' 'cnstandard' 'cnpower' 'cnconnector'
+              'cndiscrete' 'cninterface' 'cnlinear' 'cnmemory' 'cnspecial'
+              'cnmech' 'cncmos' 'standard' 'bris_cds_standard' 'bris_cds_logic'
+              'cnpassive' 'bris_cds_analogue' 'bris_cds_discrete'
+              'bris_cds_connectors'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:00:01
+elapsed time  0:00:01
+

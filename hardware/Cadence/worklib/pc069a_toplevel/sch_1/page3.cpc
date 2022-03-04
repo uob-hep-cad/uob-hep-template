@@ -20,50 +20,104 @@
   cnpassive capcersmdcl2 *
   page3_i247
 #CELL
-  cnpassive capcersmdcl2 *
-  page3_i299
+  bris_cds_logic max9381 *
+  page3_i322
 #CELL
   cnpassive capcersmdcl2 *
-  page3_i300
-#ISCELL
-  cnpower cvcc *
-  page3_i301
+  page3_i325
+#CELL
+  cnpassive rsmd0603 *
+  page3_i327
+#CELL
+  cnpassive rsmd0603 *
+  page3_i328
+#CELL
+  cnpassive rsmd0402 *
+  page3_i329
+#CELL
+  cnpassive rsmd0402 *
+  page3_i330
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i331
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i332
 #ISCELL
   cnpower gnd *
-  page3_i302
-#CELL
-  cnpassive rsmd0402 *
-  page3_i307
-#CELL
-  cnpassive rsmd0402 *
-  page3_i310
-#CELL
-  cnpassive rsmd0402 *
-  page3_i311
+  page3_i333
 #ISCELL
-  cnpower cvcc *
-  page3_i312
+  cnpower p3v3 *
+  page3_i334
 #ISCELL
   cnpower gnd *
-  page3_i313
+  page3_i335
 #CELL
-  cnpassive rsmd0402 *
-  page3_i314
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i315
+  cnpassive rsmd0603 *
+  page3_i336
 #CELL
   cnpassive capcersmdcl2 *
-  page3_i316
-#CELL
-  cnlinear nb7v52m *
-  page3_i317
-#CELL
-  cnpassive rsmd0402 *
-  page3_i319
+  page3_i337
 #ISCELL
-  cnpower cvcc *
-  page3_i320
+  cnpower p3v3 *
+  page3_i338
+#CELL
+  cnpassive rsmd0603 *
+  page3_i339
+#CELL
+  cnpassive rsmd0603 *
+  page3_i340
 #ISCELL
-  cnpower cvcc *
-  page3_i321
+  cnpower gnd *
+  page3_i341
+#ISCELL
+  cnpower p3v3 *
+  page3_i342
+#CELL
+  cnpassive rsmd0603 *
+  page3_i343
+#CELL
+  cnpassive rsmd0603 *
+  page3_i344
+#ISCELL
+  cnpower gnd *
+  page3_i345
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i346
+#ISCELL
+  cnpower p3v3 *
+  page3_i347
+#CELL
+  cnpassive rsmd0603 *
+  page3_i348
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i349
+#CELL
+  cnpassive rsmd0603 *
+  page3_i350
+#ISCELL
+  cnpower gnd *
+  page3_i351
+#CELL
+  cnpassive rsmd0603 *
+  page3_i352
+#ISCELL
+  standard offpage *
+  page3_i353
+#ISCELL
+  standard offpage *
+  page3_i354
+#ISCELL
+  standard offpage *
+  page3_i355
+#ISCELL
+  standard offpage *
+  page3_i356
+#ISCELL
+  standard offpage *
+  page3_i357
+#ISCELL
+  standard offpage *
+  page3_i358

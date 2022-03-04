@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 16-Feb-2022 AT 15:49:21 }
+{ Packager-XL run on 04-Mar-2022 AT 14:28:27 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -60,6 +60,45 @@ primitive '24AA025E48T-I/SN';
       PARENT_PART_TYPE='24AA025E48_SOIC';
       PARENT_PPT='24AA025E48';
       PARENT_PPT_PART='24AA025E48T-I/SN';
+  end_body;
+end_primitive;
+primitive '637L5003I2T';
+  pin
+    'ENDIS':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'OUTP':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUTN':
+      PIN_NUMBER='(5)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+  end_pin;
+  body
+      PART_NAME='OSC_6P_EN_DIFFOUT';
+      BODY_NAME='OSC_6P_EN_DIFFOUT';
+      PHYS_DES_PREFIX='QZ';
+      CLASS='IC';
+      STATUS='Preferred';
+      PART_NUMBER='637L5003I2T';
+      MANUFACTURER='CTS';
+      DESCRIPTION='50MHz LVDS XO (Standard) Oscillator Surface Mount 2.5V 65mA E~
+nable/Disable';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/osc_sitime_si~
+t9121.pdf';
+      PINCOUNT='6';
+      SMD='YES';
+      CASE='7.0x5.0mm';
+      JEDEC_TYPE='OSCSC254P500X700X100-6N';
+      VALUE='50MHz';
+      POWER_PINS='(GND:3;VDD:6)';
+      NC_PINS='(2)';
+      PARENT_PART_TYPE='OSC_6P_EN_DIFFOUT_145';
+      PARENT_PPT='OSC_6P_EN_DIFFOUT';
+      PARENT_PPT_PART='637L5003I2T';
   end_body;
 end_primitive;
 primitive '74LCX04MTC-VCC=P3V3';
@@ -147,160 +186,6 @@ ator';
       PARENT_PART_TYPE='ADCMP604_SC70';
       PARENT_PPT='ADCMP604';
       PARENT_PPT_PART='ADCMP604BKSZ';
-  end_body;
-end_primitive;
-primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
-  pin
-    'VREF':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'NIN':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PIN':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SLICEP':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SLICEN':
-      PIN_NUMBER='(7)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'THRADJ':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'REFCLKP':
-      PIN_NUMBER='(10)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'REFCLKN':
-      PIN_NUMBER='(11)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CF2':
-      PIN_NUMBER='(14)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'CF1':
-      PIN_NUMBER='(15)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'LOL':
-      PIN_NUMBER='(16)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'SADDRS':
-      PIN_NUMBER='(19)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'SCK':
-      PIN_NUMBER='(20)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'SDA':
-      PIN_NUMBER='(21)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'LOS':
-      PIN_NUMBER='(22)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'CLKOUTN':
-      PIN_NUMBER='(25)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'CLKOUTP':
-      PIN_NUMBER='(26)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'SQUELCH':
-      PIN_NUMBER='(27)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'DATAOUTN':
-      PIN_NUMBER='(28)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'DATAOUTP':
-      PIN_NUMBER='(29)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'PAD':
-      PIN_NUMBER='(33)';
-      PINUSE='GROUND';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-      PART_NAME='ADN2814';
-      BODY_NAME='ADN2814';
-      PHYS_DES_PREFIX='IC';
-      CLASS='IC';
-      GROUND_NETS='VEE';
-      STATUS='Preferred';
-      PART_NUMBER='ADN2814ACPZ';
-      MANUFACTURER='ANALOG DEVICES';
-      DESCRIPTION='Continuous Rate 10Mb/s to 675Mb/s Clock and Data Recovery IC ~
-with Integrated Limiting Amp';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/adn2814.pdf';
-      PINCOUNT='33';
-      SMD='YES';
-      CASE='LFCSP-32';
-      JEDEC_TYPE='QFN50P500X500X100-33N-S325';
-      POWER_PINS='(P3V3:1,2,12,18,24,31,32;GND:8,13,17,23,30)';
-      PARENT_PART_TYPE='ADN2814_LFCSP';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='ADN2814';
-      PARENT_PPT_PART='ADN2814ACPZ';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
@@ -432,49 +317,6 @@ primitive 'CAPCERSMDCL2_0402-10NF,16V_GEN';
       PARENT_PPT_PART='CAPCERSMDCL2_0402-10NF,16V_GEN';
   end_body;
 end_primitive;
-primitive 'CAPCERSMDCL2_0603-1.5UF,6.3V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL2';
-      BODY_NAME='CAPCERSMDCL2';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_1.5UF_6V3_10%_X5R';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD X5R Ceramic Capacitor';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='1.5uF';
-      VOLT='6.3V';
-      TOL='10%';
-      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
-      PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0603-1.5UF,6.3V';
-  end_body;
-end_primitive;
 primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
   pin
     'A'<0>:
@@ -516,49 +358,6 @@ primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0603';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0603-10UF_X5R,6.3V';
-  end_body;
-end_primitive;
-primitive 'CAPCERSMDCL2_0603-470NF,6.3V';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL2';
-      BODY_NAME='CAPCERSMDCL2';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0603_470NF_6V3_10%_X5R';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD X5R Ceramic Capacitor';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0603';
-      JEDEC_TYPE='C0603';
-      VALUE='470nF';
-      VOLT='6.3V';
-      TOL='10%';
-      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
-      PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0603-470NF,6.3V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0805-10UF,16V';
@@ -3506,85 +3305,42 @@ df';
       PARENT_PPT_PART='LGL29K-G2J1-24';
   end_body;
 end_primitive;
-primitive 'NB7V52MMNG-VCC=CVCC,VEE=GND';
+primitive 'MAX9381-VCC=P3V3,VEE=GND';
   pin
-    'D':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'D*':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CLK':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CLK*':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'Q':
-      PIN_NUMBER='(11)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q*':
-      PIN_NUMBER='(10)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'VTCLK':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VTCLK*':
-      PIN_NUMBER='(8)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VTD':
+    'D_P':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'VTD*':
+    'D*':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK_P':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK*':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'R':
-      PIN_NUMBER='(14)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VTR':
-      PIN_NUMBER='(13)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'R*':
-      PIN_NUMBER='(15)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'VTR*':
-      PIN_NUMBER='(16)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
+    'Q*':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'Q_P':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
   end_pin;
   body
-      BODY_NAME='NB7V52M';
-      PART_NAME='NB7V52M';
-      PHYS_DES_PREFIX='IC';
+      PART_NAME='MAX9381';
+      BODY_NAME='MAX9381';
+      JEDEC_TYPE='SOP65P490X110-8N';
+      PHYS_DES_PREFIX='U';
       CLASS='IC';
-      STATUS='Preferred';
-      PART_NUMBER='NB7V52MMNG';
-      MANUFACTURER='ON SEMICONDUCTOR';
-      DESCRIPTION='1.8 to 2.5V Differential D Flip-flop with Reset & CML Outputs~
-';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/nb7v52m.pdf';
-      PINCOUNT='17';
-      SMD='YES';
-      CASE='QFN16';
-      JEDEC_TYPE='QFN50P300X300X100-17N-S185';
-      POWER_PINS='(GND:9,17;CVCC:12)';
-      PARENT_PART_TYPE='NB7V52M_QFN';
+      POWER_PINS='(GND:5;P3V3:8)';
+      PARENT_PART_TYPE='MAX9381';
       SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='NB7V52M';
-      PARENT_PPT_PART='NB7V52MMNG';
   end_body;
 end_primitive;
 primitive 'PCA9306DCU';
@@ -4021,45 +3777,6 @@ primitive 'RSMD0402_1/16W-200K,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-200K,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0402_1/16W-220,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0402_220R_1%_0.063W_200PPM';
-      VALUE='220';
-      TOL='1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_1/16W';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_1/16W-220,1%';
-  end_body;
-end_primitive;
 primitive 'RSMD0402_1/16W-2K,1%';
   pin
     'A'<0>:
@@ -4294,7 +4011,7 @@ primitive 'RSMD0402_1/16W-750,1%';
       PARENT_PPT_PART='RSMD0402_1/16W-750,1%';
   end_body;
 end_primitive;
-primitive 'RSMD0603_-00,';
+primitive 'RSMD0603_1/10W-100,1%';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -4318,21 +4035,62 @@ primitive 'RSMD0603_-00,';
       PINCOUNT='2';
       SIZE='1';
       PHYS_DES_PREFIX='R';
-      DESCRIPTION='0603 Size SMD Jumper';
+      DESCRIPTION='SMD Resistor';
       CASE='0603';
       SMD='YES';
       STATUS='Preferred';
-      PART_NUMBER='R0603_00_JUMPER';
-      VALUE='00';
-      TOL='';
-      PWR='';
+      PART_NUMBER='R0603_100R_1%_0.1W_100PPM';
+      VALUE='100';
+      TOL='1%';
+      PWR='0.1W';
       JEDEC_TYPE='C0603';
       MANUFACTURER='GENERIC';
       SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.000.5';
-      PARENT_PART_TYPE='RSMD0603_';
+03.200.9';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
       PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_-00,';
+      PARENT_PPT_PART='RSMD0603_1/10W-100,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0603_1/10W-200,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_200R_1%_0.1W_100PPM';
+      VALUE='200';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
+03.220.5';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-200,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0603_1/10W-33,1%';
@@ -4376,6 +4134,45 @@ primitive 'RSMD0603_1/10W-33,1%';
       PARENT_PPT_PART='RSMD0603_1/10W-33,1%';
   end_body;
 end_primitive;
+primitive 'RSMD0603_1/10W-825,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0603';
+      BODY_NAME='RSMD0603';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0603';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0603_825R_1%_0.1W_100PPM';
+      VALUE='825';
+      TOL='1%';
+      PWR='0.1W';
+      JEDEC_TYPE='C0603';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0603_1/10W';
+      PARENT_PPT='RSMD0603';
+      PARENT_PPT_PART='RSMD0603_1/10W-825,1%';
+  end_body;
+end_primitive;
 primitive 'SFP_CAGE-SP-74737-004';
   pin
     'NC':
@@ -4404,28 +4201,36 @@ primitive 'SFP_CAGE-SP-74737-004';
       PARENT_PPT_PART='SFP_CAGE-SP-74737-004';
   end_body;
 end_primitive;
-primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
+primitive 'SI5345A-D-GM-VDD=P1V8,VDDA=P3V3';
   pin
     'A0/CS':
-      PIN_NUMBER='(16)';
+      PIN_NUMBER='(19)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'A1/SDO':
-      PIN_NUMBER='(15)';
+      PIN_NUMBER='(17)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
+    'FDEC':
+      PIN_NUMBER='(25)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'FINC':
+      PIN_NUMBER='(48)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'I2C_SEL':
-      PIN_NUMBER='(38)';
+      PIN_NUMBER='(39)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN0':
-      PIN_NUMBER='(43)';
+      PIN_NUMBER='(63)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN0*':
-      PIN_NUMBER='(44)';
+      PIN_NUMBER='(64)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN1':
@@ -4437,23 +4242,23 @@ primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN2':
-      PIN_NUMBER='(10)';
+      PIN_NUMBER='(14)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN2*':
-      PIN_NUMBER='(11)';
+      PIN_NUMBER='(15)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN3/FB_IN':
-      PIN_NUMBER='(41)';
+      PIN_NUMBER='(61)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN3/FB_IN*':
-      PIN_NUMBER='(42)';
+      PIN_NUMBER='(62)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'INTR*':
-      PIN_NUMBER='(33)';
+      PIN_NUMBER='(12)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'IN_SEL0':
@@ -4461,35 +4266,31 @@ primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'IN_SEL1':
-      PIN_NUMBER='(37)';
+      PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'LOL*':
-      PIN_NUMBER='(27)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'LOS_XAXB*':
-      PIN_NUMBER='(28)';
+      PIN_NUMBER='(47)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'OE*':
-      PIN_NUMBER='(12)';
+      PIN_NUMBER='(11)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'OUT0':
-      PIN_NUMBER='(20)';
+      PIN_NUMBER='(24)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'OUT0*':
-      PIN_NUMBER='(19)';
+      PIN_NUMBER='(23)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'OUT1':
-      PIN_NUMBER='(25)';
+      PIN_NUMBER='(28)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'OUT1*':
-      PIN_NUMBER='(24)';
+      PIN_NUMBER='(27)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'OUT2':
@@ -4501,29 +4302,117 @@ primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
     'OUT3':
-      PIN_NUMBER='(36)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUT3*':
       PIN_NUMBER='(35)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
+    'OUT3*':
+      PIN_NUMBER='(34)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT4':
+      PIN_NUMBER='(38)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT4*':
+      PIN_NUMBER='(37)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT5':
+      PIN_NUMBER='(42)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT5*':
+      PIN_NUMBER='(41)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT6':
+      PIN_NUMBER='(45)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT6*':
+      PIN_NUMBER='(44)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT7':
+      PIN_NUMBER='(51)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT7*':
+      PIN_NUMBER='(50)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT8':
+      PIN_NUMBER='(54)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT8*':
+      PIN_NUMBER='(53)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT9':
+      PIN_NUMBER='(59)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUT9*':
+      PIN_NUMBER='(58)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'RST*':
-      PIN_NUMBER='(17)';
+      PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
+    'RSVD1':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'RSVD2':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'RSVD3':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'RSVD4':
+      PIN_NUMBER='(55)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'RSVD5':
+      PIN_NUMBER='(56)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
     'SCLK':
-      PIN_NUMBER='(14)';
+      PIN_NUMBER='(16)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'SDA/SDIO':
-      PIN_NUMBER='(13)';
+      PIN_NUMBER='(18)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
     'VDDO0':
-      PIN_NUMBER='(18)';
+      PIN_NUMBER='(22)';
       PINUSE='POWER';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
@@ -4531,7 +4420,7 @@ primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
     'VDDO1':
-      PIN_NUMBER='(23)';
+      PIN_NUMBER='(26)';
       PINUSE='POWER';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
@@ -4540,14 +4429,62 @@ primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
       ALLOW_CONNECT='TRUE';
     'VDDO2':
       PIN_NUMBER='(29)';
-      PINUSE='POWER';
+      PINUSE='UNSPEC';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
     'VDDO3':
-      PIN_NUMBER='(34)';
+      PIN_NUMBER='(33)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VDDO4':
+      PIN_NUMBER='(36)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VDDO5':
+      PIN_NUMBER='(40)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VDDO6':
+      PIN_NUMBER='(43)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VDDO7':
+      PIN_NUMBER='(49)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VDDO8':
+      PIN_NUMBER='(52)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VDDO9':
+      PIN_NUMBER='(57)';
       PINUSE='POWER';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
@@ -4555,43 +4492,42 @@ primitive 'SI5394A/B-A-GM-VDD=P1V8,VDDA=PA';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
     'X1':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'X2':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
+    'X2':
+      PIN_NUMBER='(10)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'XA':
-      PIN_NUMBER='(5)';
+      PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'XB':
-      PIN_NUMBER='(6)';
+      PIN_NUMBER='(9)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
   end_pin;
   body
-      PART_NAME='SI5394';
-      BODY_NAME='SI5394';
+      PART_NAME='SI5345';
+      BODY_NAME='SI5345';
       PHYS_DES_PREFIX='IC';
       CLASS='IC';
       STATUS='Preferred';
-      PART_NUMBER='Si5394A/B-A-GM';
+      PART_NUMBER='Si5345A-D-GM';
       MANUFACTURER='SILICON LABS';
-      DESCRIPTION='350MHz (Integer+Fractional), 10-Channel, Any-Frequency, Any-O~
-utput Jitter Attenuator/Clock Multiplier';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/si5344.pdf';
-      PINCOUNT='45';
+      DESCRIPTION='712.5MHz (Integer+Fractional), 10-Channel, Any-Frequency, Any~
+-Output Jitter Attenuator/Clock Multiplier';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/si5345.pdf';
+      PINCOUNT='65';
       SMD='YES';
-      CASE='QFN44';
-      JEDEC_TYPE='QFN50P700X700X90-45N-S530';
-      NC_PINS='(22)';
-      POWER_PINS='(GND:45;P1V8:21,32,39,40;P3V3:8,9,26)';
-      PARENT_PART_TYPE='SI5394_QFN';
+      CASE='QFN64';
+      JEDEC_TYPE='QFN50P900X900X90-65N-S530';
+      POWER_PINS='(GND:65;P1V8:32,46,60;P3V3:13)';
+      PARENT_PART_TYPE='SI5345_QFN';
       SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='SI5394';
-      PARENT_PPT_PART='SI5394A/B-A-GM';
+      PARENT_PPT='SI5345';
+      PARENT_PPT_PART='SI5345A-D-GM';
   end_body;
 end_primitive;
 primitive 'SN74AVC1T45DCKR';

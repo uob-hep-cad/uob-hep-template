@@ -32,9 +32,6 @@
   cnpassive capcersmdcl2 *
   page4_i109
 #CELL
-  bris_cds_discrete si5394 *
-  page4_i110
-#CELL
   bris_cds_discrete dsc1123ci5 *
   page4_i111
 #ISCELL
@@ -88,12 +85,72 @@
 #CELL
   bris_cds_logic osc_6p_en_diffout *
   page4_i130
+#ISCELL
+  cnpower p3v3 *
+  page4_i131
+#ISCELL
+  cnpower p3v3 *
+  page4_i132
+#ISCELL
+  cnpower p3v3 *
+  page4_i133
+#ISCELL
+  cnpower p3v3 *
+  page4_i134
+#ISCELL
+  cnpower p3v3 *
+  page4_i135
+#ISCELL
+  cnpower p3v3 *
+  page4_i136
+#ISCELL
+  standard offpage *
+  page4_i137
+#ISCELL
+  standard offpage *
+  page4_i138
+#ISCELL
+  standard offpage *
+  page4_i139
 #CELL
   cnpassive rsmd0402 *
   page4_i14
 #ISCELL
+  standard offpage *
+  page4_i140
+#ISCELL
+  standard offpage *
+  page4_i141
+#ISCELL
+  standard offpage *
+  page4_i142
+#ISCELL
+  standard offpage *
+  page4_i143
+#ISCELL
+  standard offpage *
+  page4_i144
+#ISCELL
+  standard offpage *
+  page4_i145
+#ISCELL
+  standard offpage *
+  page4_i146
+#ISCELL
+  standard offpage *
+  page4_i147
+#ISCELL
+  standard offpage *
+  page4_i148
+#ISCELL
+  standard offpage *
+  page4_i149
+#ISCELL
   cnpower gnd *
   page4_i15
+#ISCELL
+  standard offpage *
+  page4_i150
 #CELL
   cnpassive rsmd0402 *
   page4_i16
@@ -151,9 +208,6 @@
 #ISCELL
   cnpower gnd *
   page4_i54
-#CELL
-  cnpassive tp *
-  page4_i55
 #CELL
   cnpassive capcersmdcl2 *
   page4_i59

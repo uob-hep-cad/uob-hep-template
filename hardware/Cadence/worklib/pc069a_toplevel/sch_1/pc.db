@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S026 (4007227) 1/17/2022 on Wed Feb 16 18:32:43 2022
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/17/2020 on Fri Mar  4 13:41:27 2022
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -26,45 +26,6 @@
 #ISCELL
   cnpower gnd *
   page11_i110
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i127
-#ISCELL
-  cnpower gnd *
-  page11_i128
-#ISCELL
-  cnpower gnd *
-  page11_i129
-#ISCELL
-  cnpower p3v3 *
-  page11_i130
-#ISCELL
-  cnpower gnd *
-  page11_i131
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i133
-#CELL
-  cnpassive rsmd0603 *
-  page11_i134
-#ISCELL
-  cnpower gnd *
-  page11_i135
-#ISCELL
-  cnpower gnd *
-  page11_i136
-#CELL
-  cnpassive rsmd0603 *
-  page11_i137
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i140
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i141
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i142
 #CELL
   cnpassive capcersmdcl2 *
   page11_i146
@@ -120,9 +81,6 @@
   cnpower p3v3 *
   page11_i183
 #CELL
-  cninterface sy58608u *
-  page11_i207
-#CELL
   cnpassive capcersmdcl2 *
   page11_i215
 #CELL
@@ -156,9 +114,6 @@
   cndiscrete led1 *
   page11_i227
 #CELL
-  cninterface adn2814 *
-  page11_i23
-#CELL
   cnpassive rsmd0402 *
   page11_i232
 #CELL
@@ -168,23 +123,8 @@
   cnpassive rsmd0402 *
   page11_i236
 #CELL
-  cnpassive rsmd0402 *
-  page11_i237
-#CELL
   cnpassive capcersmdcl2 *
   page11_i238
-#CELL
-  cnpassive rsmd0603 *
-  page11_i239
-#CELL
-  cnpassive rsmd0603 *
-  page11_i240
-#CELL
-  cnpassive rsmd0603 *
-  page11_i241
-#CELL
-  cnpassive rsmd0603 *
-  page11_i242
 #CELL
   cninterface 74avc4t245 *
   page11_i269
@@ -287,6 +227,18 @@
 #ISCELL
   cnpower p3v3 *
   page11_i318
+#ISCELL
+  standard offpage *
+  page11_i319
+#ISCELL
+  standard offpage *
+  page11_i320
+#ISCELL
+  standard offpage *
+  page11_i321
+#ISCELL
+  standard offpage *
+  page11_i322
 #ISCELL
   cnpower gnd *
   page11_i42
@@ -492,6 +444,12 @@
   cnpower gnd *
   page2_i287
 #ISCELL
+  standard offpage *
+  page2_i288
+#ISCELL
+  standard offpage *
+  page2_i289
+#ISCELL
   cnpower ctrlvcc *
   page2_i47
 #ISCELL
@@ -546,53 +504,107 @@
   cnpassive capcersmdcl2 *
   page3_i247
 #CELL
-  cnpassive capcersmdcl2 *
-  page3_i299
+  bris_cds_logic max9381 *
+  page3_i322
 #CELL
   cnpassive capcersmdcl2 *
-  page3_i300
-#ISCELL
-  cnpower cvcc *
-  page3_i301
+  page3_i325
+#CELL
+  cnpassive rsmd0603 *
+  page3_i327
+#CELL
+  cnpassive rsmd0603 *
+  page3_i328
+#CELL
+  cnpassive rsmd0402 *
+  page3_i329
+#CELL
+  cnpassive rsmd0402 *
+  page3_i330
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i331
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i332
 #ISCELL
   cnpower gnd *
-  page3_i302
-#CELL
-  cnpassive rsmd0402 *
-  page3_i307
-#CELL
-  cnpassive rsmd0402 *
-  page3_i310
-#CELL
-  cnpassive rsmd0402 *
-  page3_i311
+  page3_i333
 #ISCELL
-  cnpower cvcc *
-  page3_i312
+  cnpower p3v3 *
+  page3_i334
 #ISCELL
   cnpower gnd *
-  page3_i313
+  page3_i335
 #CELL
-  cnpassive rsmd0402 *
-  page3_i314
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i315
+  cnpassive rsmd0603 *
+  page3_i336
 #CELL
   cnpassive capcersmdcl2 *
-  page3_i316
-#CELL
-  cnlinear nb7v52m *
-  page3_i317
-#CELL
-  cnpassive rsmd0402 *
-  page3_i319
+  page3_i337
 #ISCELL
-  cnpower cvcc *
-  page3_i320
+  cnpower p3v3 *
+  page3_i338
+#CELL
+  cnpassive rsmd0603 *
+  page3_i339
+#CELL
+  cnpassive rsmd0603 *
+  page3_i340
 #ISCELL
-  cnpower cvcc *
-  page3_i321
+  cnpower gnd *
+  page3_i341
+#ISCELL
+  cnpower p3v3 *
+  page3_i342
+#CELL
+  cnpassive rsmd0603 *
+  page3_i343
+#CELL
+  cnpassive rsmd0603 *
+  page3_i344
+#ISCELL
+  cnpower gnd *
+  page3_i345
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i346
+#ISCELL
+  cnpower p3v3 *
+  page3_i347
+#CELL
+  cnpassive rsmd0603 *
+  page3_i348
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i349
+#CELL
+  cnpassive rsmd0603 *
+  page3_i350
+#ISCELL
+  cnpower gnd *
+  page3_i351
+#CELL
+  cnpassive rsmd0603 *
+  page3_i352
+#ISCELL
+  standard offpage *
+  page3_i353
+#ISCELL
+  standard offpage *
+  page3_i354
+#ISCELL
+  standard offpage *
+  page3_i355
+#ISCELL
+  standard offpage *
+  page3_i356
+#ISCELL
+  standard offpage *
+  page3_i357
+#ISCELL
+  standard offpage *
+  page3_i358
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -626,9 +638,6 @@
 #CELL
   cnpassive capcersmdcl2 *
   page4_i109
-#CELL
-  bris_cds_discrete si5394 *
-  page4_i110
 #CELL
   bris_cds_discrete dsc1123ci5 *
   page4_i111
@@ -683,12 +692,72 @@
 #CELL
   bris_cds_logic osc_6p_en_diffout *
   page4_i130
+#ISCELL
+  cnpower p3v3 *
+  page4_i131
+#ISCELL
+  cnpower p3v3 *
+  page4_i132
+#ISCELL
+  cnpower p3v3 *
+  page4_i133
+#ISCELL
+  cnpower p3v3 *
+  page4_i134
+#ISCELL
+  cnpower p3v3 *
+  page4_i135
+#ISCELL
+  cnpower p3v3 *
+  page4_i136
+#ISCELL
+  standard offpage *
+  page4_i137
+#ISCELL
+  standard offpage *
+  page4_i138
+#ISCELL
+  standard offpage *
+  page4_i139
 #CELL
   cnpassive rsmd0402 *
   page4_i14
 #ISCELL
+  standard offpage *
+  page4_i140
+#ISCELL
+  standard offpage *
+  page4_i141
+#ISCELL
+  standard offpage *
+  page4_i142
+#ISCELL
+  standard offpage *
+  page4_i143
+#ISCELL
+  standard offpage *
+  page4_i144
+#ISCELL
+  standard offpage *
+  page4_i145
+#ISCELL
+  standard offpage *
+  page4_i146
+#ISCELL
+  standard offpage *
+  page4_i147
+#ISCELL
+  standard offpage *
+  page4_i148
+#ISCELL
+  standard offpage *
+  page4_i149
+#ISCELL
   cnpower gnd *
   page4_i15
+#ISCELL
+  standard offpage *
+  page4_i150
 #CELL
   cnpassive rsmd0402 *
   page4_i16
@@ -746,9 +815,6 @@
 #ISCELL
   cnpower gnd *
   page4_i54
-#CELL
-  cnpassive tp *
-  page4_i55
 #CELL
   cnpassive capcersmdcl2 *
   page4_i59

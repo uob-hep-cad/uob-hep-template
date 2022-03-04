@@ -188,6 +188,12 @@
   cnpower gnd *
   page2_i287
 #ISCELL
+  standard offpage *
+  page2_i288
+#ISCELL
+  standard offpage *
+  page2_i289
+#ISCELL
   cnpower ctrlvcc *
   page2_i47
 #ISCELL
