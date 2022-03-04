@@ -151,6 +151,9 @@
 #ISCELL
   standard offpage *
   page4_i150
+#ISCELL
+  standard offpage *
+  page4_i151
 #CELL
   cnpassive rsmd0402 *
   page4_i16
