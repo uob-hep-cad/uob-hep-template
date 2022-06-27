@@ -296,4 +296,35 @@
 		<property name="TOL"  value="1%"/>
 		<property name="VALUE"  value="100"/>
 	</component>
+	<component cell="max9381_umax" library="bris_cds_discrete" partname="MAX9381_UMAX" partno="" quantity="1" >
+	</component>
+	<component cell="tp" library="cnpassive" partname="TP" partno="TP_HOLE_0.5mm" quantity="1" >
+		<property name="PACK_TYPE"  value="HOLE"/>
+		<property name="VALUE"  value="0.5mm"/>
+	</component>
+	<component cell="osc_6p_endis_outp_outn" library="cndiscrete" partname="OSC_6P_ENDIS_OUTP_OUTN" partno="SIT5021AI-2DE-25E-50.000000" quantity="1" >
+		<property name="PACK_TYPE"  value="145"/>
+		<property name="TYPE"  value="SIT5021AI-2DE-25E-50.000000"/>
+		<property name="VALUE"  value="50MHz"/>
+	</component>
+	<component cell="nb6l11s" library="cninterface" partname="NB6L11S" partno="NB611SMN" quantity="1" >
+		<property name="PACK_TYPE"  value="QFN"/>
+		<property name="TYPE"  value="NB6L11SMN"/>
+	</component>
+	<component cell="lm1117" library="cnlinear" partname="LM1117" partno="LM1117MPX-1.8" quantity="1" >
+		<property name="VALUE"  value="MPX-1.8"/>
+	</component>
+	<component cell="elcaptan" library="cnpassive" partname="ELCAPTAN" partno="T491A226K010A" quantity="1" >
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="22uF"/>
+		<property name="VOLTAGE"  value="10V"/>
+	</component>
+	<component cell="tmp1075ndrlr" library="bris_cds_logic" partname="TMP1075NDRLR" partno="" quantity="1" >
+		<property name="MANUFACTURER_NAME"  value="Texas Instruments"/>
+		<property name="MANUFACTURER_PART_NUMBER"  value="TMP1075NDRLR"/>
+	</component>
+	<component cell="max9381esa" library="bris_cds_logic" partname="MAX9381ESA" partno="MAX9381ESA" quantity="1" >
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="MAX9381ESA"/>
+	</component>
 </sc:shoppingCart>

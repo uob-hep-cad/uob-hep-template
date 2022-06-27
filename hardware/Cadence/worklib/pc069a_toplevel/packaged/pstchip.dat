@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 04-Mar-2022 AT 14:28:27 }
+{ Packager-XL run on 27-Jun-2022 AT 11:23:41 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -60,45 +60,6 @@ primitive '24AA025E48T-I/SN';
       PARENT_PART_TYPE='24AA025E48_SOIC';
       PARENT_PPT='24AA025E48';
       PARENT_PPT_PART='24AA025E48T-I/SN';
-  end_body;
-end_primitive;
-primitive '637L5003I2T';
-  pin
-    'ENDIS':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'OUTP':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUTN':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-  end_pin;
-  body
-      PART_NAME='OSC_6P_EN_DIFFOUT';
-      BODY_NAME='OSC_6P_EN_DIFFOUT';
-      PHYS_DES_PREFIX='QZ';
-      CLASS='IC';
-      STATUS='Preferred';
-      PART_NUMBER='637L5003I2T';
-      MANUFACTURER='CTS';
-      DESCRIPTION='50MHz LVDS XO (Standard) Oscillator Surface Mount 2.5V 65mA E~
-nable/Disable';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/osc_sitime_si~
-t9121.pdf';
-      PINCOUNT='6';
-      SMD='YES';
-      CASE='7.0x5.0mm';
-      JEDEC_TYPE='OSCSC254P500X700X100-6N';
-      VALUE='50MHz';
-      POWER_PINS='(GND:3;VDD:6)';
-      NC_PINS='(2)';
-      PARENT_PART_TYPE='OSC_6P_EN_DIFFOUT_145';
-      PARENT_PPT='OSC_6P_EN_DIFFOUT';
-      PARENT_PPT_PART='637L5003I2T';
   end_body;
 end_primitive;
 primitive '74LCX04MTC-VCC=P3V3';
@@ -274,7 +235,7 @@ primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
       PARENT_PPT_PART='CAPCERSMDCL2_0402-100NF,16V_GEN';
   end_body;
 end_primitive;
-primitive 'CAPCERSMDCL2_0402-10NF,16V_GEN';
+primitive 'CAPCERSMDCL2_0603-100NF,16V';
   pin
     'A'<0>:
       PIN_NUMBER='(1)';
@@ -302,19 +263,19 @@ primitive 'CAPCERSMDCL2_0402-10NF,16V_GEN';
       PHYS_DES_PREFIX='C';
       CLASS='DISCRETE';
       STATUS='Preferred';
-      PART_NUMBER='CC0402_10NF_16V_10%_X7R';
+      PART_NUMBER='CC0603_100NF_16V_10%_X7R';
       MANUFACTURER='GENERIC';
       DESCRIPTION='SMD X7R Ceramic Capacitor';
       DATASHEET_URL='';
       SMD='YES';
-      CASE='0402';
-      JEDEC_TYPE='C0402';
-      VALUE='10nF';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='100nF';
       VOLT='16V';
       TOL='10%';
-      PARENT_PART_TYPE='CAPCERSMDCL2_0402';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
       PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0402-10NF,16V_GEN';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-100NF,16V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
@@ -402,131 +363,6 @@ C.pdf';
       PARENT_PART_TYPE='CAPCERSMDCL2_0805';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0805-10UF,16V';
-  end_body;
-end_primitive;
-primitive 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='CAPCERSMDCL2';
-      BODY_NAME='CAPCERSMDCL2';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      STATUS='Preferred';
-      PART_NUMBER='CC0805_2.2UF_10V_+80%-20%_Y5V';
-      MANUFACTURER='GENERIC';
-      DESCRIPTION='SMD Y5V Ceramic Capacitor';
-      DATASHEET_URL='';
-      SMD='YES';
-      CASE='0805';
-      JEDEC_TYPE='C0805';
-      VALUE='2.2uF';
-      VOLT='10V';
-      TOL='+80%-20%';
-      PARENT_PART_TYPE='CAPCERSMDCL2_0805';
-      PARENT_PPT='CAPCERSMDCL2';
-      PARENT_PPT_PART='CAPCERSMDCL2_0805-2.2UF,10V_GEN';
-  end_body;
-end_primitive;
-primitive 'CON19P-HDMI-19-01-X-SM-GND=AGND';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<3>:
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<4>:
-      PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A'<5>:
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'A'<6>:
-      PIN_NUMBER='(7)';
-      PINUSE='UNSPEC';
-    'A'<7>:
-      PIN_NUMBER='(8)';
-      PINUSE='UNSPEC';
-    'A'<8>:
-      PIN_NUMBER='(9)';
-      PINUSE='UNSPEC';
-    'A'<9>:
-      PIN_NUMBER='(10)';
-      PINUSE='UNSPEC';
-    'A'<10>:
-      PIN_NUMBER='(11)';
-      PINUSE='UNSPEC';
-    'A'<11>:
-      PIN_NUMBER='(12)';
-      PINUSE='UNSPEC';
-    'A'<12>:
-      PIN_NUMBER='(13)';
-      PINUSE='UNSPEC';
-    'A'<13>:
-      PIN_NUMBER='(14)';
-      PINUSE='UNSPEC';
-    'A'<14>:
-      PIN_NUMBER='(15)';
-      PINUSE='UNSPEC';
-    'A'<15>:
-      PIN_NUMBER='(16)';
-      PINUSE='UNSPEC';
-    'A'<16>:
-      PIN_NUMBER='(17)';
-      PINUSE='UNSPEC';
-    'A'<17>:
-      PIN_NUMBER='(18)';
-      PINUSE='UNSPEC';
-    'A'<18>:
-      PIN_NUMBER='(19)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='CON19P';
-      BODY_NAME='CON19P';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
-      STATUS='Preferred';
-      PART_NUMBER='HDMI-19-01-X-SM';
-      MANUFACTURER='SAMTEC';
-      DESCRIPTION='HDMI I/O Receptacle';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/samtec_HDMI.p~
-df';
-      PINCOUNT='23';
-      SMD='';
-      CASE='_';
-      JEDEC_TYPE='SAMTEC_HDMI-19-01-X-SM';
-      POWER_PINS='(AGND:20,21,22,23)';
-      PARENT_PART_TYPE='CON19P';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='CON19P';
-      PARENT_PPT_PART='CON19P-HDMI-19-01-X-SM';
   end_body;
 end_primitive;
 primitive 'CON20P_SFP-1888247-1';
@@ -3197,42 +3033,41 @@ primitive 'DS90LV028A_SOIC';
       POWER_PINS='(P3V3:8)';
   end_body;
 end_primitive;
-primitive 'DSC1123CI5-40.0000-VDD=P3V3';
+primitive 'ELCAPTAN_SMD-22UF,10V';
   pin
-    'OUTN':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'OUTP':
-      PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'EN':
+    'A'<0>:
       PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
-      PART_NAME='DSC1123CI5';
-      BODY_NAME='DSC1123CI5';
-      PHYS_DES_PREFIX='QZ';
-      CLASS='IC';
-      NC_PINS='(2)';
-      STATUS='Preferred';
-      PART_NUMBER='DSC1123CI5-40.0000';
-      MANUFACTURER='Micrel';
-      DESCRIPTION='3.3V 100ppm 3.2x2.5mm SMD LVDS Oscillator - DSC1103  Series';
-      DATASHEET_URL='http://www.micrel.com/_PDF/clk/DSC1103-23.pdf';
-      PINCOUNT='6';
+      PART_NAME='ELCAPTAN';
+      BODY_NAME='ELCAPTAN';
+      CLASS='DISCRETE';
+      NO_IO_CHECK='TRUE';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      PHYS_DES_PREFIX='C';
+      DESCRIPTION='Tantalum Electrolytic Capacitor';
+      VALUE='22uF';
+      JEDEC_TYPE='C3528POL';
+      PART_NUMBER='T491A226K010A';
+      MANUFACTURER='KEMET';
+      CASE='B';
       SMD='YES';
-      CASE='3.2mmx2.5mm';
-      JEDEC_TYPE='OSCSC105P250X320X180-6N';
-      VALUE='40.00MHz';
-      POWER_PINS='(GND:3;P3V3:6)';
-      PARENT_PART_TYPE='DSC1123CI5_SMD';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='DSC1123CI5';
-      PARENT_PPT_PART='DSC1123CI5-40.0000';
+      PARENT_PART_TYPE='ELCAPTAN_SMD';
+      PARENT_PPT='ELCAPTAN';
+      PARENT_PPT_PART='ELCAPTAN_SMD-22UF,10V';
   end_body;
 end_primitive;
 primitive 'INDUCTANCE_LQH32C_23-4.7UH';
@@ -3305,42 +3140,98 @@ df';
       PARENT_PPT_PART='LGL29K-G2J1-24';
   end_body;
 end_primitive;
-primitive 'MAX9381-VCC=P3V3,VEE=GND';
+primitive 'LM1117-MPX-1.8-OUT=P1V8';
   pin
-    'D_P':
+    'IN':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+    'GND':
       PIN_NUMBER='(1)';
+      PIN_TYPE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      UNKNOWN_LOADING='TRUE';
+      PINUSE='POWER';
+  end_pin;
+  body
+      CLASS='IC';
+      PART_NAME='LM1117';
+      BODY_NAME='LM1117';
+      PHYS_DES_PREFIX='REG';
+      MANUFACTURER='NATIONAL SEMICONDUCTOR';
+      JEDEC_TYPE='SOT223';
+      PART_NUMBER='LM1117MPX-1.8';
+      PINCOUNT='4';
+      DESCRIPTION='1.8V 800mA Low-DropOut Linear Regulator';
+      POWER_PINS='(P1V8:4)';
+      PARENT_PART_TYPE='LM1117';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='LM1117';
+      PARENT_PPT_PART='LM1117-MPX-1.8';
+  end_body;
+end_primitive;
+primitive 'MAX9381ESA_SMD-MAX9381ESA';
+  pin
+    'D':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'CLK':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
+    'VEE':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'Q':
+      PIN_NUMBER='(7)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'Q*':
+      PIN_NUMBER='(6)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'CLK*':
+      PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
     'D*':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'CLK_P':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'CLK*':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'Q*':
-      PIN_NUMBER='(6)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'Q_P':
-      PIN_NUMBER='(7)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
   end_pin;
   body
-      PART_NAME='MAX9381';
-      BODY_NAME='MAX9381';
-      JEDEC_TYPE='SOP65P490X110-8N';
+      PART_NAME='MAX9381ESA';
+      NO_LOAD_CHECK='TRUE';
+      PIN_COUNT='8';
+      BODY_NAME='MAX9381ESA';
+      JEDEC_TYPE='SOIC8';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
-      POWER_PINS='(GND:5;P3V3:8)';
-      PARENT_PART_TYPE='MAX9381';
-      SCH_MODIFIED_PART='TRUE';
+      MANUFACTURER_PART_NUMBER='MAX9381ESA+';
+      COPYRIGHT='Copyright (C) 2022 Ultra Librarian. All rights reserved.';
+      MFR_NAME='Maxim Integrated Products';
+      PART_NUMBER='MAX9381ESA';
+      PARENT_PART_TYPE='MAX9381ESA_SMD';
+      PARENT_PPT='MAX9381ESA';
+      PARENT_PPT_PART='MAX9381ESA_SMD-MAX9381ESA';
   end_body;
 end_primitive;
 primitive 'PCA9306DCU';
@@ -3580,45 +3471,6 @@ primitive 'RSMD0402_1/16W-0R0,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-0R0,1%';
-  end_body;
-end_primitive;
-primitive 'RSMD0402_1/16W-10,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0402_10R_1%_0.063W_200PPM';
-      VALUE='10';
-      TOL='1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_1/16W';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_1/16W-10,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-100,1%';
@@ -4530,64 +4382,44 @@ primitive 'SI5345A-D-GM-VDD=P1V8,VDDA=P3V3';
       PARENT_PPT_PART='SI5345A-D-GM';
   end_body;
 end_primitive;
-primitive 'SN74AVC1T45DCKR';
+primitive 'SIT5021AI-2DE-25E-50.000000-VDA';
   pin
-    'VCCA':
+    'ENDIS':
       PIN_NUMBER='(1)';
-      PINUSE='POWER';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'VCCB':
-      PIN_NUMBER='(6)';
-      PINUSE='POWER';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='GROUND';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'DIR':
-      PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
       PINUSE='IN';
-    'B':
+    'OUTP':
       PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'A':
-      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUTN':
+      PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='OUT';
   end_pin;
   body
-      PART_NAME='74AVC1T45';
-      BODY_NAME='74AVC1T45';
-      PHYS_DES_PREFIX='IC';
+      PART_NAME='OSC_6P_ENDIS_OUTP_OUTN';
+      BODY_NAME='OSC_6P_ENDIS_OUTP_OUTN';
+      PHYS_DES_PREFIX='QZ';
       CLASS='IC';
       STATUS='Preferred';
-      PART_NUMBER='SN74AVC1T45DCKR';
-      MANUFACTURER='TEXAS INSTRUMENTS';
-      DESCRIPTION='Single-Bit Dual-Supply Bus Transceiver with Configurable Volt~
-age Translation and 3-State Outputs';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/sn74avc1t45.p~
-df';
+      PART_NUMBER='SIT5021AI-2DE-25E-50.000000';
+      MANUFACTURER='SI TIME';
+      DESCRIPTION='2.5V 5ppm 7x5mm LVDS High Performance Differential (VC) TCXO ~
+with Output Enable - SiT5021 Series';
+      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/osc_sitime_si~
+t5021.pdf';
       PINCOUNT='6';
       SMD='YES';
-      CASE='SOT23-6';
-      JEDEC_TYPE='SOT95P280X145-6N';
-      PARENT_PART_TYPE='74AVC1T45_SOT23';
-      PARENT_PPT='74AVC1T45';
-      PARENT_PPT_PART='SN74AVC1T45DCKR';
+      CASE='7.0x5.0mm';
+      JEDEC_TYPE='OSCSC254P500X700X100-6N';
+      VALUE='50MHz';
+      NC_PINS='(2)';
+      POWER_PINS='(GND:3;CVCC:6)';
+      PARENT_PART_TYPE='OSC_6P_ENDIS_OUTP_OUTN_145';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='OSC_6P_ENDIS_OUTP_OUTN';
+      PARENT_PPT_PART='SIT5021AI-2DE-25E-50.000000';
   end_body;
 end_primitive;
 primitive 'SN74AVC4T245PW-VCCA=P3V3,VCCB=A';
@@ -4691,7 +4523,7 @@ pdf';
       PARENT_PPT_PART='SN74LVC2GU04DCK';
   end_body;
 end_primitive;
-primitive 'SY58608UMG-VCC=P3V3';
+primitive 'SY58608UMG-VCC=CVCC';
   pin
     'VREF-AC':
       PIN_NUMBER='(3)';
@@ -4742,58 +4574,103 @@ nation and Fail Safe Input';
       SMD='YES';
       CASE='QFN16';
       JEDEC_TYPE='QFN50P300X300X90-17N-S160';
-      POWER_PINS='(P3V3:5,8,13,16;GND:6,7,14,15,17)';
+      POWER_PINS='(CVCC:5,8,13,16;GND:6,7,14,15,17)';
       PARENT_PART_TYPE='SY58608U_QFN';
       SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='SY58608U';
       PARENT_PPT_PART='SY58608UMG';
   end_body;
 end_primitive;
-primitive 'TPS799185DDCTG4';
+primitive 'TMP1075NDRLR-TEXAS INSTRUMENTSA';
   pin
-    'EN':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
+    'SCL':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
     'GND':
       PIN_NUMBER='(2)';
-      PINUSE='GROUND';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'ALERT':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'A0':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'V+':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'SDA':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+      PART_NAME='TMP1075NDRLR';
+      NO_LOAD_CHECK='TRUE';
+      PIN_COUNT='6';
+      BODY_NAME='TMP1075NDRLR';
+      PHYS_DES_PREFIX='IC';
+      CLASS='IC';
+      PART_NUMBER='';
+      JEDEC_TYPE='SOT_DRL_TEX';
+      PACK_TYPE='SOT';
+      MOUSER_PART_NUMBER='595-TMP1075NDRLR';
+      MOUSER_PRICE/STOCK='https://www.mouser.co.uk/ProductDetail/Texas-Instrumen~
+ts/TMP1075NDRLR';
+      DESCRIPTION='I2C temperature probe. LM75 compatiblehttps://www.ti.com/lit/~
+ds/symlink/tmp1075.pdf';
+      DATASHEET='https://www.ti.com/lit/ds/symlink/tmp1075.pdf';
+      HEIGHT='0.6 mm';
+      PARENT_PART_TYPE='TMP1075NDRLR_SOT';
+      PARENT_PPT='TMP1075NDRLR';
+      PARENT_PPT_PART='TMP1075NDRLR-TEXAS INSTRUMENTS,TMP1075NDRLR';
+  end_body;
+end_primitive;
+primitive 'TP_HOLE-0.5MM';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'OUT':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'IN':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'NR':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
   end_pin;
   body
-      PART_NAME='TPS799XX';
-      BODY_NAME='TPS799XX';
-      PHYS_DES_PREFIX='REG';
-      CLASS='IC';
-      STATUS='Preferred';
-      PART_NUMBER='TPS799185DDCTG4';
-      MANUFACTURER='TEXAS INSTRUMENTS';
-      DESCRIPTION='200mA, Low Quiescent Current, Ultra-Low Noise, High PSRR Low ~
-Dropout Linear Regulator';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/tps799xx.pdf';
-      PINCOUNT='5';
-      SMD='YES';
-      CASE='SOT23_5';
-      JEDEC_TYPE='SOT95P280X110-5N';
-      PARENT_PART_TYPE='TPS799XX_TSOT23';
-      PARENT_PPT='TPS799XX';
-      PARENT_PPT_PART='TPS799185DDCTG4';
+      PINCOUNT='1';
+      PART_NAME='TP';
+      BODY_NAME='TP';
+      PHYS_DES_PREFIX='TP';
+      CLASS='IO';
+      STATUS='';
+      PART_NUMBER='TP_HOLE_0.5mm';
+      MANUFACTURER='';
+      DESCRIPTION='Stand-Alone 0.5mm Hole for Test Probe';
+      DATASHEET_URL='';
+      SMD='NO';
+      CASE='_';
+      MOUNTED='NO';
+      JEDEC_TYPE='TP_HOLE_05';
+      PARENT_PART_TYPE='TP_HOLE';
+      PARENT_PPT='TP';
+      PARENT_PPT_PART='TP_HOLE-0.5MM';
   end_body;
 end_primitive;
 primitive 'TP_HOLE-0.8MM';

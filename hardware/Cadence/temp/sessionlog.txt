@@ -1,13 +1,15 @@
-03/04/22  13:42:07		Opening project /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm
-03/04/22  13:42:07		cdslib /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/cds.lib opened
-03/04/22  13:42:07		Project /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm opened
-03/04/22  13:43:13		Loading cell max9381 from library bris_cds_logic
-03/04/22  13:43:13		Loading view sym_1 of cell max9381
-03/04/22  13:43:13		Loading view chips of cell max9381
-03/04/22  13:43:13		Loading view entity of cell max9381
-03/04/22  13:43:13		Loading cell max9381 from library bris_cds_logic
-03/04/22  13:43:13		Analyzing view relationships of cell max9381 in library bris_cds_logic
-03/04/22  13:43:13		Completed loading cell max9381 from library bris_cds_logic
-03/04/22  13:43:13		Starting validations on cell max9381 of library bris_cds_logic
-03/04/22  13:43:13		Completed validations on cell max9381 of library bris_cds_logic
-03/04/22  14:26:07		Project /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm is closed.
+06/27/22  11:23:00		Opening project /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm
+06/27/22  11:23:00		cdslib /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/cds.lib opened
+06/27/22  11:23:00		Project /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm opened
+06/27/22  11:23:08		Loading cell tmp1075ndrlr from library bris_cds_logic
+06/27/22  11:23:08		Loading view sym_1 of cell tmp1075ndrlr
+06/27/22  11:23:08		Loading view chips of cell tmp1075ndrlr
+06/27/22  11:23:08		Loading view part_table of cell tmp1075ndrlr
+06/27/22  11:23:08		File master.tag does not exist. Check the filename and location.
+06/27/22  11:23:08		Loading file part.ptf of PTF view part_table of cell tmp1075ndrlr
+06/27/22  11:23:08		Loading cell tmp1075ndrlr from library bris_cds_logic
+06/27/22  11:23:08		Analyzing view relationships of cell tmp1075ndrlr in library bris_cds_logic
+06/27/22  11:23:08		Completed loading cell tmp1075ndrlr from library bris_cds_logic
+06/27/22  11:23:08		Starting validations on cell tmp1075ndrlr of library bris_cds_logic
+06/27/22  11:23:08		Completed validations on cell tmp1075ndrlr of library bris_cds_logic
+06/27/22  11:29:37		Project /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm is closed.

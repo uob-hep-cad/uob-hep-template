@@ -146,9 +146,6 @@
   cnpower cvcc *
   page11_i289
 #CELL
-  cninterface sy58608u *
-  page11_i290
-#CELL
   cninterface sn74lvc2gu04 *
   page11_i291
 #CELL
@@ -163,15 +160,6 @@
 #CELL
   cnpassive rsmd0402 *
   page11_i314
-#CELL
-  cnpassive rsmd0402 *
-  page11_i316
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i317
-#ISCELL
-  cnpower p3v3 *
-  page11_i318
 #ISCELL
   standard offpage *
   page11_i319
@@ -220,6 +208,15 @@
 #ISCELL
   standard offpage *
   page11_i336
+#CELL
+  cninterface sy58608u *
+  page11_i337
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i338
+#ISCELL
+  cnpower gnd *
+  page11_i339
 #ISCELL
   cnpower gnd *
   page11_i42

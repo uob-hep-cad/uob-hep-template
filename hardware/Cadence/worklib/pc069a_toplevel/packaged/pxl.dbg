@@ -1,6 +1,6 @@
-Log File: /tmp/filexRu8O9
-Markers File: /tmp/filePF1AVg
-Debug File: /tmp/fileHWw3hO
+Log File: /tmp/fileAVGdhB
+Markers File: /tmp/filetwPI8v
+Debug File: /tmp/fileLTOXZl
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -13,7 +13,7 @@ Elapsed time since start = (00:00:00)
  *  Loading State Files  *
  *************************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -24,7 +24,7 @@ Elapsed time since start = (00:00:02)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -35,13 +35,24 @@ Elapsed time since start = (00:00:02)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:02)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *
  *******************************
 
+
+ ****************************
+ *  Starting optimization.  *
+ ****************************
+
+Elapsed time since start = (00:00:01)
+
+ ***********************************
+ *  End optimization.  (00:00:00)  *
+ ***********************************
+
 DDB_INFO: State file for design PC069A_TOPLEVEL successfully written.
 DDB_INFO: Pst files for design PC069A_TOPLEVEL successfully written.
 system time  0
-user time    1
+user time    0

@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc069a_toplevel_01.brd                        )
-(    Software Version : 17.4S011                                      )
-(    Date/Time        : Fri Mar  4 14:28:30 2022                      )
+(    Drawing          : pc069a_toplevel_07.brd                        )
+(    Software Version : 17.4S026                                      )
+(    Date/Time        : Mon Jun 27 11:23:44 2022                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,78 +17,95 @@ Ripup retain bondwire:       No
 Ripup symbols:               IfSame
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged'
-Design Directory:            '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical'
-Old design name:             '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_01.brd'
-New design name:             '/data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_02.brd'
+Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged'
+Design Directory:            '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical'
+Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_07.brd'
+New design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_08.brd'
 
-CmdLine: netrev -proj /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm -y 2 -x -z -O /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_01.brd /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_02.brd -q /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/pc069a_toplevel.cpm -y 2 -x -z -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_07.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_08.brd -q /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstchip.dat 
-   Finished reading /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstchip.dat (00:00:00.50)
-Starting to read /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxprt.dat 
-   Finished reading /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxprt.dat (00:00:00.00)
-Starting to read /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxnet.dat 
-   Finished reading /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxnet.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstchip.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstchip.dat (00:00:00.40)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxprt.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxprt.dat (00:00:00.00)
+Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxnet.dat 
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'OSCSC254P500X700X100-6N' used by RefDes QZ2 for device '637L5003I2T' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate old symbols.
 
 
 
 ===========================================================
 Start Constraint Diff3 Import
-	Constraint File:    /data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   /tmp/#Taaaaai29246.tmp
-	Start time: Fri Mar  4 14:28:30 2022
+	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/worklib/pc069a_toplevel/packaged/pstcmdb.dat
+	Allegro Baseline:   /tmp/#Taaaaaf14164.tmp
+	Start time: Mon Jun 27 11:23:44 2022
 ===========================================================
 
 
 The constraint difference report file can be viewed using the following command:
-cdnFlowOOSMsg.exe -file file:///data/CAD/Cadence/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml
+cdnFlowOOSMsg.exe -file file:///projects/HEP_Instrumentation/cad/designs/uob-hep-pc069/hardware/Cadence/temp/constraints_difference_report.xml
 
 ===========================================================
-Finished Constraint Update	Time: Fri Mar  4 14:28:30 2022
+Finished Constraint Update	Time: Mon Jun 27 11:23:44 2022
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           /data/CAD/Cadence/installs/SPB174/share/local/pcb/modules 
+           ../../pc048c_fanout/physical 
+           /cadence/psd15.1/share/local/pcb/modules 
+           ../../../modules 
+           ../../pc048c_mux/physical 
+           ../../pc048c_dp_connector/physical 
+           ../../pc048c_dboard_fanout/physical 
 
 PSMPATH =  . 
-           symbols 
-           .. 
-           ../symbols 
-           /data/CAD/Cadence/installs/SPB174/share/local/pcb/symbols 
-           /data/CAD/Cadence/installs/SPB174/share/pcb/pcb_lib/symbols 
-           /data/CAD/Cadence/installs/SPB174/share/pcb/allegrolib/symbols 
-           /data/CAD/Cadence/libraries/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/connector 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/soic 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/discrete 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/dip 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/so 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/bga 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/qfp 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/passif 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/cap 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/led 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/rel 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/sw 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/mec 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/pwr 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/symbols/res 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
+           ./symbols 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           /data/CAD/Cadence/installs/SPB174/share/local/pcb/padstacks 
-           /data/CAD/Cadence/installs/SPB174/share/pcb/pcb_lib/symbols 
-           /data/CAD/Cadence/installs/SPB174/share/pcb/allegrolib/symbols 
-           /data/CAD/Cadence/libraries/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd/ 
+           /software/CAD/Cadence/SPB17.40.026/share/local/pcb/padstacks 
+           /software/CAD/Cadence/SPB17.40.026/share/pcb/pcb_lib/symbols 
+           /software/CAD/Cadence/SPB17.40.026/share/pcb/allegrolib/symbols 
+           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack_smd 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstack3 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/padstackm 
+           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+           ./symbols 
+           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_allegro_lib/padstacks/mechanical 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Mar 4 14:28:29 2022
+netrev run on Jun 27 11:23:43 2022
    DESIGN NAME : 'PC069A_TOPLEVEL'
-   PACKAGING ON 04-Mar-2022 AT 14:28:27
+   PACKAGING ON 27-Jun-2022 AT 11:23:41
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -116,7 +133,7 @@ netrev run on Mar 4 14:28:29 2022
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
 cpu time      0:00:01
 elapsed time  0:00:01

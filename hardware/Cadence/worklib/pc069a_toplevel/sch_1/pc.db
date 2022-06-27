@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S011 (3890763) 9/17/2020 on Fri Mar  4 16:50:57 2022
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S026 (4007227) 1/17/2022 on Mon Jun 27 11:12:07 2022
 #ISCELL
   bris_cds_standard bris_std_a3 *
   *
@@ -147,9 +147,6 @@
   cnpower cvcc *
   page11_i289
 #CELL
-  cninterface sy58608u *
-  page11_i290
-#CELL
   cninterface sn74lvc2gu04 *
   page11_i291
 #CELL
@@ -164,15 +161,6 @@
 #CELL
   cnpassive rsmd0402 *
   page11_i314
-#CELL
-  cnpassive rsmd0402 *
-  page11_i316
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i317
-#ISCELL
-  cnpower p3v3 *
-  page11_i318
 #ISCELL
   standard offpage *
   page11_i319
@@ -221,6 +209,15 @@
 #ISCELL
   standard offpage *
   page11_i336
+#CELL
+  cninterface sy58608u *
+  page11_i337
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i338
+#ISCELL
+  cnpower gnd *
+  page11_i339
 #ISCELL
   cnpower gnd *
   page11_i42
@@ -467,6 +464,39 @@
 #ISCELL
   standard offpage *
   page2_i301
+#CELL
+  cnconnector pcoax *
+  page2_i304
+#CELL
+  cnconnector pcoax *
+  page2_i305
+#CELL
+  cnconnector pcoax *
+  page2_i306
+#CELL
+  cnconnector pcoax *
+  page2_i307
+#CELL
+  bris_cds_logic tmp1075ndrlr *
+  page2_i308
+#ISCELL
+  cnpower cvcc *
+  page2_i309
+#ISCELL
+  cnpower gnd *
+  page2_i310
+#ISCELL
+  cnpower cvcc *
+  page2_i311
+#ISCELL
+  cnpower gnd *
+  page2_i313
+#CELL
+  cnpassive rsmd0402 *
+  page2_i314
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i315
 #ISCELL
   cnpower ctrlvcc *
   page2_i47
@@ -522,7 +552,7 @@
   cnpassive capcersmdcl2 *
   page3_i247
 #CELL
-  bris_cds_logic max9381 *
+  bris_cds_logic max9381esa *
   page3_i322
 #CELL
   cnpassive capcersmdcl2 *
@@ -624,6 +654,12 @@
   standard offpage *
   page3_i358
 #ISCELL
+  cnpower p3v3 *
+  page3_i359
+#ISCELL
+  cnpower gnd *
+  page3_i360
+#ISCELL
   bris_cds_standard bris_std_a3 *
   *
 #CELL
@@ -656,9 +692,6 @@
 #CELL
   cnpassive capcersmdcl2 *
   page4_i109
-#CELL
-  bris_cds_discrete dsc1123ci5 *
-  page4_i111
 #ISCELL
   cnpower p3v3 *
   page4_i112
@@ -707,9 +740,6 @@
 #CELL
   cninterface si5345 *
   page4_i129
-#CELL
-  bris_cds_logic osc_6p_en_diffout *
-  page4_i130
 #ISCELL
   cnpower p3v3 *
   page4_i131
@@ -780,17 +810,41 @@
   standard offpage *
   page4_i151
 #CELL
+  cnconnector pcoax *
+  page4_i152
+#CELL
+  cnconnector pcoax *
+  page4_i153
+#CELL
+  cnpassive tp *
+  page4_i154
+#CELL
+  cnpassive tp *
+  page4_i155
+#CELL
+  cnpassive tp *
+  page4_i156
+#CELL
+  cndiscrete osc_6p_endis_outp_outn *
+  page4_i157
+#CELL
+  cnlinear lm1117 *
+  page4_i158
+#ISCELL
+  standard offpage *
+  page4_i159
+#CELL
   cnpassive rsmd0402 *
   page4_i16
+#ISCELL
+  standard offpage *
+  page4_i160
 #CELL
   cnpassive rsmd0402 *
   page4_i18
 #CELL
   cnpassive rsmd0402 *
   page4_i26
-#CELL
-  cnconnector con3p *
-  page4_i27
 #ISCELL
   cnpower gnd *
   page4_i28
@@ -840,14 +894,11 @@
   cnpassive capcersmdcl2 *
   page4_i59
 #ISCELL
-  cnpower p3v3 *
+  cnpower cvcc *
   page4_i6
 #ISCELL
   cnpower gnd *
   page4_i8
-#CELL
-  cnlinear tps799xx *
-  page4_i86
 #ISCELL
   cnpower p3v3 *
   page4_i87
@@ -855,11 +906,8 @@
   cnpower p3v3 *
   page4_i88
 #CELL
-  cnpassive capcersmdcl2 *
+  cnpassive elcaptan *
   page4_i89
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i90
 #CELL
   cnpassive capcersmdcl2 *
   page4_i91

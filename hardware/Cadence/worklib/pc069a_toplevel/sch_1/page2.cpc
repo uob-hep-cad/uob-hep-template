@@ -229,6 +229,39 @@
 #ISCELL
   standard offpage *
   page2_i301
+#CELL
+  cnconnector pcoax *
+  page2_i304
+#CELL
+  cnconnector pcoax *
+  page2_i305
+#CELL
+  cnconnector pcoax *
+  page2_i306
+#CELL
+  cnconnector pcoax *
+  page2_i307
+#CELL
+  bris_cds_logic tmp1075ndrlr *
+  page2_i308
+#ISCELL
+  cnpower cvcc *
+  page2_i309
+#ISCELL
+  cnpower gnd *
+  page2_i310
+#ISCELL
+  cnpower cvcc *
+  page2_i311
+#ISCELL
+  cnpower gnd *
+  page2_i313
+#CELL
+  cnpassive rsmd0402 *
+  page2_i314
+#CELL
+  cnpassive capcersmdcl2 *
+  page2_i315
 #ISCELL
   cnpower ctrlvcc *
   page2_i47

@@ -20,7 +20,7 @@
   cnpassive capcersmdcl2 *
   page3_i247
 #CELL
-  bris_cds_logic max9381 *
+  bris_cds_logic max9381esa *
   page3_i322
 #CELL
   cnpassive capcersmdcl2 *
@@ -121,3 +121,9 @@
 #ISCELL
   standard offpage *
   page3_i358
+#ISCELL
+  cnpower p3v3 *
+  page3_i359
+#ISCELL
+  cnpower gnd *
+  page3_i360
