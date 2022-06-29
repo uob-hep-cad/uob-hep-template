@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 27-Jun-2022 AT 11:23:41 }
+{ Packager-XL run on 28-Jun-2022 AT 13:20:03 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PC069A_TOPLEVEL';
- POST_TIME='27-Jun-2022 AT 11:23:41';
+ POST_TIME='28-Jun-2022 AT 13:20:03';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -28,8 +28,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C2 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -52,8 +52,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C3 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -77,8 +77,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C4 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -102,8 +102,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C5 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -127,8 +127,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C6 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -152,8 +152,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C7 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -176,8 +176,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C8 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -200,8 +200,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C9 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -224,8 +224,8 @@ cl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C10 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -248,8 +248,8 @@ cl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C11 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -272,8 +272,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C12 'ELCAPTAN_SMD-22UF,10V':;
@@ -305,8 +305,8 @@ chips)',
  CDS_PART_NAME='ELCAPTAN_SMD-22UF,10V',
  VOLTAGE='10V',
  VALUE='22UF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/elcaptan/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/~
+chips.prt';
 
 PART_NAME
  C13 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -329,8 +329,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C14 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -353,8 +353,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C15 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -378,8 +378,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C16 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -403,8 +403,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C17 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -428,8 +428,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C18 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -453,8 +453,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C19 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -477,8 +477,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C20 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -501,8 +501,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C21 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -525,8 +525,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C22 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -549,8 +549,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C23 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -573,8 +573,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C24 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -597,8 +597,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C25 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -621,8 +621,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C26 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -645,8 +645,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C27 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -669,8 +669,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C28 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -693,8 +693,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C29 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -718,8 +718,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C30 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
@@ -743,8 +743,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
  VOLTAGE='50V_GEN',
  VALUE='1.0nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C31 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -767,8 +767,8 @@ cl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C32 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -791,8 +791,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C33 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -816,8 +816,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C34 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
@@ -841,8 +841,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
  VOLTAGE='50V_GEN',
  VALUE='1.0nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C35 'CAPCERSMDCL2_0805-10UF,16V':;
@@ -866,8 +866,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0805-10UF,16V',
  VOLTAGE='16V',
  VALUE='10uF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C36 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -891,8 +891,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C37 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
@@ -916,8 +916,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
  VOLTAGE='50V_GEN',
  VALUE='1.0nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C38 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -940,8 +940,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C39 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -964,8 +964,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C40 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -989,8 +989,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C41 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
@@ -1014,8 +1014,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
  VOLTAGE='50V_GEN',
  VALUE='1.0nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C42 'CAPCERSMDCL2_0603-100NF,16V':;
@@ -1038,8 +1038,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0603-100NF,16V',
  VOLTAGE='16V',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C45 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1062,8 +1062,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C46 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1086,8 +1086,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C47 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1110,8 +1110,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C48 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1134,8 +1134,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C49 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1158,56 +1158,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
-
-PART_NAME
- C50 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I329@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i329@cnpassive.capcersm~
-dcl2(chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i329@cnpassive.capcersm~
-dcl2(chips)',
- PATH='I329',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- SIZE='1',
- PHYS_PAGE='5',
- XY='(-2290,4250)',
- ROT='0',
- VER='1',
- PACK_TYPE='0402',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
- VOLTAGE='16V_GEN',
- VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
-
-PART_NAME
- C51 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I330@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i330@cnpassive.capcersm~
-dcl2(chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i330@cnpassive.capcersm~
-dcl2(chips)',
- PATH='I330',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- SIZE='1',
- PHYS_PAGE='5',
- XY='(-1680,3920)',
- ROT='1',
- VER='1',
- PACK_TYPE='0402',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
- VOLTAGE='16V_GEN',
- VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C52 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1230,8 +1182,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C53 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1254,32 +1206,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
-
-PART_NAME
- C54 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I331@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i331@cnpassive.capcersm~
-dcl2(chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i331@cnpassive.capcersm~
-dcl2(chips)',
- PATH='I331',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- SIZE='1',
- PHYS_PAGE='5',
- XY='(-980,4680)',
- ROT='0',
- VER='1',
- PACK_TYPE='0402',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
- VOLTAGE='16V_GEN',
- VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C55 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1302,8 +1230,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C56 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1326,8 +1254,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C57 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1350,8 +1278,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C58 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1374,8 +1302,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C59 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1398,8 +1326,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C60 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1422,8 +1350,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C61 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1446,8 +1374,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C62 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1470,8 +1398,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C63 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1494,8 +1422,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C64 'CAPCERSMDCL2_0603-10UF_X5R,6.3V':;
@@ -1518,8 +1446,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0603-10UF_X5R,6.3V',
  VOLTAGE='6.3V',
  VALUE='10UF_X5R',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C69 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1542,8 +1470,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C70 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1566,8 +1494,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C71 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1590,8 +1518,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C72 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1614,8 +1542,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100NF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C107 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1639,8 +1567,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  C117 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
@@ -1664,8 +1592,8 @@ dcl2(chips)',
  CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
  VOLTAGE='16V_GEN',
  VALUE='100nF',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/ch~
+ips/chips.prt';
 
 PART_NAME
  IC1 'PCA9306DCU':;
@@ -1686,8 +1614,8 @@ SECTION_NUMBER 1
  PACK_TYPE='VSSOP/DCU',
  CDS_LIB='cninterface',
  CDS_PART_NAME='PCA9306DCU',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/pca9306/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/pca9306/chips~
+/chips.prt';
 
 PART_NAME
  IC2 '24AA025E48T-I/SN':;
@@ -1708,8 +1636,8 @@ SECTION_NUMBER 1
  PACK_TYPE='SOIC',
  CDS_LIB='cnmemory',
  CDS_PART_NAME='24AA025E48T-I/SN',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnmemory/24aa025e48/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnmemory/24aa025e48/chips~
+/chips.prt';
 
 PART_NAME
  IC3 'SI5345A-D-GM-VDD=P1V8,VDDA=P3V3':;
@@ -1731,8 +1659,8 @@ SECTION_NUMBER 1
  PACK_TYPE='QFN',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SI5345A-D-GM-VDD=P1V8;VDDA=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/si5345/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/si5345/chips/~
+chips.prt';
 
 PART_NAME
  IC4 'SY58608UMG-VCC=CVCC':;
@@ -1754,30 +1682,8 @@ SECTION_NUMBER 1
  PACK_TYPE='QFN',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SY58608UMG-VCC=CVCC',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/sy58608u/chips/chips.prt';
-
-PART_NAME
- IC5 'ADCMP604BKSZ':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I256@CNLINEAR.ADCMP604(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i256@cnlinear.adcmp604(~
-chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i256@cnlinear.adcmp604(~
-chips)',
- PATH='I256',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- TYPE='ADCMP604BKSZ',
- PHYS_PAGE='5',
- XY='(-1190,4200)',
- ROT='0',
- VER='1',
- PACK_TYPE='SC70',
- CDS_LIB='cnlinear',
- CDS_PART_NAME='ADCMP604BKSZ',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnlinear/adcmp604/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sy58608u/chip~
+s/chips.prt';
 
 PART_NAME
  IC6 'ADCMP604BKSZ':;
@@ -1798,8 +1704,8 @@ chips)',
  PACK_TYPE='SC70',
  CDS_LIB='cnlinear',
  CDS_PART_NAME='ADCMP604BKSZ',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnlinear/adcmp604/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/adcmp604/chips/c~
+hips.prt';
 
 PART_NAME
  IC7 'ADCMP604BKSZ':;
@@ -1820,8 +1726,8 @@ chips)',
  PACK_TYPE='SC70',
  CDS_LIB='cnlinear',
  CDS_PART_NAME='ADCMP604BKSZ',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnlinear/adcmp604/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/adcmp604/chips/c~
+hips.prt';
 
 PART_NAME
  IC8 'DS90LV028A_SOIC':;
@@ -1842,8 +1748,8 @@ SECTION_NUMBER 1
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
  CDS_PART_NAME='DS90LV028A_SOIC',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/ds90lv028a/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ds90lv028a/ch~
+ips/chips.prt';
 
 SECTION_NUMBER 2
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I328@CNINTERFACE.DS90LV028A(CHIPS)':
@@ -1861,8 +1767,8 @@ SECTION_NUMBER 2
  PACK_TYPE='SOIC',
  CDS_LIB='cninterface',
  CDS_PART_NAME='DS90LV028A_SOIC',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/ds90lv028a/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ds90lv028a/ch~
+ips/chips.prt';
 
 PART_NAME
  IC9 '74LCX04MTC-VCC=P3V3':;
@@ -1885,8 +1791,8 @@ SECTION_NUMBER 1
  PACK_TYPE='TSSOP',
  CDS_LIB='cninterface',
  CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips~
+/chips.prt';
 
 SECTION_NUMBER 2
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I304@CNINTERFACE.74LCX04(CHIPS)':
@@ -1906,8 +1812,8 @@ SECTION_NUMBER 2
  PACK_TYPE='TSSOP',
  CDS_LIB='cninterface',
  CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips~
+/chips.prt';
 
 SECTION_NUMBER 3
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I323@CNINTERFACE.74LCX04(CHIPS)':
@@ -1927,8 +1833,8 @@ SECTION_NUMBER 3
  PACK_TYPE='TSSOP',
  CDS_LIB='cninterface',
  CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips~
+/chips.prt';
 
 SECTION_NUMBER 4
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I324@CNINTERFACE.74LCX04(CHIPS)':
@@ -1948,8 +1854,8 @@ SECTION_NUMBER 4
  PACK_TYPE='TSSOP',
  CDS_LIB='cninterface',
  CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips~
+/chips.prt';
 
 SECTION_NUMBER 5
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I317@CNINTERFACE.74LCX04(CHIPS)':
@@ -1969,8 +1875,8 @@ SECTION_NUMBER 5
  PACK_TYPE='TSSOP',
  CDS_LIB='cninterface',
  CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips~
+/chips.prt';
 
 SECTION_NUMBER 6
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I318@CNINTERFACE.74LCX04(CHIPS)':
@@ -1990,8 +1896,8 @@ SECTION_NUMBER 6
  PACK_TYPE='TSSOP',
  CDS_LIB='cninterface',
  CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips~
+/chips.prt';
 
 PART_NAME
  IC10 'SN74AVC4T245PW-VCCA=P3V3,VCCB=A':;
@@ -2015,8 +1921,8 @@ avc4t245\(chips)',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SN74AVC4T245PW-VCCA=P3V3;VCCB=A',
  HAS_FIXED_SIZE='2',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74avc4t245/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/ch~
+ips/chips.prt';
 
 SECTION_NUMBER 2
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE11_I269@CNINTERFACE.74AVC4T245(CHIPS)'(0):
@@ -2037,8 +1943,8 @@ avc4t245\(chips)',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SN74AVC4T245PW-VCCA=P3V3;VCCB=A',
  HAS_FIXED_SIZE='2',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74avc4t245/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/ch~
+ips/chips.prt';
 
 SECTION_NUMBER 3
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE11_I274@CNINTERFACE.74AVC4T245(CHIPS)'(1):
@@ -2059,8 +1965,8 @@ avc4t245\(chips)',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SN74AVC4T245PW-VCCA=P3V3;VCCB=A',
  HAS_FIXED_SIZE='2',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74avc4t245/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/ch~
+ips/chips.prt';
 
 SECTION_NUMBER 4
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE11_I274@CNINTERFACE.74AVC4T245(CHIPS)'(0):
@@ -2081,8 +1987,8 @@ avc4t245\(chips)',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SN74AVC4T245PW-VCCA=P3V3;VCCB=A',
  HAS_FIXED_SIZE='2',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/74avc4t245/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/ch~
+ips/chips.prt';
 
 PART_NAME
  IC11 'TMP1075NDRLR-TEXAS INSTRUMENTSA':;
@@ -2104,8 +2010,8 @@ SECTION_NUMBER 1
  PACK_TYPE='SOT',
  CDS_LIB='bris_cds_logic',
  CDS_PART_NAME='TMP1075NDRLR_SOT-TEXAS INSTRUMA',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/~
-tmp1075ndrlr/chips/chips.prt';
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_logic/tmp1075ndrlr/chips/chips.pr~
+t';
 
 PART_NAME
  IC15 'PCA9517DGKR':;
@@ -2129,8 +2035,8 @@ SECTION_NUMBER 1
  SEC='1',
  CDS_LIB='cninterface',
  CDS_PART_NAME='PCA9517DGKR',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/pca9517/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/pca9517/chips~
+/chips.prt';
 
 PART_NAME
  IC18 'SN74LVC2GU04DCK-VCC=P3V3':;
@@ -2155,8 +2061,8 @@ c2gu04(chips)',
  SEC='1',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SN74LVC2GU04DCK-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/sn74lvc2gu04/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sn74lvc2gu04/~
+chips/chips.prt';
 
 SECTION_NUMBER 2
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE11_I291@CNINTERFACE.SN74LVC2GU04(CHIPS)':
@@ -2178,30 +2084,8 @@ c2gu04(chips)',
  SEC='2',
  CDS_LIB='cninterface',
  CDS_PART_NAME='SN74LVC2GU04DCK-VCC=P3V3',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cninterface/sn74lvc2gu04/chips/chips.prt';
-
-PART_NAME
- J1 'CON3P-MTLW-103-07-L-S-250':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I126@CNCONNECTOR.CON3P(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i126@cnconnector.con3p(~
-chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i126@cnconnector.con3p(~
-chips)',
- PATH='I126',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
- TYPE='MTLW-103-07-L-S-250',
- PHYS_PAGE='4',
- XY='(2500,1170)',
- ROT='0',
- VER='1',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
- BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sn74lvc2gu04/~
+chips/chips.prt';
 
 PART_NAME
  J2 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2221,8 +2105,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  J3 'CON3P-MTLW-103-07-L-S-250':;
@@ -2243,8 +2127,8 @@ hips)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
  BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/c~
+hips.prt';
 
 PART_NAME
  J4 'CON20P_SFP-1888247-1':;
@@ -2265,8 +2149,8 @@ _sfp(chips)',
  LOCATION='J4',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON20P_SFP-1888247-1',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con20p_sfp/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con20p_sfp/ch~
+ips/chips.prt';
 
 PART_NAME
  J5 'CON3P-MTLW-103-07-L-S-250':;
@@ -2290,8 +2174,8 @@ chips)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
  BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/c~
+hips.prt';
 
 PART_NAME
  J6 'CON3P-MTLW-103-07-L-S-250':;
@@ -2315,8 +2199,8 @@ chips)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
  BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/c~
+hips.prt';
 
 PART_NAME
  J7 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2336,8 +2220,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  J8 'CON3P-MTLW-103-07-L-S-250':;
@@ -2358,30 +2242,8 @@ chips)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
  BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
-
-PART_NAME
- J9 'CON3P-MTLW-103-07-L-S-250':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I125@CNCONNECTOR.CON3P(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i125@cnconnector.con3p(~
-chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i125@cnconnector.con3p(~
-chips)',
- PATH='I125',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
- TYPE='MTLW-103-07-L-S-250',
- PHYS_PAGE='4',
- XY='(2790,2220)',
- ROT='0',
- VER='1',
- CDS_LIB='cnconnector',
- CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
- BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/c~
+hips.prt';
 
 PART_NAME
  J10 'CON3P-MTLW-103-07-L-S-250':;
@@ -2402,8 +2264,8 @@ chips)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
  BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/c~
+hips.prt';
 
 PART_NAME
  J11 'CON4P-MTLW-104-07-L-S-250':;
@@ -2424,8 +2286,8 @@ chips)',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON4P-MTLW-104-07-L-S-250',
  BOM_IGNORE='TRUE',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con4p/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/c~
+hips.prt';
 
 PART_NAME
  J12 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2445,8 +2307,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  J13 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2466,8 +2328,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  J14 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2487,8 +2349,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  J15 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2508,8 +2370,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  L1 'INDUCTANCE_LQH32C_23-4.7UH':;
@@ -2532,8 +2394,8 @@ ce(chips)',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='INDUCTANCE_LQH32C_23-4.7UH',
  VALUE='4.7uH',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cndiscrete/inductance/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/inductance/chi~
+ps/chips.prt';
 
 PART_NAME
  L2 'INDUCTANCE_LQH32C_23-4.7UH':;
@@ -2556,8 +2418,32 @@ nce(chips)',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='INDUCTANCE_LQH32C_23-4.7UH',
  VALUE='4.7uH',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cndiscrete/inductance/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/inductance/chi~
+ps/chips.prt';
+
+PART_NAME
+ L3 'FERRITE_SMD-BLM18AG102SN1,MURAA':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I171@CNDISCRETE.FERRITE(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i171@cndiscrete.ferrite~
+(chips)',
+ P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i171@cndiscrete.ferrite~
+(chips)',
+ PATH='I171',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ MODEL='MURATA',
+ PHYS_PAGE='4',
+ XY='(140,580)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SMD',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='FERRITE_SMD-BLM18AG102SN1,MURAA',
+ VALUE='BLM18AG102SN1',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/~
+chips.prt';
 
 PART_NAME
  LD1 'LGL29K-G2J1-24':;
@@ -2577,8 +2463,8 @@ ips)',
  VER='3',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='LGL29K-G2J1-24',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cndiscrete/led1/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chi~
+ps.prt';
 
 PART_NAME
  LD2 'LGL29K-G2J1-24':;
@@ -2598,8 +2484,8 @@ ips)',
  VER='3',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='LGL29K-G2J1-24',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cndiscrete/led1/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chi~
+ps.prt';
 
 PART_NAME
  LD3 'LGL29K-G2J1-24':;
@@ -2619,8 +2505,8 @@ ips)',
  VER='3',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='LGL29K-G2J1-24',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cndiscrete/led1/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chi~
+ps.prt';
 
 PART_NAME
  P1 'CON400P_40ABCDEFGHJK-SEAM-40-0A':;
@@ -2643,8 +2529,8 @@ p_40abcdefghjk(chips)',
  SEC='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abc~
+defghjk/chips/chips.prt';
 
 SECTION_NUMBER 2
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE2_I126@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
@@ -2664,8 +2550,8 @@ p_40abcdefghjk(chips)',
  SEC='2',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abc~
+defghjk/chips/chips.prt';
 
 SECTION_NUMBER 3
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE2_I136@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
@@ -2685,8 +2571,8 @@ p_40abcdefghjk(chips)',
  SEC='3',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abc~
+defghjk/chips/chips.prt';
 
 SECTION_NUMBER 4
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE2_I129@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
@@ -2706,8 +2592,8 @@ p_40abcdefghjk(chips)',
  SEC='4',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abc~
+defghjk/chips/chips.prt';
 
 SECTION_NUMBER 5
  '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE2_I128@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
@@ -2727,29 +2613,29 @@ p_40abcdefghjk(chips)',
  SEC='5',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abc~
+defghjk/chips/chips.prt';
 
 PART_NAME
  PX1 'PCOAX-U.FL-R-SMT-1(10)':;
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I255@CNCONNECTOR.PCOAX(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i255@cnconnector.pcoax(~
+ '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I161@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i161@cnconnector.pcoax(~
 chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i255@cnconnector.pcoax(~
+ P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i161@cnconnector.pcoax(~
 chips)',
- PATH='I255',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
+ PATH='I161',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
  TYPE='U.FL-R-SMT-1(10)',
- PHYS_PAGE='5',
- XY='(-3040,4250)',
+ PHYS_PAGE='4',
+ XY='(860,2090)',
  ROT='2',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  PX2 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2769,8 +2655,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  PX3 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2790,8 +2676,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  PX4 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2811,8 +2697,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  PX5 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2832,8 +2718,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  PX6 'PCOAX-U.FL-R-SMT-1(10)':;
@@ -2853,8 +2739,8 @@ chips)',
  VER='1',
  CDS_LIB='cnconnector',
  CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnconnector/pcoax/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/c~
+hips.prt';
 
 PART_NAME
  QZ1 'SIT5021AI-2DE-25E-50.000000-VDA':;
@@ -2867,7 +2753,7 @@ endis_outp_outn(chips)',
 endis_outp_outn(chips)',
  PATH='I157',
  DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
- POWER_GROUP='VDD=CVCC',
+ POWER_GROUP='VDD=AVDD',
  TYPE='SIT5021AI-2DE-25E-50.000000',
  PHYS_PAGE='4',
  XY='(980,530)',
@@ -2877,8 +2763,8 @@ endis_outp_outn(chips)',
  CDS_LIB='cndiscrete',
  CDS_PART_NAME='SIT5021AI-2DE-25E-50.000000-VDA',
  VALUE='50MHZ',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cndiscrete/osc_6p_endis_outp_outn/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/osc_6p_endis_o~
+utp_outn/chips/chips.prt';
 
 PART_NAME
  R1 'RSMD0402_1/16W-200K,1%':;
@@ -2911,8 +2797,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='200K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R2 'RSMD0603_1/10W-100,1%':;
@@ -2945,8 +2831,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R3 'RSMD0603_1/10W-100,1%':;
@@ -2979,8 +2865,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R4 'RSMD0603_1/10W-825,1%':;
@@ -3013,8 +2899,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='825',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R5 'RSMD0402_1/16W-150,1%':;
@@ -3047,8 +2933,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='150',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R6 'RSMD0402_1/16W-150,1%':;
@@ -3081,8 +2967,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='150',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R7 'RSMD0402_1/16W-100,1%':;
@@ -3115,8 +3001,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R8 'RSMD0402_1/16W-100,1%':;
@@ -3149,42 +3035,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R9 'RSMD0402_1/16W-100,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I18@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i18@cnpassive.rsmd0402(~
-chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i18@cnpassive.rsmd0402(~
-chips)',
- PATH='I18',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='4',
- XY='(3390,1920)',
- ROT='0',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-100,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R10 'RSMD0402_1/16W-1K,1%':;
@@ -3217,8 +3069,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R11 'RSMD0402_1/16W-100,1%':;
@@ -3251,8 +3103,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R12 'RSMD0603_1/10W-200,1%':;
@@ -3285,8 +3137,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='200',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R13 'RSMD0402_1/16W-4.7K,1%':;
@@ -3319,76 +3171,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R14 'RSMD0402_1/16W-4.7K,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I48@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i48@cnpassive.rsmd0402(~
-chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i48@cnpassive.rsmd0402(~
-chips)',
- PATH='I48',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='4',
- XY='(3570,250)',
- ROT='2',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R15 'RSMD0402_1/16W-4.7K,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I51@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i51@cnpassive.rsmd0402(~
-chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i51@cnpassive.rsmd0402(~
-chips)',
- PATH='I51',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='4',
- XY='(3570,200)',
- ROT='2',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R16 'RSMD0402_1/16W-4.7K,1%':;
@@ -3421,8 +3205,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R17 'RSMD0402_1/16W-1K,1%':;
@@ -3455,8 +3239,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R18 'RSMD0402_1/16W-100,1%':;
@@ -3489,8 +3273,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='100',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R19 'RSMD0402_1/16W-1K,1%':;
@@ -3523,8 +3307,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R20 'RSMD0402_1/16W-1K,1%':;
@@ -3557,8 +3341,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R21 'RSMD0402_1/16W-1K,1%':;
@@ -3591,8 +3375,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='1K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R22 'RSMD0402_1/16W-4.7K,1%':;
@@ -3626,8 +3410,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R23 'RSMD0402_1/16W-4.7K,1%':;
@@ -3661,8 +3445,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R24 'RSMD0402_1/16W-4.7K,1%':;
@@ -3696,8 +3480,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R25 'RSMD0402_1/16W-4.7K,1%':;
@@ -3731,8 +3515,8 @@ chips)',
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R26 'RSMD0402_1/16W-33,1%':;
@@ -3765,20 +3549,20 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='33',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R27 'RSMD0402_1/16W-51,1%':;
 
 SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I257@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i257@cnpassive.rsmd0402~
+ '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I162@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i162@cnpassive.rsmd0402~
 (chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i257@cnpassive.rsmd0402~
+ P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i162@cnpassive.rsmd0402~
 (chips)',
- PATH='I257',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
+ PATH='I162',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
  SIZE='1',
  TOL_ON_OFF='ON',
  TC2='RTMPQ',
@@ -3789,8 +3573,8 @@ SECTION_NUMBER 1
  NEGTOL='RTOL%',
  MAX_TEMP='RTMAX',
  DIST='FLAT',
- PHYS_PAGE='5',
- XY='(-2710,4030)',
+ PHYS_PAGE='4',
+ XY='(1190,1870)',
  ROT='1',
  VER='2',
  PACK_TYPE='1/16W',
@@ -3799,8 +3583,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='51',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R28 'RSMD0402_1/16W-4.7K,1%':;
@@ -3834,8 +3618,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R29 'RSMD0402_1/16W-4.7K,1%':;
@@ -3869,8 +3653,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R30 'RSMD0402_1/16W-51,1%':;
@@ -3903,8 +3687,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='51',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R31 'RSMD0402_1/16W-51,1%':;
@@ -3937,76 +3721,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='51',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R32 'RSMD0402_1/16W-2K,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I270@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i270@cnpassive.rsmd0402~
-(chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i270@cnpassive.rsmd0402~
-(chips)',
- PATH='I270',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='5',
- XY='(-2060,4510)',
- ROT='1',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-2K,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='2K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R33 'RSMD0402_1/16W-2K,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I269@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i269@cnpassive.rsmd0402~
-(chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i269@cnpassive.rsmd0402~
-(chips)',
- PATH='I269',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='5',
- XY='(-2060,3930)',
- ROT='1',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-2K,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='2K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R34 'RSMD0603_1/10W-825,1%':;
@@ -4039,8 +3755,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='825',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R35 'RSMD0402_1/16W-3.0K,1%':;
@@ -4073,8 +3789,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='3.0K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R36 'RSMD0402_1/16W-2K,1%':;
@@ -4107,8 +3823,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='2K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R37 'RSMD0402_1/16W-3.0K,1%':;
@@ -4141,8 +3857,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='3.0K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R38 'RSMD0402_1/16W-2K,1%':;
@@ -4175,8 +3891,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='2K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R39 'RSMD0402_1/16W-4.7K,1%':;
@@ -4210,8 +3926,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R40 'RSMD0402_1/16W-4.7K,1%':;
@@ -4245,8 +3961,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R41 'RSMD0402_1/16W-4.7K,1%':;
@@ -4280,8 +3996,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R42 'RSMD0402_1/16W-4.7K,1%':;
@@ -4315,8 +4031,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R43 'RSMD0402_1/16W-4.7K,1%':;
@@ -4350,42 +4066,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
-
-PART_NAME
- R44 'RSMD0402_1/16W-1K,1%':;
-
-SECTION_NUMBER 1
- '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5_I273@CNPASSIVE.RSMD0402(CHIPS)':
- C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i273@cnpassive.rsmd0402~
-(chips)',
- P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page5_i273@cnpassive.rsmd0402~
-(chips)',
- PATH='I273',
- DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE5',
- SIZE='1',
- TOL_ON_OFF='ON',
- TC2='RTMPQ',
- TC1='RTMPL',
- SLOPE='RSMAX',
- POWER='RMAX',
- POSTOL='RTOL%',
- NEGTOL='RTOL%',
- MAX_TEMP='RTMAX',
- DIST='FLAT',
- PHYS_PAGE='5',
- XY='(-1710,4360)',
- ROT='0',
- VER='2',
- PACK_TYPE='1/16W',
- CDS_LIB='cnpassive',
- CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
- VOLTAGE='RVMAX',
- TOL='1%',
- VALUE='1K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R45 'RSMD0402_1/16W-51,1%':;
@@ -4418,8 +4100,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='51',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R46 'RSMD0402_1/16W-51,1%':;
@@ -4452,8 +4134,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='51',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R47 'RSMD0603_1/10W-33,1%':;
@@ -4486,8 +4168,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='33',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R48 'RSMD0603_1/10W-33,1%':;
@@ -4520,8 +4202,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='33',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R49 'RSMD0603_1/10W-33,1%':;
@@ -4554,8 +4236,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='33',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R50 'RSMD0402_1/16W-750,1%':;
@@ -4588,8 +4270,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='750',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R51 'RSMD0402_1/16W-750,1%':;
@@ -4622,8 +4304,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='750',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R52 'RSMD0603_1/10W-200,1%':;
@@ -4656,8 +4338,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='200',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R53 'RSMD0603_1/10W-825,1%':;
@@ -4690,8 +4372,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='825',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R54 'RSMD0603_1/10W-200,1%':;
@@ -4724,8 +4406,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='200',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R55 'RSMD0603_1/10W-825,1%':;
@@ -4758,8 +4440,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='825',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R56 'RSMD0402_1/16W-750,1%':;
@@ -4792,8 +4474,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='750',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R57 'RSMD0603_1/10W-200,1%':;
@@ -4826,8 +4508,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='200',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/~
+chips.prt';
 
 PART_NAME
  R58 'RSMD0402_1/16W-0R0,1%':;
@@ -4860,8 +4542,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='0R0',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R59 'RSMD0402_1/16W-0R0,1%':;
@@ -4894,8 +4576,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='0R0',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R60 'RSMD0402_0.0625W-XX,1%':;
@@ -4928,8 +4610,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='XX',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R61 'RSMD0402_1/16W-4.7K,1%':;
@@ -4962,8 +4644,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R103 'RSMD0402_1/16W-4.7K,1%':;
@@ -4997,8 +4679,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R138 'RSMD0402_1/16W-4.7K,1%':;
@@ -5032,8 +4714,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R140 'RSMD0402_1/16W-4.7K,1%':;
@@ -5067,8 +4749,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R142 'RSMD0402_1/16W-4.7K,1%':;
@@ -5102,8 +4784,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R143 'RSMD0402_1/16W-4.7K,1%':;
@@ -5137,8 +4819,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R242 'RSMD0402_1/16W-4.7K,1%':;
@@ -5172,8 +4854,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R411 'RSMD0402_1/16W-4.7K,1%':;
@@ -5207,8 +4889,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  R1328 'RSMD0402_1/16W-4.7K,1%':;
@@ -5242,8 +4924,8 @@ SECTION_NUMBER 1
  VOLTAGE='RVMAX',
  TOL='1%',
  VALUE='4.7K',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/~
+chips.prt';
 
 PART_NAME
  REG1 'LM1117-MPX-1.8-OUT=P1V8':;
@@ -5264,8 +4946,8 @@ ips)',
  CDS_LIB='cnlinear',
  CDS_PART_NAME='LM1117-MPX-1.8-OUT=P1V8',
  VALUE='MPX-1.8',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnlinear/lm1117/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/lm1117/chips/chi~
+ps.prt';
 
 PART_NAME
  SFP1 'SFP_CAGE-SP-74737-004':;
@@ -5285,8 +4967,8 @@ ips)',
  VER='2',
  CDS_LIB='cnmech',
  CDS_PART_NAME='SFP_CAGE-SP-74737-004',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnmech/sfp_cage/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnmech/sfp_cage/chips/chi~
+ps.prt';
 
 PART_NAME
  TP1 'TP_HOLE-0.5MM':;
@@ -5309,8 +4991,8 @@ SECTION_NUMBER 1
  CDS_PART_NAME='TP_HOLE-0.5MM',
  PART_NAME='TP',
  VALUE='0.5MM',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
 
 PART_NAME
  TP2 'TP_HOLE-0.5MM':;
@@ -5333,8 +5015,8 @@ SECTION_NUMBER 1
  CDS_PART_NAME='TP_HOLE-0.5MM',
  PART_NAME='TP',
  VALUE='0.5MM',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
 
 PART_NAME
  TP3 'TP_HOLE-0.5MM':;
@@ -5357,8 +5039,80 @@ SECTION_NUMBER 1
  CDS_PART_NAME='TP_HOLE-0.5MM',
  PART_NAME='TP',
  VALUE='0.5MM',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
+
+PART_NAME
+ TP4 'TP_HOLE-0.5MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I172@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i172@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i172@cnpassive.tp(chips~
+)',
+ PATH='I172',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2600,1220)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='HOLE',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.5MM',
+ PART_NAME='TP',
+ VALUE='0.5MM',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
+
+PART_NAME
+ TP5 'TP_HOLE-0.5MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I173@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i173@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i173@cnpassive.tp(chips~
+)',
+ PATH='I173',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2600,1170)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='HOLE',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.5MM',
+ PART_NAME='TP',
+ VALUE='0.5MM',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
+
+PART_NAME
+ TP6 'TP_HOLE-0.5MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4_I174@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i174@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i174@cnpassive.tp(chips~
+)',
+ PATH='I174',
+ DRAWING='@UOB_HEP_PC069_LIB.PC069A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2600,1120)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='HOLE',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.5MM',
+ PART_NAME='TP',
+ VALUE='0.5MM',
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
 
 PART_NAME
  TP9 'TP_HOLE-0.8MM':;
@@ -5381,8 +5135,8 @@ SECTION_NUMBER 1
  CDS_PART_NAME='TP_HOLE-0.8MM',
  PART_NAME='TP',
  VALUE='0.8mm',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
 
 PART_NAME
  TP10 'TP_HOLE-0.8MM':;
@@ -5405,8 +5159,8 @@ SECTION_NUMBER 1
  CDS_PART_NAME='TP_HOLE-0.8MM',
  PART_NAME='TP',
  VALUE='0.8mm',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd17.x/pe_cern_li~
-b/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE='z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.~
+prt';
 
 PART_NAME
  U1 'MAX9381ESA_SMD-MAX9381ESA':;
@@ -5428,7 +5182,6 @@ SECTION_NUMBER 1
  CDS_LIB='bris_cds_logic',
  CDS_PART_NAME='MAX9381ESA_SMD-MAX9381ESA',
  VALUE='MAX9381ESA',
- PRIM_FILE='/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/~
-max9381esa/chips/chips.prt';
+ PRIM_FILE='z:/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt';
 
 END.

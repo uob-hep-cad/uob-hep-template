@@ -327,4 +327,9 @@
 		<property name="PACK_TYPE"  value="SMD"/>
 		<property name="VALUE"  value="MAX9381ESA"/>
 	</component>
+	<component cell="ferrite" library="cndiscrete" partname="FERRITE" partno="BLM18AG102SN1" quantity="1" >
+		<property name="MODEL"  value="MURATA"/>
+		<property name="PACK_TYPE"  value="SMD"/>
+		<property name="VALUE"  value="BLM18AG102SN1"/>
+	</component>
 </sc:shoppingCart>

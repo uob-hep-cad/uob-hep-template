@@ -2,45 +2,304 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_07.brd         |
-|                                                    Mon Jun 27 11:23:44 2022  |
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CVCC         pins MOVED FROM this net (to net name listed on right)
+                                 QZ1.6           -52.940  9.3000
+                                                                           AVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I59_B pins MOVED FROM this net (to net name listed on right)
+                                 C10.2           -73.450 29.2000
+                                                                           AVDD
+                                 L3.2                           
+                                                                           AVDD
+                                 QZ1.1           -52.940 13.7000
+                                                                           AVDD
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- TMP1075NDRLR-TEXAS INSTRUMENTSA
+ SIT5021AI-2DE-25E-50.000000-VDA
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  .../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_07.brd         |
-|                                                    Mon Jun 27 11:23:44 2022  |
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC11                TMP1075NDRLR-TEXAS INSTRUMENTSA                 TMP1075NDRLR_SOT-TEXAS INSTRUMA
+ QZ1                 SIT5021AI-2DE-25E-50.000000-VDA -50.400 11.5000 SIT5021AI-2DE-25E-50.000000-VDA
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  .../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_07.brd         |
-|                                                    Mon Jun 27 11:23:44 2022  |
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- IC11.5                         PHYS_PAGE      2
- IC11.5                         PRIM_FILE      /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_logic/tmp1075ndrlr/chips/chips.prt
- IC11.5                         P_PATH         @uob_hep_pc069_lib.pc069a_toplevel(sch_1):page2_i308@bris_cds_logic.tmp1075ndrlr(chips)
- IC11.5                         XY             (150,1710)
+ C1.2           -20.100 23.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C2.2           -23.100 35.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C3.2           -18.600 28.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C4.2           -87.100 52.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C5.2           -22.370 32.0500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C6.2           -73.700 31.2000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C7.2           -23.000 23.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C8.2           -21.700 23.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C9.2           -8.6000  1.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C10.2          -73.900 29.2000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C11.2          -21.100 44.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C12.2          -63.820 20.7500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/elcaptan/chips/chips.prt
+ C13.2          -17.160  2.3500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C14.2          -18.460  2.3500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C15.2          -21.300 49.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C16.2          -10.600 32.8500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C17.2          -25.150  8.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C18.2          -6.7000 11.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C19.2          -19.760  2.3500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C20.2          -21.060  2.3500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C21.2          -43.000 16.2000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C22.2          -57.100 13.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C23.2          -37.300 23.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C24.2          -32.600 34.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C25.2          -45.100 16.2000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C26.2          -37.300 22.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C27.2          -30.100 34.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C28.2          -58.600 13.6000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C29.2          -78.733 52.7620 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C30.2          -85.900 52.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C31.2          -74.100 27.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C32.2          -74.600 25.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C33.2          -80.257 57.3340 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C34.2          -76.955 58.7310 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C35.2          -87.300 58.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C36.2          -80.638 52.1270 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C37.2          -85.000 57.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C38.2          -24.600 23.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C39.2          -21.800 35.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C40.2          -76.700 56.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C41.2          -76.955 58.7310 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C42.2          14.0500 28.9950 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C45.2          -74.800 23.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C46.2          -75.100 20.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C47.2          -74.900 18.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48.2          -75.300 16.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C49.2          -75.700 13.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C52.2          -9.6000 63.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C53.2          -9.6000 57.8500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C55.2          -7.5000 64.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C56.2          -7.5000 59.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C57.2          -23.000 59.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C58.2          -24.100 59.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C59.2          -37.592 60.4520 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C60.2          -37.592 59.3090 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C61.2          -8.8950 48.0400 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C62.2          -26.035 44.7040 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C63.2          -26.035 45.9740 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C64.2          -26.416 47.6250 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C69.2          -73.500 47.2000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C70.2          -27.070  9.8500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C71.2          -96.729 29.6790 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C72.2          -96.729 26.8850 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C107.2         -16.700 35.0500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C117.2         -28.750  5.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ IC1.7          -26.650  7.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/pca9306/chips/chips.prt
+ IC2.4          -9.4000  9.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnmemory/24aa025e48/chips/chips.prt
+ IC3.9          -43.870 26.6000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/si5345/chips/chips.prt
+ IC4.2          -18.100 44.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sy58608u/chips/chips.prt
+ IC6.2          -7.7000 62.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/adcmp604/chips/chips.prt
+ IC7.2          -7.7000 56.1500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/adcmp604/chips/chips.prt
+ IC8.6          -18.400 61.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ds90lv028a/chips/chips.prt
+ IC8.7          -18.400 61.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/ds90lv028a/chips/chips.prt
+ IC9.2          -34.000 60.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.4          -34.000 60.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.6          -34.000 60.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.8          -34.000 60.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.10         -34.000 60.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC9.12         -34.000 60.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC10.10        -14.392 47.3150 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.11        -14.392 47.3150 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.12        -14.392 47.3150 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC10.13        -14.392 47.3150 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC11.5         -37.520 12.9500 PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_logic/tmp1075ndrlr/chips/chips.prt
+ IC15.8         -13.185 32.8380 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/pca9517/chips/chips.prt
+ IC18.4         -20.700 48.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sn74lvc2gu04/chips/chips.prt
+ IC18.6         -20.700 48.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cninterface/sn74lvc2gu04/chips/chips.prt
+ J2.1           -18.120 16.4500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J3.3           -30.100 31.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J4.20          -29.900 45.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con20p_sfp/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J5.3           -37.870 34.6500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J6.3           -14.120  7.3500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J7.1           -18.170 12.1500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J8.3           -7.1000 25.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J10.3          -7.1000 39.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J11.4          -11.500 -1.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con4p/chips/chips.prt
+ J12.1          -57.670 32.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J13.1          -57.670 27.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J14.1          -15.870 25.7500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ J15.1          -15.920 21.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ L1.2           -29.718 46.8630 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/inductance/chips/chips.prt
+ L2.2           -26.924 42.4180 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/inductance/chips/chips.prt
+ L3.2                           PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/ferrite/chips/chips.prt
+ LD1.2          -22.100 54.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD2.2          -20.600 54.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD3.2          -19.100 54.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ P1.B9           1.9850 31.5350 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.D9           1.9850 31.5350 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.F9           1.9850 31.5350 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.H9           1.9850 31.5350 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.K9           1.9850 31.5350 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ PX1.1          -33.958 28.3550 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX2.1          -13.459 62.3290 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX3.1          -13.459 56.4790 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX4.1          -48.100 59.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX5.1          -26.433 56.4960 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX6.1          -26.400 62.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ QZ1.4          -50.400 11.5000 PHYS_PAGE      4
+ QZ1.4          -50.400 11.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cndiscrete/osc_6p_endis_outp_outn/chips/chips.prt
+ QZ1.4          -50.400 11.5000 P_PATH         @uob_hep_pc069_lib.pc069a_toplevel(sch_1):page4_i157@cndiscrete.osc_6p_endis_outp_outn(chips)
+ QZ1.4          -50.400 11.5000 TYPE           SIT5021AI-2DE-25E-50.000000
+ QZ1.4          -50.400 11.5000 XY             (980,530)
+ R1.2           -25.150  5.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R2.2           -20.900 25.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R3.2           -23.800 25.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R4.2           -20.100 26.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R5.2           -24.600 35.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R6.2           -20.300 35.4000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R7.2           -43.870 19.9500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R8.2           -46.900 19.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R10.2          -46.370 16.1500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R11.2          -40.400 20.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R12.2          -20.100 22.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R13.2          -43.120 34.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R16.2          -34.670 22.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R17.2          -40.500 16.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R18.2          -36.900 25.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R19.2          -41.600 16.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R20.2          -50.370 21.9500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R21.2          -50.270 23.9500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R22.2          -33.909 49.5300 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R23.2          -33.909 48.2600 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R24.2          -33.909 46.9900 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R25.2          -33.909 45.7200 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R26.2          -46.620 33.4500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R27.2          -33.470 25.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R28.2          -33.909 43.8150 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R29.2          -33.909 42.5450 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R30.2          -10.600 61.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R31.2          -10.600 55.1500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R34.2          -23.100 26.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R35.2          -8.1000 64.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R36.2          -10.600 63.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R37.2          -8.1000 58.2500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R38.2          -10.600 57.8500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R39.2          -11.200 11.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R40.2          -30.650 10.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R41.2          -30.650  9.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R42.2          -16.500 30.1500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R43.2          -9.6000 24.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R45.2          -18.000 58.2000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R46.2          -18.000 60.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R47.2          -43.400 59.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R48.2          -31.000 56.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R49.2          -31.000 62.3000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R50.2          -22.100 51.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R51.2          -20.600 51.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R52.2          -23.100 22.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R53.2          -21.600 26.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R54.2          -21.600 22.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R55.2          -24.600 26.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R56.2          -19.100 51.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R57.2          -24.600 22.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R58.2          -14.400 43.5000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R59.2          -14.400 44.7000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R60.2          -21.270 44.7500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R61.2          -37.670 10.7500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R103.2         -10.000 11.8000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R138.2         -8.8000  7.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R140.2         -18.400 31.1500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  Z:.../Cadence/worklib/pc069a_toplevel/physical/pc069a_toplevel_09.brd       |
+|                                                    Tue Jun 28 13:21:02 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R142.2         -9.0410 31.6780 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R143.2         -9.0410 33.7100 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R242.2         -9.6000 26.9000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R411.2         -18.400 34.5500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R1328.2        -7.4000  7.0000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ REG1.2         -58.420 18.5500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnlinear/lm1117/chips/chips.prt
+ SFP1.NC        -30.000 45.4500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ TP1.1          -43.000 18.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP2.1          -45.100 18.1000 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP3.1          -39.970 18.0500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP4.1                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP5.1                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP6.1                          PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP9.1          -41.320 12.6500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP10.1         -16.670 53.9500 PRIM_FILE      z:/cad/cern_cdslib/lib_psd17.x/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ U1.5           -20.500 27.8000 PRIM_FILE      z:/cad/bris_cdslib/lib_psd14.x/cds_logic/max9381esa/chips/chips.prt
+|------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
 |       Comp definitions added:       1                                        |
 |       Components changed    :       1                                        |
-|       Slot property added   :       4                                        |
+|       Slot property added   :     196                                        |
 |                                                                              |
-|   Total ECO changes reported:       6                                        |
+|   Total ECO changes reported:     202                                        |
 |------------------------------------------------------------------------------|

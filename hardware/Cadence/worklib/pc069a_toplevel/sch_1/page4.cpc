@@ -64,18 +64,9 @@
 #CELL
   cnpassive rsmd0402 *
   page4_i124
-#CELL
-  cnconnector con3p *
-  page4_i125
-#CELL
-  cnconnector con3p *
-  page4_i126
 #ISCELL
   cnpower gnd *
   page4_i127
-#ISCELL
-  cnpower gnd *
-  page4_i128
 #CELL
   cninterface si5345 *
   page4_i129
@@ -132,12 +123,6 @@
   page4_i146
 #ISCELL
   standard offpage *
-  page4_i147
-#ISCELL
-  standard offpage *
-  page4_i148
-#ISCELL
-  standard offpage *
   page4_i149
 #ISCELL
   cnpower gnd *
@@ -179,8 +164,32 @@
   standard offpage *
   page4_i160
 #CELL
+  cnconnector pcoax *
+  page4_i161
+#CELL
   cnpassive rsmd0402 *
-  page4_i18
+  page4_i162
+#ISCELL
+  cnpower gnd *
+  page4_i163
+#ISCELL
+  cnpower gnd *
+  page4_i170
+#CELL
+  cndiscrete ferrite *
+  page4_i171
+#CELL
+  cnpassive tp *
+  page4_i172
+#CELL
+  cnpassive tp *
+  page4_i173
+#CELL
+  cnpassive tp *
+  page4_i174
+#ISCELL
+  cnpower avdd *
+  page4_i175
 #CELL
   cnpassive rsmd0402 *
   page4_i26
@@ -210,16 +219,10 @@
   page4_i47
 #CELL
   cnpassive rsmd0402 *
-  page4_i48
-#CELL
-  cnpassive rsmd0402 *
   page4_i49
 #CELL
   cnpassive rsmd0402 *
   page4_i50
-#CELL
-  cnpassive rsmd0402 *
-  page4_i51
 #CELL
   cnpassive rsmd0402 *
   page4_i52

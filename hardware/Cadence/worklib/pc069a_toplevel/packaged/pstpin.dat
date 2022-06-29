@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 27-Jun-2022 AT 11:23:41 }
-TIME=' COMPILATION ON 27-Jun-2022 AT 11:23:41';
+{ Packager-XL run on 28-Jun-2022 AT 13:20:03 }
+TIME=' COMPILATION ON 28-Jun-2022 AT 13:20:03';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -485,6 +485,10 @@ end_primitive;
 primitive 'ELCAPTAN_SMD-22UF,10V';body 'ELCAPTAN';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
+end_primitive;
+primitive 'FERRITE_SMD-BLM18AG102SN1,MURAA';body 'FERRITE';
+    'B'<0>:'(2)';BIDI;
+    'A'<0>:'(1)';BIDI;
 end_primitive;
 primitive 'INDUCTANCE_LQH32C_23-4.7UH';body 'INDUCTANCE';
     'B'<0>:'(2)';

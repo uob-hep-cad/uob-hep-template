@@ -8,45 +8,6 @@
   cnpower gnd *
   page5_i245
 #CELL
-  cnconnector pcoax *
-  page5_i255
-#CELL
-  cnlinear adcmp604 *
-  page5_i256
-#CELL
-  cnpassive rsmd0402 *
-  page5_i257
-#ISCELL
-  cnpower gnd *
-  page5_i258
-#ISCELL
-  cnpower gnd *
-  page5_i259
-#ISCELL
-  cnpower p3v3 *
-  page5_i260
-#ISCELL
-  cnpower gnd *
-  page5_i265
-#ISCELL
-  cnpower gnd *
-  page5_i267
-#CELL
-  cnpassive rsmd0402 *
-  page5_i269
-#CELL
-  cnpassive rsmd0402 *
-  page5_i270
-#ISCELL
-  cnpower p3v3 *
-  page5_i271
-#ISCELL
-  cnpower gnd *
-  page5_i272
-#CELL
-  cnpassive rsmd0402 *
-  page5_i273
-#CELL
   cnpassive rsmd0402 *
   page5_i274
 #CELL
@@ -166,15 +127,6 @@
 #CELL
   cninterface ds90lv028a *
   page5_i328
-#CELL
-  cnpassive capcersmdcl2 *
-  page5_i329
-#CELL
-  cnpassive capcersmdcl2 *
-  page5_i330
-#CELL
-  cnpassive capcersmdcl2 *
-  page5_i331
 #CELL
   cnpassive capcersmdcl2 *
   page5_i332

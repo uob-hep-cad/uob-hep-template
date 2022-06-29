@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<?xml-stylesheet type="text/xsl" href="file:///software/CAD/Cadence/SPB17.40.026/share/pcb/consmgr/VDD/report/treeview.xsl"?>
-<ConstraintDifferenceReport Path="file:///software/CAD/Cadence/SPB17.40.026/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+<?xml-stylesheet type="text/xsl" href="file:///c:/cadence/spb_17.4/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///c:/cadence/spb_17.4/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
 
   <RptSummary Col1="Layout" Col2="Schematic">
-    <Entry Name="Report time">Mon Jun 27 11:23:44 2022
+    <Entry Name="Report time">Tue Jun 28 13:21:03 2022
 </Entry>
-    <Entry Name="Software version">17.4 (S026)</Entry>
-    <Entry Name="Layout">\projects\HEP_Instrumentation\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069a_toplevel\physical\pc069a_toplevel_07.brd</Entry>
-    <Entry Name="Schematic">\projects\HEP_Instrumentation\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069a_toplevel\packaged\pstcmdb.dat</Entry>
-    <Entry Name="Baseline File">\tmp\#Taaaaaf14164.tmp</Entry>
+    <Entry Name="Software version">17.4 (S029)</Entry>
+    <Entry Name="Layout">Z:\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069a_toplevel\physical\pc069a_toplevel_09.brd</Entry>
+    <Entry Name="Schematic">Z:\cad\designs\uob-hep-pc069\hardware\Cadence\worklib\pc069a_toplevel\packaged\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\phdgc\AppData\Local\Temp\#Taaaaah30800.tmp</Entry>
     <Entry Name="Destination design updated">Yes</Entry>
     <Entry Name="Update Mode">Diff3</Entry>
     <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Assembly, Manufacturing, DFF, DFA, DFT, Properties</Entry>
@@ -17,18 +17,20 @@
 
   <Tree>
     <Item Filter="0xd" Name="Summary" Ref="main-summary">
-      <Item Filter="0x0" Name="AssemblyBuckets [1]" Ref="8">
-        <Item Filter="0x0" Name="Assembly Layers" Ref="3"/>
+      <Item Filter="0x0" Name="AssemblyBuckets [1]" Ref="a">
+        <Item Filter="0x0" Name="Assembly Layers" Ref="5"/>
       </Item>
-      <Item Filter="0xc" Name="Constraint Sets [1]" Ref="7">
-        <Item Filter="0xc" Name="PhysicalCSets [1]" Ref="6">
-          <Item Filter="0xc" Name="DIFFPAIR" Ref="2"/>
+      <Item Filter="0xc" Name="Constraint Sets [3]" Ref="9">
+        <Item Filter="0xc" Name="PhysicalCSets [3]" Ref="8">
+          <Item Filter="0x8" Name="DEFAULT" Ref="2"/>
+          <Item Filter="0xc" Name="DIFFPAIR" Ref="4"/>
+          <Item Filter="0x8" Name="PCS1" Ref="3"/>
         </Item>
       </Item>
-      <Item Filter="0x0" Name="DFTestBuckets [1]" Ref="9">
-        <Item Filter="0x0" Name="Testing Layers" Ref="4"/>
+      <Item Filter="0x0" Name="DFTestBuckets [1]" Ref="b">
+        <Item Filter="0x0" Name="Testing Layers" Ref="6"/>
       </Item>
-      <Item Filter="0x0" Name="DiffPairs [1]" Ref="5">
+      <Item Filter="0x0" Name="DiffPairs [1]" Ref="7">
         <Item Filter="0x0" Name="FMC_LA07" Ref="1"/>
       </Item>
     </Item>
@@ -36,12 +38,12 @@
 
   <Summaries>
     <MainSummary ID="main-summary">
-      <ChangedObject Filter="0x0" Name="AssemblyBuckets" ObjNumber="1" Ref="8"/>
-      <ChangedObject Filter="0xc" Name="Constraint Sets" ObjNumber="PhysicalCSet: 1" Ref="7"/>
-      <ChangedObject Filter="0x0" Name="DFTestBuckets" ObjNumber="1" Ref="9"/>
-      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="1" Ref="5"/>
+      <ChangedObject Filter="0x0" Name="AssemblyBuckets" ObjNumber="1" Ref="a"/>
+      <ChangedObject Filter="0xc" Name="Constraint Sets" ObjNumber="PhysicalCSet: 3" Ref="9"/>
+      <ChangedObject Filter="0x0" Name="DFTestBuckets" ObjNumber="1" Ref="b"/>
+      <ChangedObject Filter="0x0" Name="DiffPairs" ObjNumber="1" Ref="7"/>
     </MainSummary>
-    <GroupSummary ID="5" Name="DiffPairs">
+    <GroupSummary ID="7" Name="DiffPairs">
       <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="FMC_LA07" Notes="1" Other="0" Ref="1" Reference="0"/>
     </GroupSummary>
     <ObjectSummary ID="1" Kind="DiffPair" Name="FMC_LA07">
@@ -49,13 +51,65 @@
         <Note Text="Not creating DiffPair: &quot;FMC_LA07&quot;. Preserving deletion." Type="Warning"/>
       </Notes>
     </ObjectSummary>
-    <GroupSummary ID="7" Name="Constraint Sets">
-      <ChangedObject Filter="0xc" Name="PhysicalCSets" ObjNumber="1" Ref="6"/>
+    <GroupSummary ID="9" Name="Constraint Sets">
+      <ChangedObject Filter="0xc" Name="PhysicalCSets" ObjNumber="3" Ref="8"/>
     </GroupSummary>
-    <GroupSummary ID="6" Name="PhysicalCSets">
-      <ChangedObject Attributes="1" Child="0" Filter="0xc" Membership="0" Name="DIFFPAIR" Notes="0" Other="0" Ref="2" Reference="0"/>
+    <GroupSummary ID="8" Name="PhysicalCSets">
+      <ChangedObject Attributes="1" Child="0" Filter="0x8" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="2" Child="0" Filter="0xc" Membership="0" Name="DIFFPAIR" Notes="0" Other="0" Ref="4" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x8" Membership="0" Name="PCS1" Notes="0" Other="0" Ref="3" Reference="0"/>
     </GroupSummary>
-    <ObjectSummary ID="2" Kind="PhysicalCSet" Name="DIFFPAIR">
+    <ObjectSummary ID="2" Kind="PhysicalCSet" Name="DEFAULT">
+      <Attributes Filter="0x8" Type="Attributes">
+        <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst Inherited="1">0.5000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst Inherited="1">0.2540</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.5000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.5000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst Inherited="1">0.2540</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.5000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="4" Kind="PhysicalCSet" Name="DIFFPAIR">
       <Attributes Filter="0xc" Type="Attributes">
         <Attribute Filter="0xc" Name="DIFFP_PRIMARY_GAP" Status="" Taken="Dst" Type="Layers">
           <ValueGrp Type="GenericLayers">
@@ -103,16 +157,112 @@
             </Value>
           </ValueGrp>
         </Attribute>
+        <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.4000</Dst>
+              <Src>0.2000</Src>
+              <Base>0.2000</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.1270</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst Inherited="1">0.1270</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src Inherited="1">0.2000</Src>
+              <Base Inherited="1">0.2000</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src Inherited="1">0.2000</Src>
+              <Base Inherited="1">0.2000</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst Inherited="1">0.1270</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src>0.2540</Src>
+              <Base>0.2540</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
       </Attributes>
     </ObjectSummary>
-    <GroupSummary ID="8" Name="AssemblyBuckets">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Assembly Layers" Notes="0" Other="0" Ref="3" Reference="0" Status="Created"/>
+    <ObjectSummary ID="3" Kind="PhysicalCSet" Name="PCS1">
+      <Attributes Filter="0x8" Type="Attributes">
+        <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.4000</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.1520</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst Inherited="1">0.1520</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst Inherited="1">0.1520</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+            <Value>
+              <Dst Inherited="1">0.4000</Dst>
+              <Src>0.1520</Src>
+              <Base>0.1520</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="a" Name="AssemblyBuckets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Assembly Layers" Notes="0" Other="0" Ref="5" Reference="0" Status="Created"/>
     </GroupSummary>
-    <ObjectSummary ID="3" Kind="AssemblyBucket" Name="Assembly Layers" Status="Created"/>
-    <GroupSummary ID="9" Name="DFTestBuckets">
-      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Testing Layers" Notes="0" Other="0" Ref="4" Reference="0" Status="Created"/>
+    <ObjectSummary ID="5" Kind="AssemblyBucket" Name="Assembly Layers" Status="Created"/>
+    <GroupSummary ID="b" Name="DFTestBuckets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="Testing Layers" Notes="0" Other="0" Ref="6" Reference="0" Status="Created"/>
     </GroupSummary>
-    <ObjectSummary ID="4" Kind="DFTestBucket" Name="Testing Layers" Status="Created"/>
+    <ObjectSummary ID="6" Kind="DFTestBucket" Name="Testing Layers" Status="Created"/>
   </Summaries>
 
   <Notes>
