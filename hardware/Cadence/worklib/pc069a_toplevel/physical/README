@@ -1,0 +1,93 @@
+
+
+pc069
+
+Version = A
+Subversion = 13
+
+This file describes PCB fabrication details for a "refeence hardware" FMC
+to allow evaluation of the DUNE timing system
+ 
+contact:	David.Cussans@bristol.ac.uk
+		tel: 0117 95 46879
+		     0117 33 17199
+		fax: 0117 925 5624
+
+
+Files produced by Cadence Allegro PE16.6
+
+Artwork:
+--------
+
+Format: Gerber RS-274X , parameters described in art_param.txt. 
+All layers viewed from top
+
+Build:
+------
+
+Six Layers as follows:
+
+art_L1_TOP_pc069a.art
+art_L2_GND_pc069a.art
+art_L3_SIGN_pc069a.art
+art_L4_SIGN_pc069a.art
+art_L5_PWR_pc069a.art
+art_L6_BOTpc069a.art
+
+
+Solder Masks
+------------
+
+art_SOLDERMASK_TOP_pc069a.art
+art_SOLDERMASK_BOTTOM_pc069a.art
+
+Solderpaste mask
+-----------------
+
+art_PASTEMASK_TOP_pc069a.art
+art_PASTEMASK_BOTTOM_pc069a.art
+
+Silk screen
+-----------
+
+art_SILK_TOP_pc069a.art
+art_SILK_BOTTOM_pc069a.art
+
+
+Board outline: (Gerber RS-274X)
+-------------------------------
+
+art_OUTLINE_pc069a.art
+
+Drill figure: ( illustration of hole sizes and position )
+-------------
+
+art_DRILL-1-6_pc069a.art
+
+Drill information ( Excellon format, described in nc_param.txt )
+----------------------------------------------------------------
+
+pc069a-1-6.drl
+
+
+Bill of Materials (including component placement information)
+-----------------
+
+pc069a_bom.xlsx
+
+Component placement
+-------------------
+
+placement_pin1.txt
+
+( Position of pin-1 in mm and rotation in degrees of each component.
+  Origin = lower left of board )
+
+
+Fiducial Marks
+--------------
+
+Three 2mm diameter round copper marks. Repeated top and bottom
+
+
+
